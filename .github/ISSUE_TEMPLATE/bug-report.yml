@@ -4,8 +4,8 @@ body:
   - type: markdown
     attributes:
       value: |-
-        # Have you searched for similar [issues](https://github.com/iamtokimi/homestead/issues)?
-        ## Insufficiently described issues will be closed, so please provide as much information as possible
+        ### Have you searched for similar [issues](https://github.com/iamtokimi/homestead/issues)?
+        #### Insufficiently described issues will be closed, so please provide as much information as possible
 
   - type: textarea
     id: description
@@ -48,8 +48,8 @@ body:
   - type: markdown
     attributes:
       value: |-
-        # If you are reporting a crash, **please include your crash log!** 
-        ## You can find a helpful tutorial [here](https://youtu.be/7741eM273fs).
+        ### If you are reporting a crash, **please include your crash log!** 
+        #### You can find a helpful tutorial [here](https://youtu.be/7741eM273fs).
 
   - type: textarea
     id: crash_logs
