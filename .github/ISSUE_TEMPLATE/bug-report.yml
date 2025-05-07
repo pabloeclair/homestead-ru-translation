@@ -70,9 +70,13 @@ body:
         Launcher: [e.g. Modrinth, Prism]
         Modpack Version: [e.g. 1.0.0]
         Additional Computer Specs: [CPU, GPU, general hardware information]
+    validations:
+      required: true
 
   - type: textarea
     id: misc
     attributes:
       label: Miscellaneous information
       description: Any additional information, related issues, configuration or data that might be necessary to reproduce the issue
+    validations:
+      required: false
