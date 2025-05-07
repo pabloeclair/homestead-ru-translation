@@ -28,7 +28,7 @@ body:
   - type: checkboxes
     id: verify
     attributes:
-      label: Code of Conduct
+      label: Confirmation
       description: 
       options:
         - label: I confirm that this mod has an existing page on Modrinth.
