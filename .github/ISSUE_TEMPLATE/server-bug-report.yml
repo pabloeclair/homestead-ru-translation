@@ -68,7 +68,7 @@ body:
       description: Please include information on your system, such as OS, Hoster Used, Modpack Version, and other additional specs
       value: |-
         OS: [e.g. Windows 11, macOS Sequoia 15, Linux Ubuntu 22.04]
-        Launcher: [e.g. Docker, Modrinth Servers, Bisect Hosting]
+        Server Hoster: [e.g. Docker, Modrinth Servers, Bisect Hosting]
         Modpack Version: [e.g. 1.0.0]
         Additional Specs: [CPU, GPU, general hardware information]
     validations:
