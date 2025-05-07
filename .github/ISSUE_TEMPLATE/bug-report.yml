@@ -1,5 +1,3 @@
-# https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms
-
 name: Bug Report
 description: Report Bugs/Crashes here
 body:
@@ -8,6 +6,7 @@ body:
       value: |-
         Have you searched for similar [issues](https://github.com/iamtokimi/homestead/issues)?
         Insufficiently described issues will be closed, so please provide as much information as possible
+
   - type: textarea
     id: description
     attributes:
@@ -15,6 +14,7 @@ body:
       description: A clear and concise description of what the bug is.
     validations:
       required: true
+
   - type: textarea
     id: str
     attributes:
@@ -26,28 +26,32 @@ body:
         3. 
     validations:
       required: true
-- type: textarea
+
+  - type: textarea
     id: result
     attributes:
       label: Actual result
       description: What happened
-      placeholder: include screenshots if needed
+      placeholder: Include screenshots if needed
     validations:
       required: true
+
   - type: textarea
     id: expectation
     attributes:
       label: Expected result
       description: What should've happened
-      placeholder: include screenshots if needed
+      placeholder: Include screenshots if needed
     validations:
       required: true
-- type: markdown
+
+  - type: markdown
     attributes:
       value: |-
         If you are reporting a crash, **please include your crash log!** 
         You can find a helpful tutorial [here](https://youtu.be/7741eM273fs).
-- type: textarea
+
+  - type: textarea
     id: crash_logs
     attributes:
       label: Crash Logs
@@ -55,16 +59,18 @@ body:
       placeholder: https://mclo.gs/...
     validations:
       required: false
-- type: textarea
+
+  - type: textarea
     id: system_info
     attributes:
       label: System Information
       description: Please include information on your system, such as OS, Launcher Used, Modpack Version, and other Additional Computer Specs
       placeholder: |-
-         OS: [e.g. Windows 11, macOS Sequoia 15, Linux Ubuntu 22.04]
-         Launcher: [e.g. Modrinth, Prism]
-         Modpack Version [e.g. 1.0.0]
-         Additional Computer Specs [CPU, GPU, general hardware information]
+        OS: [e.g. Windows 11, macOS Sequoia 15, Linux Ubuntu 22.04]
+        Launcher: [e.g. Modrinth, Prism]
+        Modpack Version: [e.g. 1.0.0]
+        Additional Computer Specs: [CPU, GPU, general hardware information]
+
   - type: textarea
     id: misc
     attributes:
