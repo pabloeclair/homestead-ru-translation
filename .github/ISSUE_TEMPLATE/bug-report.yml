@@ -65,7 +65,7 @@ body:
     attributes:
       label: System Information
       description: Please include information on your system, such as OS, Launcher Used, Modpack Version, and other Additional Computer Specs
-      placeholder: |-
+      value: |-
         OS: [e.g. Windows 11, macOS Sequoia 15, Linux Ubuntu 22.04]
         Launcher: [e.g. Modrinth, Prism]
         Modpack Version: [e.g. 1.0.0]
