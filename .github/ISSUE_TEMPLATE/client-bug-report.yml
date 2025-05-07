@@ -33,7 +33,7 @@ body:
     attributes:
       label: Actual result
       description: What happened
-      placeholder: Include screenshots if needed
+      placeholder: Include screenshots/videos if needed
     validations:
       required: true
 
@@ -42,7 +42,7 @@ body:
     attributes:
       label: Expected result
       description: What should've happened
-      placeholder: Include screenshots if needed
+      placeholder: Include screenshots/videos if needed
     validations:
       required: true
 
