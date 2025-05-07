@@ -1,5 +1,6 @@
 name: Client Bug Report
 description: Report Client Bugs/Crashes here
+title: "[Bug]: "
 labels: ["client"]
 body:
   - type: markdown
