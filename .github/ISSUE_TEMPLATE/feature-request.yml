@@ -23,7 +23,7 @@ body:
     attributes:
       value: |-
         ## If you are submitting a mod for review, please verify that it has **an existing page on Modrinth.** If it is not on Modrinth, we cannot add it to the pack!
-        ### Please also test this mod with all other mods in the pack and confirm that there are no compatability issues whatsoever.
+        ### Please also test this mod with all other mods in the pack and confirm that there are no compatibility issues whatsoever.
 
   - type: checkboxes
     id: verify
@@ -33,7 +33,8 @@ body:
       options:
         - label: I confirm that this mod has an existing page on Modrinth.
           required: false
-        - label: I confirm that I have thoroughly tested this mod with Homestead and have found no compatability issues. 
+        - label: I confirm that I have thoroughly tested this mod with Homestead and have found no compatibility issues. 
+          required: false
         
   - type: textarea
     id: contact
