@@ -50,17 +50,19 @@ body:
   - type: markdown
     attributes:
       value: |-
-        ## If you are reporting a crash, **please include your crash log!** 
+        ## Log Reporting
+        ### If you are reporting a bug, please provide your server logs for the session that the bug happened on.
+        ### If you are reporting a crash, please provide the crash logs.
         ### You can find a helpful tutorial [here](https://youtu.be/7741eM273fs).
 
   - type: textarea
     id: crash_logs
     attributes:
-      label: Crash Logs
-      description: Report Server Crash Logs here.
+      label: Server Logs
+      description: Report Logs here.
       placeholder: https://mclo.gs/...
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: system_info
