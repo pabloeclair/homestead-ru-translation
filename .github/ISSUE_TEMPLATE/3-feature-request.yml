@@ -14,7 +14,7 @@ body:
     attributes:
       label: Description
       description: |-
-        A clear and concise description of what the feature is. What would it do? Why does it fit Homestead?
+        A clear and concise description of what the feature is. What does it do, and why does it fit Homestead?
         If you are submitting mods for review, please also send their Modrinth links below. 
     validations:
       required: true
@@ -23,7 +23,8 @@ body:
     attributes:
       value: |-
         ## If you are submitting a mod for review, please verify that it has **an existing page on Modrinth.** If it is not on Modrinth, we cannot add it to the pack!
-        ### Please also test this mod with all other mods in the pack and confirm that there are no compatibility issues whatsoever.
+        ### Please also test this mod with all other mods in the pack and confirm that there are **no compatibility issues whatsoever.**
+        ### *Remember: Homestead is built on Minecraft Java 1.20.1, with Fabric 0.16.14!*
 
   - type: checkboxes
     id: verify
