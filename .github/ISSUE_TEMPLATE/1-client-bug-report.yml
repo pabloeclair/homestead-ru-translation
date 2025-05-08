@@ -52,7 +52,7 @@ body:
       value: |-
         ## Log Reporting
         ### If you are reporting a bug, please provide your client logs for the session that the bug happened on.
-        ### If you are reporting a crash, please provide the crash logs.
+        ### If you are reporting a crash, please provide the crash logs __**as well.**__
         ### You can find a helpful tutorial [here](https://youtu.be/7741eM273fs).
 
   - type: textarea
