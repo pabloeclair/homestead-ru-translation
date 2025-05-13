@@ -3,7 +3,7 @@
 	Welcome to the Official Homestead Modpack Github! <br>
 </h1>
 <p align="center">
-	<i>"Welcome to Homestead, a hand-crafted world brimming with quests to embark on, vibrant landscapes and endless building possibilities. Settle in, explore, and create..."*</i>
+	<i>"Welcome to Homestead, a hand-crafted world brimming with quests to embark on, vibrant landscapes and endless building possibilities. Settle in, explore, and create..."</i>
 </p>
 <h1 align="center">
 	<a href="https://ko-fi.com/tokimi"><img src="https://shields.io/badge/kofi-Buy_a_coffee-ff5f5f?logo=ko-fi&style=for-the-badgeKofi" alt="Kofi"></a>
