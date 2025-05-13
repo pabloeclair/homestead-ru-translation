@@ -7,3 +7,4 @@
 ## Things to do: 
 - View wiki [here](https://github.com/iamtokimi/homestead/wiki)
 - Report issues/Make feature requests [here](https://github.com/iamtokimi/homestead/issues)
+- View brand assets to use in your content [here](https://github.com/iamtokimi/homestead/tree/main/branding) (Please read the License before using them!)
