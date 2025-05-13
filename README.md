@@ -1,5 +1,5 @@
-![](https://cdn.modrinth.com/data/cached_images/5b22205d972d2006c6bd3ff913524a33f8a5761e.png)
 <h1 align="center">
+	<img href=https://cdn.modrinth.com/data/cached_images/5b22205d972d2006c6bd3ff913524a33f8a5761e.png>
 	Welcome to the Official Homestead Modpack Github! <br>
 </h1>
 <p align="center">
