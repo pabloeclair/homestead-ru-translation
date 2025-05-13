@@ -1,8 +1,10 @@
 ![](https://cdn.modrinth.com/data/cached_images/5b22205d972d2006c6bd3ff913524a33f8a5761e.png)
 <h1 align="center">
 	Welcome to the Official Homestead Modpack Github! <br>
-	<i>"Welcome to Homestead, a hand-crafted world brimming with quests to embark on, vibrant landscapes and endless building possibilities. Settle in, explore, and create..."*</i>
 </h1>
+<p align="center">
+	<i>"Welcome to Homestead, a hand-crafted world brimming with quests to embark on, vibrant landscapes and endless building possibilities. Settle in, explore, and create..."*</i>
+</p>
 <br><br>
 
 <h1 align="center">
