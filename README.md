@@ -5,7 +5,6 @@
 <p align="center">
 	<i>"Welcome to Homestead, a hand-crafted world brimming with quests to embark on, vibrant landscapes and endless building possibilities. Settle in, explore, and create..."*</i>
 </p>
-<br>
 <h1 align="center">
 	<a href="https://ko-fi.com/tokimi"><img src="https://shields.io/badge/kofi-Buy_a_coffee-ff5f5f?logo=ko-fi&style=for-the-badgeKofi" alt="Kofi"></a>
 	<a href="https://github.com/iamtokimi/homestead/blob/main/LICENSE.md"><img src="https://img.shields.io/badge/license-ARR-cyan" alt="License"></a>
