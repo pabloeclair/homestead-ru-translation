@@ -13,16 +13,6 @@
 	<a href="https://www.curseforge.com/minecraft/modpacks/homestead-cozy"><img src="http://cf.way2muchnoise.eu/short_1258033.svg" alt="CF"></a>
 </h1>
 <br>
-<table align="center" width="100%">
-  <tr>
-    <td align="center" width="33%">
-      <a href="https://github.com/iamtokimi/homestead/wiki">Read Wiki</a>
-    </td>
-    <td align="center" width="33%">
-      <a href="https://github.com/iamtokimi/homestead/issues">Report Issues / Make Feature Requests</a>
-    </td>
-    <td align="center" width="33%">
-      <a href="https://github.com/iamtokimi/homestead/tree/main/branding">Use our Brand Assets!</a>
-    </td>
-  </tr>
-</table>
+<div align="center">
+	<a href="https://github.com/iamtokimi/homestead/wiki">Read Wiki</a> | <a href="https://github.com/iamtokimi/homestead/issues">Report Issues / Make Feature Requests</a> | <a href="https://github.com/iamtokimi/homestead/tree/main/branding">Use our Brand Assets!</a>
+</div>
