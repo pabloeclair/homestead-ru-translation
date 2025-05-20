@@ -14,7 +14,7 @@ You can write a full description into links below:
 - [ENG](DONOTCOPY/ENG.md)
 
 <h2>Contact</h2>
-If you want to contact with me, you can write me in the [discord](https://discord.com/users/565619255014588429) or the [telegram](https://t.me/ergle_manul) ^^
+If you want to contact with me, you can write me in the <a href="https://discord.com/users/565619255014588429">discord</a> or the <a href="https://t.me/ergle_manul">telegram</a> ^^
 
 <br>
 <table align="center" width="100%">
