@@ -7,14 +7,14 @@
 </p>
 
 <h2>About Fork</h2>
-This is fan translation of Homestead Minecraft modpack into Russian. I want to translate only quests and books and not will change any internal files of the modpack. I hope I will be able to create something cool and interesting.
+This is fan translation of Homestead Minecraft modpack into Russian. I want to translate only quests and books and will not change any internal files of the modpack. I hope I will be able to create something cool and interesting.
 
-You can read a full description into links below:
+You can read a full description at the links below:
 - [RU](DONOTCOPY/RU.md)
 - [ENG](DONOTCOPY/ENG.md)
 
 <h2>Contact</h2>
-If you want to contact with me, you can write me in the <a href="https://discord.com/users/565619255014588429">discord</a> or the <a href="https://t.me/ergle_manul">telegram</a> ^^<br>
+If you want to contact me, you can write me in the <a href="https://discord.com/users/565619255014588429">discord</a> or the <a href="https://t.me/ergle_manul">telegram</a> ^^<br>
 
 <br>
 <table align="center" width="100%">
