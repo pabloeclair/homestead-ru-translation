@@ -5,24 +5,22 @@
 <p align="center">
 	<i>"Welcome to Homestead, a hand-crafted world brimming with quests to embark on, vibrant landscapes and endless building possibilities. Settle in, explore, and create..."</i>
 </p>
-<h1 align="center">
-	<a href="https://ko-fi.com/tokimi"><img src="https://shields.io/badge/kofi-Buy_a_coffee-ff5f5f?logo=ko-fi&style=for-the-badgeKofi" alt="Kofi"></a>
-	<a href="https://github.com/iamtokimi/homestead/blob/main/LICENSE.md"><img src="https://img.shields.io/badge/license-ARR-cyan" alt="License"></a>
-	<a href="https://discord.gg/cozycord"><img src="https://img.shields.io/discord/1314787848779726920?color=5865f2&label=Discord&style=flat" alt="Discord"></a>
-	<a href="https://modrinth.com/mod/homestead"><img src="https://img.shields.io/modrinth/dt/homestead?logo=modrinth&label=&suffix=%20&style=flat&color=242629&labelColor=5ca424&logoColor=1c1c1c" alt="Modrinth"></a>
-	<a href="https://www.curseforge.com/minecraft/modpacks/homestead-cozy"><img src="http://cf.way2muchnoise.eu/short_1258033.svg" alt="CF"></a>
-</h1>
+
+<h2>About Fork</h2>
+This is fan translation of Homestead Minecraft modpack into Russian. I want to translate only quests and books and not will change any internal files of the modpack. I hope that I will be able to create something cool and interesting.
+
+You can write a full description into links below:
+- [RU](DONOTCOPY/RU.md)
+- [ENG](DONOTCOPY/ENG.md)
+
+<h2>Contact</h2>
+If you want to contact with me, you can write me in the [discord](https://discord.com/users/565619255014588429) or the [telegram](https://t.me/ergle_manul) ^^
+
 <br>
 <table align="center" width="100%">
   <tr>
     <td align="center" width="33%">
-      <a href="https://github.com/iamtokimi/homestead/wiki">Read Wiki</a>
-    </td>
-    <td align="center" width="33%">
-      <a href="https://github.com/iamtokimi/homestead/issues">Report Issues / Make Feature Requests</a>
-    </td>
-    <td align="center" width="33%">
-      <a href="https://github.com/iamtokimi/homestead/tree/main/branding">Use our Brand Assets!</a>
+      <a href="https://modrinth.com/modpack/homestead">Read More About Modpack</a>
     </td>
   </tr>
 </table>
