@@ -1,3 +1,4 @@
+<img src="https://cdn.modrinth.com/data/cached_images/5b22205d972d2006c6bd3ff913524a33f8a5761e.png"><br>
 # Translation RU Homestead
 Любительский перевод `Vanilla+ & Create` сборки модов [Homestead](https://modrinth.com/modpack/homestead)
 
@@ -26,6 +27,7 @@
 ![ftbquests_reward_tables.png](imgs/frbquests_reward_tables.png)
 ### Patchouli книги
 _IN PROGRESS_
+![FullNight.png](branding/FullNight.png)
 
 
 

@@ -1,3 +1,4 @@
+<img src="https://cdn.modrinth.com/data/cached_images/5b22205d972d2006c6bd3ff913524a33f8a5761e.png"><br>
 # Translation RU Homestead
 The fan translation of `Vanilla+ & Create` [Homestead](https://modrinth.com/modpack/homestead) Minecraft modpack
 
@@ -15,6 +16,31 @@ The repository includes all files, that will be translated in the future:
 - FTB quests
 
 A progress will be tracked at `Homestead.xlsx`. That's how it looks right now:
+
+P.s. dictionary:
+<table>
+    <tr>
+        <th>Status</th>
+        <th>English translation</th>
+    </tr>
+    <tr>
+        <td>Ожидание</td>
+        <td>Waiting</td>
+    </tr>
+    <tr>
+        <td>Перевод</td>
+        <td>Translation in progress</td>
+    </tr>
+    <tr>
+        <td>На проверке</td>
+        <td>On review and testing</td>
+    </tr>
+    <tr>
+        <td>Готово</td>
+        <td>Completed</td>
+    </tr>
+</table>
+
 ### FTB quests
 `config/quests/chapters`
 
@@ -25,6 +51,8 @@ A progress will be tracked at `Homestead.xlsx`. That's how it looks right now:
 ![ftbquests_reward_tables.png](imgs/frbquests_reward_tables.png)
 ### Patchouli books
 _IN PROGRESS_
+
+![FullNight.png](branding/FullNight.png)
 
 
 
