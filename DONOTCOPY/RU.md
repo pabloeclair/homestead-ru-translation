@@ -1,5 +1,5 @@
 <img src="https://cdn.modrinth.com/data/cached_images/5b22205d972d2006c6bd3ff913524a33f8a5761e.png"><br>
-# Translation RU Homestead
+# Homestead RU Translation
 Любительский перевод `Vanilla+ & Create` сборки модов [Homestead](https://modrinth.com/modpack/homestead)
 
 ## ⚙️ Установка
