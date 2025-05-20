@@ -3,6 +3,10 @@
 The fan translation of `Vanilla+ & Create` [Homestead](https://modrinth.com/modpack/homestead) Minecraft modpack
 
 ## ⚙️ Installation
+**WARNING!!!**
+```
+The translation ABSOLUTELY not ready!!!
+```
 For installation, first download the modpack, then install this repository in any convenient way, and move ONLY the `config` and `patchouli_books` folders to the root folder of the modpack.
 
 ## 📦 About The Modpack 
