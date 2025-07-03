@@ -11,12 +11,12 @@
 	id: "4A65EE790A11CCC7"
 	images: [
 		{
-			height: 11.0d
+			height: 10.0d
 			image: "ftbquests:textures/homestead/vines_and_vintage.png"
 			rotation: 0.0d
-			width: 11.0d
+			width: 15.0d
 			x: 0.0d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			height: 4.0d
@@ -60,7 +60,7 @@
 			y: -2.85d
 		}
 	]
-	order_index: 12
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{

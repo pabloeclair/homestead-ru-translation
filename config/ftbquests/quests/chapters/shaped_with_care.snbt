@@ -61,27 +61,38 @@
 			y: 4.4464285714285765d
 		}
 		{
-			height: 11.0d
+			height: 8.0d
 			image: "ftbquests:textures/homestead/shaped_with_care.png"
 			order: -1
 			rotation: 0.0d
-			width: 11.0d
+			width: 13.0d
 			x: -1.0d
-			y: 0.0d
+			y: 0.25d
 		}
 	]
-	order_index: 17
+	order_index: 18
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["You &ocould&r just guess what plants do... or let the workbench do the thinking."]
+			description: [
+				"Turn Plants/Flowers into different textures/versions of themselves."
+				""
+				"&oMostly works on Vanilla Blocks as the Mod Developer needs to add more compatibility.&r"
+			]
 			id: "4E2CA2ABB575425C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "216AD1BF5D3937A4"
-				table_id: 5593482455560351945L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "216AD1BF5D3937A4"
+					table_id: 5593482455560351945L
+					type: "random"
+				}
+				{
+					id: "731A32AC791B5254"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Craft a Botanist Workbench"
 			tasks: [{
 				id: "5D46F4DD40C0C40A"
@@ -93,14 +104,25 @@
 			y: -3.1964285714285694d
 		}
 		{
-			description: ["Hot air, fire, and sass—just like your mom’s book club."]
+			description: [
+				"Turn Glass/Glass Panes into different textures/versions of themselves."
+				""
+				"&oMostly works on Vanilla Blocks as the Mod Developer needs to add more compatibility.&r"
+			]
 			id: "60174D146FD6517A"
-			rewards: [{
-				count: 32
-				id: "5018783A8F80D440"
-				item: "minecraft:glass"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "5018783A8F80D440"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					id: "038AAF97F501B33B"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Craft a Glassblower"
 			tasks: [{
 				id: "479EC5EA69E5D643"
@@ -112,14 +134,25 @@
 			y: -2.625d
 		}
 		{
-			description: ["Jesus was a carpenter. Coincidence? Yes. Still holy? Absolutely."]
+			description: [
+				"Turn Wood/Wood made items into different textures/versions of themselves."
+				""
+				"&oMostly works on Vanilla Blocks as the Mod Developer needs to add more compatibility.&r"
+			]
 			id: "24A3E84FAF0703A1"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "18F26D9842B5F735"
-				table_id: 6769117266503437746L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "18F26D9842B5F735"
+					table_id: 6769117266503437746L
+					type: "random"
+				}
+				{
+					id: "538EAD50D6887F31"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Craft a Carpenter’s Table"
 			tasks: [{
 				id: "30E9C785A62EEBED"
@@ -131,14 +164,25 @@
 			y: -0.6607142857142847d
 		}
 		{
-			description: ["Weaving chaos into cozy. Spin it to win it."]
+			description: [
+				"Turn Wool/Wool made items into different textures/versions of themselves."
+				""
+				"&oMostly works on Vanilla Blocks as the Mod Developer needs to add more compatibility.&r"
+			]
 			id: "12257886B6E1BBBF"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0F8D89BBF5C70515"
-				table_id: 6840926890118617518L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F8D89BBF5C70515"
+					table_id: 6840926890118617518L
+					type: "random"
+				}
+				{
+					id: "1A8FE9CEB2D59EBF"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Craft a Loom Table"
 			tasks: [{
 				id: "7E8C218D65312C21"
@@ -150,14 +194,25 @@
 			y: 1.767857142857146d
 		}
 		{
-			description: ["Time to turn basic blocks into bougie bricks. Let’s get stony."]
+			description: [
+				"Turn Stone/Stone-made items into different textures/versions of themselves."
+				""
+				"&oMostly works on Vanilla Blocks as the Mod Developer needs to add more compatibility.&r"
+			]
 			id: "4F92A4E86BD7CE9E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1FA21E26D08AE3D8"
-				table_id: 9051151212712040437L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1FA21E26D08AE3D8"
+					table_id: 9051151212712040437L
+					type: "random"
+				}
+				{
+					id: "3791F6A2AD585E78"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Craft a Mason Table"
 			tasks: [{
 				id: "2234A5CC2630A345"
@@ -169,14 +224,25 @@
 			y: -0.5892857142857153d
 		}
 		{
-			description: ["Say my name… then add nether wart and awkward potion. Science, baby."]
+			description: [
+				"Turn Magical Blocks into different textures/versions of themselves. (Obsidian, Amethyst, etc.)"
+				""
+				"&oMostly works on Vanilla Blocks as the Mod Developer needs to add more compatibility.&r"
+			]
 			id: "3F357AA2586BFC4D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "31459AAC5B181E70"
-				table_id: 5111827059717370420L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "31459AAC5B181E70"
+					table_id: 5111827059717370420L
+					type: "random"
+				}
+				{
+					id: "55A3E01F01ED5FAE"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Craft an Alchemy Bench"
 			tasks: [{
 				id: "1F956C79FCD87960"
@@ -188,14 +254,25 @@
 			y: -2.5535714285714306d
 		}
 		{
-			description: ["Lamp? Torches? Chaos? Sign me up. Let the meddling begin."]
+			description: [
+				"Turn Torches/Lanterns into different textures/versions of themselves."
+				""
+				"&oMostly works on Vanilla Blocks as the Mod Developer needs to add more compatibility.&r"
+			]
 			id: "7635C0ACF014113A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3A04DCC733DCC435"
-				table_id: 6115684235481130895L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3A04DCC733DCC435"
+					table_id: 6115684235481130895L
+					type: "random"
+				}
+				{
+					id: "65989B16DE106F21"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Craft a Tinkering Table"
 			tasks: [{
 				id: "3BC0601C6DB527C1"

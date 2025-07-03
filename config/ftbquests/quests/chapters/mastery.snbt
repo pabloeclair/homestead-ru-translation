@@ -6,7 +6,7 @@
 	hide_quest_until_deps_complete: true
 	icon: "modrinth_logo_mod:modrinth_logo"
 	id: "64ED43A1D474C2F9"
-	order_index: 21
+	order_index: 22
 	quest_links: [ ]
 	quests: [{
 		dependencies: [
@@ -54,6 +54,7 @@
 				xp: 100000
 			}
 			{
+				count: 5
 				id: "3BC29E3929CAA98F"
 				item: {
 					Count: 1
@@ -63,21 +64,25 @@
 				type: "item"
 			}
 			{
+				count: 8
 				id: "130024212984CE39"
 				item: "homestead:tranquil_lantern"
 				type: "item"
 			}
 			{
+				count: 4
 				id: "3524070832379572"
 				item: "homestead:fernling_spawner"
 				type: "item"
 			}
 			{
+				count: 4
 				id: "1D744560766051BA"
 				item: "homestead:mushling_spawner"
 				type: "item"
 			}
 			{
+				count: 4
 				id: "02F18771F1749E61"
 				item: "homestead:mystical_elk_spawner"
 				type: "item"

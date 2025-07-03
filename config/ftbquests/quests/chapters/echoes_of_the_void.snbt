@@ -7,44 +7,12 @@
 	id: "0051425A676C2F09"
 	images: [
 		{
-			height: 11.0d
+			height: 8.0d
 			image: "ftbquests:textures/homestead/echoes_of_the_void.png"
 			rotation: 0.0d
-			width: 11.0d
+			width: 13.0d
 			x: -2.0d
-			y: -3.5d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:textures/map_marker/end_city.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -6.0d
-			y: -3.0d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:textures/map_marker/end_gateway.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 1.5d
-			y: -7.0d
-		}
-		{
-			height: 1.0d
-			image: "chipped:block/carved_pumpkin/kitty_faced_carved_pumpkin"
-			rotation: 0.0d
-			width: 1.0d
-			x: 1.25d
-			y: -0.8392857142857082d
-		}
-		{
-			height: 0.5d
-			image: "supplementaries:textures/map_marker/end_crystal.png"
-			rotation: 0.0d
-			width: 0.5d
-			x: -5.571428571428569d
-			y: -1.7261904761904745d
+			y: -4.0d
 		}
 		{
 			height: 3.0d
@@ -135,8 +103,16 @@
 			x: -2.0d
 			y: -3.75d
 		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/homestead/end_island_2.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.0d
+			y: -7.45d
+		}
 	]
-	order_index: 10
+	order_index: 13
 	quest_links: [ ]
 	quests: [
 		{
@@ -201,7 +177,7 @@
 			tasks: [{
 				icon: "minecraft:purpur_block"
 				id: "4329E5D03784095A"
-				structure: "minecraft:end_city"
+				structure: "#minecraft:end_city"
 				type: "structure"
 			}]
 			title: "City of Light"

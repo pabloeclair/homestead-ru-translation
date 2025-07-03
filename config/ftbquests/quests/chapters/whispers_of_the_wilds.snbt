@@ -7,12 +7,12 @@
 	id: "4FF8FBBF1EA0E633"
 	images: [
 		{
-			height: 11.0d
+			height: 8.0d
 			image: "ftbquests:textures/homestead/the_whispers_of_the_wilds.png"
 			rotation: 0.0d
-			width: 11.0d
+			width: 13.0d
 			x: -0.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			height: 15.0d
@@ -44,8 +44,8 @@
 				type: "advancement"
 			}]
 			title: "Friend of the Forest"
-			x: 1.0d
-			y: -4.0d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			description: ["Bee careful! They’re watching."]
@@ -68,75 +68,11 @@
 				value: 1L
 			}]
 			title: "Buzz Buzz"
-			x: 2.5d
-			y: 3.0d
-		}
-		{
-			description: ["King of the leaves!"]
-			id: "47099E645F53D3E9"
-			rewards: [{
-				count: 32
-				id: "782E3C082A14BEB9"
-				item: "minecraft:ladder"
-				type: "item"
-			}]
-			subtitle: "Collect 16 logs of the vanilla trees."
-			tasks: [
-				{
-					count: 16L
-					id: "5CE1203489ACB5BC"
-					item: { Count: 16, id: "minecraft:oak_log" }
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "664017957BF25816"
-					item: { Count: 16, id: "minecraft:spruce_log" }
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "71D7B5E663EDF11D"
-					item: { Count: 16, id: "minecraft:birch_log" }
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "55553CB9DBAEFC9F"
-					item: { Count: 16, id: "minecraft:jungle_log" }
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "35E6DF02A93CEC1C"
-					item: { Count: 16, id: "minecraft:acacia_log" }
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "0D9818141AC3A0D2"
-					item: { Count: 16, id: "minecraft:dark_oak_log" }
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "1AA07F28C0EF5800"
-					item: { Count: 16, id: "minecraft:mangrove_log" }
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "4B4560E0F96746FD"
-					item: { Count: 16, id: "minecraft:cherry_log" }
-					type: "item"
-				}
-			]
-			title: "Treeline Tango"
 			x: 3.5d
 			y: 1.0d
 		}
 		{
-			description: ["You heard the call... and survived."]
+			description: ["After hearing the call, you answered. And you lived."]
 			id: "51B8BD05569AAEA8"
 			rewards: [
 				{
@@ -159,11 +95,11 @@
 				type: "advancement"
 			}]
 			title: "Call of the Wild"
-			x: -2.0d
-			y: -4.0d
+			x: -2.5d
+			y: -3.0d
 		}
 		{
-			description: ["You've spent a long time here...have a drink...and this..thing."]
+			description: ["This world is starting to feel like home."]
 			id: "29DACA5BA50939B6"
 			rewards: [
 				{
@@ -194,16 +130,12 @@
 				id: "0B995AF2034CF547"
 				type: "questsadditions:days"
 			}]
-			title: "Bloom Chaser"
+			title: "Feels Like Home"
 			x: -0.5d
-			y: -5.0d
+			y: -3.5d
 		}
 		{
-			description: [
-				"Graceful. Majestic. Totally screaming the whole time."
-				"Whether you're gliding like a pro or crash-landing into every tree, you're doing it. You’re flying."
-				"Just… don’t look down."
-			]
+			description: ["You’ve gained mastery of the skies. Just.. don’t look down."]
 			id: "524CAFCF9B479A4B"
 			rewards: [
 				{
@@ -233,11 +165,11 @@
 				value: 5000
 			}]
 			title: "Featherlight"
-			x: -3.0d
-			y: -4.5d
+			x: -3.5d
+			y: -2.5d
 		}
 		{
-			description: ["The mountains carry more than snow on their shoulders"]
+			description: ["These mountains are abundant in more than just fallen snow."]
 			id: "4FCD14C35DFA0AF5"
 			rewards: [
 				{
@@ -266,11 +198,11 @@
 				type: "item"
 			}]
 			title: "Crystals Among the Peaks"
-			x: 2.0d
-			y: -4.5d
+			x: 2.5d
+			y: -2.5d
 		}
 		{
-			description: ["X marks the spot—again and again!"]
+			description: ["Aaanndd X marks the spot!"]
 			id: "509113AF406B4DAF"
 			rewards: [
 				{
@@ -311,11 +243,11 @@
 				value: 50L
 			}]
 			title: "Burrowed Secrets"
-			x: -4.0d
-			y: -4.0d
+			x: -4.5d
+			y: -2.0d
 		}
 		{
-			description: ["Red rocks, warm sun, and a camera moment."]
+			description: ["The sand and rocks look burnt.. You’ve got to take a picture of this."]
 			id: "1B6519F2535B8FBB"
 			rewards: [
 				{
@@ -327,6 +259,11 @@
 					count: 16
 					id: "26EDB1ECD94DA547"
 					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "205A88842177D386"
+					item: "camerapture:album"
 					type: "item"
 				}
 			]
@@ -349,13 +286,12 @@
 			]
 			title: "Canyon Echoes"
 			x: -4.5d
-			y: -3.0d
+			y: -1.0d
 		}
 		{
 			description: [
 				"You're not just fishing anymore. You're curating an aquatic art gallery."
 				"Cod? Caught. Salmon? Slammin’. Pufferfish? Spicy."
-				"Now go forth, Fish Whisperer, and complete your pixelated seafood symphony."
 			]
 			id: "4961ABF6DA33A89A"
 			rewards: [{
@@ -397,11 +333,11 @@
 				}
 			]
 			title: "Catch of the Block"
-			x: 3.0d
-			y: -4.0d
+			x: 3.5d
+			y: -2.0d
 		}
 		{
-			description: ["It’s soft, it’s squishy, it’s everywhere!"]
+			description: ["Did you know that mosses were among the first plants on Earth? Didn’t think you’d learn something today, did you?"]
 			id: "6365B4DF8C61DE55"
 			rewards: [
 				{
@@ -424,12 +360,12 @@
 				item: { Count: 100, id: "minecraft:moss_block" }
 				type: "item"
 			}]
-			title: "Mossy Matters"
+			title: "Ancient Greens"
 			x: 3.5d
-			y: -3.0d
+			y: -1.0d
 		}
 		{
-			description: ["It’s wild up here!"]
+			description: ["Hold on to your horses! Don't let them fall off the cliff!!"]
 			id: "7BE87D3F9F99C2C8"
 			rewards: [
 				{
@@ -452,38 +388,10 @@
 			}]
 			title: "Windswept Wonder"
 			x: -4.5d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
-			description: ["Crystal vibes only."]
-			id: "17F2FB0E6395427F"
-			rewards: [
-				{
-					count: 12
-					id: "09FB48A9A6A74017"
-					item: "minecraft:amethyst_cluster"
-					type: "item"
-				}
-				{
-					id: "51E842D95B491FA9"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "Collect 64 Amethyst shards."
-			tasks: [{
-				consume_items: true
-				count: 64L
-				id: "59424FC4066DB0A2"
-				item: { Count: 32, id: "minecraft:amethyst_shard" }
-				type: "item"
-			}]
-			title: "Shimmering Shards"
-			x: 3.5d
-			y: -2.0d
-		}
-		{
-			description: ["You hear drums in the distance... and parrots arguing."]
+			description: ["Rustling leaves, hanging vines, and colorful creatures..Some louder than others."]
 			id: "12C1663D83B35B3C"
 			rewards: [
 				{
@@ -508,8 +416,8 @@
 				type: "biome"
 			}]
 			title: "Jungle Beats"
-			x: -4.5d
-			y: -1.0d
+			x: -3.5d
+			y: 0.5d
 		}
 		{
 			description: [
@@ -547,8 +455,8 @@
 				type: "biome"
 			}]
 			title: "Frozen Over"
-			x: -4.5d
-			y: 0.0d
+			x: -3.5d
+			y: 1.5d
 		}
 		{
 			description: ["Pandas eat it. You hoard it. Balance."]
@@ -573,8 +481,8 @@
 				type: "item"
 			}]
 			title: "Bamboo Grove"
-			x: 3.5d
-			y: -1.0d
+			x: 2.5d
+			y: 0.5d
 		}
 		{
 			description: ["A place where stone and flower coexist—like a rock concert with excellent landscaping."]
@@ -601,8 +509,8 @@
 				type: "biome"
 			}]
 			title: "Stone Blossoms"
-			x: -4.5d
-			y: 1.0d
+			x: -3.0d
+			y: 2.5d
 		}
 		{
 			description: ["Damn, damn, damn, double damn!"]
@@ -634,11 +542,11 @@
 				type: "biome"
 			}]
 			title: "Witch Tears"
-			x: -4.0d
-			y: 2.0d
+			x: -2.0d
+			y: 2.5d
 		}
 		{
-			description: ["Floating flowers, endless sky, and a breeze that hums like a lullaby."]
+			description: ["Woah.. those trees are tall. So that’s where Skyrise comes from."]
 			id: "65965C1AA647732A"
 			rewards: [{
 				id: "41197FF4BE0A624A"
@@ -660,8 +568,8 @@
 				type: "biome"
 			}]
 			title: "Breath of the Vale"
-			x: -3.5d
-			y: 3.0d
+			x: -1.0d
+			y: 2.5d
 		}
 		{
 			description: ["It’s green. It’s glowing. It’s gorgeous."]
@@ -688,8 +596,8 @@
 				type: "biome"
 			}]
 			title: "Glimmerglen"
-			x: -2.5d
-			y: 4.0d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
 			description: ["It only takes one bullet!"]
@@ -715,8 +623,8 @@
 				type: "biome"
 			}]
 			title: "Rango"
-			x: -1.5d
-			y: 4.0d
+			x: 1.0d
+			y: 2.5d
 		}
 		{
 			description: ["Kinda hot in these Rhinos!"]
@@ -749,11 +657,11 @@
 				type: "biome"
 			}]
 			title: "When Nature Calls"
-			x: -0.5d
-			y: 4.0d
+			x: 2.0d
+			y: 2.5d
 		}
 		{
-			description: ["It &n&owas&r&r forgotten..."]
+			description: ["Forgotten no more."]
 			id: "5CB06507E73B8EEE"
 			rewards: [
 				{
@@ -784,15 +692,11 @@
 				type: "biome"
 			}]
 			title: "Lost but Found"
-			x: 0.5d
-			y: 4.0d
+			x: -4.5d
+			y: 1.0d
 		}
 		{
-			description: [
-				"Rolling hills, buzzing bees, and more flowers than your inventory can handle."
-				"It’s the kind of place you’d build a cottage, write a poem, or just sit in the grass and vibe."
-				"You’ve found peace—just try not to step on a dandelion."
-			]
+			description: ["Rolling hills, buzzing bees, and more flowers than your inventory can handle."]
 			id: "05489524CC750B48"
 			rewards: [
 				{
@@ -817,11 +721,11 @@
 				type: "biome"
 			}]
 			title: "Where the Wind Waits"
-			x: 1.5d
-			y: 4.0d
+			x: -0.5d
+			y: 3.5d
 		}
 		{
-			description: ["Echoes of a world you haven’t reached yet..."]
+			description: ["Echoes of a world beyond your reach… for now."]
 			id: "7AD422F32DF13DF6"
 			rewards: [
 				{
@@ -850,7 +754,7 @@
 			y: 0.0d
 		}
 		{
-			description: ["250 sunrises, 250 nights. You’ve built, wandered, fought, and flourished. And the world is better for it."]
+			description: ["After 250 sunrises and 250 nights spent building, exploring, fighting, and growing, you’re finally starting to feel this world become your domain, your dream, your home."]
 			id: "1DEA56CD931C198F"
 			rewards: [
 				{
@@ -888,10 +792,10 @@
 			}]
 			title: "Seasons in the Soul"
 			x: -1.5d
-			y: -5.0d
+			y: -3.5d
 		}
 		{
-			description: ["A warm fire above the clouds."]
+			description: ["I wonder who lives here?"]
 			id: "32DBB2BFEC7227DA"
 			rewards: [
 				{
@@ -914,12 +818,12 @@
 				title: "Find an Aspen Manor."
 				type: "structure"
 			}]
-			title: "Hearth of the Hills"
-			x: 3.0d
-			y: 2.0d
+			title: "Homely Manor"
+			x: 2.5d
+			y: 1.5d
 		}
 		{
-			description: ["A thousand days under square skies. Your world is no longer just lived in—it’s loved."]
+			description: ["You’re part of the world's story now. How will you shape it in the future?"]
 			id: "0F0D320FDED6D64D"
 			rewards: [
 				{
@@ -964,7 +868,7 @@
 			}]
 			title: "The Thousandth Dawn"
 			x: 0.5d
-			y: -5.0d
+			y: -3.5d
 		}
 	]
 	title: "Whispers of the Wilds"

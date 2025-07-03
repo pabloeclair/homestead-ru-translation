@@ -7,10 +7,10 @@
 	id: "0D9804F9E5DE9298"
 	images: [
 		{
-			height: 11.0d
+			height: 8.0d
 			image: "ftbquests:textures/homestead/tranquili_tea.png"
 			rotation: 0.0d
-			width: 11.0d
+			width: 14.0d
 			x: -0.5d
 			y: -1.0d
 		}
@@ -24,11 +24,15 @@
 			y: -1.0d
 		}
 	]
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Nature provides many gifts for you to use, one such being a delicious cup of tea. Each type of tea provides a beneficial effect well worth brewing. To begin simply use some shears on a vanilla flower for a tea blossom. This special little sprout will get you started on your journey for the perfect cup of tea!"]
+			description: [
+				"Nature provides many gifts for you to use, one such being a delicious cup of tea. Each type of tea provides a beneficial effect well worth brewing. "
+				""
+				"To begin, simply use some shears on a vanilla flower for a tea blossom. This special little sprout, once planted and grown, will get you started on your journey for the perfect cup of tea!"
+			]
 			id: "6E190A742E3CEC06"
 			rewards: [
 				{
@@ -51,15 +55,15 @@
 				type: "item"
 			}]
 			title: "Nature's Zen"
-			x: -5.0d
+			x: -7.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["6E190A742E3CEC06"]
 			description: [
-				"The teas most known and loved are the result of the ancient art of drying leaves from the tea blossom plant. You too can indulge in this art and create your own delightful version. Dry green tea leaves for a drink or further combine and dry them for black tea. You can also mix the 2 for oolong!"
+				"The most well-known and loved teas are the result of the ancient art of drying leaves from the tea blossom plant. You too can indulge in this art and create your own. Dry green tea leaves for a drink or further combine and dry them for black tea. You can also mix the 2 for oolong!"
 				""
-				"&n&oCraft 9 green tea leaves into a block. Place down the block for it to dry. Break when dried for dried green tea.&r&r"
+				"Craft together 9 green tea leaves harvested from the tea blossoms you’ve grown in a crafting table and place down the resulting block. Wait for it to become a dried green tea leaf block and break for dried green tea. Repeat with dried green tea to make black tea. Combine 4 dried green tea and 4 dried black tea to make an oolong. "
 			]
 			id: "72C738487D350BA7"
 			rewards: [
@@ -83,16 +87,15 @@
 				type: "item"
 			}]
 			title: "An Ancient Art"
-			x: -5.0d
-			y: 0.5d
+			x: -7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["72C738487D350BA7"]
 			description: [
-				"The noble tea blossom may provide the key to 3 different teas but that isn't the only way to make a great cup of tea. Many other plants can provide you a great cup of tea.  Don't forget some sugar and milk!"
+				"The noble tea blossom may provide the key to 3 different teas but that isn't the only way to make a great cup of tea. Many other plants can be used. Don't forget some sugar and milk!"
 				""
-				"&n&oRooibos can be found in Savanna biomes. Hibiscus and coffee grow in jungle biomes. Lavender and Yerba Mate can be found at higher elevation biomes near mountainous areas such as Cherry groves. "
-				"&r&r&r"
+				"Rooibos can be found in Savanna biomes. If you’re struggling to find them in a savanna try looking in a Steppe or similar hot biomes. Hibiscus and coffee grow in jungle biomes. Lavender and Yerba Mate can be found at higher elevation biomes near mountainous areas such as Cherry groves or Meadow biomes."
 			]
 			id: "0D2B73B68E5C9B0C"
 			rewards: [
@@ -177,15 +180,15 @@
 				}
 			]
 			title: "Varie-TEA"
-			x: -4.5d
-			y: 2.0d
+			x: -5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0D2B73B68E5C9B0C"]
 			description: [
-				"If you give to nature, nature will always give back."
+				"If you give to nature, nature will always give back. While things like coffee, rooibos and yerba mate can be planted and farmed, flowers like lavender and hibiscus cannot. Luckily they can easily be duplicated using bone meal to save you from having to find more."
 				""
-				"&n&oThe flowers needed for tea can be duplicated using bone meal. Tip: To obtain lavender blossoms you'll need to use shears on a lavender plant. Be sure to duplicate it first!&r&r"
+				"&lTip: To get Lavender in a brewable state use shears to harvest lavender blossoms. Be sure you duplicated them first as lavender blossoms can’t be replanted!&r"
 			]
 			id: "506DA5422221D74F"
 			rewards: [
@@ -219,13 +222,13 @@
 				}
 			]
 			title: "Double Flower Power"
-			x: -3.5d
-			y: 3.0d
+			x: -3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["506DA5422221D74F"]
 			description: [
-				"You have the materials, now it's time for the tools!"
+				"You have the materials, now it’s time for the tools! The kettle is your all-in-one setup for brewing. Place it above a stove or similar heat source and begin your brewing adventures. "
 				""
 				"&n&oCraft the Stove from HerbalBrews!&r&r"
 			]
@@ -256,12 +259,12 @@
 				}
 			]
 			title: "Tools of the Trade"
-			x: -2.5d
-			y: 3.5d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2DFAEEF9AFF3E71B"]
-			description: ["Although the stove warms your kettle some teas require higher temperatures to brew. Blaze powder should work! "]
+			description: ["The stove warms your kettle, but most teas require higher temperatures. Your kettle can be further warmed by placing blaze powder into the allotted slot. The kettle will lose this heat over time so keep an eye on it!"]
 			id: "4A5D17F68F3119BE"
 			rewards: [{
 				count: 12
@@ -276,12 +279,12 @@
 				type: "item"
 			}]
 			title: "Temperature Control"
-			x: 1.5d
-			y: 3.5d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4A5D17F68F3119BE"]
-			description: ["The prep work is done! You can brew any tea, any time. Sit back, relax and enjoy the fruits of your labor."]
+			description: ["You’ve done all the prep work and know how to use the kettle. It’s time to sit back, relax, and enjoy your warm reward."]
 			id: "2AD31B05E260528B"
 			rewards: [
 				{
@@ -302,12 +305,12 @@
 				type: "item"
 			}]
 			title: "Tea Time"
-			x: 2.5d
-			y: 3.0d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2AD31B05E260528B"]
-			description: ["Every tea a different flavor and buff!"]
+			description: ["Every tea has a unique flavor and buff, so challenge yourself and make them all! Coffee can be brewed alone or combined with milk to make milk coffee. To make Black tea, Hibiscus, Lavender and Yerba mate you’ll need sugar. The rest will brew without anything added so long as you have enough water and heat. Become a tea master!"]
 			id: "18B3D20B8788D1BD"
 			rewards: [
 				{
@@ -373,12 +376,12 @@
 				}
 			]
 			title: "Tea Ceremony"
-			x: 3.5d
-			y: 2.0d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["18B3D20B8788D1BD"]
-			description: ["You've mastered the art of tea, but are you ready for it's final secret? The 3 dried teas combined create the base for something special."]
+			description: ["You’ve mastered the art of tea and found your favorite flavor, but are you ready for the secret power your tea holds? If you combine 3 of each of the different dried teas in a crafting table you can create an herbal infusion. This special infusion can be used in a brewing cauldron to take your potion-making to another level."]
 			id: "6EEC5B7B137EE103"
 			rewards: [
 				{
@@ -407,16 +410,12 @@
 				}
 			]
 			title: "An Herbal Secret"
-			x: 4.0d
-			y: 0.5d
+			x: 6.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6EEC5B7B137EE103"]
-			description: [
-				"Have you ever wished you could drink 3 different buff potions are once? Now you can!"
-				""
-				"&n&oUse 3 different potions and an herbal infusion in a brewing cauldron to create a flask. &r&r"
-			]
+			description: ["Have you ever wished you could drink several potions all at once? Now you can! With a brewing cauldron and herbal infusion you can combine 3 potions of your choice together into a single flask. Note: Adding the same potions together does not enhance the effect"]
 			id: "76E075064E3F17A0"
 			rewards: [
 				{
@@ -444,15 +443,15 @@
 				type: "item"
 			}]
 			title: "Three in One Power Potion"
-			x: 4.0d
+			x: 6.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["5978544AFB9E828E"]
 			description: [
-				"You’ve dried. You’ve sheared. Now it’s time to steep."
-				"This shiny little kettle is your first step toward warm mugs, herbal hugs, and questionable leaf-based alchemy."
-				"Careful—it’s hot and extremely cozy."
+				"With tools and materials in hand you’re ready to begin learning to brew. You should start with the easiest to brew tea, rooibos!  "
+				""
+				"The kettle can be intimidating at first but it’s actually quite simple. Put a rooibos leaf into the top left square area and a glass bottle in the square beneath it. Then put a bucket of water in the square next to the measured bars on the right to fill it with water. When done right the progress arrow should begin to fill."
 			]
 			id: "2DFAEEF9AFF3E71B"
 			rewards: [
@@ -468,20 +467,26 @@
 					type: "item"
 				}
 				{
-					id: "009B54F9FE416515"
+					count: 3
+					id: "01B56DBDA38EF7BA"
+					item: "herbalbrews:tea_leaf_crate"
+					type: "item"
+				}
+				{
+					id: "56B3856EE62CF5A7"
 					type: "xp"
 					xp: 25
 				}
 			]
-			subtitle: "Craft a Copper Tea Kettle"
+			subtitle: "Brew a cup of Rooibos tea"
 			tasks: [{
 				id: "2608CA92AFC9C50D"
 				item: "herbalbrews:copper_tea_kettle"
 				type: "item"
 			}]
-			title: "Kettle Cornish"
+			title: "Steep Your Heart Out"
 			x: -0.5d
-			y: 3.5d
+			y: 2.0d
 		}
 	]
 	title: "Tranquili-TEA"

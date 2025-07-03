@@ -7,10 +7,10 @@
 	id: "5CDDF7AD0DD2A82E"
 	images: [
 		{
-			height: 11.0d
+			height: 8.0d
 			image: "ftbquests:textures/homestead/seasoned_and_settled.png"
 			rotation: 0.0d
-			width: 11.0d
+			width: 13.0d
 			x: 0.0d
 			y: 0.0d
 		}
@@ -48,11 +48,17 @@
 			y: 0.0d
 		}
 	]
-	order_index: 6
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Explore the fields and forests for naturally growing crops from the Farm n Charm mod. They're useful and flavorful!"]
+			description: [
+				"Welcome to Farm and Charm, a farming rework from the let’s do series! Featuring its own crops such as strawberries, oats, and corn, these new additions will help fill out your catalogue of foods that fill hunger and provide buffs."
+				""
+				"Most crops can be located in plains or forest biomes, but there are a few that are more elusive. Wild Nettle and Ribwort are located in forests and swamps, Wild Oats are located in meadows and taigas, and wild potatoes are found in taiga and forest biomes. "
+				""
+				"&lFun Planting tip: You can attach ropes from Brewery to some fence posts to create a hanging rope for tomatoes to cling onto and grow larger.&r"
+			]
 			id: "46B4CBE90F82043E"
 			rewards: [
 				{
@@ -79,7 +85,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Collect 5x of some farm and charm crops"
+			subtitle: "Collect 8x of some farm and charm crops"
 			tasks: [
 				{
 					count: 8L
@@ -113,76 +119,83 @@
 				}
 			]
 			title: "Harvest Valley"
-			x: -3.0d
+			x: -3.5d
 			y: -5.0d
 		}
 		{
-			dependencies: ["46B4CBE90F82043E"]
-			description: ["Rain or shine, your crops deserve the best. Get to crafting a Wooden Silo for drying and a Sprinkler for automated watering!"]
+			description: ["You’ve obtained the crops and you’re ready to plant. To give yourself and your crops the best, rather than putting down a block of water in the ground, craft yourself a Sprinkler! This automated infinite waterer will hydrate tilled soil up to 8 blocks away, double that of a normal water block."]
 			id: "1955C8FAA3A8AC66"
 			rewards: [
 				{
-					count: 8
-					id: "63F477AFD383F5A2"
-					item: "minecraft:bone_meal"
+					count: 5
+					id: "2C29EC505ED446F4"
+					item: "minecraft:oak_log"
 					type: "item"
 				}
 				{
-					id: "7BCD19548AF9736E"
-					item: "minecraft:water_bucket"
+					id: "0EF84A434B4430D2"
+					item: {
+						Count: 1
+						id: "farm_and_charm:compost"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			subtitle: "Craft a Wooden Silo and a Sprinkler"
-			tasks: [
-				{
-					id: "227E1CE4747CF232"
-					item: "farm_and_charm:silo_wood"
-					type: "item"
-				}
-				{
-					id: "3B2B7E6BB792A3A2"
-					item: "farm_and_charm:water_sprinkler"
-					type: "item"
-				}
-			]
-			title: "A Drop of Craft"
-			x: -2.0d
+			tasks: [{
+				id: "3B2B7E6BB792A3A2"
+				item: "farm_and_charm:water_sprinkler"
+				type: "item"
+			}]
+			title: "Well Watered Crops"
+			x: -2.5d
 			y: -5.0d
 		}
 		{
-			dependencies: ["1955C8FAA3A8AC66"]
 			description: [
-				"Healthy soil makes for happy plants. Mix and match the right ingredients to boost your farmland’s fertility."
+				"Your farm is starting to thrive and you’ve gotten settled down. Now’s the time to invest in better soil for your crops. Combining 9 fertilizer produced in your silos in a crafting table will provide you with Fertilized Soil. This soil, when tilled and planted on, will permanently bone meal itself at random intervals and help boost your crop production. "
 				""
-				"&nDry bone meal or rotten flesh within a silo to obtain fertilizer.&r"
+				"To further save you time, you should craft a plow so that you can till the soil quickly. Once crafted you can place the plow down with right click and mount and dismount it using the same button. Once you’ve mounted it all you have to do is walk around and it will till the soil behind you as you go. It can also harvest the crops without destroying them. No more hoes for you!"
+				"Tip: If you’re having trouble dismounting the plow try right clicking on the center of the beam connecting the wheels."
 			]
 			id: "3D3B23CE1D7FEB1F"
 			rewards: [
 				{
-					count: 9
-					id: "594A5FE58B3FE532"
-					item: "farm_and_charm:fertilizer"
+					count: 6
+					id: "18D463579260E51F"
+					item: "minecraft:iron_ingot"
 					type: "item"
 				}
 				{
-					id: "4370F4CAAEB350D9"
-					item: "farmersdelight:organic_compost"
+					count: 32
+					id: "71ECE937D7AD1F89"
+					item: "farm_and_charm:fertilizer"
 					type: "item"
 				}
 			]
-			subtitle: "Craft Fertilized Soil"
-			tasks: [{
-				id: "21A0F3E3A78F3850"
-				item: "farm_and_charm:fertilized_soil"
-				type: "item"
-			}]
-			x: -1.0d
+			subtitle: "Craft 5 Fertilized Soil and a plow for faster tilling."
+			tasks: [
+				{
+					count: 5L
+					id: "21A0F3E3A78F3850"
+					item: "farm_and_charm:fertilized_soil"
+					type: "item"
+				}
+				{
+					id: "0F87E3C472CD10C9"
+					item: "farm_and_charm:plow"
+					type: "item"
+				}
+			]
+			title: "Watching Grass Grow"
+			x: -0.5d
 			y: -5.0d
 		}
 		{
-			dependencies: ["3D3B23CE1D7FEB1F"]
-			description: ["Animals deserve fine dining too. Fill this with their favorite snacks to keep them satisfied!"]
+			description: ["Farming isn’t just about crops, it’s also about animal husbandry. Farm and Charm has your back with a feeding trough. Once placed down you can fill it with almost any type of seeds and animals will automatically come and eat from it, allowing them to breed as if you fed them the required food. They will eat and reproduce every time they are off the breeding cooldown or until the trough is empty. "]
 			id: "5FC752A81189726E"
 			rewards: [
 				{
@@ -204,47 +217,51 @@
 				type: "item"
 			}]
 			title: "Feeding Frenzy"
-			x: 0.0d
+			x: 0.5d
 			y: -5.0d
 		}
 		{
-			dependencies: ["5FC752A81189726E"]
-			description: ["These tools let you prep veggies, meats, and cheeses for proper dishes. Get hands-on!"]
+			description: [
+				"You should be well stocked on raw ingredients, but raw foods are nothing compared to a well cooked meal. To get your kitchen started you’ll need a mixing bowl. The mixing bowl is where you’ll make common ingredients like butter, mozzarella, or dough, as well as fresh salads. "
+				""
+				"&lAll recipes and their required ingredients for the mixing bowl are listed to the left side of the Seasoned and Settled quest page.&r"
+			]
 			id: "651AAEAFCB58FB12"
 			rewards: [
 				{
-					count: 4
-					id: "243CB1735A1664E0"
-					item: "farm_and_charm:minced_beef"
-					type: "item"
-				}
-				{
-					count: 4
+					count: 5
 					id: "25B73C648F3FBEAD"
 					item: "farm_and_charm:butter"
 					type: "item"
 				}
-			]
-			subtitle: "Use a Crafting Bowl and Mincer to prepare ingredients"
-			tasks: [
 				{
-					id: "1FBF8F5A44CF5809"
-					item: "farm_and_charm:crafting_bowl"
+					count: 5
+					id: "4A01E75BB091A7AB"
+					item: "farm_and_charm:yeast"
 					type: "item"
 				}
 				{
-					id: "3A3002DB81F05B0D"
-					item: "farm_and_charm:mincer"
-					type: "item"
+					id: "37C94D00C6F144BD"
+					type: "xp"
+					xp: 15
 				}
 			]
-			title: "Mixing and Mincing"
-			x: 1.0d
+			subtitle: "Craft a Mixing Bowl"
+			tasks: [{
+				id: "1FBF8F5A44CF5809"
+				item: "farm_and_charm:crafting_bowl"
+				type: "item"
+			}]
+			title: "Stirring Success"
+			x: 1.5d
 			y: -5.0d
 		}
 		{
-			dependencies: ["5DA495EE70E0ABFD"]
-			description: ["Time to heat things up. These three tools are essential for any master kitchen!"]
+			description: [
+				"Last, but not least, it’s time to turn up the heat and roast, bake, and boil yourself some more filling meals. You’ll need a fuel source like coal to bake things in your stove, but even without fuel the stove provides heat for your roaster and cooking pot. Each method has a variety of different recipes you can try. "
+				""
+				"&lIf you decide to take on the challenge of making them all you’ll earn the completionist reward for Farm and Charm, a Scarecrow that makes crops near it grow faster!&r"
+			]
 			id: "3E45BA90FA0F257A"
 			rewards: [
 				{
@@ -278,8 +295,8 @@
 					type: "item"
 				}
 			]
-			title: "Cooks and Flames"
-			x: 3.0d
+			title: "Turn Up The Heat"
+			x: 3.5d
 			y: -5.0d
 		}
 		{
@@ -347,7 +364,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["3E45BA90FA0F257A"]
+			dependencies: ["5DA495EE70E0ABFD"]
 			description: ["A baker's essential ingredient for countless meals."]
 			hide_dependency_lines: true
 			id: "0F66963234906BA4"
@@ -1771,11 +1788,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["651AAEAFCB58FB12"]
 			description: [
-				"The Mincer has many uses, from grinding up wheat into flour to even quickly stripping vanilla logs. This useful tool is where you'll obtain processed meats for various recipes and delicious pasta made from dough! Simply right click to insert your item and hold down to grind it up."
+				"The next essential tool in your kitchen is the Mincer. The mincer is where you will convert wheat into flour, and dough into pasta. It is also where you can turn meats obtained from animals into various different versions for cooking, such as raw mutton being ground into lamb ham or raw pork providing bacon. Once your mincer is placed you need only right click on it with the item to load it in and hold it down right click with an empty hand to grind it up."
 				""
-				"Grind Wheat in a mincer to obtain flour, and dough to obtain pasta."
+				"&lTip: Food isn’t the only thing the mincer can grind up! It can also strip vanilla logs of bark for you or break iron into nuggets.&r"
 			]
 			id: "5DA495EE70E0ABFD"
 			rewards: [
@@ -1797,7 +1813,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Obtain Flour and Pasta. "
+			subtitle: "Craft a Mincer, Craft Flour, Craft Pasta"
 			tasks: [
 				{
 					id: "17DEA1D12557D3B3"
@@ -1809,9 +1825,50 @@
 					item: "farm_and_charm:raw_pasta"
 					type: "item"
 				}
+				{
+					id: "53910A63F69EAAFC"
+					item: "farm_and_charm:mincer"
+					type: "item"
+				}
 			]
 			title: "On The Grind"
-			x: 2.0d
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"With your crops watered you’ll want to begin exploring ways to enrich your soil for better growth. To do so you’ll want to craft a silo. "
+				""
+				"To make 2 wooden silos all you need to do is combine 9 wooden planks in a crafting table. "
+				""
+				"The silo is a useful structure that dries rotten flesh or bone meal into fertilizer. Combine 4 fertilizer together to create compost, an item that behaves like a multi-use bone meal with the added bonus of affecting more than one block. "
+				""
+				"The silo is also important to the Let’s do Brewery mod and can be used to dry grains for beers. Silos can be stacked on top of each other to increase capacity and for better drying times."
+			]
+			id: "56DD851614712E4F"
+			rewards: [
+				{
+					count: 9
+					id: "61DC743F28700A43"
+					item: "farm_and_charm:fertilizer"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "64A8E98B8327570E"
+					item: "farm_and_charm:silo_copper"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 4 wooden silos"
+			tasks: [{
+				count: 4L
+				id: "11C69A91A2561F22"
+				item: { Count: 4, id: "farm_and_charm:silo_wood" }
+				type: "item"
+			}]
+			title: "A Song of Silos"
+			x: -1.5d
 			y: -5.0d
 		}
 	]

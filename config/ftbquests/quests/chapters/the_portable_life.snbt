@@ -7,12 +7,12 @@
 	id: "35A97991FD282F5D"
 	images: [
 		{
-			height: 11.0d
+			height: 6.0d
 			image: "ftbquests:textures/homestead/the_portable_life.png"
 			rotation: 0.0d
 			width: 11.0d
 			x: 0.0d
-			y: -1.5d
+			y: -2.5d
 		}
 		{
 			height: 15.0d
@@ -24,11 +24,11 @@
 			y: -2.5d
 		}
 	]
-	order_index: 13
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft your very first backpack and step into the world of mobile inventory. Craft a backpack. They can be placed in the backpack trinket slot and opened with a keybind. (Default B)"]
+			description: ["Pockets full of stuff? Craft a backpack and enter the world of even more stuff! They can be placed in the backpack trinket slot and opened with the keybind. (Default B)"]
 			id: "7FDDD6F1E7A40FAD"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -49,8 +49,7 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["7FDDD6F1E7A40FAD"]
-			description: ["Metal makes everything better. More slots, more adventure. Upgrade your backpack to iron for more storage space."]
+			description: ["Want more slots? More adventure? Upgrade your backpack to iron for even more! "]
 			id: "4F9D88BA35907137"
 			rewards: [
 				{
@@ -75,8 +74,7 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["4F9D88BA35907137"]
-			description: ["Treat yourself to that golden lifestyle. Upgrade your backpack to gold for even more storage space."]
+			description: ["GOLD! You know what to do, upgrade your backpack to gold for more space to put all your stuff!"]
 			id: "7F87B51DA35F35C3"
 			rewards: [
 				{
@@ -101,8 +99,7 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["7F87B51DA35F35C3"]
-			description: ["Luxury meets functionality. It's a walking vault. Upgrade your backpack to diamond for maximum storage space."]
+			description: ["The ultimate in luxury, upgrade your backpack to diamond for maximum storage space."]
 			id: "51C94E3771B7162D"
 			rewards: [
 				{
@@ -127,8 +124,7 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["51C94E3771B7162D"]
-			description: ["You’ve done it. The ultimate backpack. Fireproof, tanky, and stylish enough to make a piglin jealous."]
+			description: ["How much space do you need? Congratulations! Fireproof, stylish and basically indestructible, you fully upgraded your backpack!"]
 			id: "35D72905DE29A290"
 			rewards: [
 				{
@@ -155,7 +151,6 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["7FDDD6F1E7A40FAD"]
 			description: ["Every powerful upgrade starts with this humble little chip. Craft an upgrade base to use for making upgrades for your backpack that will make it even more functional!"]
 			hide_dependency_lines: true
 			id: "5BFE66EE66CBD8BA"
@@ -216,7 +211,7 @@
 		}
 		{
 			dependencies: ["5BFE66EE66CBD8BA"]
-			description: ["Backpack goes *yoink*. Makes your backpack scoop up loose items around you."]
+			description: ["Missed something? Your backpack didn’t. Make your backpack collect loose items around you."]
 			id: "6E87295E86FCF7AC"
 			rewards: [
 				{
@@ -241,7 +236,7 @@
 		}
 		{
 			dependencies: ["6E87295E86FCF7AC"]
-			description: ["You’re not picking *everything* up. Just the good stuff. Same thing, but smarter. Add filtering and finesse."]
+			description: ["For someone who has everything, here’s something better. Add filtering and finesse to your backpack."]
 			id: "3B5D85E4A3975BCA"
 			rewards: [
 				{
@@ -319,7 +314,7 @@
 		}
 		{
 			dependencies: ["5BFE66EE66CBD8BA"]
-			description: ["You're basically a loot vacuum. Magnets items into backpack at range."]
+			description: ["Magnets items into backpack at range."]
 			id: "09661CD5B9BA2842"
 			rewards: [
 				{
@@ -348,7 +343,7 @@
 		}
 		{
 			dependencies: ["09661CD5B9BA2842"]
-			description: ["Now with more *zoom* and less junk. Magnets items into backpack at a greater range and has more filtering options."]
+			description: ["Magnets items into backpack at a greater range and has more filtering options."]
 			id: "66F7E9A1B8961A2C"
 			rewards: [
 				{
@@ -425,7 +420,7 @@
 		}
 		{
 			dependencies: ["5BFE66EE66CBD8BA"]
-			description: ["Make space. Stay sane. Compacts items into their 2x2 compressed forms."]
+			description: ["Need even more room? Compact items into their 2x2 squashed forms."]
 			id: "65F73F01203CDB76"
 			rewards: [
 				{
@@ -451,7 +446,7 @@
 		}
 		{
 			dependencies: ["65F73F01203CDB76"]
-			description: ["All the compressions, no stress. Compacts items into both 2x2 and 3x3 forms, with filtering."]
+			description: ["No stress here, just cozy vibes. Items compacted into 2x2 and 3x3 forms, filtering included."]
 			id: "107D32DBA8D15A65"
 			rewards: [
 				{
@@ -501,7 +496,7 @@
 		}
 		{
 			dependencies: ["4FB0358EE59DBCFF"]
-			description: ["Now your trash bin has preferences. Voids filtered items with even more control."]
+			description: ["Make sure to ask what the trash wants to do. Voids filtered items with even more control."]
 			id: "2D6A61E3B7B99DA6"
 			rewards: [
 				{
@@ -758,7 +753,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["7FDDD6F1E7A40FAD"]
 			description: ["Every powerful upgrade starts with this humble little chip. Craft an upgrade base to use for making upgrades for your backpack that will make it even more functional!"]
 			hide_dependency_lines: true
 			id: "7E23DA5887B8BB74"
@@ -893,7 +887,7 @@
 			rewards: [
 				{
 					id: "0F1080565A8462D0"
-					item: "uncraftingtable76:uncraftingtable"
+					item: "craftingpad:craftingpad"
 					type: "item"
 				}
 				{
@@ -1426,7 +1420,7 @@
 				"7E23DA5887B8BB74"
 				"5BFE66EE66CBD8BA"
 			]
-			description: ["A little more room. Increases stack sizes by 1.5x."]
+			description: ["You want more? Stack sizes increased by 1.5x"]
 			hide_dependency_lines: true
 			id: "42C21CE8D9EFBA35"
 			rewards: [
@@ -1454,7 +1448,7 @@
 		}
 		{
 			dependencies: ["42C21CE8D9EFBA35"]
-			description: ["Double your fun. Increases stack sizes by 2x."]
+			description: ["Double the fun. Stack sizes increased by 2x"]
 			id: "1ECB392A35CA74DF"
 			rewards: [
 				{
@@ -1479,7 +1473,7 @@
 		}
 		{
 			dependencies: ["1ECB392A35CA74DF"]
-			description: ["Now we’re stacking. Increases stack sizes by 4x."]
+			description: ["Stack away! Stack sizes increased by 4x"]
 			id: "1A6BEB275F95C618"
 			rewards: [
 				{
@@ -1504,7 +1498,7 @@
 		}
 		{
 			dependencies: ["1A6BEB275F95C618"]
-			description: ["Inventory bulk upgrade. Increases stack sizes by 8x."]
+			description: ["Bro be stacked. Stacks increased by 8x"]
 			id: "02AF8549FB096436"
 			rewards: [
 				{
@@ -1529,7 +1523,7 @@
 		}
 		{
 			dependencies: ["02AF8549FB096436"]
-			description: ["Endgame space tech. Increases stack sizes by 16x."]
+			description: ["Stacks on stacks on stacks. Increased to 16x"]
 			id: "065736A6011BE849"
 			rewards: [
 				{

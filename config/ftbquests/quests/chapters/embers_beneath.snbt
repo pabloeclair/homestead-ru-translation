@@ -7,10 +7,11 @@
 	id: "256D3CD013C0243D"
 	images: [
 		{
-			height: 10.0d
+			height: 7.0d
 			image: "ftbquests:textures/homestead/embers_beneath.png"
+			order: 100
 			rotation: 0.0d
-			width: 10.0d
+			width: 12.0d
 			x: -0.5d
 			y: -0.25d
 		}
@@ -187,11 +188,11 @@
 			y: -0.25d
 		}
 	]
-	order_index: 9
+	order_index: 12
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Ancient Debris is hidden in the lower layers of the Nether—bring beds or TNT and dig smart."]
+			description: ["These ruined lands hold what remains of an ancient material deep beneath, artifacts of a time long past. If you covet these ancient scraps, you’ll need to go very deep. Y-15~13 is ideal for your strip mining or blast mining needs. Remember, beds explode in the nether, just be careful."]
 			id: "7A98142DDB538501"
 			rewards: [
 				{
@@ -218,7 +219,7 @@
 			y: -2.0d
 		}
 		{
-			description: ["Combine Ancient Debris into Scrap, then mix with Gold—Netherite is born."]
+			description: ["Debris gathered, it’s time to refine it into scraps in a furnace. Once you have 4, mix the scraps together with 4 gold and, behold, your first Netherite Ingot. This single ingot holds the power to upgrade an item into something stronger, provided you have the tools."]
 			id: "7B75CD19C1398019"
 			rewards: [
 				{
@@ -243,7 +244,7 @@
 			y: -2.0d
 		}
 		{
-			description: ["Blaze Rods drop from Blazes in Nether Fortresses—be careful of the heat!"]
+			description: ["Blaze Rods drop from Blazes in Nether Fortresses; be careful of the heat!"]
 			id: "39B874D8794D12A0"
 			rewards: [
 				{
@@ -320,7 +321,7 @@
 			tasks: [{
 				icon: "minecraft:nether_bricks"
 				id: "64EDA5DF482ABA49"
-				structure: "minecraft:fortress"
+				structure: "#betterfortresses:better_fortresses"
 				type: "structure"
 			}]
 			title: "Structure in the Fire"
@@ -328,7 +329,7 @@
 			y: 1.5d
 		}
 		{
-			description: ["These tall, spooky mobs guard the Nether Fortress—watch out for the wither effect."]
+			description: ["These guys hit like poison darts, so be careful"]
 			id: "4A25CB26061EC9D7"
 			optional: true
 			rewards: [
@@ -355,7 +356,7 @@
 			y: -2.0d
 		}
 		{
-			description: ["Fireproof foes that hover and spit flames—take cover and strike fast."]
+			description: ["Fireproof foes that hover and spit flames!"]
 			id: "5757918F1AFF3C7E"
 			optional: true
 			rewards: [
@@ -382,7 +383,7 @@
 			y: -2.0d
 		}
 		{
-			description: ["These floating wailers are loud, explodey, and hard to hit. Bring a bow."]
+			description: ["If only he could be happy..."]
 			id: "722B5668B8F62FF7"
 			optional: true
 			rewards: [
@@ -409,7 +410,7 @@
 			y: -1.3392857142857153d
 		}
 		{
-			description: ["These lava blobs bounce in Basalt Deltas and Fortresses. Watch for mini-mes."]
+			description: ["These little guys are so cute and fiery but will chase after you like your spicy ex"]
 			id: "1C75F2C9862DD065"
 			optional: true
 			rewards: [
@@ -436,7 +437,7 @@
 			y: -0.3392857142857153d
 		}
 		{
-			description: ["They may be cute—but they'll swarm if you anger them."]
+			description: ["Get some ice from Johnny Dang and these guys wont mess with you"]
 			id: "2025BAC1FFBAB232"
 			optional: true
 			rewards: [
@@ -474,7 +475,7 @@
 			y: 0.6607142857142847d
 		}
 		{
-			description: ["No gold, no chill. These brutes don't barter—they bash."]
+			description: ["Kick their axe!"]
 			id: "7D057D118EDF8ED5"
 			optional: true
 			rewards: [
@@ -545,7 +546,19 @@
 			y: 1.5d
 		}
 		{
-			description: ["Upgrade all Diamond armor pieces using a Smithing Table and Netherite Ingots."]
+			description: [
+				"Its That Time..."
+				""
+				"Find a Smithing Template in Nether Loot."
+				""
+				"Duplicate it with the following recipe"
+				""
+				"{image:ftbquests:textures/homestead/netherite_upgrade_smithing_template.png width:100 height:50 align:center}"
+				""
+				"Then Use this Smithing Template on an Obsidian tool/armor piece with a Netherite Ingot to upgrade to Netherite."
+				""
+				"{image:ftbquests:textures/homestead/netherite_helmet_smithing.png width:100 height:22 align:center}"
+			]
 			id: "5D0DAD184B953AFB"
 			rewards: [
 				{
@@ -563,7 +576,7 @@
 					id: "024EAE74F83AAE4C"
 					item: {
 						Count: 1
-						id: "minecraft:netherite_pickaxe"
+						id: "minecraft:netherite_chestplate"
 						tag: {
 							Damage: 0
 						}
@@ -576,13 +589,18 @@
 					xp: 100
 				}
 			]
-			subtitle: "Craft a full set of Netherite Armor."
+			subtitle: "Make a Full Netherite Tool Set"
 			tasks: [
 				{
-					id: "50D1EEE76547ECFC"
+					id: "3F9A535A46F03F43"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "2B3075A4C32F5BF5"
 					item: {
 						Count: 1
-						id: "minecraft:netherite_helmet"
+						id: "minecraft:netherite_sword"
 						tag: {
 							Damage: 0
 						}
@@ -590,10 +608,10 @@
 					type: "item"
 				}
 				{
-					id: "3A4F7D5B253898B7"
+					id: "14561E1889A5CF8A"
 					item: {
 						Count: 1
-						id: "minecraft:netherite_chestplate"
+						id: "minecraft:netherite_pickaxe"
 						tag: {
 							Damage: 0
 						}
@@ -601,10 +619,10 @@
 					type: "item"
 				}
 				{
-					id: "49956AB93E27B31E"
+					id: "5018B80CED7273DE"
 					item: {
 						Count: 1
-						id: "minecraft:netherite_leggings"
+						id: "minecraft:netherite_shovel"
 						tag: {
 							Damage: 0
 						}
@@ -612,10 +630,10 @@
 					type: "item"
 				}
 				{
-					id: "058704940CC74503"
+					id: "40B1B20A5B808876"
 					item: {
 						Count: 1
-						id: "minecraft:netherite_boots"
+						id: "minecraft:netherite_axe"
 						tag: {
 							Damage: 0
 						}
@@ -665,7 +683,7 @@
 			y: -0.3392857142857153d
 		}
 		{
-			description: ["Use Looting and aim high—these skulls are needed to summon the Wither."]
+			description: ["Use Looting and aim high; these skulls are needed to summon the Wither."]
 			id: "04F96404FD2E0932"
 			optional: true
 			rewards: [
@@ -693,7 +711,7 @@
 			y: -3.0d
 		}
 		{
-			description: ["Summon and defeat the Wither Boss to claim its powerful glowing heart."]
+			description: ["3 wither skulls placed atop sand filled with souls summons forth the extremely destructive and dangerous Wither. Kill it and claim your prize, it’s stellar core."]
 			id: "7EA630A30FAF8AF4"
 			rewards: [
 				{

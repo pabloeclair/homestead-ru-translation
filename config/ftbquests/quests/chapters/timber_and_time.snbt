@@ -7,10 +7,10 @@
 	id: "5E51CE307C7FF32E"
 	images: [
 		{
-			height: 11.0d
+			height: 8.0d
 			image: "ftbquests:textures/homestead/cogs_and_whimsy.png"
 			rotation: 0.0d
-			width: 11.0d
+			width: 13.0d
 			x: 0.0d
 			y: 0.0d
 		}
@@ -24,24 +24,25 @@
 			y: 0.0d
 		}
 	]
-	order_index: 3
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"Even the grandest machines start with a humble alloy."
-				""
-				"&nUsed in almost every recipe for Create.&r"
-				""
-				"&lCrafted by 2 Andesite and 2 Zinc Nuggets or Iron Nuggets in a 2x2 Crafting Grid.&r"
-			]
+			description: ["The core component of all Create Recipes"]
 			id: "3BDE5D297174F538"
-			rewards: [{
-				count: 16
-				id: "7EB1D4C9A7A2C928"
-				item: "create:andesite_alloy"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "7EB1D4C9A7A2C928"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "2A063932C3CC7F3F"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "diamond"
 			subtitle: "Craft 16 Andesite Alloy to begin your engineering journey."
 			tasks: [{
@@ -55,18 +56,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["08F97D3E9B234523"]
-			description: [
-				"The teeth of all things mechanical."
-				""
-				"&lCogwheels transfer and modify rotational power (kinetic energy) between machines.&r"
-				""
-				"&nSmall Cogwheels increase speed but reduce torque.&r"
-				""
-				"&nLarge Cogwheels reduce speed but increase torque.&r"
-				""
-				"&nYou can also mesh them together to change rotation direction or space out machine connections&r."
-			]
+			description: ["Cogwheels transfer and modify rotational power (kinetic energy) between machines.&r"]
 			id: "3471C6995DC62762"
 			rewards: [
 				{
@@ -80,6 +70,11 @@
 					id: "563B75592ADCF544"
 					item: "create:large_cogwheel"
 					type: "item"
+				}
+				{
+					id: "1187EC2C425781D7"
+					type: "xp"
+					xp: 25
 				}
 			]
 			subtitle: "Craft both Small and Large Cogwheels."
@@ -100,15 +95,21 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["3BDE5D297174F538"]
-			description: ["The unsung heroes of motion transfer."]
+			description: ["These bad boys transfer motion"]
 			id: "08F97D3E9B234523"
-			rewards: [{
-				count: 8
-				id: "7880140E778A5885"
-				item: "create:shaft"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "7880140E778A5885"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "2545632A10AF5E7B"
+					type: "xp"
+					xp: 25
+				}
+			]
 			subtitle: "Craft 8 Mechanical Shafts."
 			tasks: [{
 				count: 8L
@@ -121,11 +122,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["208C31226AFCAA1C"]
-			description: [
-				"Kelp. Slimy. Slappy. Surprisingly critical to your conveyor dreams."
-				"&oPro tip: Don’t drown.&r"
-			]
+			description: ["Used to make belts. (An essential piece in the Create world)"]
 			id: "0B168E8A6697B5F0"
 			rewards: [
 				{
@@ -153,14 +150,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["0B168E8A6697B5F0"]
-			description: [
-				"You thought this was about fashion, didn’t you?"
-				"Turns out, kelp makes a fantastic conveyor system. Who knew!"
-				"Lay down your belts and get those items movin’—next stop, automation."
-				""
-				"&nMechanical Belt: Moves items between machines or inventories. Think of it as a horizontal conveyor for everything from ores to cookies.&r"
-			]
+			description: ["Mechanical Belt: Moves items between machines or inventories. Think of it as a horizontal conveyor."]
 			id: "1DE5C3F1444FEAC1"
 			rewards: [
 				{
@@ -187,18 +177,20 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["3471C6995DC62762"]
-			description: [
-				"Let nature do the turning."
-				""
-				"&nGenerates passive rotational power when exposed to flowing water.&r"
-			]
+			description: ["Water wheels generate passive power for Create machines"]
 			id: "50FB1252FF540BEF"
-			rewards: [{
-				id: "6DC1D180748BAA3D"
-				item: "create:water_wheel"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6DC1D180748BAA3D"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+				{
+					id: "63539DDBA5B4E1AE"
+					type: "xp"
+					xp: 25
+				}
+			]
 			subtitle: "Build and place a Water Wheel."
 			tasks: [
 				{
@@ -221,12 +213,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["50FB1252FF540BEF"]
-			description: [
-				"The holy grail of early-game Create. It’s like duct tape, but fancy."
-				""
-				"&nUsed as a key crafting ingredient for most Create machines and components.&r"
-			]
+			description: ["A key crafting ingredient for most Create machines and components."]
 			id: "3936D35F380560AF"
 			rewards: [
 				{
@@ -241,6 +228,11 @@
 					item: "create:shaft"
 					type: "item"
 				}
+				{
+					id: "779BA67C2547109A"
+					type: "xp"
+					xp: 25
+				}
 			]
 			subtitle: "Objective: Craft 16 Andesite Casings"
 			tasks: [{
@@ -254,19 +246,21 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["3936D35F380560AF"]
-			description: [
-				"Big bonk. Precision bonk. Artisanal bonk."
-				""
-				"&nCrushes items placed on a Depot to create plates and other flat components. Requires rotation power.&r"
-			]
+			description: ["Crushes items placed on a Depot to create plates and other flat components. Requires rotational power."]
 			id: "0B78FA9FD8FFB214"
-			rewards: [{
-				count: 4
-				id: "5E29773BC68E39DB"
-				item: "minecraft:iron_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "5E29773BC68E39DB"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "599BA74FFB657165"
+					type: "xp"
+					xp: 25
+				}
+			]
 			subtitle: "Craft 1 Mechanical Press"
 			tasks: [{
 				id: "677B1870D31D2FFF"
@@ -278,12 +272,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["0B78FA9FD8FFB214"]
-			description: [
-				"Put things here. Walk away. Hope for the best."
-				""
-				"&nHolds single items to be processed by machines like the Press or Deployer.&r"
-			]
+			description: ["Holds single items or stacks to be processed by machines like the Press or Deployer."]
 			id: "65ED3EC173EA8D7A"
 			rewards: [
 				{
@@ -296,6 +285,11 @@
 					id: "3049610C18932A60"
 					item: "create:cogwheel"
 					type: "item"
+				}
+				{
+					id: "7175055418BDC20A"
+					type: "xp"
+					xp: 25
 				}
 			]
 			subtitle: "Craft 2 Depots"
@@ -310,19 +304,21 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["65ED3EC173EA8D7A"]
-			description: [
-				"Who needs power when you have arm day?"
-				""
-				"&nManually generates rotation to power nearby Create machines. Great for early-game tests.&r"
-			]
+			description: ["Manually generates rotation to power nearby Create machines. Great for early-game tests."]
 			id: "49BEC504C0BE94B6"
-			rewards: [{
-				count: 2
-				id: "2745243F368FB0B1"
-				item: "create:large_cogwheel"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "2745243F368FB0B1"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "4914672F936D3FC0"
+					type: "xp"
+					xp: 25
+				}
+			]
 			subtitle: "Craft 1 Hand Crank"
 			tasks: [{
 				id: "026E9ADDAE9F5A36"
@@ -334,12 +330,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["49BEC504C0BE94B6"]
-			description: [
-				"Thinner than your patience during automation mishaps."
-				""
-				"&nA flat form of iron used in advanced crafting recipes in Create. Made by pressing iron ingots.&r"
-			]
+			description: ["A flat form of iron used in advanced crafting recipes in Create. Made by pressing iron ingots."]
 			id: "3EC515A5F143671C"
 			rewards: [
 				{
@@ -352,6 +343,11 @@
 					id: "536A4E93C92BC0A2"
 					item: "create:shaft"
 					type: "item"
+				}
+				{
+					id: "23AAEE4AFC0E02C8"
+					type: "xp"
+					xp: 25
 				}
 			]
 			subtitle: "Press 5 Iron Sheets"
@@ -366,12 +362,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["3EC515A5F143671C"]
-			description: [
-				"Like cornflakes, but crunchy, conductive, and expensive."
-				""
-				"&nA pressed form of gold used in high-tech crafting recipes like electron tubes.&r"
-			]
+			description: ["A pressed form of gold used in high-tech crafting recipes like the Goggles or the Wrench"]
 			id: "4E30D1CC1B61A07C"
 			rewards: [
 				{
@@ -398,12 +389,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["4E30D1CC1B61A07C"]
-			description: [
-				"You will lose this at least once. Guaranteed."
-				""
-				"&nRotates, removes, and configures Create blocks. Your best friend in machine setup.&r"
-			]
+			description: ["Rotates, removes, and configures Create blocks. Your best friend in machine setup."]
 			id: "0A011EA4FE9C2551"
 			rewards: [
 				{
@@ -417,6 +403,11 @@
 					item: "create:cogwheel"
 					type: "item"
 				}
+				{
+					id: "63AC0ED9B15971B7"
+					type: "xp"
+					xp: 25
+				}
 			]
 			subtitle: "Craft 1 Wrench"
 			tasks: [{
@@ -429,12 +420,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["0A011EA4FE9C2551"]
-			description: [
-				"Safety first. Automation second."
-				""
-				"&nLets you see detailed tooltips and kinetic stats on Create machines.&r"
-			]
+			description: ["Lets you see detailed tooltips and kinetic stats on Create machines."]
 			id: "0D2B2726F40CB853"
 			rewards: [
 				{
@@ -460,12 +446,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["0D2B2726F40CB853"]
-			description: [
-				"Turn things sideways. Like your life choices."
-				""
-				"&nRedirects rotational power in different directions. Essential for complex builds.&r"
-			]
+			description: ["Redirects rotational power in different directions. Essential for complex builds."]
 			id: "217C65A42053D0D1"
 			rewards: [
 				{
@@ -479,6 +460,11 @@
 					id: "32DBF603DDCE41B8"
 					item: "create:andesite_casing"
 					type: "item"
+				}
+				{
+					id: "4C6476685C6CC352"
+					type: "xp"
+					xp: 25
 				}
 			]
 			subtitle: "Craft 2 of each Gearbox"
@@ -501,12 +487,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["217C65A42053D0D1"]
-			description: [
-				"Because sometimes the grind literally matters."
-				""
-				"&nMillstones grind up items like wheat into flour, cobblestone into gravel, or quartz into powder. They’re one of the simplest early automation tools. Requires rotational power to run.&r"
-			]
+			description: ["Millstones grind up items like wheat into flour, cobblestone into gravel, or quartz into powder. They’re one of the simplest early automation tools. Requires rotational power to run."]
 			id: "45F66EC6D1C11043"
 			rewards: [
 				{
@@ -518,6 +499,11 @@
 					id: "1F4DE252375674A6"
 					item: "create:wheat_flour"
 					type: "item"
+				}
+				{
+					id: "6BD737B4FDD93819"
+					type: "xp"
+					xp: 25
 				}
 			]
 			subtitle: "Craft 1 Millstone"
@@ -531,18 +517,20 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["45F66EC6D1C11043"]
-			description: [
-				"Yes, you can make bread from scratch now. You’re welcome."
-				""
-				"&nDough is made using wheat flour and water. It’s used to bake bread and other Create recipes. Usually made with a Basin + Mechanical Mixer, or by hand with a bit of patience.&r"
-			]
+			description: ["Dough is made using wheat flour and water. It’s used to bake bread and other Create recipes. Usually made with a Basin + Mechanical Mixer, or in a crafting table."]
 			id: "17023F1B8B8013CB"
-			rewards: [{
-				id: "3A61E97813056D7F"
-				item: "minecraft:bread"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3A61E97813056D7F"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "271FD340ED6A6D3F"
+					type: "xp"
+					xp: 25
+				}
+			]
 			subtitle: "Obtain 1 Dough"
 			tasks: [{
 				id: "153A280EBFB69F23"
@@ -554,7 +542,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["17023F1B8B8013CB"]
 			description: ["The dye of slime. The glow-up of green."]
 			id: "320DE19F21809D06"
 			rewards: [
@@ -580,13 +567,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["320DE19F21809D06"]
-			description: [
-				"Slime is weird. Slime is squishy. Slime is Create’s best friend."
-				""
-				"&nSlimeballs are used to make Super Glue, Sticky Mechanical Pistons, and other components that require blocks to stick together.&r"
-				"&nThey're also a gateway to more advanced motion systems and Create trickery.&r"
-			]
+			description: ["Slimeballs are used to make Super Glue, Sticky Mechanical Pistons, and other components that require blocks to stick together."]
 			id: "120D842C6B39E2C1"
 			rewards: [
 				{
@@ -611,12 +592,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["120D842C6B39E2C1"]
-			description: [
-				"It’s like duct tape for blocks... but ✨magical✨ and slightly concerning."
-				""
-				"&nSuper Glue allows blocks to stick together so they move as a single structure in contraptions (like flying machines or rotating assemblies). Without it, stuff just falls apart.&r"
-			]
+			description: ["Super Glue allows blocks to stick together so they move as a single structure in contraptions (like flying machines or rotating assemblies)."]
 			id: "604106984AE815F6"
 			rewards: [
 				{
@@ -652,12 +628,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["604106984AE815F6"]
-			description: [
-				"It spins. It moves. It changes lives."
-				""
-				"&nUsed to rotate a structure of blocks, like windmills or rotating platforms. Place it, glue blocks to it, then power it to make spinny magic happen.&r"
-			]
+			description: ["Used to rotate a structure of blocks, like windmills or rotating platforms. Place it, glue blocks to it, then power it to make spinny magic happen."]
 			id: "28BD177E5443182F"
 			rewards: [
 				{
@@ -671,6 +642,11 @@
 					item: "create:cogwheel"
 					type: "item"
 				}
+				{
+					id: "7F707EA03BE7A10E"
+					type: "xp"
+					xp: 25
+				}
 			]
 			subtitle: "Craft 1 Mechanical Bearing"
 			tasks: [{
@@ -683,12 +659,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["28BD177E5443182F"]
-			description: [
-				"Farming? Boring. Rotating blades of plant annihilation? Yes, please."
-				""
-				"&nAutomatically harvests and plants crops when attached to a moving contraption, like a windmill or gantry. Needs a structure + motion source to operate.&r"
-			]
+			description: ["Automatically harvests and plants crops when attached to a moving contraption, like a windmill or gantry. Needs a structure + power to operate."]
 			id: "0BA4F1F5F02866D6"
 			rewards: [
 				{
@@ -701,6 +672,11 @@
 					id: "574B719F46E4992A"
 					item: "minecraft:water_bucket"
 					type: "item"
+				}
+				{
+					id: "706199A5C2DC27CE"
+					type: "xp"
+					xp: 25
 				}
 			]
 			subtitle: "Craft 5 Mechanical Harvesters"
@@ -715,12 +691,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["0BA4F1F5F02866D6"]
-			description: [
-				"Gravity, but smart."
-				""
-				"&nLets items fall downward between blocks, sort of like vertical hoppers, but faster and more efficient. Can also connect to belts and processing systems.&r"
-			]
+			description: ["Lets items fall downward between blocks, sort of like vertical hoppers, but faster and more efficient. Can also connect to belts and processing systems."]
 			id: "40E806A3DE366445"
 			rewards: [
 				{
@@ -753,12 +724,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["40E806A3DE366445"]
-			description: [
-				"Send your entire storage system on a little field trip."
-				""
-				"&nUsed to transfer items between a moving contraption and a stationary system. Great for things like automated farming carts and flying factories.&r"
-			]
+			description: ["Used to transfer items between a moving contraption and a stationary system. Great for things like automated farming carts and flying factories."]
 			id: "5A87E56A598E8753"
 			rewards: [
 				{
@@ -791,22 +757,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["5A87E56A598E8753"]
-			description: [
-				"You’ve built a machine. It spins. It harvests. It respects your time."
-				""
-				"&lThis setup creates a spinning auto-harvester that collects crops and drops them into storage—no hands required.&r"
-				""
-				"&nThe Water Wheel provides passive rotation&r"
-				""
-				"&nThe Bearing spins the glued-together crop platform&r"
-				""
-				"&nThe Harvesters break mature crops&r"
-				""
-				"&nChutes + Portable Storage Interface collect and send your loot&r"
-				""
-				"&nIt's Create magic, powered by potatoes.&r"
-			]
+			description: ["This setup creates a spinning auto-harvester that collects crops and drops them into storage."]
 			id: "3602D2C4028CFB39"
 			rewards: [
 				{
@@ -819,17 +770,6 @@
 					id: "16DDB872897B29BD"
 					type: "xp"
 					xp: 200
-				}
-				{
-					id: "02EE86C5D1E66D7E"
-					item: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "patchouli:homestead"
-						}
-					}
-					type: "item"
 				}
 			]
 			subtitle: "Build a functioning auto-crop farm"
@@ -885,20 +825,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["3602D2C4028CFB39"]
-			description: [
-				"Chopping trees by hand? In this economy?"
-				""
-				"&nMechanical Saw: Breaks logs automatically when the contraption moves through the tree.&r"
-				""
-				"&nMechanical Bearing: Carries blocks like the saw and slime-glued frames.&r"
-				""
-				"&nDeployer (Optional): Automatically plants saplings after harvesting.&r"
-				""
-				"&nPortable Storage Interface: Enables your contraption to offload items to a stationary inventory automatically when it docks.&r"
-				""
-				"&nChute: Funnels logs and saplings downward into chests or other inventories for clean, hands-free storage.&r"
-			]
+			description: ["This setup gets you a full functioning auto tree farm! No more chop chop!"]
 			id: "3E6309B2CFD52040"
 			rewards: [
 				{
@@ -971,7 +898,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["3E6309B2CFD52040"]
 			description: [
 				"Every Create player hits the same wall: no andesite, no automation."
 				"But guess what? You can fake it till you make it—with cobble and diorite, or a good old-fashioned stir in the Mixer."
@@ -1010,13 +936,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["1DE5C3F1444FEAC1"]
-			description: [
-				"It's not just a funny little hat for your belt—it’s a traffic cop for your automation."
-				"Funnels direct item flow like pros. Insert, extract, and filter like the big-brained engineer you are."
-				""
-				"&nAndesite Funnel: Pulls items out of inventories (like chests) or deposits them into machines.&r"
-			]
+			description: ["Andesite Funnel: Pulls items out of inventories (like chests) or deposits them into machines."]
 			id: "6FEBC5F2207BCCEF"
 			rewards: [
 				{
@@ -1049,13 +969,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["3B5A77B3F132EE47"]
-			description: [
-				"Sometimes your mechanical vibes just need a little armor."
-				"Get those chain drives geared up and ready to rotate."
-				""
-				"&nEncased Chain Drives transmit rotational power between components, like gears—but through chains. They’re great for tight builds where gear sizes don’t quite line up.&r"
-			]
+			description: ["Encased Chain Drives transmit rotational power between components, like gears, but through chains."]
 			id: "6B428F9D2C8A0A72"
 			rewards: [
 				{
@@ -1087,20 +1001,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["6B428F9D2C8A0A72"]
-			description: [
-				"Time to unlock the full potential of your airflow arsenal."
-				""
-				"&n&n&lEncased Fan&r: Blows air when powered and rotated—what’s in front of it gets affected based on what’s behind it.&r"
-				""
-				"&n&lCampfire&r: Combine with a Fan to smoke food automatically.&r"
-				""
-				"&n&lWater Bucket&r: Place a water source behind the Fan to wash items (e.g., concrete sand → concrete).&r"
-				""
-				"&n&lLava Bucket&r: Use lava to smelt items with airflow—no furnace needed.&r"
-				""
-				"&n&lSoul Campfire&r: Use this for haunting—turns some items into spooky variants (e.g., sand → soul sand).&r&r"
-			]
+			description: ["This setup will get you the ultimate washing,smelting,blasting,and haunting system!"]
 			id: "208C31226AFCAA1C"
 			rewards: [
 				{
@@ -1158,15 +1059,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["6FEBC5F2207BCCEF"]
-			description: [
-				"You’ve got the wind in your sails—literally."
-				"With a Windmill Bearing and a proper set of sails, you’ll spin your way into clean, rotational energy."
-				""
-				"&n&lWindmill Bearing&r&r: This block is the heart of your windmill. It rotates whatever is attached above it when powered by redstone."
-				""
-				"&n&lWindmill Sails&r&r: Attach these to blocks above the bearing (like wood planks or frames). The more sails you add, the faster your windmill will turn—just make sure it’s symmetrical!"
-			]
+			description: ["This setup will get you your very first windmill going! Just plop the sails on top of the bearing and right click the bearing once you're finished, and voila! You got yourself some spinnin power!"]
 			id: "0368CB5AB06667D8"
 			rewards: [
 				{
@@ -1207,13 +1100,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["0368CB5AB06667D8"]
 			description: [
-				"Need smarter sorting? This filter is your next upgrade."
+				"List Filter: Lets you create a specific whitelist/blacklist of items. Great for precise control in automated systems."
 				""
-				"&n&lList Filter&r&r: Lets you create a specific whitelist/blacklist of items. Great for precise control in automated systems."
-				""
-				"&nThis filter is used with Deployers, Funnels, and Brass Tunnels (eventually) to refine automation.&r"
+				"This filter is used with Deployers, Funnels, and Brass Tunnels to refine automation."
 			]
 			id: "0BA9E17BD1B7E332"
 			rewards: [
@@ -1244,15 +1134,12 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["0BA9E17BD1B7E332"]
 			description: [
-				"What’s the point of power if you can’t control it?"
+				"Clutch: When powered by redstone(i prefer lever), it stops power transmission—like a redstone-powered off switch for your machines."
 				""
-				"&n&lClutch&r&r: When powered by redstone&o(i prefer lever)&r, it stops power transmission—like a redstone-powered off switch for your machines."
+				"Gearshift: Reverses rotational direction when powered."
 				""
-				"&n&lGearshift&r&r: Reverses rotational direction when powered."
-				""
-				"&nUse them to toggle contraptions, redirect power, or pause automation.&r"
+				"Use them to toggle contraptions, redirect power, or pause automation."
 			]
 			id: "767C57FBC43CD1EA"
 			rewards: [
@@ -1292,13 +1179,10 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["767C57FBC43CD1EA"]
 			description: [
-				"&6&lCreate's&r&r version of pistons are next-level: massive, directional, and completely customizable."
+				"Use a Mechanical Piston to move blocks in a straight line."
 				""
-				"Use a &n&lMechanical Piston&r&r to move blocks in a straight line."
-				""
-				"A &n&lSticky Mechanical Piston&r&r pulls blocks back too—useful for doors, drills, bridges, or gantries."
+				"A Sticky Mechanical Piston pulls blocks back too!"
 			]
 			id: "6A51F171FC2DDB57"
 			rewards: [
@@ -1332,20 +1216,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["6A51F171FC2DDB57"]
-			description: [
-				"You’ve built your machines by hand—but the future is faster, smarter, and blueprinted."
-				"With these tools, you’ll record your ideas and fire them into the world at cannon-speed."
-				""
-				"&n&lSchematic Table&r&r: Used to design and preview builds. Load blocks into a ghost structure to visualize before placing."
-				""
-				"&n&lSchematic and Quill&r&r: Right-click the Schematic Table with this to capture your blueprint."
-				""
-				"&n&lSchematicannon&r&r: The crown jewel. Load a schematic, supply blocks and gunpowder, and it will build your creation for you—block by block, fully automated."
-				""
-				"Use this system to replicate farms, contraptions, or entire builds across your world."
-				"&lWelcome to automation beyond automation. Welcome to the age of Brass.&r"
-			]
+			description: ["These bad boys will get you your very own schematic building cannon! Just slap down a Table, pull in your schematic from your other worlds, plop in an empty schematic, and fill that cannon with some gunpowder and you are on your way to a fully built kingdom!"]
 			id: "4BB3EDF5CE18D191"
 			rewards: [
 				{
@@ -1390,16 +1261,14 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["3602D2C4028CFB39"]
 			description: [
-				"The Brass Age runs hot. 🔥"
-				"Before you can mix alloys, you’ll need to build a burner—then feed it something angry."
+				"Craft an Empty Blaze Burner using iron sheets and Netherrack."
 				""
-				"Craft an &l&0Empty Blaze Burner&r&r using iron sheets and &l&4Netherrack&r&r."
+				"Head to the Nether and right-click a blaze with it to trap it inside."
 				""
-				"Head to the &l&4Nether&r&r and right-click a &6&lblaze&r&r with it to trap it inside."
+				"Once filled, the Blaze Burner becomes the fuel source for the Heated Mixer, which is required to make Brass Ingots."
 				""
-				"Once filled, the &6&lBlaze Burner&r&r becomes the fuel source for the &lHeated Mixer&r, which is required to make &l&6Brass&r&r Ingots."
+				"Peaceful Players can craft the Blaze Burner with a Blaze Already in it if you dont like killing mobs. But you can also do it by going to the nether with an empty one and right clicking on a spawner anyway."
 			]
 			hide_dependency_lines: true
 			id: "505402D07947CC7A"
@@ -1434,14 +1303,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["505402D07947CC7A"]
-			description: [
-				"They shoot fireballs. They hover menacingly."
-				"Now they’re your fuel source."
-				"Trap a blaze in your Empty Blaze Burner and let the Brass Age truly ignite."
-				""
-				"Right-click a &6&lBlaze&r&r with an &0&lEmpty Blaze Burner&r&r in-hand."
-			]
+			description: ["Right-click a Blaze or Blaze Spawner with an Empty Blaze Burner in-hand."]
 			id: "567B7ABE0C8AD086"
 			rewards: [
 				{
@@ -1472,8 +1334,11 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["567B7ABE0C8AD086"]
-			description: ["These machines work together to stir heated ingredients. Place the Basin, Mixer above it, and the Blaze Burner below."]
+			description: [
+				"These machines work together to stir heated ingredients. Place the Basin, Mixer above it, and the Blaze Burner below."
+				""
+				"Use the Blaze Burner by feeding it fuel, aka coal, wooden items, etc."
+			]
 			id: "4AFF029B9E7B7058"
 			rewards: [
 				{
@@ -1521,8 +1386,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["4AFF029B9E7B7058"]
-			description: ["Drop one Zinc and one Copper Ingot into a heated Basin, then let the Mixer do its thing. Congrats—you've made Brass!"]
+			description: ["Drop one Zinc and one Copper Ingot into a heated Basin, then let the Mixer do its thing. Congrats, you've made Brass!"]
 			id: "7E7427FC0F552C33"
 			rewards: [
 				{
@@ -1554,8 +1418,8 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["7E7427FC0F552C33"]
-			description: ["Used to house &6&lCreate&r&r machines built with brass components—like Deployers and Crafter blocks."]
+			dependency_requirement: "one_completed"
+			description: ["Used in crafting recipes for \"higher tech\" machines in Create"]
 			id: "79DBD51D1B4A5650"
 			rewards: [
 				{
@@ -1580,8 +1444,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["79DBD51D1B4A5650"]
-			description: ["Used to polish &c&lRose Quartz&r&r by right-clicking or inserting into a Deployer system."]
+			description: ["Used to polish &c&lRose Quartz&r&r by holding the paper in one and the &c&lRose Quartz&r&r in the other and holding right click or inserting into a Deployer system."]
 			id: "18078B6A239A87C0"
 			rewards: [
 				{
@@ -1613,7 +1476,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["18078B6A239A87C0"]
 			description: ["Crafted using Redstone and Quartz. Used for polishing into components like Electron Tubes."]
 			id: "5A88964644644729"
 			rewards: [
@@ -1640,7 +1502,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["5A88964644644729"]
 			description: ["Polished Rose Quartz is required for making Electron Tubes. You can polish it by right-clicking or using Deployers."]
 			id: "114C841CC23F41B6"
 			rewards: [{
@@ -1665,7 +1526,6 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["114C841CC23F41B6"]
 			description: ["Used in crafting Deployers, Smart Chutes, and many tech-tier machines."]
 			id: "34CA588AA594CED1"
 			rewards: [
@@ -1691,7 +1551,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["34CA588AA594CED1"]
 			description: [
 				"Used in multi-block crafting setups like crafting the Crushing Wheel recipe."
 				""
@@ -1729,7 +1588,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["4BB5AA6398B775B8"]
 			description: ["Required to build the Crushing Wheel structure used to process ores and materials into dusts and more."]
 			id: "001CBBC7A707BC85"
 			rewards: [
@@ -1763,7 +1621,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["001CBBC7A707BC85"]
 			description: ["An upgrade to Andesite Funnels that lets you filter or speed up item routing on belts and machines."]
 			id: "2206FC73973CBFD7"
 			rewards: [
@@ -1792,13 +1649,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["07854B4B69AF0BC3"]
 			description: [
-				"The simplest way to make an elevator—or a trapdoor death machine. Your call."
+				"Place it above blocks you want to move."
 				""
-				"&nPlace it above blocks you want to move.&r"
-				""
-				"&nPower it with rotation to pull the structure up and down.&r"
+				"Power it with rotation to pull the structure up and down."
 			]
 			id: "00449ADB2E33575E"
 			rewards: [
@@ -1825,15 +1679,12 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["00449ADB2E33575E"]
 			description: [
-				"You’ve unlocked the deluxe ride up. Smoother, smarter, and sleeker than ropes."
+				"The Elevator Pulley functions similarly to the Rope Pulley, but:"
 				""
-				"&n&lThe Elevator Pulley functions similarly to the Rope Pulley, but:&r&r"
+				"Automatically tracks and syncs movement using the Gantry Shaft."
 				""
-				"&nAutomatically tracks and syncs movement using the Gantry Shaft.&r"
-				""
-				"&nWorks great with redstone control for floor selection and advanced automation.&r"
+				"Works great with redstone control for floor selection and advanced automation."
 			]
 			id: "3E16B69159AEA522"
 			rewards: [
@@ -1865,22 +1716,17 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["3E16B69159AEA522"]
 			description: [
-				"Not every machine should run forever. Add a button. Take control."
-				"Contraption Control is your interface for managing moving machines on the go."
+				"Attach a Contraption Control to a movable structure (like an elevator or drill platform)."
 				""
-				"&nAttach a Contraption Control to a movable structure (like an elevator or drill platform).&r"
+				"Right-click to access its GUI and assign functions."
 				""
-				"&nRight-click to access its GUI and assign functions.&r"
+				"Works like a mobile redstone controller, allowing players to:"
+				"- Emit redstone signals"
 				""
-				"&nWorks like a mobile redstone controller, allowing players to:&r"
+				"- Interact with sequenced logic"
 				""
-				"&l- Emit redstone signals&r"
-				""
-				"&l- Interact with sequenced logic&r"
-				""
-				"&l- Trigger actions on board the contraption&r"
+				"- Trigger actions on board the contraption"
 			]
 			id: "321F09A7A156C31A"
 			rewards: [
@@ -1913,7 +1759,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["08E79F6B22C21D7C"]
 			description: ["Used to transport fluids between tanks, machines, or other components. These pipes automatically connect to fluid-accepting blocks."]
 			id: "30DAF055D4D08578"
 			rewards: [{
@@ -1934,7 +1779,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["30DAF055D4D08578"]
 			description: ["A compact fluid storage solution. Can be connected to pipes and pumps. Stackable vertically for more capacity."]
 			id: "0B534E3CCFAF2F97"
 			rewards: [
@@ -1960,7 +1804,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["0B534E3CCFAF2F97"]
 			description: ["Used to extract fluid from items like potions or bottles. Connects to fluid pipes and tanks."]
 			id: "0F2CC8DD0731A875"
 			rewards: [
@@ -1986,7 +1829,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["0F2CC8DD0731A875"]
 			description: ["Used to deposit fluid onto items in passing (e.g. fill bottles, coat foods). Can be placed over belts or Depots."]
 			id: "0BC09957030970A7"
 			rewards: [
@@ -2012,7 +1854,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["0BC09957030970A7"]
 			description: ["Used to move fluids vertically into tanks or oceans. Good for water/lava automation or fluid source collection."]
 			id: "3C5EF61AA8A8B90F"
 			rewards: [
@@ -2038,7 +1879,6 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["3C5EF61AA8A8B90F"]
 			description: ["Moves fluids directionally through fluid pipes. Requires rotation to function. Can be reversed with Gearshifts."]
 			id: "7279BFB5227C487B"
 			rewards: [
@@ -2064,7 +1904,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["7279BFB5227C487B"]
 			description: ["Smart Fluid Pipes track what fluids pass through them. Fluid Valves can control or shut off flow with redstone."]
 			id: "4372D7B29E8832DB"
 			rewards: [
@@ -2097,7 +1936,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["4372D7B29E8832DB"]
 			description: ["Used for transferring fluids between contraptions (like a mobile tank cart and a stationary tank). Requires contact via Portable Fluid Interface pair."]
 			id: "2808923D4B8EC845"
 			rewards: [
@@ -2123,8 +1961,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["321F09A7A156C31A"]
-			description: ["If brass is for brains, copper is for fluid finesse. This casing protects machinery involved in piping, spouting, and tanking."]
+			description: ["This casing protects machinery involved in piping, spouting, and tanking."]
 			id: "08E79F6B22C21D7C"
 			rewards: [
 				{
@@ -2150,15 +1987,10 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["2808923D4B8EC845"]
 			description: [
-				"Sometimes, automation needs a human touch. This little handle lets you twist open or shut your fluid flow—manually."
+				"Place on top of fluid pipes (especially over a Fluid Valve)"
 				""
-				"&nPlace on top of fluid pipes &o(especially over a Fluid Valve)&r.&r"
-				""
-				"&nRight-click to toggle fluid flow—no redstone needed.&r"
-				""
-				"&nGreat for small setups or emergency overrides in your automation line.&r"
+				"Right-click to toggle fluid flow! No redstone needed."
 			]
 			id: "1D23495572D9BEA4"
 			rewards: [
@@ -2189,11 +2021,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["6A3AFEBFC112A659"]
-			description: [
-				"Some machines like it fast. Some like it slow."
-				"With this dial, you decide how hard your factory goes."
-			]
+			description: ["This little machine will make your rotational speed power go to the MAX"]
 			id: "07854B4B69AF0BC3"
 			subtitle: "Craft 1x Rotation Speed Controller."
 			tasks: [{
@@ -2206,11 +2034,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["2206FC73973CBFD7"]
 			description: [
-				"This isn’t your average gear. This is engineering—refined."
-				"If you're here, you're officially entering the world of sequenced assembly."
-				""
 				"&lStart with a Gold Sheet on a Depot or Belt.&r"
 				""
 				"&n&lUse 3 Deployers, each loaded with:&r&r"
@@ -2257,32 +2081,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["1D23495572D9BEA4"]
-			description: [
-				"Used to convert regular blocks into train bogeys and car frames. Required for every segment of a train."
-				""
-				"&nFirst, place Obsidian into a Crushing Wheel setup.&r"
-				""
-				"&lThis will output Powdered Obsidian.&r"
-				""
-				"&nSet up a Spout filled with Lava (either from a tank or fluid pipe).&r"
-				""
-				"&nPlace a Depot under the Spout.&r"
-				""
-				"&nDrop Powdered Obsidian onto the Depot.&r"
-				""
-				"&nThe Spout will apply lava onto the item, turning it into an &lUnprocessed Obsidian Sheet&r (the intermediate item needed for pressing).&r"
-				""
-				"&nMove the Lava-Soaked Obsidian Dust onto a Mechanical Press with a Depot underneath.&r"
-				""
-				"&nThe first press compresses it once.&r"
-				""
-				"&nThen, press it a second time to complete the transformation.&r"
-				""
-				"&lAfter two presses, you’ll finally receive your Sturdy Sheet!&r"
-				""
-				"&lThen use said Sturdy Sheet and apply it to a Brass Casing that is placed in your world.&r"
-			]
+			description: ["Used to convert regular blocks into train bogeys and car frames. Required for every segment of a train."]
 			id: "525E7C2D2C9463F3"
 			rewards: [
 				{
@@ -2321,7 +2120,6 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["525E7C2D2C9463F3"]
 			description: ["Train Tracks form the rails your train will ride on. Place in any direction and use curves and slopes for full flexibility."]
 			id: "42BF2645E2C3E6C2"
 			rewards: [
@@ -2355,7 +2153,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["42BF2645E2C3E6C2"]
 			description: ["Train Stations let you summon, name, and automate train routes. Trains must start or end at a station to be controlled."]
 			id: "10A50F64F415E1BC"
 			rewards: [
@@ -2386,7 +2183,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["10A50F64F415E1BC"]
 			description: ["Train Schedules define the stops and behaviors of your train—fully automating its path and logic."]
 			id: "468AF9412A6CF3F4"
 			rewards: [
@@ -2417,7 +2213,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["468AF9412A6CF3F4"]
 			description: ["Train Signals help prevent collisions and manage multi-track intersections. Used for automation with redstone logic."]
 			id: "1D4EDDB15B4F3265"
 			rewards: [
@@ -2448,7 +2243,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["1D4EDDB15B4F3265"]
 			description: ["The Train Observer monitors which trains pass by and emits a redstone signal. Useful for logic gates and automation."]
 			id: "4416BC1057B42ED9"
 			rewards: [
@@ -2479,7 +2273,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["4416BC1057B42ED9"]
 			description: ["Train Controls allow you to pilot the train manually. Must be placed on a powered car for player control."]
 			id: "1FDF6D2E51232DEF"
 			rewards: [
@@ -2510,7 +2303,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["1FDF6D2E51232DEF"]
 			description: ["Display Boards show dynamic information about arriving trains, destinations, or cargo using redstone signal inputs."]
 			id: "0707A24DD0000DB8"
 			rewards: [
@@ -2547,7 +2339,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["4BB5AA6398B775B8"]
 			description: ["This magical tool mirrors your block placements in perfect symmetry—horizontally, vertically, or across diagonals."]
 			hide_dependency_lines: true
 			id: "4E3FDEDE78D4CDDB"
@@ -2595,7 +2386,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["4BB5AA6398B775B8"]
 			description: ["The Extendo Grip increases your reach distance and attack range. Very handy (literally) for automation and combat."]
 			hide_dependency_lines: true
 			id: "012AADAB4A531208"
@@ -2634,7 +2424,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["4BB5AA6398B775B8"]
 			description: ["Turns your extra potatoes into ammo. This fun weapon can launch a variety of food items at mobs—or friends."]
 			hide_dependency_lines: true
 			id: "5FFBB089C9E65077"

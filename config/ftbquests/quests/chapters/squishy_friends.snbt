@@ -7,12 +7,12 @@
 	id: "059FE08C5E90B4B5"
 	images: [
 		{
-			height: 11.0d
+			height: 13.0d
 			image: "ftbquests:textures/homestead/squishy_friends.png"
 			rotation: 0.0d
-			width: 11.0d
-			x: -1.0d
-			y: -0.5d
+			width: 18.0d
+			x: -0.5d
+			y: 0.0d
 		}
 		{
 			height: 15.0d
@@ -24,7 +24,7 @@
 			y: -0.25d
 		}
 	]
-	order_index: 18
+	order_index: 19
 	quest_links: [ ]
 	quests: [
 		{
@@ -129,32 +129,83 @@
 			y: 1.0d
 		}
 		{
-			description: ["Hermm"]
+			description: ["The Noblest of Knights roaming in the Kingdom of Homestead"]
 			id: "74A40509071E96CE"
 			rewards: [
 				{
-					id: "708865CD911B7D31"
-					item: "minecraft:villager_spawn_egg"
+					id: "6520F22EECE386E8"
+					item: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
-					id: "4A0478949BA4A4D3"
-					item: "villagersplus:oceanographer_table"
+					id: "1B0690C26820EACE"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
-					id: "23C0F08FCB5E7775"
-					item: "things:arm_extender"
+					id: "7E18DFD66196B266"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2977BAF623F6BBBA"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D9B74661AAC6550"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "796F5C072E374C3B"
+					item: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a Chief Plushie"
+			subtitle: "Retreive a SirWagselot Plushie"
 			tasks: [{
 				id: "0FCB616821E2461E"
 				item: "perfectplushies:tslat_plushie"
 				type: "item"
 			}]
-			title: "OG Admin"
+			title: "Knight in Shining Armor"
 			x: -7.0d
 			y: 3.5d
 		}
@@ -198,7 +249,11 @@
 			y: 4.5d
 		}
 		{
-			description: ["&d&lBUFFOONERY&r&r"]
+			description: [
+				"&d&lBUFFOONERY&r&r"
+				""
+				"&4&lPOOPY HEAD NO MACARONI&r&r"
+			]
 			id: "5B68F276515C6987"
 			rewards: [
 				{
@@ -263,59 +318,68 @@
 			y: 4.5d
 		}
 		{
-			description: ["Check me out on Soundcloud @ https://soundcloud.com/navinor"]
+			description: ["Has the cutest dog &lEVER&r"]
 			id: "101A55FB3F5F4FC8"
 			rewards: [
 				{
-					id: "698342E343CF1742"
-					item: "luphieclutteredmod:luphie_pink_record_player"
+					id: "088C86405385E021"
+					item: "wildernature:dog_spawn_egg"
 					type: "item"
 				}
 				{
-					id: "1745B353626378FD"
-					item: "minecraft:jukebox"
+					id: "2720F2B8F181EC7A"
+					item: "perfectplushies:dog_plushie"
 					type: "item"
 				}
 				{
-					id: "1310A7F5FA2CE10B"
-					item: "minecraft:music_disc_pigstep"
+					count: 6
+					id: "39A0EF2F32A3E7FB"
+					item: "minecraft:bone"
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a Navinor Plushie"
+			subtitle: "Retreive a BreezyBry Plushie"
 			tasks: [{
 				id: "77D98FE54DE04FFD"
 				item: "perfectplushies:gamerpotion_plushie"
 				type: "item"
 			}]
-			title: "Music Guy"
+			title: "Breezy"
 			x: 5.0d
-			y: 3.5d
+			y: 1.0d
 		}
 		{
-			description: ["Only here in spirit (no he's not dead)"]
+			description: ["The Noblest of Wives to the one and only SirWagselot"]
 			id: "249025368F4E5167"
 			rewards: [
 				{
-					id: "5D8AE82C35ED7759"
-					item: "camerapture:camera"
+					count: 8
+					id: "4FBA6762893C87DD"
+					item: "twigs:allium_paper_lantern"
 					type: "item"
 				}
 				{
-					id: "485F446C1F6077FE"
-					item: "camerapture:album"
+					count: 12
+					id: "467CF7266962C001"
+					item: "natures_spirit:snapdragon"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "38011D8809031FED"
+					item: "natures_spirit:pink_wisteria_sapling"
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a Gonzo Plushie"
+			subtitle: "Retreive a LadyWagselot Plushie"
 			tasks: [{
 				id: "6E5B86B14711AF86"
 				item: "perfectplushies:joosh_plushie"
 				type: "item"
 			}]
-			title: "AFK"
+			title: "The Noblest of Wives"
 			x: 5.0d
-			y: 1.0d
+			y: 3.5d
 		}
 		{
 			description: ["&lMORE RAM&r"]

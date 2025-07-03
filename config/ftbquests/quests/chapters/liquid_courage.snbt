@@ -7,10 +7,10 @@
 	id: "2FD1B0E89119D89F"
 	images: [
 		{
-			height: 11.0d
+			height: 12.0d
 			image: "ftbquests:textures/homestead/liquid_courage.png"
 			rotation: 0.0d
-			width: 11.0d
+			width: 17.0d
 			x: 0.0d
 			y: 0.0d
 		}
@@ -24,7 +24,7 @@
 			y: 0.0d
 		}
 	]
-	order_index: 8
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -174,7 +174,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2B50B025A2C46356"]
 			description: ["Gives Regeneration. A bright and revitalizing drink."]
 			hide_dependency_lines: true
 			id: "68679A2078FCFE69"
@@ -194,7 +193,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["2B50B025A2C46356"]
 			description: ["Gives Haste. Great for mining sessions."]
 			hide_dependency_lines: true
 			id: "4CC88FD6A64AD3AB"
@@ -214,7 +212,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["2B50B025A2C46356"]
 			description: ["Gives Fire Resistance. Toasty and toasty."]
 			hide_dependency_lines: true
 			id: "57195848638B5779"
@@ -234,7 +231,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["2B50B025A2C46356"]
 			description: ["Gives Wither Touch. Strike and watch enemies wither."]
 			hide_dependency_lines: true
 			id: "4CF6B17360872DCA"
@@ -254,7 +250,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["2B50B025A2C46356"]
 			description: ["Gives Attraction. Pulls in nearby items."]
 			hide_dependency_lines: true
 			id: "1ECF0EE8B3147079"
@@ -274,7 +269,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["2B50B025A2C46356"]
 			description: ["Gives Water Breathing and Dolphin’s Grace. Swim like the tides."]
 			hide_dependency_lines: true
 			id: "0D44A0A5DC0D4F00"
@@ -294,7 +288,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["2B50B025A2C46356"]
 			description: ["Gives Night Vision and Well Rested (no more phantoms!)."]
 			hide_dependency_lines: true
 			id: "6BFB884A22D59DA7"
@@ -314,7 +307,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["2B50B025A2C46356"]
 			description: ["Gives Frosty. Walk on water… literally."]
 			hide_dependency_lines: true
 			id: "7FA1605F6BE8F5CF"
@@ -334,7 +326,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["2B50B025A2C46356"]
 			description: ["Gives Health Boost and Saturation. Cozy and hearty."]
 			hide_dependency_lines: true
 			id: "431C6DED723DD222"
@@ -354,7 +345,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["2B50B025A2C46356"]
 			description: ["Gives Luck. Chase rainbows and rare drops."]
 			hide_dependency_lines: true
 			id: "539FBDBDD538B5E7"
@@ -374,7 +364,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["2B50B025A2C46356"]
 			description: ["Gives Levitation and Slow Falling. A bouncy, floaty brew."]
 			hide_dependency_lines: true
 			id: "2AC4773869F2C993"
@@ -394,7 +383,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["2B50B025A2C46356"]
 			description: ["Gives Flight. Yep. Flight."]
 			hide_dependency_lines: true
 			id: "5AA8FCF2F4FB8117"
@@ -414,7 +402,11 @@
 			y: 3.0d
 		}
 		{
-			description: ["These seeds are rare but essential. Look for them in village farms and outposts."]
+			description: [
+				"These seeds are rare but essential. Look for them in Taiga villages and outposts."
+				""
+				"Or their bushes you can find in the wild!"
+			]
 			id: "133718A3FD0C25E7"
 			rewards: [{
 				count: 8
@@ -437,7 +429,7 @@
 		}
 		{
 			dependencies: ["133718A3FD0C25E7"]
-			description: ["Barley grows in certain farms—track some down to start malting!"]
+			description: ["Barley grows in Rivers, Plains, Sunflower Plains, or Savannas"]
 			id: "60FE47595880A1A6"
 			rewards: [{
 				count: 8
@@ -458,7 +450,7 @@
 		}
 		{
 			dependencies: ["60FE47595880A1A6"]
-			description: ["Somewhere, there’s corn waiting for you. Just keep raiding barns!"]
+			description: ["Corn grows in Plains, Savannas, and Badlands."]
 			id: "48C349C8ACAD4A5C"
 			rewards: [{
 				count: 8
@@ -649,7 +641,7 @@
 		}
 		{
 			dependencies: ["48C349C8ACAD4A5C"]
-			description: ["They’re out there somewhere—tucked away in chests or sprouting in forgotten fields."]
+			description: ["Oat is found in Meadows and Taigas"]
 			id: "398F2BE56C7FEB0D"
 			rewards: [{
 				count: 8
@@ -751,7 +743,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["7F3673A6F0EE63C5"]
 			description: ["Yeast is essential for fermentation. Don’t skip it!"]
 			hide_dependency_lines: true
 			id: "390F7C0C3EC9D054"
@@ -773,7 +764,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["7F3673A6F0EE63C5"]
 			description: ["Snow White effect: peaceful mobs follow you."]
 			hide_dependency_lines: true
 			id: "56896DD92E2A6991"
@@ -793,7 +783,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["7F3673A6F0EE63C5"]
 			description: ["Pint Charisma: lowers trade prices with villagers."]
 			hide_dependency_lines: true
 			id: "4720502D9EAF7DB2"
@@ -813,7 +802,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["7F3673A6F0EE63C5"]
 			description: ["Partystarter: mobs explode with fireworks when hit."]
 			hide_dependency_lines: true
 			id: "0F4244F50DEF2740"
@@ -833,7 +821,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["7F3673A6F0EE63C5"]
 			description: ["Pacify: Look at Endermen safely. Less mob aggro."]
 			hide_dependency_lines: true
 			id: "03D6733DD4B40426"
@@ -853,7 +840,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["7F3673A6F0EE63C5"]
 			description: ["Mining: Dig faster the deeper you are."]
 			hide_dependency_lines: true
 			id: "1A1AEFD9FCD39683"
@@ -873,7 +859,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["7F3673A6F0EE63C5"]
 			description: ["Amorous Glide: grants creative flight."]
 			hide_dependency_lines: true
 			id: "423A13FD3CD6DB1E"
@@ -893,7 +878,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["7F3673A6F0EE63C5"]
 			description: ["Use a Smithing Table with a Sentry Trim, Copper Ingot, and Wooden Brewingstation."]
 			hide_dependency_lines: true
 			id: "1E23852964607A6F"
@@ -921,7 +905,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["1E23852964607A6F"]
 			description: ["Toxic Touch: Applies poison to hit mobs."]
 			hide_dependency_lines: true
 			id: "5996975F9EF78E94"
@@ -941,7 +924,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["1E23852964607A6F"]
 			description: ["Partystarter: mobs explode with fireworks when hit."]
 			hide_dependency_lines: true
 			id: "55865F6A94DDD9E7"
@@ -960,7 +942,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["1E23852964607A6F"]
 			description: ["Protective Touch: gives absorption to hit mobs."]
 			hide_dependency_lines: true
 			id: "5B2789714FA74A04"
@@ -979,7 +960,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["1E23852964607A6F"]
 			description: ["Healing Touch: heals hit mobs."]
 			hide_dependency_lines: true
 			id: "41AC462E72E8F3DC"
@@ -998,7 +978,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["1E23852964607A6F"]
 			description: ["Renewing Touch: grants regeneration to hit mobs."]
 			hide_dependency_lines: true
 			id: "41AE4A3DB35C8416"
@@ -1017,7 +996,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["1E23852964607A6F"]
 			description: ["Lightning Strike: small chance to summon lightning."]
 			hide_dependency_lines: true
 			id: "3465439E95EAB87F"
@@ -1036,7 +1014,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["1E23852964607A6F"]
 			description: ["Repulsion: pushes enemies away at intervals."]
 			hide_dependency_lines: true
 			id: "6355DBDB90D286EA"
@@ -1055,7 +1032,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["1E23852964607A6F"]
 			description: ["Combustion: ignites nearby enemies."]
 			hide_dependency_lines: true
 			id: "6408B51A1A3E21C7"
@@ -1074,7 +1050,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["1E23852964607A6F"]
 			description: ["Explosions: chance to shoot fireballs on hit."]
 			hide_dependency_lines: true
 			id: "074D2E66FC2A7772"
@@ -1093,7 +1068,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["7F3673A6F0EE63C5"]
 			description: ["Because sometimes, you need to check yourself."]
 			hide_dependency_lines: true
 			id: "60F46B1FBB453146"
@@ -1119,12 +1093,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["1E23852964607A6F"]
-			description: [
-				"&lIt’s time to go beyond copper.&r"
-				""
-				"&nPlace a Netherite Upgrade Template, Copper Brewingstation, and a Netherite Ingot into a Smithing Table to craft the ultimate brewing tool—fireproof, blast-resistant, and worthy of legendary spirits.&r"
-			]
+			description: ["Place a Netherite Upgrade Template, Copper Brewingstation, and a Netherite Ingot into a Smithing Table to craft the ultimate brewing tool."]
 			hide_dependency_lines: true
 			id: "4E63C305B129AF3F"
 			rewards: [

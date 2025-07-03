@@ -7,28 +7,12 @@
 	id: "70DC1A2DFAABA529"
 	images: [
 		{
-			height: 11.0d
+			height: 8.0d
 			image: "ftbquests:textures/homestead/signals_in_the_stillness.png"
 			rotation: 0.0d
-			width: 11.0d
+			width: 13.0d
 			x: -1.0d
-			y: 0.5d
-		}
-		{
-			height: 4.0d
-			image: "natures_spirit:block/chert_redstone_ore_e"
-			rotation: 0.0d
-			width: 4.0d
-			x: 6.5d
-			y: -0.5d
-		}
-		{
-			height: 4.0d
-			image: "natures_spirit:block/chert_redstone_ore_e"
-			rotation: 0.0d
-			width: 4.0d
-			x: -8.5d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			height: 3.0d
@@ -120,7 +104,7 @@
 			y: -1.0d
 		}
 	]
-	order_index: 16
+	order_index: 17
 	quest_links: [ ]
 	quests: [
 		{

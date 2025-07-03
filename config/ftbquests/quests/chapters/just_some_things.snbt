@@ -7,10 +7,10 @@
 	id: "74F05990B94AD569"
 	images: [
 		{
-			height: 11.0d
+			height: 8.0d
 			image: "ftbquests:textures/homestead/just_some_things.png"
 			rotation: 0.0d
-			width: 11.0d
+			width: 13.0d
 			x: 0.5d
 			y: -0.5d
 		}
@@ -24,7 +24,7 @@
 			y: -0.5d
 		}
 	]
-	order_index: 15
+	order_index: 16
 	quest_links: [ ]
 	quests: [
 		{
@@ -70,7 +70,7 @@
 			}]
 			title: "Gleam Team Assemble"
 			x: -3.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["387843C8BEF771B8"]
@@ -130,7 +130,7 @@
 			]
 			title: "Thingamajigs and Whatsits"
 			x: 4.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7CF18DBB9C42EC9C"]
