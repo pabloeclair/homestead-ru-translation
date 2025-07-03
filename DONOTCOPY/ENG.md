@@ -19,42 +19,7 @@ The repository includes all files, that will be translated in the future:
 - Patchouli books
 - FTB quests
 
-A progress will be tracked at `Homestead.xlsx`. That's how it looks right now:
-
-P.s. dictionary:
-<table>
-    <tr>
-        <th>Status</th>
-        <th>English translation</th>
-    </tr>
-    <tr>
-        <td>Ожидание</td>
-        <td>Waiting</td>
-    </tr>
-    <tr>
-        <td>Перевод</td>
-        <td>Translation in progress</td>
-    </tr>
-    <tr>
-        <td>На проверке</td>
-        <td>On review and testing</td>
-    </tr>
-    <tr>
-        <td>Готово</td>
-        <td>Completed</td>
-    </tr>
-</table>
-
-### FTB quests
-`config/quests/chapters`
-
-![ftbquests_chapters.png](imgs/ftbquests_chapters.png)
-
-`config/quests/reward_tables`
-
-![ftbquests_reward_tables.png](imgs/frbquests_reward_tables.png)
-### Patchouli books
-_IN PROGRESS_
+A progress will be tracked at [Google Sheets](https://docs.google.com/spreadsheets/d/1KgAi4I8NGKTt3XyMnZGjPG_Oird5zyPBfKRI_52j-ls/edit?usp=sharing)
 
 ![FullNight.png](branding/FullNight.png)
 

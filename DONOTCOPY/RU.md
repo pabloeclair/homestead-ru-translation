@@ -19,18 +19,9 @@
 - Patchouli книги
 - FTB квесты
 
-Прогресс будет отслеживаться в таблице `Homestead.xlsx`. На данный момент он выглядит следующим образом:
+Прогресс будет отслеживаться в [Google Таблице](https://docs.google.com/spreadsheets/d/1KgAi4I8NGKTt3XyMnZGjPG_Oird5zyPBfKRI_52j-ls/edit?usp=sharing)
 
-### FTB квесты
-`config/quests/chapters`
 
-![ftbquests_chapters.png](imgs/ftbquests_chapters.png)
-
-`config/quests/reward_tables`
-
-![ftbquests_reward_tables.png](imgs/frbquests_reward_tables.png)
-### Patchouli книги
-_IN PROGRESS_
 ![FullNight.png](branding/FullNight.png)
 
 
