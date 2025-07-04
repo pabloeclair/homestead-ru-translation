@@ -1,0 +1,2466 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "timber_and_time"
+	group: ""
+	icon: "create:large_cogwheel"
+	id: "5E51CE307C7FF32E"
+	images: [
+		{
+			height: 8.0d
+			image: "ftbquests:textures/homestead/cogs_and_whimsy.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 15.0d
+			image: "ftbquests:textures/homestead/create_quest_bg.png"
+			order: -1000
+			rotation: 0.0d
+			width: 30.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Основной компонент всех рецептов создает рецепты"]
+			id: "3BDE5D297174F538"
+			rewards: [
+				{
+					count: 16
+					id: "7EB1D4C9A7A2C928"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "2A063932C3CC7F3F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft 16 Andesite сплав, чтобы начать свое инженерное путешествие."
+			tasks: [{
+				count: 16L
+				id: "485134339AB33A3A"
+				item: { Count: 16, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			title: "Прихоть в движении"
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			description: ["Проверки Cogwheels Перенос и изменение вращательной мощности (кинетическая энергия) между машинами. &r"]
+			id: "3471C6995DC62762"
+			rewards: [
+				{
+					count: 4
+					id: "3E46BE23D5740C6D"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "563B75592ADCF544"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "1187EC2C425781D7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Создайте как маленькие, так и большие вилковые шарики."
+			tasks: [
+				{
+					id: "74C94A526BFA1786"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "03F5A4E9EE6AC482"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "Подготовить"
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			description: ["Эти плохие мальчики передают движение"]
+			id: "08F97D3E9B234523"
+			rewards: [
+				{
+					count: 8
+					id: "7880140E778A5885"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "2545632A10AF5E7B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Крафт 8 Механические валы."
+			tasks: [{
+				count: 8L
+				id: "413A8499F6D3C858"
+				item: { Count: 8, id: "create:shaft" }
+				type: "item"
+			}]
+			title: "Варьировано"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			description: ["Используется для изготовления ремней. (Важная часть в мире создания)"]
+			id: "0B168E8A6697B5F0"
+			rewards: [
+				{
+					count: 32
+					id: "3EC8850F586164BA"
+					item: "minecraft:dried_kelp"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "457B601F5EF8B1AD"
+					item: "create:belt_connector"
+					type: "item"
+				}
+			]
+			subtitle: "Получить 64 кхлпа."
+			tasks: [{
+				count: 64L
+				id: "4A0D2D0D4E775D0A"
+				item: { Count: 64, id: "minecraft:kelp" }
+				type: "item"
+			}]
+			title: "Загромить себя"
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			description: ["Механический ремень: перемещает предметы между машинами или запасами. Думайте об этом как о горизонтальном конвейере."]
+			id: "1DE5C3F1444FEAC1"
+			rewards: [
+				{
+					count: 4
+					id: "647A7C241104597E"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					id: "4AC819A197CCB5F3"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 12 ремней, чтобы начать транспортировку предмета."
+			tasks: [{
+				count: 12L
+				id: "5C1750C308BF42D2"
+				item: { Count: 12, id: "create:belt_connector" }
+				type: "item"
+			}]
+			title: "Привязанность к привязке"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			description: ["Водяные колеса генерируют пассивную мощность для создания машин"]
+			id: "50FB1252FF540BEF"
+			rewards: [
+				{
+					id: "6DC1D180748BAA3D"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+				{
+					id: "63539DDBA5B4E1AE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Постройте и поместите колесо воды."
+			tasks: [
+				{
+					id: "51CD541A48D81B7D"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					block: "create:water_wheel"
+					block_type: 0
+					id: "64E9B7E46124E7E6"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+			]
+			title: "Гидро -помощник"
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			description: ["Ключевой ингредиент для большинства создает машины и компоненты."]
+			id: "3936D35F380560AF"
+			rewards: [
+				{
+					count: 8
+					id: "3AC66BB0B85E2A34"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1BED3AC398791A5A"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "779BA67C2547109A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Цель: Craft 16 Andesite Counts"
+			tasks: [{
+				count: 16L
+				id: "66163888F4BACB99"
+				item: { Count: 4, id: "create:andesite_casing" }
+				type: "item"
+			}]
+			title: "Обсадка сустава"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			description: ["Разрушает предметы, размещенные на депо для создания тарелок и других плоских компонентов. Требует вращательной силы."]
+			id: "0B78FA9FD8FFB214"
+			rewards: [
+				{
+					count: 4
+					id: "5E29773BC68E39DB"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "599BA74FFB657165"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Крафт 1 Механический пресс"
+			tasks: [{
+				id: "677B1870D31D2FFF"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "Нажмите F, чтобы смазать"
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			description: ["Содержит отдельные элементы или стеки, которые будут обрабатываться с помощью таких машин, как пресс или развертывание."]
+			id: "65ED3EC173EA8D7A"
+			rewards: [
+				{
+					count: 2
+					id: "020D00B3CD444FE3"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "3049610C18932A60"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "7175055418BDC20A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 2 склады"
+			tasks: [{
+				count: 2L
+				id: "0D37481EB998B872"
+				item: { Count: 2, id: "create:depot" }
+				type: "item"
+			}]
+			title: "Бросить, как будто жарко"
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			description: ["Вручную генерирует вращение для питания поблизости создавать машины. Отлично подходит для тестов на ранних играх."]
+			id: "49BEC504C0BE94B6"
+			rewards: [
+				{
+					count: 2
+					id: "2745243F368FB0B1"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "4914672F936D3FC0"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Крафт 1 рука"
+			tasks: [{
+				id: "026E9ADDAE9F5A36"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "Удобная шпилька"
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			description: ["Плоская форма железа, используемая в передовых рецептах крафта в Create. Сделано нажав на железные слитки."]
+			id: "3EC515A5F143671C"
+			rewards: [
+				{
+					count: 2
+					id: "6235A4EE38344112"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "536A4E93C92BC0A2"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "23AAEE4AFC0E02C8"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Нажмите 5 железных листов"
+			tasks: [{
+				count: 5L
+				id: "185664FD2849D575"
+				item: { Count: 5, id: "create:iron_sheet" }
+				type: "item"
+			}]
+			title: "Ирония, но плоская"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			description: ["Прессованная форма золота, используемая в высокотехнологичных рецептах крафта, таких как очки или гаечный ключ"]
+			id: "4E30D1CC1B61A07C"
+			rewards: [
+				{
+					count: 3
+					id: "1DBEFD976EC6AF34"
+					item: "farm_and_charm:corn"
+					type: "item"
+				}
+				{
+					id: "4564B8FB7F4DA275"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Нажмите 5 золотых листов"
+			tasks: [{
+				count: 5L
+				id: "4437577C34FA0BFD"
+				item: { Count: 5, id: "create:golden_sheet" }
+				type: "item"
+			}]
+			title: "Золотые хлопья промышленности"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			description: ["Вращается, удаляет и настраивает создание блоков. Ваш лучший друг в настройке машины."]
+			id: "0A011EA4FE9C2551"
+			rewards: [
+				{
+					id: "2C775EC33A0224FA"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "376741ADF1934459"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "63AC0ED9B15971B7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Крафт 1 гаечный ключ"
+			tasks: [{
+				id: "3E67E432F530CEB6"
+				item: "create:wrench"
+				type: "item"
+			}]
+			title: "Гаечный ключ, пожалуйста!"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			description: ["Позволяет увидеть подробные мощные подсказки и кинетическую статистику на создании машин."]
+			id: "0D2B2726F40CB853"
+			rewards: [
+				{
+					count: 32
+					id: "2BF12C0C8D54119F"
+					item: "create:raw_zinc"
+					type: "item"
+				}
+				{
+					id: "277D7E95FC9EE66A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 1 пара очков"
+			tasks: [{
+				id: "449452E14F1D3372"
+				item: "create:goggles"
+				type: "item"
+			}]
+			title: "Гоггл!"
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			description: ["Перенаправляет вращательную силу в разных направлениях. Необходимо для сложных сборок."]
+			id: "217C65A42053D0D1"
+			rewards: [
+				{
+					count: 4
+					id: "6D12C08E11280459"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "32DBF603DDCE41B8"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					id: "4C6476685C6CC352"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 2 каждой коробки передач"
+			tasks: [
+				{
+					count: 2L
+					id: "7B24211BF3D4C527"
+					item: { Count: 2, id: "create:gearbox" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "49E7A58D943BBB57"
+					item: { Count: 2, id: "create:vertical_gearbox" }
+					type: "item"
+				}
+			]
+			title: "Передачи прихоти"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			description: ["Миллстоны разматывают такие предметы, как пшеница, в муку, булыжник в гравий или кварц в порошок. Они являются одним из самых простых инструментов ранней автоматизации. Требуется вращательная сила для работы."]
+			id: "45F66EC6D1C11043"
+			rewards: [
+				{
+					id: "14B6ACDE300B5402"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "1F4DE252375674A6"
+					item: "create:wheat_flour"
+					type: "item"
+				}
+				{
+					id: "6BD737B4FDD93819"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Ремесла 1 Миллстоун"
+			tasks: [{
+				id: "6F04E907696B75CF"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "Зерновая боль"
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			description: ["Тесто выполняется с использованием пшеничной муки и воды.Он используется для испечения хлеба и других рецептов.Обычно делается с бассейном + механическим миксером или в таблице крафта."]
+			id: "17023F1B8B8013CB"
+			rewards: [
+				{
+					id: "3A61E97813056D7F"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "271FD340ED6A6D3F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Получить 1 тесто"
+			tasks: [{
+				id: "153A280EBFB69F23"
+				item: "create:dough"
+				type: "item"
+			}]
+			title: "Тесто не беспокойтесь об этом"
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			description: ["Краситель слизи. Свечение зеленого."]
+			id: "320DE19F21809D06"
+			rewards: [
+				{
+					id: "51358F9C6117C6DB"
+					item: "gofish:slimefish"
+					type: "item"
+				}
+				{
+					id: "76B400FFC3E4E137"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Получить 1 лаймо -краситель"
+			tasks: [{
+				id: "74213BAD0168B957"
+				item: "minecraft:lime_dye"
+				type: "item"
+			}]
+			title: "Извести преступление"
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			description: ["Slimeballs используются для изготовления супер -клея, липких механических поршней и других компонентов, которые требуют блоков, чтобы соединиться."]
+			id: "120D842C6B39E2C1"
+			rewards: [
+				{
+					id: "7B2AC7098DE0D0A8"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+				{
+					id: "4082C09219793776"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Получите 1 слизиный мяч"
+			tasks: [{
+				id: "039F75A4DF2F1EE9"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			title: "Итак, вы хотите стать слизистым ..."
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			description: ["Super Glue позволяет блокам сливаться вместе, чтобы они перемещались как единственная конструкция в ухаживании (например, летающие машины или вращающиеся сборы)."]
+			id: "604106984AE815F6"
+			rewards: [
+				{
+					id: "25AA070B4827F434"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					id: "689E5FDE06AE7638"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "033B25100FA453A8"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Craft 1 Super Glue"
+			tasks: [{
+				id: "39FA3A9BF710DA80"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Прижимай!"
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			description: ["Используется для вращения структуры блоков, таких как ветряные мельницы или вращающиеся платформы. Поместите его, клейте блоки к нему, затем приводят к тому, чтобы это заставило Spinny Magic."]
+			id: "28BD177E5443182F"
+			rewards: [
+				{
+					count: 8
+					id: "4CB5190DEF3CFD5A"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "0752D73E0D9A6B6A"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "7F707EA03BE7A10E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Крафт 1 Механический подшипник"
+			tasks: [{
+				id: "2A03BA766531871E"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			title: "Поверните меня прямо вокруг"
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			description: ["Автоматически урожай и сажает культуры при прикреплении к движущемуся хитрости, как ветряная мельница или гантри. Нужна структура + мощность для работы."]
+			id: "0BA4F1F5F02866D6"
+			rewards: [
+				{
+					count: 32
+					id: "766F5DB8D80BDA93"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "574B719F46E4992A"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "706199A5C2DC27CE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 5 Механические комбайнеры"
+			tasks: [{
+				count: 5L
+				id: "3AA34524F8A57999"
+				item: { Count: 5, id: "create:mechanical_harvester" }
+				type: "item"
+			}]
+			title: "Фармеддон начинается"
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			description: ["Позволяет, чтобы предметы упали вниз между блоками, вроде вертикальных бункеров, но быстрее и более эффективно.Также может подключиться к ремням и системам обработки."]
+			id: "40E806A3DE366445"
+			rewards: [
+				{
+					count: 16
+					id: "5654948697898200"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6422B565D56F9F2F"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "48B95C1350CF6CCA"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Craft 2 Plates"
+			tasks: [{
+				count: 2L
+				id: "38502976681CC488"
+				item: "create:chute"
+				type: "item"
+			}]
+			title: "Yeet Tube"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			description: ["Используется для передачи предметов между движущейся хитростью и стационарной системой.Отлично подходит для таких вещей, как автоматизированные сельскохозяйственные тележки и летающие фабрики."]
+			id: "5A87E56A598E8753"
+			rewards: [
+				{
+					count: 4
+					id: "4D40F72ACCA6A82E"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "76702747C2D27F37"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					id: "1476276917FD2CAE"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Портативные интерфейсы Craft 2"
+			tasks: [{
+				count: 2L
+				id: "0B4E99AE76317766"
+				item: { Count: 2, id: "create:portable_storage_interface" }
+				type: "item"
+			}]
+			title: "Прикоснитесь к траве (удаленно)"
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			description: ["Эта настройка создает вращающийся автопоследователь, который собирает сельскохозяйственные культуры и бросает их в хранилище."]
+			id: "3602D2C4028CFB39"
+			rewards: [
+				{
+					count: 32
+					id: "34250ED25D1BAF60"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					id: "16DDB872897B29BD"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Создайте функционирующую ферму с автоматической точкой"
+			tasks: [
+				{
+					block: "create:water_wheel"
+					block_type: 0
+					id: "1EF0EEB0F78D4AAB"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "create:mechanical_bearing"
+					block_type: 0
+					id: "3D0D80F26D8585BD"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "create:mechanical_harvester"
+					block_type: 0
+					id: "190DC0F87D9CD274"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 5L
+				}
+				{
+					block: "create:chute"
+					block_type: 0
+					id: "1E12ACD8ED48CA9E"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 2L
+				}
+				{
+					block: "create:portable_storage_interface"
+					block_type: 0
+					id: "5029EA352BC06D97"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 2L
+				}
+			]
+			title: "Ферма к столу ... в коробку передач"
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			description: ["Эта настройка дает вам полную функционирующую ферму Auto Tree!Нет больше отбивки!"]
+			id: "3E6309B2CFD52040"
+			rewards: [
+				{
+					id: "469199ECD6A32FD2"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "69C3F6D4FDC017C6"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					id: "11C4FED3B9D64BC5"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Создайте автоматическую ферму дерева, используя механическую хитрость"
+			tasks: [
+				{
+					block: "create:mechanical_bearing"
+					block_type: 0
+					id: "0D31DA3072F4213D"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "create:mechanical_saw"
+					block_type: 0
+					id: "76AD7259A8B0D976"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 3L
+				}
+				{
+					block: "create:chute"
+					block_type: 0
+					id: "6755D5696A67451F"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "create:portable_storage_interface"
+					block_type: 0
+					id: "107B6DF74834FF46"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 2L
+				}
+				{
+					block: "create:deployer"
+					block_type: 0
+					id: "18EF07C064D09B83"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 3L
+				}
+			]
+			title: "Пиломатериал? Я вряд ли знаю ее!"
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Каждый игрок создает одну и ту же стену: нет андезита, нет автоматизации."
+				"Но угадайте, что? Вы можете подделать это, пока не сделаете это-с булыжником и диоритом, или добрым старомодным перемешиванием в миксере."
+			]
+			id: "3B5A77B3F132EE47"
+			rewards: [
+				{
+					count: 16
+					id: "1443D52D0691D2E6"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5ABFB3D7D243942C"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3B1E5C1E3475DE5E"
+					item: "minecraft:diorite"
+					type: "item"
+				}
+			]
+			subtitle: "Создайте андезит, используя смеситель и бассейн или изготавливая его из диорита и булыжника."
+			tasks: [{
+				count: 64L
+				id: "4D134CFDEEA6F67B"
+				item: { Count: 64, id: "minecraft:andesite" }
+				title: "Craft 64 Andesite"
+				type: "item"
+			}]
+			title: "Заканчивается андезитом?"
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			description: ["Ворона андезита: вытаскивает предметы из запасов (например, сундуков) или вкладывает их в машины."]
+			id: "6FEBC5F2207BCCEF"
+			rewards: [
+				{
+					count: 2
+					id: "2762A9014EB3E23D"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					id: "2695E4A975E089A4"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5F26216379254ACC"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 4 Andesite Funnels."
+			tasks: [{
+				count: 4L
+				id: "1F47C0C410031436"
+				item: { Count: 4, id: "create:andesite_funnel" }
+				type: "item"
+			}]
+			title: "Воронковое видение"
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			description: ["Объединенные цепные приводы передают вращательную мощность между компонентами, такими как зубчатые колеса, но через цепи."]
+			id: "6B428F9D2C8A0A72"
+			rewards: [
+				{
+					count: 2
+					id: "3ABA45E4DBDC8D7E"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "3185A88BBF61B7D4"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "68E8ADEA8486CBB1"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 4x Canced Chain Drives."
+			tasks: [{
+				count: 4L
+				id: "142ED72E1E9E3F00"
+				item: { Count: 4, id: "create:encased_chain_drive" }
+				type: "item"
+			}]
+			title: "Заключен в амбиции"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			description: ["Эта установка даст вам максимальную систему стирки, плавки, взрыва и преследования!"]
+			id: "208C31226AFCAA1C"
+			rewards: [
+				{
+					id: "08914B66760F69EA"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					id: "7B2AD4985FB9BA80"
+					item: "minecraft:cooked_porkchop"
+					type: "item"
+				}
+				{
+					id: "05577FC624A7461F"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					id: "2E246F8B3FD0C03E"
+					item: "minecraft:white_concrete"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 4x вентиляционные вентиляторы, 1x костров, 1X ведро с водой, 1x Lava Bucket и 1x Soul Compire."
+			tasks: [
+				{
+					count: 4L
+					id: "365C30105689CFE2"
+					item: { Count: 4, id: "create:encased_fan" }
+					type: "item"
+				}
+				{
+					id: "69D93D57038AB80A"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					id: "2F20826AF006406A"
+					item: "minecraft:soul_campfire"
+					type: "item"
+				}
+				{
+					id: "0B9372EAB38A88E4"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "18BA2D5B3E0A714B"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			title: "Раздувать пламя (и фанк)"
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			description: ["Эта настройка принесет вам вашу самую первую ветряную мельницу! Просто подтолкните паруса на вершине подшипника и щелкните правой кнопкой мыши, как только вы закончите, и вуаля! Вы получили себе какую -то силу!"]
+			id: "0368CB5AB06667D8"
+			rewards: [
+				{
+					count: 4
+					id: "747856AA50F8F479"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7F697AC0641AD0F2"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "3275ECFDE4EF7EAE"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x подшипник ветряной мельницы и 32 -кратные парусные паруса."
+			tasks: [
+				{
+					id: "04F25DB942B74045"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "15B05FECBD89B6AF"
+					item: { Count: 32, id: "create:white_sail" }
+					type: "item"
+				}
+			]
+			title: "Поймать ветерок"
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Список фильтра: позволяет создавать конкретный белый список/черный список элементов. Отлично подходит для точного управления в автоматизированных системах."
+				""
+				"Этот фильтр используется с развертывателями, воронками и медными туннелями для уточнения автоматизации."
+			]
+			id: "0BA9E17BD1B7E332"
+			rewards: [
+				{
+					id: "2BC1084F77E84E46"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "416A1F9C14D88AEE"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					id: "2BC0589ACB0E42B1"
+					item: "create:electron_tube"
+					type: "item"
+				}
+			]
+			subtitle: "CRAFT 1X СПИСОК FILTER."
+			tasks: [{
+				id: "0687E4326AD417F6"
+				item: "create:filter"
+				type: "item"
+			}]
+			title: "Отфильтруйте мне это"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Сцепление: при питании от Redstone (я предпочитаю рычаг), он останавливает передачу мощности, например, выключатель с мощным камнем для ваших машин."
+				""
+				"Передача: направляет направление вращения при питании."
+				""
+				"Используйте их, чтобы переключить приспособления, перенаправить питание или автоматизация паузы."
+			]
+			id: "767C57FBC43CD1EA"
+			rewards: [
+				{
+					id: "4C29DE96192066A3"
+					item: "minecraft:lever"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "15DE00240DBE7AFB"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3425CBAE1E792A52"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x сцепление и 1x переключения передач."
+			tasks: [
+				{
+					id: "0D7F4E6887B0A129"
+					item: "create:clutch"
+					type: "item"
+				}
+				{
+					id: "65A0EF0B5B9A7595"
+					item: "create:gearshift"
+					type: "item"
+				}
+			]
+			title: "Сцепление"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Используйте механический поршень, чтобы перемещать блоки по прямой линии."
+				""
+				"Липкий механический поршень тоже оттягивает блоки назад!"
+			]
+			id: "6A51F171FC2DDB57"
+			rewards: [
+				{
+					count: 2
+					id: "3711EBEA460938B9"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					id: "74E0A4386A7F1AAA"
+					item: "create:linear_chassis"
+					type: "item"
+				}
+			]
+			subtitle: "Создайте и используйте 1x механический поршень и 1x липкий механический поршень."
+			tasks: [
+				{
+					id: "2FDE5857E3C18AB8"
+					item: "create:mechanical_piston"
+					type: "item"
+				}
+				{
+					id: "0C37B36C88039136"
+					item: "create:sticky_mechanical_piston"
+					type: "item"
+				}
+			]
+			title: "Липкая ситуация"
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			description: ["Эти плохие мальчики принесут вам свою собственную схематическую пушку!Просто пощечитесь по столу, потяните свою схему из других ваших миров, плюха в пустой схеме и заполните эту пушку некоторым порохом, и вы находитесь в полностью построенном королевстве!"]
+			id: "4BB3EDF5CE18D191"
+			rewards: [
+				{
+					id: "44FA889E9E51BA80"
+					item: "create:electron_tube"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "542F0D3FB056CF0C"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1F7924861C8FF1B1"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Создайте полную схематическую систему."
+			tasks: [
+				{
+					id: "34A5436FF282F1F2"
+					item: "create:schematicannon"
+					type: "item"
+				}
+				{
+					id: "0A965C784E82966B"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					id: "1F94AD4AE135E60D"
+					item: "create:schematic_and_quill"
+					type: "item"
+				}
+			]
+			title: "Главные завтрашнего дня"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Создайте пустую горелку, используя железные листы и нетерран."
+				""
+				"Отправляйтесь в нижнюю часть и щелкните правой кнопкой мыши с ним пламя, чтобы поймать его внутрь."
+				""
+				"После заполнения горелка пламя становится источником топлива для нагретого миксера, который необходим для изготовления латунных скретч."
+				""
+				"Мирные игроки могут создать горелку, уже в ней пламенем, если вы не любите убивать мобов.Но вы также можете сделать это, отправившись в нижнюю часть с пустым и в любом случае, щелкнув спине."
+			]
+			hide_dependency_lines: true
+			id: "505402D07947CC7A"
+			rewards: [
+				{
+					count: 2
+					id: "5B5658E9C26C8AE6"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2598024A77E000F9"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "40F8526F1F175B3E"
+					item: "create:cinder_flour"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft 1x пустая горелка пламя."
+			tasks: [{
+				id: "45A52EF9882AA861"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			title: "Жара начинается"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			description: ["Щелкните правой кнопкой мыши по пламену или пламену спаунера с пустой горелкой пламени в руке."]
+			id: "567B7ABE0C8AD086"
+			rewards: [
+				{
+					id: "680A6E4BE250C2F1"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					id: "53BA0684406BCBF9"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Захватите пламя, используя пустую горелку."
+			tasks: [{
+				id: "347072C497FB300E"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			title: "Пламя славы"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"Эти машины работают вместе, чтобы перемешивать нагретые ингредиенты.Поместите бассейн, микшер над ним и горелка пламени внизу."
+				""
+				"Используйте горелку Blaze, накормив его топливом, AKA угля, деревянные предметы и т. Д."
+			]
+			id: "4AFF029B9E7B7058"
+			rewards: [
+				{
+					count: 2
+					id: "67D210738AFED444"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "258C1CF771FC3860"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "2A70249019EE0CA2"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Создайте механический миксер и бассейн и установите их над горелкой."
+			tasks: [
+				{
+					block: "create:blaze_burner"
+					block_type: 0
+					checkItem: false
+					id: "2A7278639F51CFD5"
+					isItemInteraction: false
+					type: "questsadditions:use"
+					value: 1L
+				}
+				{
+					id: "5951170E785C9A92"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "5C1DC9DBD5C9DBBE"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			title: "В смесь"
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			description: ["Сбросьте один цинк и один медный слиток в нагретый бассейн, а затем дайте миксеру делать свое дело.Поздравляю, ты приготовил латунь!"]
+			id: "7E7427FC0F552C33"
+			rewards: [
+				{
+					count: 4
+					id: "3CCD256CE7A86A1F"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "1DC3465B6A9740F6"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "736424B79F97E0DA"
+					item: "create:electron_tube"
+					type: "item"
+				}
+			]
+			subtitle: "Смешайте цинк и медь с помощью механического миксера + горелка Blaze для создания латуни."
+			tasks: [{
+				count: 8L
+				id: "2975FC5D25E2B984"
+				item: { Count: 8, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			title: "Подделанный в пламени"
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: ["Используется в создании рецептов для \ ''HighTecult Tech \'' машины в создании"]
+			id: "79DBD51D1B4A5650"
+			rewards: [
+				{
+					id: "12D3A6B82F4F93E5"
+					item: "create:brass_casing"
+					type: "item"
+				}
+				{
+					id: "6FEB1042E54E0E29"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x латунный корпус."
+			tasks: [{
+				id: "0FBABBB934459E0C"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			title: "Обсадка будущего"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			description: ["Используется для полировки &c&l rose Quartz &r&r, удерживая бумагу в одном, а &c&l Rose Quartz &r&r в другом и держа правой кнопкой мыши или вставка в систему развертывания."]
+			id: "18078B6A239A87C0"
+			rewards: [
+				{
+					count: 2
+					id: "063C222116CDD0AA"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "50950268F37D1EF4"
+					item: "minecraft:sand"
+					type: "item"
+				}
+			]
+			subtitle: "Ремесла 1X наждачная бумага."
+			tasks: [{
+				id: "2AB87065B40E6D96"
+				item: {
+					Count: 1
+					id: "create:sand_paper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Гладкая отделка"
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			description: ["Созданный с использованием Redstone и Quartz.Используется для полировки в компоненты, такие как электронные трубки."]
+			id: "5A88964644644729"
+			rewards: [
+				{
+					count: 8
+					id: "044565B18BF6C9FF"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "0D03AE1EBC74E91E"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Rose Quartz."
+			tasks: [{
+				id: "2352E86BBED05AB3"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			title: "Кварц с искры"
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			description: ["Полированный розовый кварц необходим для изготовления электронных труб.Вы можете полировать его, щелкнув правой кнопкой мыши или используя развертыватели."]
+			id: "114C841CC23F41B6"
+			rewards: [{
+				id: "249C008423A19055"
+				item: {
+					Count: 1
+					id: "create:sand_paper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Польский 1x розовый кварц с наждачной бумагой."
+			tasks: [{
+				id: "24B3B90C7BC21FC3"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			title: "Блестящий и утонченный"
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			description: ["Используется для создания развертывателей, интеллектуальных желоков и множества технических машин."]
+			id: "34CA588AA594CED1"
+			rewards: [
+				{
+					id: "3D4FB5C55CD561C6"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "2BD00551E4CABC8F"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x электронная трубка."
+			tasks: [{
+				id: "05BF59C3766232B7"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			title: "Conduit Core"
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Используется в мультиблоках, таких как создание рецепта раздавного колеса."
+				""
+				""
+				"{Image: ftbquests: текстуры/homestead/mechanical_crafter_demonstration.png Ширина: 100 Высота: 100 Выравнивание: Центр}"
+			]
+			id: "4BB5AA6398B775B8"
+			rewards: [
+				{
+					count: 3
+					id: "344F822C3E01FC0E"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "0617FCFE2CB1AAF1"
+					item: "create:brass_casing"
+					type: "item"
+				}
+				{
+					id: "0DBE01E1E21E6BEF"
+					item: "create:electron_tube"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 21x Механические ремесленники."
+			tasks: [{
+				count: 21L
+				id: "2B3CB4AF7663396D"
+				item: { Count: 21, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			title: "Без рук сборка"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			description: ["Требуется для построения структуры дробления, используемой для обработки руд и материалов в пыль и многое другое."]
+			id: "001CBBC7A707BC85"
+			rewards: [
+				{
+					count: 4
+					id: "461488B36FF85ADA"
+					item: "create:crushed_raw_iron"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0ABD93007C5EC990"
+					item: "create:crushed_raw_gold"
+					type: "item"
+				}
+				{
+					id: "3AF3B8A384C591A7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Craft 2x Drushing Wheels."
+			tasks: [{
+				count: 2L
+				id: "0A40CEA93E54A577"
+				item: { Count: 2, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			title: "Большой хруст"
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			description: ["Обновление до Andesite Funnels, которое позволяет фильтровать или ускорить маршрутизацию предметов на ремнях и машинах."]
+			id: "2206FC73973CBFD7"
+			rewards: [
+				{
+					count: 2
+					id: "77DE85E16AD60075"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "418655DB491B12B8"
+					item: "create:belt_connector"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 4x латунные воронки."
+			tasks: [{
+				count: 4L
+				id: "05337242AC1F0BB6"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			title: "Функтивная эффективность"
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Поместите его над блоками, которые вы хотите переместить."
+				""
+				"Включите его вращением, чтобы потянуть конструкцию вверх и вниз."
+			]
+			id: "00449ADB2E33575E"
+			rewards: [
+				{
+					id: "3A812D3CD7BB0FFE"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "033562BA6DD1DBAE"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x веревочный шкив."
+			tasks: [{
+				id: "640124A5DB17010D"
+				item: "create:rope_pulley"
+				type: "item"
+			}]
+			title: "Отбросить это, как будто это тянуло"
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Шкив лифта функционирует аналогично шкивам веревки, но:"
+				""
+				"Автоматически отслеживает и синхронизирует движение с использованием стержня GANTER."
+				""
+				"Отлично работает с управлением Redstone для выбора пола и расширенной автоматизации."
+			]
+			id: "3E16B69159AEA522"
+			rewards: [
+				{
+					count: 4
+					id: "67380EE0C27F2269"
+					item: "create:brass_casing"
+					type: "item"
+				}
+				{
+					id: "65B4561456B0951B"
+					item: "create:gantry_shaft"
+					type: "item"
+				}
+				{
+					id: "7076E148CDAA3182"
+					item: "minecraft:lever"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x лифта."
+			tasks: [{
+				id: "22D9C4C02146EE94"
+				item: "create:elevator_pulley"
+				type: "item"
+			}]
+			title: "Эволюция лифта"
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Прикрепите контроль отключения к подвижной структуре (например, лифту или буровой платформе)."
+				""
+				"Щелкните правой кнопкой мыши, чтобы получить доступ к его графическому интерфейсу и назначить функции."
+				""
+				"Работает как мобильный контроллер Redstone, позволяя игрокам:"
+				"- Эмизируйте сигналы Redstone"
+				""
+				"- Взаимодействовать с секвенированной логикой"
+				""
+				"- Запустить действия на борту ускорения"
+			]
+			id: "321F09A7A156C31A"
+			rewards: [
+				{
+					id: "33C9F52744948B33"
+					item: "minecraft:lever"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5F947F91988E8E04"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0C3C65A33E80C995"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x контролирования контроля."
+			tasks: [{
+				id: "765DB20D052E3638"
+				item: "create:contraption_controls"
+				type: "item"
+			}]
+			title: "Толчок к участию"
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			description: ["Используется для транспортировки жидкостей между резервуарами, машинами или другими компонентами.Эти трубы автоматически подключаются к блокам с акцептированием жидкости."]
+			id: "30DAF055D4D08578"
+			rewards: [{
+				count: 8
+				id: "67A5CADCD7BBA6AC"
+				item: "create:copper_sheet"
+				type: "item"
+			}]
+			subtitle: "Craft 8x Жидкие трубы."
+			tasks: [{
+				count: 8L
+				id: "1D71E2D51A2EC0FC"
+				item: { Count: 8, id: "create:fluid_pipe" }
+				type: "item"
+			}]
+			title: "Трудолюбиться"
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			description: ["Компактный раствор хранения жидкости.Может быть подключен к трубам и насосам.Сложный вертикально для большей емкости."]
+			id: "0B534E3CCFAF2F97"
+			rewards: [
+				{
+					id: "18D530242DAC76D3"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					id: "0873F958CA77C967"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Жидкий бак."
+			tasks: [{
+				id: "029DBCC9841A5723"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			title: "Танк вас очень сильно"
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			description: ["Используется для извлечения жидкости из таких предметов, как зелья или бутылки.Подключается к жидким трубам и резервуарам."]
+			id: "0F2CC8DD0731A875"
+			rewards: [
+				{
+					id: "596B83421485FF18"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "09402DE901BA3DF5"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x элемент слив."
+			tasks: [{
+				id: "2F51C53DD38BA9B6"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			title: "Дренажная игра"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			description: ["Используется для отложения жидкости на предметы мимочной (например, заполните бутылки, покрыть пищу).Может быть размещен на ремнях или складах."]
+			id: "0BC09957030970A7"
+			rewards: [
+				{
+					id: "23FA588DAAE61243"
+					item: "create:copper_sheet"
+					type: "item"
+				}
+				{
+					id: "00C2D859337C9C92"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Spout."
+			tasks: [{
+				id: "70428EF47F9DEF1C"
+				item: "create:spout"
+				type: "item"
+			}]
+			title: "Брызги и молитесь"
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			description: ["Используется для перемещения жидкостей вертикально в резервуары или океаны.Подходит для автоматизации воды/лавы или коллекции источника жидкости."]
+			id: "3C5EF61AA8A8B90F"
+			rewards: [
+				{
+					id: "08470EB10C4A7CAA"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "3B6D2AB7829C4C71"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+			]
+			subtitle: "Крафт 1X шланги шланга."
+			tasks: [{
+				id: "6599F26F878557ED"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			title: "Потенциал шкива"
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			description: ["Перемещает жидкости направлено через жидкие трубы.Требуется вращение для функционирования.Может быть изменен с помощью переключения передач."]
+			id: "7279BFB5227C487B"
+			rewards: [
+				{
+					id: "3CB59EEE580C9BA4"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "7D026227F1DE11CC"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Механический насос."
+			tasks: [{
+				id: "66DD0AAC6C8FD4DF"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			title: "Толчок идет к перекачке"
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			description: ["Умные жидкости отслеживают, какие жидкости проходят через них.Жидкие клапаны могут управлять или отключать поток с помощью Redstone."]
+			id: "4372D7B29E8832DB"
+			rewards: [
+				{
+					id: "428F7A2E56E4698A"
+					item: "minecraft:redstone_torch"
+					type: "item"
+				}
+				{
+					id: "1FA5CB273E4ADE34"
+					item: "create:brass_sheet"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Smart Fluid Tipe и 1 -кратный жидкий клапан."
+			tasks: [
+				{
+					id: "51C84743A27CD997"
+					item: "create:smart_fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "3838FDCD8595E952"
+					item: "create:fluid_valve"
+					type: "item"
+				}
+			]
+			title: "Умный поток"
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			description: ["Используется для переноса жидкостей между хитростью (например, мобильная тележка резервуаров и стационарный бак).Требуется контакт через пару интерфейса переносной жидкости."]
+			id: "2808923D4B8EC845"
+			rewards: [
+				{
+					id: "33414980F36C27BF"
+					item: "create:brass_casing"
+					type: "item"
+				}
+				{
+					id: "503DCBDD9B5B52C5"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Portable Fluid Interface."
+			tasks: [{
+				id: "792C1ABBD8C6BBA1"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			title: "Трубка"
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			description: ["Этот корпус защищает механизм, вовлеченный в трубопроводы, извержение и танкование."]
+			id: "08E79F6B22C21D7C"
+			rewards: [
+				{
+					count: 4
+					id: "151C37FEBC6F9F98"
+					item: "create:copper_sheet"
+					type: "item"
+				}
+				{
+					id: "5D0DD73AD9AC67B7"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x медный корпус."
+			tasks: [{
+				id: "29B13976730D592B"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			title: "Медное ядро"
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Поместите на вершине жидкости (особенно на жидком клапане)"
+				""
+				"Щелкните правой кнопкой мыши, чтобы переключить поток жидкости!Редстоун не нужен."
+			]
+			id: "1D23495572D9BEA4"
+			rewards: [
+				{
+					id: "53A90B36673CDBEF"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "4DB37808AD944894"
+					item: "minecraft:redstone_torch"
+					type: "item"
+				}
+				{
+					id: "25A247FA45DF0261"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Ручка Craft 1x медного клапана."
+			tasks: [{
+				id: "69794E8AD73DBCB2"
+				item: "create:copper_valve_handle"
+				type: "item"
+			}]
+			title: "Поверните прилив"
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			description: ["Эта маленькая машина заставит вашу мощность скорости вращения перейти к максимуму"]
+			id: "07854B4B69AF0BC3"
+			subtitle: "Ремесл 1x контроллер скорости вращения."
+			tasks: [{
+				id: "043A01B63FC40553"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			title: "Скорость имеет значение"
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"&l Начните с золотого листа на депо или поясе. &r"
+				""
+				"&n&l Используйте 3 развертывателя, каждый из которых загружен: &r&r"
+				""
+				"&l 🟤 Cogwheel &r"
+				""
+				"&l ⚙ Большой капля &r"
+				""
+				"&l 🪙 Железный Наггет &r"
+				""
+				"Примените элементы, перечисленные выше, на золотой лист в &l Заказ 5 раз &r."
+				""
+				"Таким образом, у золотого листа должно быть капля, затем большое зубчатое колесо, затем железный самородка, развернутое на нем 5 раз подряд."
+				""
+				"Есть небольшая вероятность, что это потерпит неудачу и даст вам лом.Если это произойдет, вам придется снова перезагрузить процесс."
+			]
+			id: "6A3AFEBFC112A659"
+			rewards: [
+				{
+					count: 2
+					id: "748159A598A09182"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					id: "257F9126B22E31B1"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "6F8933CE9ADE1ACE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Крафт 1x точный механизм."
+			tasks: [{
+				id: "53F0C9FC27A4BCE7"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			title: "Точность совершенствуется"
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			description: ["Используется для преобразования обычных блоков в поезда пугала и автомобильные рамки.Требуется для каждого сегмента поезда."]
+			id: "525E7C2D2C9463F3"
+			rewards: [
+				{
+					count: 4
+					id: "33C0E9FB50B299CA"
+					item: "create:railway_casing"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "07AC5845DE3C9765"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "46BE23D02FC19967"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Craft 1x прочный лист для ремесла 1x поезда."
+			tasks: [
+				{
+					id: "32521B7135507740"
+					item: "create:sturdy_sheet"
+					type: "item"
+				}
+				{
+					id: "77CF759777DEEC3C"
+					item: "create:railway_casing"
+					type: "item"
+				}
+			]
+			title: "Все на борту корпуса"
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			description: ["Трансферы составляют рельсы, на которых будет ездить ваш поезд.Поместите в любом направлении и используйте кривые и наклоны для полной гибкости."]
+			id: "42BF2645E2C3E6C2"
+			rewards: [
+				{
+					count: 8
+					id: "12C963DA67C992C2"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "19667B3DF1E2F9A2"
+					item: "minecraft:spruce_slab"
+					type: "item"
+				}
+				{
+					id: "247547AD83BC1857"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 16x железнодорожные дорожки."
+			tasks: [{
+				count: 16L
+				id: "476B8D77851DB027"
+				item: { Count: 16, id: "create:track" }
+				type: "item"
+			}]
+			title: "На правильном пути"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			description: ["Железнодорожные станции позволяют вам вызвать, назвать и автоматизировать маршруты поезда.Поезда должны запускаться или заканчиваться на станции, которая будет контролироваться."]
+			id: "10A50F64F415E1BC"
+			rewards: [
+				{
+					id: "77EB2B7C9941E68E"
+					item: "create:railway_casing"
+					type: "item"
+				}
+				{
+					id: "69B95D66CC31D676"
+					item: "createdeco:decal_no_entry"
+					type: "item"
+				}
+				{
+					id: "28E805F53F20571F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Ремесло 1x железнодорожная станция."
+			tasks: [{
+				id: "622D32E545DB5CEB"
+				item: "create:track_station"
+				type: "item"
+			}]
+			title: "Следующая остановка: прогресс"
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			description: ["Графики поезда определяют остановки и поведение вашего поезда, а также автоматизация его пути и логики."]
+			id: "468AF9412A6CF3F4"
+			rewards: [
+				{
+					id: "10F0C02199D419BD"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "325E7BF23D6828AF"
+					item: "create:golden_sheet"
+					type: "item"
+				}
+				{
+					id: "5D2B6E433DB5840D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Расписание поездов Craft 1x."
+			tasks: [{
+				id: "637208DFEF38F079"
+				item: "create:schedule"
+				type: "item"
+			}]
+			title: "По расписанию"
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			description: ["Сигналы поезда помогают предотвратить столкновения и управлять многоуровневыми перекрестками.Используется для автоматизации с логикой Redstone."]
+			id: "1D4EDDB15B4F3265"
+			rewards: [
+				{
+					id: "2FA5773F60A0B362"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "066965AC7163A0CA"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "53F1E36DAA14E8AC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 1x сигнал поезда."
+			tasks: [{
+				id: "4DE73C200A6ECB34"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			title: "Все ясно"
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			description: ["Наблюдатель поезда контролирует, что проходит мимо и издает сигнал Redstone.Полезно для логических ворот и автоматизации."]
+			id: "4416BC1057B42ED9"
+			rewards: [
+				{
+					id: "2827E91C3FCBB473"
+					item: "create:track_observer"
+					type: "item"
+				}
+				{
+					id: "07B76C35E6577C6A"
+					item: "create:brass_door"
+					type: "item"
+				}
+				{
+					id: "7D22F0703DA51E55"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 1x Наблюдатель поезда."
+			tasks: [{
+				id: "781146386A97BCE8"
+				item: "create:track_observer"
+				type: "item"
+			}]
+			title: "Трек наблюдатель"
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			description: ["Управление поезда позволяет пилотировать поезд вручную.Должен быть помещен на автомобиль с питанием для управления игроком."]
+			id: "1FDF6D2E51232DEF"
+			rewards: [
+				{
+					id: "414916D9993DA320"
+					item: "create:analog_lever"
+					type: "item"
+				}
+				{
+					id: "305EE7753F82D974"
+					item: "create:railway_casing"
+					type: "item"
+				}
+				{
+					id: "222D30ABCBEE1EC6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Craft 1x управление поездами."
+			tasks: [{
+				id: "4BF530CCF6F9EC72"
+				item: "create:controls"
+				type: "item"
+			}]
+			title: "Вести себя"
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			description: ["Отображающие платы показывают динамическую информацию о прибывающих поездах, направлениях или грузе с использованием входов сигналов Redstone."]
+			id: "0707A24DD0000DB8"
+			rewards: [
+				{
+					id: "5C67F15BF4D45EB5"
+					item: "create:train_door"
+					type: "item"
+				}
+				{
+					id: "01DA041C47B4C9D3"
+					item: "railways:red_conductor_cap"
+					type: "item"
+				}
+				{
+					id: "6080F7F61C083C49"
+					item: "railways:conductor_whistle"
+					type: "item"
+				}
+				{
+					id: "1224297AF3B743F0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			subtitle: "CRAFT 1X Дисплейная плата."
+			tasks: [{
+				id: "5C35A6057D32B1CC"
+				item: "create:display_board"
+				type: "item"
+			}]
+			title: "Информация о Go"
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			description: ["Этот магический инструмент отражает ваши блоки в идеальной симметрии - горизонтально, вертикально или по диагонали."]
+			hide_dependency_lines: true
+			id: "4E3FDEDE78D4CDDB"
+			rewards: [
+				{
+					id: "799888E934EFEBBD"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					id: "1E4813F595D9CE40"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "351D1DF5A93EE0FF"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x палочка симметрии."
+			tasks: [{
+				id: "2A13B6B397A1FBF6"
+				item: {
+					Count: 1
+					id: "create:wand_of_symmetry"
+					tag: {
+						enable: 0b
+						symmetry: {
+							direction: 0
+							enable: 1b
+							pos: [
+								0.0f
+								0.0f
+								0.0f
+							]
+							type: "empty"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Идеально зеркально"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			description: ["GRIP Extendo увеличивает расстояние досягаемости и диапазон атак.Очень удобно (буквально) для автоматизации и боя."]
+			hide_dependency_lines: true
+			id: "012AADAB4A531208"
+			rewards: [
+				{
+					id: "318DF014E8BDBA14"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0321BC4CDEC6EB84"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "17BAEB1DF90EFD2E"
+					item: "minecraft:piston"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x Extendo Grip."
+			tasks: [{
+				id: "78E7198114CDF8B1"
+				item: {
+					Count: 1
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Растяните свои пределы"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			description: ["Превращает свой лишний картофель в боеприпасы.Это забавное оружие может запустить различные продукты питания у Mobs или друзей."]
+			hide_dependency_lines: true
+			id: "5FFBB089C9E65077"
+			rewards: [
+				{
+					id: "261B12944E3A591D"
+					item: "create:copper_sheet"
+					type: "item"
+				}
+				{
+					id: "7C82C6713790FB09"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0BC0573ED0FA85BE"
+					item: "minecraft:potato"
+					type: "item"
+				}
+			]
+			subtitle: "Craft 1x картофельная пушка."
+			tasks: [{
+				id: "3F4FDE757C7D35F1"
+				item: {
+					Count: 1
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "КУБОР -ВОЙНА"
+			x: 1.0d
+			y: 5.0d
+		}
+	]
+	title: "Cogs и прихоть"
+}

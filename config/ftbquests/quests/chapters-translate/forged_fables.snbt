@@ -1,0 +1,2501 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "forged_fables"
+	group: ""
+	icon: "mythicupgrades:peridot_upgrade_smithing_template"
+	id: "0214FF591265942D"
+	images: [
+		{
+			height: 8.0d
+			image: "ftbquests:textures/homestead/forged_fables.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			height: 15.0d
+			image: "ftbquests:textures/homestead/forged_quest_bg.png"
+			order: -100
+			rotation: 0.0d
+			width: 30.0d
+			x: -0.5d
+			y: -1.0d
+		}
+	]
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Вы видите руду.Ты моя руда.Ты становишься Богом."]
+			id: "4E3FFFC9B87866BF"
+			rewards: [
+				{
+					count: 2
+					id: "21C5A66F373015B4"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "38BD3CF8051CD6E7"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "35171316472BD278"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "diamond"
+			subtitle: "Шахта 35 necoium rid и пахнет их в слитки."
+			tasks: [{
+				count: 35L
+				id: "53E1FDFE055261E0"
+				item: { Count: 35, id: "mythicupgrades:necoium_ingot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			description: ["Вы не могли бы жить со своей собственной неудачей.Куда это привело вас?Вернуться ко мне."]
+			id: "68391B635F1A2FD9"
+			rewards: [
+				{
+					id: "0EF2DBA3E95AE387"
+					item: "things:riot_gauntlet"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "78F5512C7DA8610C"
+					item: "things:recall_potion"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5ED682644A17FCF3"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "0E4861FE0B9D150E"
+					item: {
+						Count: 1
+						id: "clutter:purple_butterfly_elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5C654536D5FF79A0"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+				{
+					id: "1B64504B36244D26"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					count: 3
+					id: "48135A1BA48D237F"
+					item: {
+						Count: 1
+						id: "homestead:golden_leaf"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Шахта 245 necoium ore."
+			tasks: [
+				{
+					block: "mythicupgrades:necoium_ore"
+					block_type: 0
+					checkItem: false
+					id: "531A4E31B87A89ED"
+					type: "questsadditions:break"
+					value: 245L
+				}
+				{
+					id: "14C45AD6285DCDDA"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F8D2E3B5612DBEA"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "193220F51D7FC544"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4130600FD4ACCEC5"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "144290D2A95D1A28"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C3BE3235F53A6F9"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "651D0086CE3CDDF0"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ACAAA2601E0C924"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F01D15D6C0832CE"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C7E62CE329DB0EC"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01D9B633C53B1A04"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "785E8F5A2339F4DF"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6392B9889CE5F0FC"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18CE506F6283B602"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E79E5A508B4A8DB"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75EF3FE56D853629"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2844EBB9F2EF763B"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78B101D35B7649A7"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49CBA1A8937541BA"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7EBC4CDE2A8B117A"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01C99E96FCB5CD7F"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BEA831A7F125850"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3426B00022AC6123"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "470565AE382FF0A9"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2371A77201130902"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32762A7C05505F36"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "787432D8CB36F83A"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "685F8DE7198A95E3"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B27626BDC246C04"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BE3F4B2FDCCCE2C"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22EA871C414B2E04"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "400084039B545D91"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40C6851ED0C321B0"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78EB0E4DE9700F97"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CD5C9D5BCB2CF01"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05C4880712AAB56A"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FC716EB150871BE"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38F1888686100AD5"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A19E2E8D680535D"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00F325A5AF6CF70E"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21CA0D21CA74E84F"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67EFD6602982C612"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "698643589E91F6D5"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45FBDFA1EBA89A4D"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67FF9333B7CF7967"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21BF9751DE455046"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A0BE8E7AD48C765"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CE3F86A2314E372"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52167FFE9D1CB090"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DE1BE5558C50502"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06201C599D6F5BBB"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1066989745E14480"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B9B4F78E21EDCC1"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35191E44D980725D"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D8EB2058CA94A47"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EA8D6EB57451D44"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65BFE6A094C24898"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44F53DDCFA831BDD"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36AB021414BCF4F7"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47BA6C83EE0D96B5"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "225D3A50A5EA411B"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24B6C8D31795F636"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52E53286AD1826C2"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Я неизбежен"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Пройдите глубоко в исторические руины остатков бастиона в нижней части, и у вас будет шанс погасить из сундуков необходимый шаблон."
+				""
+				"Эти специальные шаблоны могут быть продублированы с 7 рубинами, блоком Blackstone и оригинальным шаблоном Smithing."
+			]
+			id: "1BF9802A3022CF3A"
+			rewards: [
+				{
+					count: 2
+					id: "66E0A64E2D4AD3D9"
+					item: "mythicupgrades:ruby_potion"
+					type: "item"
+				}
+				{
+					id: "5BF2DB2BA0098504"
+					item: "mythicupgrades:ruby_ingot"
+					type: "item"
+				}
+				{
+					id: "0D9D06BB8BC82538"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "13BFFB2201BC0E65"
+					item: "dried_ghast:red_harness"
+					type: "item"
+				}
+			]
+			subtitle: "Рубин обновление"
+			tasks: [{
+				id: "5C999084359E5D2A"
+				item: "mythicupgrades:ruby_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Шаблон смазания"
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Красная, как кровяная луна, Руби генерирует в нижней части в рамках биомов Багрового леса между y = 0 и y = 32 (чаще всего при y = 16)."
+				""
+				"Соберите 4 рубина, поместите их в столу для ремесленника с 4 слитками Necoium, чтобы получить 1 рубиновый слиток."
+			]
+			id: "6A036F92418D5697"
+			rewards: [
+				{
+					id: "5E49FC52E1FDDA27"
+					item: "mythicupgrades:ruby_ingot"
+					type: "item"
+				}
+				{
+					id: "16BA6D7D1681F4EF"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 64
+					id: "1F7D676621F34348"
+					item: "natures_spirit:red_kaolin"
+					type: "item"
+				}
+			]
+			subtitle: "Получить 8 рубин"
+			tasks: [{
+				count: 8L
+				id: "0FF3EB50E14B4EF7"
+				item: { Count: 8, id: "mythicupgrades:ruby" }
+				type: "item"
+			}]
+			title: "Рубиновый жемчужина"
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Красный часто приравнивается к власти.С полным набором рубиновых броней, вы получите щит шахтеров, который применит 1,5 секунды усталости для добычи полезных ископаемых к вашим врагам!"
+				""
+				"Чтобы создать весь набор брони, вам понадобится 4 шаблона Ruby Smithing, полный набор доспехов в нефито-золотом и 4 слитка."
+			]
+			id: "4C48EB435C782808"
+			rewards: [
+				{
+					count: 3
+					id: "11B761CAABB247E6"
+					item: "mythicupgrades:ruby_potion"
+					type: "item"
+				}
+				{
+					id: "1017739F05B943AC"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 8
+					id: "136C7CAD736A44ED"
+					item: "natures_spirit:red_paper_lantern"
+					type: "item"
+				}
+			]
+			subtitle: "Получить полный набор рубиновых брони"
+			tasks: [
+				{
+					id: "03C7BF9D746885EB"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "274260C2420D7C07"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F414F5C50EB5100"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B2E081EE4E0E798"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Рубиновая броня"
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"С большой силой приходит большая ответственность.Будьте осторожны, как вы делаете с этими инструментами, так как Pickaxe увеличивает скорость добычи полезных ископаемых.Другие дадут вам спешку, когда держатся в вашей главной руке."
+				""
+				"Чтобы создать весь набор инструментов, вам понадобится 5 шаблонов Ruby Smithing, полный набор нефитных инструментов и 5 рубиновых слитков."
+			]
+			id: "7702AFA03FBD5CA4"
+			rewards: [
+				{
+					id: "3D6A2B8936EC64DA"
+					item: "mythicupgrades:ruby_crystal_block"
+					type: "item"
+				}
+				{
+					id: "7D3BC9FFDDAE53EA"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "60C88B944DB55D5C"
+					item: "minecraft:red_shulker_box"
+					type: "item"
+				}
+			]
+			subtitle: "Получить полный набор инструментов Ruby"
+			tasks: [
+				{
+					id: "7633D0824A1B1E96"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F79C2A42DC85446"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43D67ECC1F24EDE2"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "691FA5FBF267A4EF"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59F056F82B59BA71"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Рубиновый набор инструментов"
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Убери себя от дождя!Переход в пустынные храмы - это то, где вы найдете шаблоны Smithing Topaz."
+				""
+				"Эти специальные шаблоны могут быть продублированы с 7 топазом, блоком песчаника и оригинальным шаблоном смивания."
+			]
+			id: "4879307DB829E4F4"
+			rewards: [
+				{
+					count: 2
+					id: "0E4F96F615FAA3B2"
+					item: "mythicupgrades:topaz_potion"
+					type: "item"
+				}
+				{
+					id: "1C6FF8E0DC8DA0AB"
+					item: "mythicupgrades:topaz_ingot"
+					type: "item"
+				}
+				{
+					id: "03A993195DAD9846"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "22FB0827C1FB151D"
+					item: "dried_ghast:orange_harness"
+					type: "item"
+				}
+			]
+			subtitle: "Обновление Topaz"
+			tasks: [{
+				id: "0D5721F8774CB8D9"
+				item: "mythicupgrades:topaz_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Шаблон смазания"
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Джуманджи: игра для тех, кто стремится найти способ оставить свой мир позади. Шаблоны Smithing Peridot можно найти в храмах джунглей."
+				""
+				"Эти специальные шаблоны могут быть продублированы с 7 Перидотом, блоком мшистого булыжника и оригинальным шаблоном Smithing."
+			]
+			id: "6AB584F3234E46F7"
+			rewards: [
+				{
+					count: 2
+					id: "4C7019EBB8F170B5"
+					item: "mythicupgrades:peridot_potion"
+					type: "item"
+				}
+				{
+					id: "34F7E0A9009EFD9E"
+					item: "mythicupgrades:peridot_ingot"
+					type: "item"
+				}
+				{
+					id: "51D125F66C11CFCE"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "6E2F9E1FC4640E0B"
+					item: "dried_ghast:lime_harness"
+					type: "item"
+				}
+			]
+			subtitle: "Обновление Перидота"
+			tasks: [{
+				id: "453E3D01BD0F8FEA"
+				item: "mythicupgrades:peridot_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Шаблон смазания"
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Отпусти ситуацию! Эти шаблоны могут быть разграблены из иглу в ледяных деревнях."
+				""
+				"Эти специальные шаблоны могут быть дублированы с 7 аквамарином, блоком каменных кирпичей и оригинальными шаблонами смивания."
+			]
+			id: "0725D37325D7D55D"
+			rewards: [
+				{
+					count: 2
+					id: "4E0383AF09ECA652"
+					item: "mythicupgrades:aquamarine_potion"
+					type: "item"
+				}
+				{
+					id: "4E08D4A45BEEC684"
+					item: "mythicupgrades:aquamarine_ingot"
+					type: "item"
+				}
+				{
+					id: "426AF1D70BF5EAB8"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "36DC0C5F21837038"
+					item: "dried_ghast:light_blue_harness"
+					type: "item"
+				}
+			]
+			subtitle: "Аквамариновое обновление"
+			tasks: [{
+				id: "130CAD3B849EA54F"
+				item: "mythicupgrades:aquamarine_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Шаблон смазания"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Шаблоны Sapphire Smithing могут быть извлечены из нижних крепостей."
+				""
+				"Эти специальные шаблоны могут быть продублированы 7 сапфирами, блоком Netherbricks и оригинальным шаблоном Smithing."
+			]
+			id: "15AEC560FCA12AC8"
+			rewards: [
+				{
+					count: 2
+					id: "2BD6B4CAC0150B7E"
+					item: "mythicupgrades:sapphire_potion"
+					type: "item"
+				}
+				{
+					id: "28DA969573C198E7"
+					item: "mythicupgrades:sapphire_ingot"
+					type: "item"
+				}
+				{
+					id: "106C8F4D34B9C1E7"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "717CFAFBDFC0F295"
+					item: "dried_ghast:blue_harness"
+					type: "item"
+				}
+			]
+			subtitle: "Sapphire Upgrade"
+			tasks: [{
+				id: "321D6187771028DF"
+				item: "mythicupgrades:sapphire_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Шаблон смазания"
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Вы думали, что Шулькс раздражает? Вы ничего не видели! Шаблоны аметрина Smithing можно найти в конечных городах."
+				""
+				"Эти специальные шаблоны могут быть продублированы 7 аметрином, блоком фирменных кирпичей и оригинальным шаблоном Smithing."
+			]
+			id: "4D0C394A9BFCD113"
+			rewards: [
+				{
+					count: 2
+					id: "1AD1B08551F46176"
+					item: "mythicupgrades:ruby_potion"
+					type: "item"
+				}
+				{
+					id: "44DA82FC45983587"
+					item: "mythicupgrades:ruby_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "1E9DED36CE27ED95"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "051FE204CEC94F01"
+					item: "dried_ghast:magenta_harness"
+					type: "item"
+				}
+			]
+			subtitle: "Обновление аметрина"
+			tasks: [{
+				id: "41BDC532E315C2D2"
+				item: "mythicupgrades:ametrine_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Шаблон смазания"
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Для пожарной нации! Топаз генерирует под пустынными биомами между y = -64 и y = 32 (чаще всего при y = -16)."
+				""
+				"Соберите 4 топаза, поместите их в таблицу крафта с 4 слитками Necoium, чтобы получить 1 Topaz Sinot."
+			]
+			id: "44AEAB3D29866F0F"
+			rewards: [
+				{
+					id: "7C63DBF8C9D7EE57"
+					item: "mythicupgrades:topaz_ingot"
+					type: "item"
+				}
+				{
+					id: "6B2BD185D8238E9C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 64
+					id: "13AAC10A173E7433"
+					item: "natures_spirit:orange_kaolin"
+					type: "item"
+				}
+			]
+			subtitle: "Получить 8 топаз"
+			tasks: [{
+				count: 8L
+				id: "57411798EFF72017"
+				item: "mythicupgrades:topaz"
+				type: "item"
+			}]
+			title: "Топаз драгоценный камень"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Остерегайтесь приключений: не начинайте, если вы не собираетесь закончить. Перидот генерирует под биомами джунглей между y = -64 и y = 32 (чаще всего при y = -16)."
+				""
+				"Соберите 4 Перидота, поместите их в таблицу крафта с 4 слитками Necoium, чтобы получить 1 Peridot Sintot."
+			]
+			id: "0C93000C3F4043E9"
+			rewards: [
+				{
+					id: "1B4339051C640CA7"
+					item: "mythicupgrades:peridot_ingot"
+					type: "item"
+				}
+				{
+					id: "311382F18F4A9C32"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 64
+					id: "4E00154B894B6A2D"
+					item: "natures_spirit:lime_kaolin"
+					type: "item"
+				}
+			]
+			subtitle: "Получить 8 Перидот"
+			tasks: [{
+				count: 8L
+				id: "43E2CFE0BA6DFDDF"
+				item: "mythicupgrades:peridot"
+				type: "item"
+			}]
+			title: "Перидот драгоценный камень"
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Эта ледяная сила, как грязная, так и ярмарка имеет замороженное сердце, которое стоит добывать! Аквамарин расположен под ледяными биомами между y = -64 и y = 32 (чаще всего при y = -16)."
+				""
+				"Соберите 4 аквамарина, поместите их в таблицу крафта с 4 слитками Necoium, чтобы получить 1 аквамариновый слиток."
+			]
+			id: "03F664EF2509422A"
+			rewards: [
+				{
+					id: "1766A43551DC293F"
+					item: "mythicupgrades:aquamarine_ingot"
+					type: "item"
+				}
+				{
+					id: "77BCC97564D2A933"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 64
+					id: "22088D5248030681"
+					item: "natures_spirit:light_blue_kaolin"
+					type: "item"
+				}
+			]
+			subtitle: "Получить 8 аквамарин"
+			tasks: [{
+				count: 8L
+				id: "65BF09E4D9789F7C"
+				item: "mythicupgrades:aquamarine"
+				type: "item"
+			}]
+			title: "Аквамариновый жемчужина"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Сапфир генерирует в нижнем месте между y = 0 и y = 32 (чаще всего при y = 16)."
+				""
+				"Соберите 4 сапфира, поместите их в таблицу крафта с 4 слитками Necoium, чтобы получить 1 сапфировый слиток."
+			]
+			id: "0729DA74DFCC4D83"
+			rewards: [
+				{
+					id: "726A02EC17E63F65"
+					item: "mythicupgrades:sapphire_ingot"
+					type: "item"
+				}
+				{
+					id: "073B2FD5F90233CC"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 64
+					id: "4529D9A89A1F3522"
+					item: "natures_spirit:blue_kaolin"
+					type: "item"
+				}
+			]
+			subtitle: "Retreive 8 Sapphire"
+			tasks: [{
+				count: 8L
+				id: "5E9760626BC7E3E0"
+				item: "mythicupgrades:sapphire"
+				type: "item"
+			}]
+			title: "Сапфир драгоценный камень"
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Подумайте о мысли, любой веселой мысли! Аметрин можно найти в конце между y = 0 и y = 32 (чаще всего при y = 16)."
+				""
+				"Соберите 4 аметрина, поместите их в таблицу крафта с 4 слитками Necoium, чтобы получить 1 аметрин."
+			]
+			id: "11965479A90F520B"
+			rewards: [
+				{
+					id: "271B151967F10B7E"
+					item: "mythicupgrades:ametrine_ingot"
+					type: "item"
+				}
+				{
+					id: "3F82AF35E7F72151"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 64
+					id: "40C6509DE8E2724E"
+					item: "natures_spirit:magenta_kaolin"
+					type: "item"
+				}
+			]
+			subtitle: "Получить 8 аметрин"
+			tasks: [{
+				count: 8L
+				id: "2F36D14AACC1F690"
+				item: "mythicupgrades:ametrine"
+				type: "item"
+			}]
+			title: "Аметрин драгоценный камень"
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Здесь жарко или только вы? Каждая отдельная часть брони имеет тройную долговечность и дает вам +1 защиту. С полным набором Topaz у вас будет полная противопожарная защита и мастерство предметов, что дает вам 50% вероятность того, что ваш инструмент не придерживается достойных ударов."
+				""
+				"Чтобы создать весь набор брони, вам понадобятся 4 шаблоны Smithing Topaz, полный набор доспехов с нефито-золотым и 4 слитки топаз."
+			]
+			id: "6E7534C8A367A4FC"
+			rewards: [
+				{
+					count: 3
+					id: "23B7E69CB4D32162"
+					item: "mythicupgrades:topaz_potion"
+					type: "item"
+				}
+				{
+					id: "1D8ABD9E9F90A62A"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 8
+					id: "3D5289C454275D3F"
+					item: "natures_spirit:orange_paper_lantern"
+					type: "item"
+				}
+			]
+			subtitle: "Получить полный набор брони топаза"
+			tasks: [
+				{
+					id: "66796811F0AD9FDC"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E00F4C6841BCFD7"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FA773CAA7F41594"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "324069630103A825"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Набор брони топаза"
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Не трогайте пурпурные, они стреляют в ядовитые колючки. И определенно держитесь подальше от стручков ... большие желтые. Полная доспеха Перидота даст вам бесконечные ядовитые шипы, которые применяют шипы и яд к нападениям врагов."
+				""
+				"Чтобы создать весь набор брони, вам понадобится 4 шаблона Smithing Peridot, полный набор доспехи нефито-эморальных и 4 пилота Перидота."
+			]
+			id: "719EB23C561A0347"
+			rewards: [
+				{
+					count: 3
+					id: "52129896983CC934"
+					item: "mythicupgrades:peridot_potion"
+					type: "item"
+				}
+				{
+					id: "5D40A182B5EFF9B1"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 8
+					id: "10839D73516A043D"
+					item: "natures_spirit:lime_paper_lantern"
+					type: "item"
+				}
+			]
+			subtitle: "Получить полный набор брони перидота"
+			tasks: [
+				{
+					id: "5F96948CF5E3BA86"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E41D159083F5241"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F9BA465F247811E"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "252EC1068469A1CC"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Перидот броня набор"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Смотрите красоту, четко и чисто. Полная аквамариновая броня даст вам бесконечный бесконечный ледяной щит III, нанося медленную III на врагов, когда вас атаковают"
+				""
+				"Чтобы создать весь набор брони, вам понадобится 4 шаблона смазывания аквамаринов, полный набор доспехи нефитовой железы и 4 аквамариновых слитков."
+			]
+			id: "7F4D8186E568223A"
+			rewards: [
+				{
+					count: 3
+					id: "158F381BEB231BA7"
+					item: "mythicupgrades:aquamarine_potion"
+					type: "item"
+				}
+				{
+					id: "0EDA800B76E82B13"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 8
+					id: "7696A3F69D40BF63"
+					item: "natures_spirit:light_blue_paper_lantern"
+					type: "item"
+				}
+			]
+			subtitle: "Получить полный набор аквамариновых броней"
+			tasks: [
+				{
+					id: "78885D1A03B9ECD9"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F85DE8A845C4331"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B2A98A827B83A0C"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "195546A9AA40DAE1"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Аквамариновая броня"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Sapphire Armor даст вам бесконечное отклонение ущерба III, отправив 30% ущерба обратно на атакующие толпы."
+				""
+				"Чтобы создать весь набор брони, вам понадобятся 4 шаблоны Sapphire Smithing, полный набор доспехов с неэтито-железом и 4 сапфировых слитков."
+			]
+			id: "5B37533DC9D57D6D"
+			rewards: [
+				{
+					count: 3
+					id: "6CE3DCE95DCCCC7C"
+					item: "mythicupgrades:sapphire_potion"
+					type: "item"
+				}
+				{
+					id: "0E51FF0649D953A0"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 8
+					id: "70B43F51207C7292"
+					item: "natures_spirit:blue_paper_lantern"
+					type: "item"
+				}
+			]
+			subtitle: "Получить полный набор доспехов сапфира"
+			tasks: [
+				{
+					id: "412B3DEB28BE426C"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E3453DC37205EEA"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52E3E21EEBBAB7B7"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "746E011BF92491A6"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Сапфировые брони набор"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Подумайте о самой счастливой вещи, это то же самое, что и крылья! Полный набор брони аметрина будет наносить левитацию V любым врагам, нападающим на вас на 0,75 секунды."
+				""
+				"Чтобы создать весь набор брони, вам понадобится 4 шаблона аметрина, полное набор доспехи нефитово-диамонд и 4 аметринных слитков."
+			]
+			id: "097FBD771071E333"
+			rewards: [
+				{
+					count: 3
+					id: "59436955FB8EA53F"
+					item: "mythicupgrades:ametrine_potion"
+					type: "item"
+				}
+				{
+					id: "137A55D535C40968"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 8
+					id: "0A2CCACD894187DB"
+					item: "natures_spirit:magenta_paper_lantern"
+					type: "item"
+				}
+			]
+			subtitle: "Получить полный набор брони аметрина"
+			tasks: [
+				{
+					id: "59748E06A0C4032F"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35EF6CA112FEA798"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CF6293C7C410840"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C1A21EFC621FC27"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Аметрин Броня"
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Инструменты Topaz имеют тройную долговечность, более высокую скорость добычи и больший боевой повреждение. Идеально подходит для ваших целей мирового господства."
+				""
+				"Чтобы создать весь набор инструментов, вам понадобятся 5 шаблонов Smithing Topaz, полный набор нефитных инструментов и 5 стержней топаза."
+			]
+			id: "738A3D2369B5DC45"
+			rewards: [
+				{
+					id: "133DDE78FDEABBEF"
+					item: "mythicupgrades:topaz_crystal_block"
+					type: "item"
+				}
+				{
+					id: "4F779DECBD92C196"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "6645867C789170B7"
+					item: "minecraft:orange_shulker_box"
+					type: "item"
+				}
+			]
+			subtitle: "Получить полный набор инструментов Topaz"
+			tasks: [
+				{
+					id: "21DA7420037DC173"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10DB8BBC1667E4B4"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B7233F22E887B6B"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59006FCCAB632D21"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B4BF47FDBAA55A3"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Набор инструментов Topaz"
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Они растут намного быстрее, чем бамбук. Береги себя, или они придут за тобой. Инструменты Перидота применяют яд III на контакт."
+				""
+				"Чтобы создать весь набор инструментов, вам понадобится 5 шаблонов Smithing Peridot, полный набор нефитных инструментов и 5 слитков Peridot."
+			]
+			id: "1B933576E03AB9AF"
+			rewards: [
+				{
+					id: "380AE54078DAAF64"
+					item: "mythicupgrades:peridot_crystal_block"
+					type: "item"
+				}
+				{
+					id: "09B9F9433008E5A6"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "2BAF91FB72563D3B"
+					item: "minecraft:lime_shulker_box"
+					type: "item"
+				}
+			]
+			subtitle: "Получить полный набор инструментов Peridot"
+			tasks: [
+				{
+					id: "1DF1892EDF20725B"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "785368638AC55F48"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D0977F715430BF2"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1728EBF98E07340D"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "091711CEFD4F7863"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Peridottool Set"
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Разделите лед на части и разбейте замороженное сердце! Аквамариновые инструменты замораживают врагов в течение 0,5 секунды."
+				""
+				"Для создания всего набора инструментов вам понадобится 5 шаблонов Aquamarine Smithing, полный набор нефитных инструментов и 5 аквамариновых слитков."
+			]
+			id: "2C74E4B13A39C27E"
+			rewards: [
+				{
+					id: "04D97689A3709B0F"
+					item: "mythicupgrades:aquamarine_crystal_block"
+					type: "item"
+				}
+				{
+					id: "4A060B149A40137B"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "5109A8A15EB02938"
+					item: "minecraft:light_blue_shulker_box"
+					type: "item"
+				}
+			]
+			subtitle: "Получить полный набор инструментов аквамарина"
+			tasks: [
+				{
+					id: "76474BD9C617022A"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C71BA07C87AEA57"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C4A6DFE3C5D83BB"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B021FF6EAA083B2"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24B00360CA955B5B"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Аквамариновый набор инструментов"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Сапфировые инструменты имеют более высокий ущерб атаке, а также на 3% ваших врагов Max Health с дополнительным ущербом."
+				""
+				"Чтобы создать весь набор инструментов, вам понадобится 5 шаблонов Sapphire Smithing, полный набор нефитных инструментов и 5 сапфировых слитков."
+			]
+			id: "24722E2F72007C37"
+			rewards: [
+				{
+					id: "26EF7F3608762EFB"
+					item: "mythicupgrades:sapphire_crystal_block"
+					type: "item"
+				}
+				{
+					id: "7A45F4A59D153A9F"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "028A96CEA97019EA"
+					item: "minecraft:blue_shulker_box"
+					type: "item"
+				}
+			]
+			subtitle: "Получить полный набор инструментов сапфира"
+			tasks: [
+				{
+					id: "2EC85AEEC0AB4183"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71A0775CEC4F04D6"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68806669D8C191BB"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E80C02718962C5F"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "743BF8829BF1FE25"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Сапфирский набор инструментов"
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Вы можете летать! Инструменты аметрина наносят левитацию V на 0,75 секунды на врагов."
+				""
+				"Чтобы создать весь набор инструментов, вам понадобится 4 шаблона смазания аметрина, полный набор доспехи нефитовых диаммонд и 4 слитки аметрина."
+			]
+			id: "30432729DF267922"
+			rewards: [
+				{
+					id: "7C139FE8A7919B28"
+					item: "mythicupgrades:ametrine_crystal_block"
+					type: "item"
+				}
+				{
+					id: "21187306358DB2E9"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "780513993435A705"
+					item: "minecraft:magenta_shulker_box"
+					type: "item"
+				}
+			]
+			subtitle: "Получить полный набор инструментов аметрина"
+			tasks: [
+				{
+					id: "40438545A5366DC2"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "749476037CB78465"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73200B899BF2A2C0"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0110BB9A22B5B288"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E9F6A1987040EBD"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Аметрин набор инструментов"
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Это нефритовый дворец? Нет, но шаблоны Jade Smithing можно найти в конечных городах."
+				""
+				"Эти специальные шаблоны могут быть продублированы с 7 нефритом, блоком фирменных кирпичей и оригинальным шаблоном Smithing."
+			]
+			id: "20483A72C553BF75"
+			rewards: [
+				{
+					count: 2
+					id: "4490C08B2524CE78"
+					item: "mythicupgrades:jade_potion"
+					type: "item"
+				}
+				{
+					id: "18D537BD15081E10"
+					item: "mythicupgrades:jade_ingot"
+					type: "item"
+				}
+				{
+					id: "657FB1535AB66839"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "148D29DC0D6E1975"
+					item: "dried_ghast:green_harness"
+					type: "item"
+				}
+			]
+			subtitle: "Не Джейд обновление"
+			tasks: [{
+				id: "08CDCFE6D8B68BD0"
+				item: "mythicupgrades:jade_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Шаблон смазания"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Иди вперед, воин дракона! Джейд генерирует в конце между y = 0 и y = 32 (чаще всего при y = 16)."
+				""
+				"Соберите 4 нефрита, поместите их в ремесленную столу с 4 слитками Necoium, чтобы получить 1 нефрит."
+			]
+			id: "656475CABE587074"
+			rewards: [
+				{
+					id: "710ED94D13804FBF"
+					item: "mythicupgrades:jade_ingot"
+					type: "item"
+				}
+				{
+					id: "083CFC0E9FC8046B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 64
+					id: "5DF15EA18EE75C8C"
+					item: "natures_spirit:green_kaolin"
+					type: "item"
+				}
+			]
+			subtitle: "Получить 8 Джейд"
+			tasks: [{
+				count: 8L
+				id: "7861FF2EF3C25081"
+				item: "mythicupgrades:jade"
+				type: "item"
+			}]
+			title: "Джейд Спаситель"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Воск. Полная нефритовая броня даст вам бесконечную бесконечную скорость III и прыжок Boost III."
+				""
+				"Чтобы создать весь набор брони, вам понадобятся 4 шаблоны Jade Smithing, полный набор доспехов с нефито-эморальным и 4 нефритовых слитков."
+			]
+			id: "0256B84C1F88952D"
+			rewards: [
+				{
+					count: 3
+					id: "4EDB16C8A531A3EA"
+					item: "mythicupgrades:jade_potion"
+					type: "item"
+				}
+				{
+					id: "2B0AC194CF64A443"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 8
+					id: "15E3404A6E349FD4"
+					item: "natures_spirit:green_paper_lantern"
+					type: "item"
+				}
+			]
+			subtitle: "Получить полный набор нефритовых брони"
+			tasks: [
+				{
+					id: "6EC1D36491A24FD8"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A105D93CC5053D3"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21B9A45AFDD33A99"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EC9AD49B4ABF4A2"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Нефритовая броня"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Воск. Когда в вашей главной руке Jade Tools дают вам Bouncer V, что дает вам повышение прыжка в течение 2 секунд после атаки."
+				""
+				"Чтобы создать весь набор инструментов, вам понадобятся 5 шаблонов нефритовых смазков, полный набор нефитных инструментов и 5 нефритовых слитков."
+			]
+			id: "4D5FB52FE61066A7"
+			rewards: [
+				{
+					id: "1F7304A41DF7C041"
+					item: "mythicupgrades:jade_crystal_block"
+					type: "item"
+				}
+				{
+					id: "3800A86D0226FD3E"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "5AB6BDBD00CCD9B2"
+					item: "minecraft:green_shulker_box"
+					type: "item"
+				}
+			]
+			subtitle: "Получить полный набор инструментов нефрита"
+			tasks: [
+				{
+					id: "14AD1E503347BDC8"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "485A35F95128063B"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52346F8BFB7C19A4"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1915C7A9E89896FB"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52DBF7BCB55D5A40"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Нефритовый набор инструментов"
+			x: 2.0d
+			y: 1.5d
+		}
+	]
+	title: "Кованые басни"
+}
