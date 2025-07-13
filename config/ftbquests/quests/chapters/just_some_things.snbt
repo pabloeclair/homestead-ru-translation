@@ -28,7 +28,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["A book so full of knowledge, it practically whispers “I know what you did last summer... with trinkets.\""]
+			description: ["{homestead.just_some_things.6495150FA2217BF2.quest0.description0}"]
 			id: "6495150FA2217BF2"
 			rewards: [{
 				id: "45129DE749E0391C"
@@ -36,19 +36,20 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "Craft the Things Almanac"
+			subtitle: "{homestead.just_some_things.6495150FA2217BF2.quest0.subtitle}"
 			tasks: [{
 				id: "07FCB04A5C2C2BCB"
 				item: "things:things_almanac"
 				type: "item"
 			}]
-			title: "A Thing or Two About Things"
+			title: "{homestead.just_some_things.6495150FA2217BF2.quest0.title}"
 			x: -3.0d
 			y: -0.5d
 		}
+
 		{
 			dependencies: ["6495150FA2217BF2"]
-			description: ["It sparkles, it shines, it definitely ends up lost in a chest somewhere."]
+			description: ["{homestead.just_some_things.387843C8BEF771B8.quest1.description0}"]
 			id: "387843C8BEF771B8"
 			rewards: [
 				{
@@ -62,19 +63,20 @@
 					xp: 25
 				}
 			]
-			subtitle: "Mine Gleaming Ore or Deepslate Gleaming Ore to obtain Gleaming Powder"
+			subtitle: "{homestead.just_some_things.387843C8BEF771B8.quest1.subtitle}"
 			tasks: [{
 				id: "48328C8EB79FB4B6"
 				item: "things:gleaming_powder"
 				type: "item"
 			}]
-			title: "Gleam Team Assemble"
+			title: "{homestead.just_some_things.387843C8BEF771B8.quest1.title}"
 			x: -3.0d
 			y: 2.0d
 		}
+
 		{
 			dependencies: ["387843C8BEF771B8"]
-			description: ["You made a Thing! It does… a thing. Probably."]
+			description: ["{homestead.just_some_things.7CF18DBB9C42EC9C.quest2.description0}"]
 			id: "7CF18DBB9C42EC9C"
 			rewards: [
 				{
@@ -89,7 +91,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft one Glove, Necklace and Shoe trinket."
+			subtitle: "{homestead.just_some_things.7CF18DBB9C42EC9C.quest2.subtitle}"
 			tasks: [
 				{
 					id: "498106D879C3A04D"
@@ -100,7 +102,7 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(trinkets:hand/glove)"
 						}
 					}
-					title: "Any #trinkets:hand/glove"
+					title: "{homestead.just_some_things.7CF18DBB9C42EC9C.quest2.task3.title}"
 					type: "item"
 				}
 				{
@@ -112,7 +114,7 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(trinkets:chest/necklace)"
 						}
 					}
-					title: "Any #trinkets:chest/necklace"
+					title: "{homestead.just_some_things.7CF18DBB9C42EC9C.quest2.task0.title}"
 					type: "item"
 				}
 				{
@@ -124,17 +126,18 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(trinkets:feet/shoes)"
 						}
 					}
-					title: "Any #trinkets:feet/shoes"
+					title: "{homestead.just_some_things.7CF18DBB9C42EC9C.quest2.task1.title}"
 					type: "item"
 				}
 			]
-			title: "Thingamajigs and Whatsits"
+			title: "{homestead.just_some_things.7CF18DBB9C42EC9C.quest2.title}"
 			x: 4.0d
 			y: 2.0d
 		}
+
 		{
 			dependencies: ["7CF18DBB9C42EC9C"]
-			description: ["Fuse two trinkets into one! It’s like friendship bracelets, but with more arcane energy and less glitter."]
+			description: ["{homestead.just_some_things.19B3F903C08DE671.quest3.description0}"]
 			id: "19B3F903C08DE671"
 			rewards: [
 				{
@@ -155,16 +158,15 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Craft an Agglomeration"
+			subtitle: "{homestead.just_some_things.19B3F903C08DE671.quest3.subtitle}"
 			tasks: [{
 				id: "2C93116F2E6C1424"
 				item: "things:empty_agglomeration"
 				type: "item"
 			}]
-			title: "Franken-Thing"
+			title: "{homestead.just_some_things.19B3F903C08DE671.quest3.title}"
 			x: 4.0d
 			y: -0.5d
 		}
-	]
-	title: "Just Some Things"
-}
+
+	]	title: "Just Some Things"}

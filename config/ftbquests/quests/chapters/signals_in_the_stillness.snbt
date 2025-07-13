@@ -108,7 +108,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["&4&lWireless Redstone&r&r lets you transmit redstone signals &nwirelessly&r using a system of &lTransmitters&r, &lReceivers&r, and tools like &lRemotes&r and &lSniffers&r. All of these tools use a shared crafting component: the &lCircuit&r. You'll need a few of these along your journey."]
+			description: ["{homestead.signals_in_the_stillness.1FA32046C76E1A9F.quest0.description0}"]
 			id: "1FA32046C76E1A9F"
 			rewards: [{
 				id: "4B1C8D35EC4C034B"
@@ -117,7 +117,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Complete to begin exploring the Wireless Redstone mod."
+			subtitle: "{homestead.signals_in_the_stillness.1FA32046C76E1A9F.quest0.subtitle}"
 			tasks: [{
 				id: "23AB2E9A1C831AB3"
 				title: "Whispers of the Signal"
@@ -126,9 +126,10 @@
 			x: -1.0d
 			y: -6.0d
 		}
+
 		{
 			dependencies: ["1FA32046C76E1A9F"]
-			description: ["The Redstone Transmitter sends redstone power wirelessly to a Redstone Receiver on the same frequency. You can power it using any normal redstone input (torch, block, lever, etc.). Right-click it to change the frequency. Multiple systems can run in parallel on different channels."]
+			description: ["{homestead.signals_in_the_stillness.3AA72919D6430202.quest1.description0}"]
 			hide_dependency_lines: true
 			id: "3AA72919D6430202"
 			rewards: [
@@ -148,19 +149,20 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Redstone Transmitter."
+			subtitle: "{homestead.signals_in_the_stillness.3AA72919D6430202.quest1.subtitle}"
 			tasks: [{
 				id: "40D4FD123DDD7EE3"
 				item: "wirelessredstone:redstone_transmitter"
 				type: "item"
 			}]
-			title: "Send the Signal"
+			title: "{homestead.signals_in_the_stillness.3AA72919D6430202.quest1.title}"
 			x: -3.0d
 			y: -4.5d
 		}
+
 		{
 			dependencies: ["1FA32046C76E1A9F"]
-			description: ["The Redstone Receiver receives power from any Redstone Transmitter on the same frequency. Right-click it to change its frequency. Match it to a Transmitter’s frequency to complete a wireless circuit."]
+			description: ["{homestead.signals_in_the_stillness.14CC3C18F57BD06A.quest2.description0}"]
 			hide_dependency_lines: true
 			id: "14CC3C18F57BD06A"
 			rewards: [
@@ -180,19 +182,20 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Redstone Receiver."
+			subtitle: "{homestead.signals_in_the_stillness.14CC3C18F57BD06A.quest2.subtitle}"
 			tasks: [{
 				id: "5AE64C75C0E3C4BC"
 				item: "wirelessredstone:redstone_receiver"
 				type: "item"
 			}]
-			title: "Catch the Signal"
+			title: "{homestead.signals_in_the_stillness.14CC3C18F57BD06A.quest2.title}"
 			x: -2.0d
 			y: -4.5d
 		}
+
 		{
 			dependencies: ["1FA32046C76E1A9F"]
-			description: ["The Frequency Sniffer helps you locate the Transmitter tied to a specific frequency. Shift-right-click to set the frequency. Then right-click to highlight the corresponding transmitter in bright red for 10 seconds—even through blocks and across any distance. It also posts the block's coordinates to chat."]
+			description: ["{homestead.signals_in_the_stillness.085C6F73E84613BF.quest3.description0}"]
 			hide_dependency_lines: true
 			id: "085C6F73E84613BF"
 			rewards: [
@@ -212,19 +215,20 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Frequency Sniffer."
+			subtitle: "{homestead.signals_in_the_stillness.085C6F73E84613BF.quest3.subtitle}"
 			tasks: [{
 				id: "63932F4922E82FBA"
 				item: "wirelessredstone:frequency_sniffer"
 				type: "item"
 			}]
-			title: "Find the Source"
+			title: "{homestead.signals_in_the_stillness.085C6F73E84613BF.quest3.title}"
 			x: -1.0d
 			y: -4.5d
 		}
+
 		{
 			dependencies: ["1FA32046C76E1A9F"]
-			description: ["The Remote manually powers a Redstone Transmitter. Shift-right-click to set a frequency. Then right-click to activate the transmitter at that frequency for as long as the click is held. Perfect for toggling devices from afar."]
+			description: ["{homestead.signals_in_the_stillness.44C805C63ECF871F.quest4.description0}"]
 			hide_dependency_lines: true
 			id: "44C805C63ECF871F"
 			rewards: [
@@ -244,19 +248,20 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Remote."
+			subtitle: "{homestead.signals_in_the_stillness.44C805C63ECF871F.quest4.subtitle}"
 			tasks: [{
 				id: "6BAB29D5B3CBDAAC"
 				item: "wirelessredstone:remote"
 				type: "item"
 			}]
-			title: "Remote Control"
+			title: "{homestead.signals_in_the_stillness.44C805C63ECF871F.quest4.title}"
 			x: 0.0d
 			y: -4.5d
 		}
+
 		{
 			dependencies: ["1FA32046C76E1A9F"]
-			description: ["The Frequency Tool copies and pastes frequencies between transmitters and receivers. Shift-right-click to set a frequency. Right-click to apply it to a block. To copy a block's frequency, shift-right-click the block with the tool, then right-click another to paste."]
+			description: ["{homestead.signals_in_the_stillness.4CD3CDE44A8E3EBB.quest5.description0}"]
 			hide_dependency_lines: true
 			id: "4CD3CDE44A8E3EBB"
 			rewards: [
@@ -272,16 +277,15 @@
 					xp: 100
 				}
 			]
-			subtitle: "Craft a Frequency Tool."
+			subtitle: "{homestead.signals_in_the_stillness.4CD3CDE44A8E3EBB.quest5.subtitle}"
 			tasks: [{
 				id: "489B701B1A46152C"
 				item: "wirelessredstone:frequency_tool"
 				type: "item"
 			}]
-			title: "Channel Manager"
+			title: "{homestead.signals_in_the_stillness.4CD3CDE44A8E3EBB.quest5.title}"
 			x: 1.0d
 			y: -4.5d
 		}
-	]
-	title: "Signals in the Stillness"
-}
+
+	]	title: "Signals in the Stillness"}

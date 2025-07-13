@@ -29,9 +29,9 @@
 	quests: [
 		{
 			description: [
-				"Nature provides many gifts for you to use, one such being a delicious cup of tea. Each type of tea provides a beneficial effect well worth brewing. "
+				"{homestead.tranquilitea.6E190A742E3CEC06.quest0.description0}"
 				""
-				"To begin, simply use some shears on a vanilla flower for a tea blossom. This special little sprout, once planted and grown, will get you started on your journey for the perfect cup of tea!"
+				"{homestead.tranquilitea.6E190A742E3CEC06.quest0.description1}"
 			]
 			id: "6E190A742E3CEC06"
 			rewards: [
@@ -48,22 +48,23 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Collect 1 tea blossom."
+			subtitle: "{homestead.tranquilitea.6E190A742E3CEC06.quest0.subtitle}"
 			tasks: [{
 				id: "21394A24570B6E37"
 				item: "herbalbrews:tea_blossom"
 				type: "item"
 			}]
-			title: "Nature's Zen"
+			title: "{homestead.tranquilitea.6E190A742E3CEC06.quest0.title}"
 			x: -7.0d
 			y: -1.0d
 		}
+
 		{
 			dependencies: ["6E190A742E3CEC06"]
 			description: [
-				"The most well-known and loved teas are the result of the ancient art of drying leaves from the tea blossom plant. You too can indulge in this art and create your own. Dry green tea leaves for a drink or further combine and dry them for black tea. You can also mix the 2 for oolong!"
+				"{homestead.tranquilitea.72C738487D350BA7.quest1.description0}"
 				""
-				"Craft together 9 green tea leaves harvested from the tea blossoms you’ve grown in a crafting table and place down the resulting block. Wait for it to become a dried green tea leaf block and break for dried green tea. Repeat with dried green tea to make black tea. Combine 4 dried green tea and 4 dried black tea to make an oolong. "
+				"{homestead.tranquilitea.72C738487D350BA7.quest1.description1}"
 			]
 			id: "72C738487D350BA7"
 			rewards: [
@@ -80,22 +81,23 @@
 					type: "item"
 				}
 			]
-			subtitle: "Obtain dried green tea."
+			subtitle: "{homestead.tranquilitea.72C738487D350BA7.quest1.subtitle}"
 			tasks: [{
 				id: "7CCBA5502FEA7E12"
 				item: "herbalbrews:dried_green_tea"
 				type: "item"
 			}]
-			title: "An Ancient Art"
+			title: "{homestead.tranquilitea.72C738487D350BA7.quest1.title}"
 			x: -7.0d
 			y: 1.0d
 		}
+
 		{
 			dependencies: ["72C738487D350BA7"]
 			description: [
-				"The noble tea blossom may provide the key to 3 different teas but that isn't the only way to make a great cup of tea. Many other plants can be used. Don't forget some sugar and milk!"
+				"{homestead.tranquilitea.0D2B73B68E5C9B0C.quest2.description0}"
 				""
-				"Rooibos can be found in Savanna biomes. If you’re struggling to find them in a savanna try looking in a Steppe or similar hot biomes. Hibiscus and coffee grow in jungle biomes. Lavender and Yerba Mate can be found at higher elevation biomes near mountainous areas such as Cherry groves or Meadow biomes."
+				"{homestead.tranquilitea.0D2B73B68E5C9B0C.quest2.description1}"
 			]
 			id: "0D2B73B68E5C9B0C"
 			rewards: [
@@ -141,7 +143,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Collect 1 Rooibos leaf, 1 Hibiscus, 1 Lavender, 1 Yerba Mate, 1 Coffee bean, 1 sugar and 1 bucket of milk  "
+			subtitle: "{homestead.tranquilitea.0D2B73B68E5C9B0C.quest2.subtitle}"
 			tasks: [
 				{
 					id: "635A34CABCA9EE70"
@@ -179,16 +181,17 @@
 					type: "item"
 				}
 			]
-			title: "Varie-TEA"
+			title: "{homestead.tranquilitea.0D2B73B68E5C9B0C.quest2.title}"
 			x: -5.0d
 			y: 1.0d
 		}
+
 		{
 			dependencies: ["0D2B73B68E5C9B0C"]
 			description: [
-				"If you give to nature, nature will always give back. While things like coffee, rooibos and yerba mate can be planted and farmed, flowers like lavender and hibiscus cannot. Luckily they can easily be duplicated using bone meal to save you from having to find more."
+				"{homestead.tranquilitea.506DA5422221D74F.quest3.description0}"
 				""
-				"&lTip: To get Lavender in a brewable state use shears to harvest lavender blossoms. Be sure you duplicated them first as lavender blossoms can’t be replanted!&r"
+				"{homestead.tranquilitea.506DA5422221D74F.quest3.description1}"
 			]
 			id: "506DA5422221D74F"
 			rewards: [
@@ -204,7 +207,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Duplicate Hibiscus or Lavender blossoms (Submit 5)"
+			subtitle: "{homestead.tranquilitea.506DA5422221D74F.quest3.subtitle}"
 			tasks: [
 				{
 					consume_items: true
@@ -221,16 +224,17 @@
 					type: "item"
 				}
 			]
-			title: "Double Flower Power"
+			title: "{homestead.tranquilitea.506DA5422221D74F.quest3.title}"
 			x: -3.0d
 			y: 2.0d
 		}
+
 		{
 			dependencies: ["506DA5422221D74F"]
 			description: [
-				"You have the materials, now it’s time for the tools! The kettle is your all-in-one setup for brewing. Place it above a stove or similar heat source and begin your brewing adventures. "
+				"{homestead.tranquilitea.5978544AFB9E828E.quest4.description0}"
 				""
-				"&n&oCraft the Stove from HerbalBrews!&r&r"
+				"{homestead.tranquilitea.5978544AFB9E828E.quest4.description1}"
 			]
 			id: "5978544AFB9E828E"
 			rewards: [
@@ -245,7 +249,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Craft a Stove and a Copper or Iron Tea kettle "
+			subtitle: "{homestead.tranquilitea.5978544AFB9E828E.quest4.subtitle}"
 			tasks: [
 				{
 					id: "099463B8C5EBAF79"
@@ -258,13 +262,14 @@
 					type: "item"
 				}
 			]
-			title: "Tools of the Trade"
+			title: "{homestead.tranquilitea.5978544AFB9E828E.quest4.title}"
 			x: -2.0d
 			y: 2.0d
 		}
+
 		{
 			dependencies: ["2DFAEEF9AFF3E71B"]
-			description: ["The stove warms your kettle, but most teas require higher temperatures. Your kettle can be further warmed by placing blaze powder into the allotted slot. The kettle will lose this heat over time so keep an eye on it!"]
+			description: ["{homestead.tranquilitea.4A5D17F68F3119BE.quest5.description0}"]
 			id: "4A5D17F68F3119BE"
 			rewards: [{
 				count: 12
@@ -272,19 +277,20 @@
 				item: "minecraft:blaze_powder"
 				type: "item"
 			}]
-			subtitle: "Obtain blaze powder."
+			subtitle: "{homestead.tranquilitea.4A5D17F68F3119BE.quest5.subtitle}"
 			tasks: [{
 				id: "759A2B3E3A687571"
 				item: "minecraft:blaze_powder"
 				type: "item"
 			}]
-			title: "Temperature Control"
+			title: "{homestead.tranquilitea.4A5D17F68F3119BE.quest5.title}"
 			x: 1.0d
 			y: 2.0d
 		}
+
 		{
 			dependencies: ["4A5D17F68F3119BE"]
-			description: ["You’ve done all the prep work and know how to use the kettle. It’s time to sit back, relax, and enjoy your warm reward."]
+			description: ["{homestead.tranquilitea.2AD31B05E260528B.quest6.description0}"]
 			id: "2AD31B05E260528B"
 			rewards: [
 				{
@@ -298,19 +304,20 @@
 					xp: 25
 				}
 			]
-			subtitle: "Brew Green Tea"
+			subtitle: "{homestead.tranquilitea.2AD31B05E260528B.quest6.subtitle}"
 			tasks: [{
 				id: "7001960F0D810348"
 				item: "herbalbrews:green_tea"
 				type: "item"
 			}]
-			title: "Tea Time"
+			title: "{homestead.tranquilitea.2AD31B05E260528B.quest6.title}"
 			x: 2.0d
 			y: 2.0d
 		}
+
 		{
 			dependencies: ["2AD31B05E260528B"]
-			description: ["Every tea has a unique flavor and buff, so challenge yourself and make them all! Coffee can be brewed alone or combined with milk to make milk coffee. To make Black tea, Hibiscus, Lavender and Yerba mate you’ll need sugar. The rest will brew without anything added so long as you have enough water and heat. Become a tea master!"]
+			description: ["{homestead.tranquilitea.18B3D20B8788D1BD.quest7.description0}"]
 			id: "18B3D20B8788D1BD"
 			rewards: [
 				{
@@ -337,7 +344,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Brew all the tea from Let's Do Herbal Brews"
+			subtitle: "{homestead.tranquilitea.18B3D20B8788D1BD.quest7.subtitle}"
 			tasks: [
 				{
 					id: "7BE4584CE9B3A66F"
@@ -375,13 +382,14 @@
 					type: "item"
 				}
 			]
-			title: "Tea Ceremony"
+			title: "{homestead.tranquilitea.18B3D20B8788D1BD.quest7.title}"
 			x: 4.0d
 			y: 1.0d
 		}
+
 		{
 			dependencies: ["18B3D20B8788D1BD"]
-			description: ["You’ve mastered the art of tea and found your favorite flavor, but are you ready for the secret power your tea holds? If you combine 3 of each of the different dried teas in a crafting table you can create an herbal infusion. This special infusion can be used in a brewing cauldron to take your potion-making to another level."]
+			description: ["{homestead.tranquilitea.6EEC5B7B137EE103.quest8.description0}"]
 			id: "6EEC5B7B137EE103"
 			rewards: [
 				{
@@ -396,7 +404,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Brewing Cauldron, Craft an Herbal Infusion"
+			subtitle: "{homestead.tranquilitea.6EEC5B7B137EE103.quest8.subtitle}"
 			tasks: [
 				{
 					id: "32C87664FED7A401"
@@ -409,13 +417,14 @@
 					type: "item"
 				}
 			]
-			title: "An Herbal Secret"
+			title: "{homestead.tranquilitea.6EEC5B7B137EE103.quest8.title}"
 			x: 6.0d
 			y: 1.0d
 		}
+
 		{
 			dependencies: ["6EEC5B7B137EE103"]
-			description: ["Have you ever wished you could drink several potions all at once? Now you can! With a brewing cauldron and herbal infusion you can combine 3 potions of your choice together into a single flask. Note: Adding the same potions together does not enhance the effect"]
+			description: ["{homestead.tranquilitea.76E075064E3F17A0.quest9.description0}"]
 			id: "76E075064E3F17A0"
 			rewards: [
 				{
@@ -436,22 +445,23 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Brew a Flask"
+			subtitle: "{homestead.tranquilitea.76E075064E3F17A0.quest9.subtitle}"
 			tasks: [{
 				id: "16659D9E21D5B7DF"
 				item: "herbalbrews:flask"
 				type: "item"
 			}]
-			title: "Three in One Power Potion"
+			title: "{homestead.tranquilitea.76E075064E3F17A0.quest9.title}"
 			x: 6.0d
 			y: -1.0d
 		}
+
 		{
 			dependencies: ["5978544AFB9E828E"]
 			description: [
-				"With tools and materials in hand you’re ready to begin learning to brew. You should start with the easiest to brew tea, rooibos!  "
+				"{homestead.tranquilitea.2DFAEEF9AFF3E71B.quest10.description0}"
 				""
-				"The kettle can be intimidating at first but it’s actually quite simple. Put a rooibos leaf into the top left square area and a glass bottle in the square beneath it. Then put a bucket of water in the square next to the measured bars on the right to fill it with water. When done right the progress arrow should begin to fill."
+				"{homestead.tranquilitea.2DFAEEF9AFF3E71B.quest10.description1}"
 			]
 			id: "2DFAEEF9AFF3E71B"
 			rewards: [
@@ -478,16 +488,15 @@
 					xp: 25
 				}
 			]
-			subtitle: "Brew a cup of Rooibos tea"
+			subtitle: "{homestead.tranquilitea.2DFAEEF9AFF3E71B.quest10.subtitle}"
 			tasks: [{
 				id: "2608CA92AFC9C50D"
 				item: "herbalbrews:copper_tea_kettle"
 				type: "item"
 			}]
-			title: "Steep Your Heart Out"
+			title: "{homestead.tranquilitea.2DFAEEF9AFF3E71B.quest10.title}"
 			x: -0.5d
 			y: 2.0d
 		}
-	]
-	title: "Tranquili-TEA"
-}
+
+	]	title: "Tranquili-TEA"}

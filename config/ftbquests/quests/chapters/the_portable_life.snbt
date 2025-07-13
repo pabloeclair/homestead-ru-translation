@@ -28,7 +28,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Pockets full of stuff? Craft a backpack and enter the world of even more stuff! They can be placed in the backpack trinket slot and opened with the keybind. (Default B)"]
+			description: ["{homestead.the_portable_life.7FDDD6F1E7A40FAD.quest0.description0}"]
 			id: "7FDDD6F1E7A40FAD"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -38,18 +38,19 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "Craft a backpack"
+			subtitle: "{homestead.the_portable_life.7FDDD6F1E7A40FAD.quest0.subtitle}"
 			tasks: [{
 				id: "45AC9672C83274CB"
 				item: "sophisticatedbackpacks:backpack"
 				type: "item"
 			}]
-			title: "Once Upon a Backpack"
+			title: "{homestead.the_portable_life.7FDDD6F1E7A40FAD.quest0.title}"
 			x: -2.0d
 			y: -6.5d
 		}
+
 		{
-			description: ["Want more slots? More adventure? Upgrade your backpack to iron for even more! "]
+			description: ["{homestead.the_portable_life.4F9D88BA35907137.quest1.description0}"]
 			id: "4F9D88BA35907137"
 			rewards: [
 				{
@@ -63,18 +64,19 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft an Iron Backpack"
+			subtitle: "{homestead.the_portable_life.4F9D88BA35907137.quest1.subtitle}"
 			tasks: [{
 				id: "3374CD3FD5B0CD19"
 				item: "sophisticatedbackpacks:iron_backpack"
 				type: "item"
 			}]
-			title: "Gearing Up"
+			title: "{homestead.the_portable_life.4F9D88BA35907137.quest1.title}"
 			x: -1.0d
 			y: -6.5d
 		}
+
 		{
-			description: ["GOLD! You know what to do, upgrade your backpack to gold for more space to put all your stuff!"]
+			description: ["{homestead.the_portable_life.7F87B51DA35F35C3.quest2.description0}"]
 			id: "7F87B51DA35F35C3"
 			rewards: [
 				{
@@ -88,18 +90,19 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Gold Backpack"
+			subtitle: "{homestead.the_portable_life.7F87B51DA35F35C3.quest2.subtitle}"
 			tasks: [{
 				id: "2C6353E8FE339B15"
 				item: "sophisticatedbackpacks:gold_backpack"
 				type: "item"
 			}]
-			title: "Fit for a King"
+			title: "{homestead.the_portable_life.7F87B51DA35F35C3.quest2.title}"
 			x: 0.0d
 			y: -6.5d
 		}
+
 		{
-			description: ["The ultimate in luxury, upgrade your backpack to diamond for maximum storage space."]
+			description: ["{homestead.the_portable_life.51C94E3771B7162D.quest3.description0}"]
 			id: "51C94E3771B7162D"
 			rewards: [
 				{
@@ -113,18 +116,19 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Diamond Backpack"
+			subtitle: "{homestead.the_portable_life.51C94E3771B7162D.quest3.subtitle}"
 			tasks: [{
 				id: "78ED6FB27102847B"
 				item: "sophisticatedbackpacks:diamond_backpack"
 				type: "item"
 			}]
-			title: "Shine Bright Like a Diamond"
+			title: "{homestead.the_portable_life.51C94E3771B7162D.quest3.title}"
 			x: 1.0d
 			y: -6.5d
 		}
+
 		{
-			description: ["How much space do you need? Congratulations! Fireproof, stylish and basically indestructible, you fully upgraded your backpack!"]
+			description: ["{homestead.the_portable_life.35D72905DE29A290.quest4.description0}"]
 			id: "35D72905DE29A290"
 			rewards: [
 				{
@@ -140,18 +144,19 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Craft a Netherite Backpack"
+			subtitle: "{homestead.the_portable_life.35D72905DE29A290.quest4.subtitle}"
 			tasks: [{
 				id: "71D752C205B07F66"
 				item: "sophisticatedbackpacks:netherite_backpack"
 				type: "item"
 			}]
-			title: "The Final Form"
+			title: "{homestead.the_portable_life.35D72905DE29A290.quest4.title}"
 			x: 2.0d
 			y: -6.5d
 		}
+
 		{
-			description: ["Every powerful upgrade starts with this humble little chip. Craft an upgrade base to use for making upgrades for your backpack that will make it even more functional!"]
+			description: ["{homestead.the_portable_life.5BFE66EE66CBD8BA.quest5.description0}"]
 			hide_dependency_lines: true
 			id: "5BFE66EE66CBD8BA"
 			rewards: [
@@ -168,19 +173,20 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Craft an Upgrade Base"
+			subtitle: "{homestead.the_portable_life.5BFE66EE66CBD8BA.quest5.subtitle}"
 			tasks: [{
 				id: "6A01D7319C7DCE0F"
 				item: "sophisticatedbackpacks:upgrade_base"
 				type: "item"
 			}]
-			title: "Upgrade Base"
+			title: "{homestead.the_portable_life.5BFE66EE66CBD8BA.quest5.title}"
 			x: -7.5d
 			y: -3.5d
 		}
+
 		{
 			dependencies: ["7E23DA5887B8BB74"]
-			description: ["Never run out mid-swing. Refills held stacks from backpack inventory."]
+			description: ["{homestead.the_portable_life.60F84B0CCFF15C0B.quest6.description0}"]
 			id: "60F84B0CCFF15C0B"
 			rewards: [
 				{
@@ -200,7 +206,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Refill Upgrade"
+			subtitle: "{homestead.the_portable_life.60F84B0CCFF15C0B.quest6.subtitle}"
 			tasks: [{
 				id: "187FAE8E48F04A57"
 				item: "sophisticatedbackpacks:refill_upgrade"
@@ -209,9 +215,10 @@
 			x: 6.5d
 			y: -4.5d
 		}
+
 		{
 			dependencies: ["5BFE66EE66CBD8BA"]
-			description: ["Missed something? Your backpack didn’t. Make your backpack collect loose items around you."]
+			description: ["{homestead.the_portable_life.6E87295E86FCF7AC.quest7.description0}"]
 			id: "6E87295E86FCF7AC"
 			rewards: [
 				{
@@ -225,7 +232,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Pickup Upgrade"
+			subtitle: "{homestead.the_portable_life.6E87295E86FCF7AC.quest7.subtitle}"
 			tasks: [{
 				id: "1749BFDE518584E0"
 				item: "sophisticatedbackpacks:pickup_upgrade"
@@ -234,9 +241,10 @@
 			x: -7.5d
 			y: -4.5d
 		}
+
 		{
 			dependencies: ["6E87295E86FCF7AC"]
-			description: ["For someone who has everything, here’s something better. Add filtering and finesse to your backpack."]
+			description: ["{homestead.the_portable_life.3B5D85E4A3975BCA.quest8.description0}"]
 			id: "3B5D85E4A3975BCA"
 			rewards: [
 				{
@@ -251,7 +259,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft an Advanced Pickup Upgrade"
+			subtitle: "{homestead.the_portable_life.3B5D85E4A3975BCA.quest8.subtitle}"
 			tasks: [{
 				id: "4C04ABD4A0E6AB8B"
 				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
@@ -260,9 +268,10 @@
 			x: -7.5d
 			y: -5.5d
 		}
+
 		{
 			dependencies: ["5BFE66EE66CBD8BA"]
-			description: ["Because not everything deserves backpack space. Filters items in and/or out of backpack."]
+			description: ["{homestead.the_portable_life.49886F896EA231CD.quest9.description0}"]
 			id: "49886F896EA231CD"
 			rewards: [
 				{
@@ -277,7 +286,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Filter Upgrade"
+			subtitle: "{homestead.the_portable_life.49886F896EA231CD.quest9.subtitle}"
 			tasks: [{
 				id: "20605E44B501ACD8"
 				item: "sophisticatedbackpacks:filter_upgrade"
@@ -286,9 +295,10 @@
 			x: -6.5d
 			y: -3.5d
 		}
+
 		{
 			dependencies: ["49886F896EA231CD"]
-			description: ["Like a doorman for your inventory. More advanced filtering to fine-tune what stays and what goes."]
+			description: ["{homestead.the_portable_life.677D1D0A9BDB7F88.quest10.description0}"]
 			id: "677D1D0A9BDB7F88"
 			rewards: [
 				{
@@ -303,7 +313,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft an Advanced Filter Upgrade"
+			subtitle: "{homestead.the_portable_life.677D1D0A9BDB7F88.quest10.subtitle}"
 			tasks: [{
 				id: "624AE535262011E5"
 				item: "sophisticatedbackpacks:advanced_filter_upgrade"
@@ -312,9 +322,10 @@
 			x: -5.5d
 			y: -3.5d
 		}
+
 		{
 			dependencies: ["5BFE66EE66CBD8BA"]
-			description: ["Magnets items into backpack at range."]
+			description: ["{homestead.the_portable_life.09661CD5B9BA2842.quest11.description0}"]
 			id: "09661CD5B9BA2842"
 			rewards: [
 				{
@@ -332,7 +343,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Magnet Upgrade"
+			subtitle: "{homestead.the_portable_life.09661CD5B9BA2842.quest11.subtitle}"
 			tasks: [{
 				id: "08E1CFFF899C34D8"
 				item: "sophisticatedbackpacks:magnet_upgrade"
@@ -341,9 +352,10 @@
 			x: -8.5d
 			y: -3.5d
 		}
+
 		{
 			dependencies: ["09661CD5B9BA2842"]
-			description: ["Magnets items into backpack at a greater range and has more filtering options."]
+			description: ["{homestead.the_portable_life.66F7E9A1B8961A2C.quest12.description0}"]
 			id: "66F7E9A1B8961A2C"
 			rewards: [
 				{
@@ -357,7 +369,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft an Advanced Magnet Upgrade"
+			subtitle: "{homestead.the_portable_life.66F7E9A1B8961A2C.quest12.subtitle}"
 			tasks: [{
 				id: "3906BE48212B503A"
 				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
@@ -366,9 +378,10 @@
 			x: -9.5d
 			y: -3.5d
 		}
+
 		{
 			dependencies: ["5BFE66EE66CBD8BA"]
-			description: ["Snack time? Always. Feeds player with food from backpack’s inventory."]
+			description: ["{homestead.the_portable_life.4BBD11C15349248D.quest13.description0}"]
 			id: "4BBD11C15349248D"
 			rewards: [
 				{
@@ -383,7 +396,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Feeding Upgrade"
+			subtitle: "{homestead.the_portable_life.4BBD11C15349248D.quest13.subtitle}"
 			tasks: [{
 				id: "5CFFFF50C4D2C6A0"
 				item: "sophisticatedbackpacks:feeding_upgrade"
@@ -392,9 +405,10 @@
 			x: -7.5d
 			y: -2.5d
 		}
+
 		{
 			dependencies: ["4BBD11C15349248D"]
-			description: ["Eat like royalty—with automation. Feeds player with food with more control options."]
+			description: ["{homestead.the_portable_life.69F1C94782285EFF.quest14.description0}"]
 			id: "69F1C94782285EFF"
 			rewards: [
 				{
@@ -409,7 +423,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft an Advanced Feeding Upgrade"
+			subtitle: "{homestead.the_portable_life.69F1C94782285EFF.quest14.subtitle}"
 			tasks: [{
 				id: "6CC47D6165A798FD"
 				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
@@ -418,9 +432,10 @@
 			x: -7.5d
 			y: -1.5d
 		}
+
 		{
 			dependencies: ["5BFE66EE66CBD8BA"]
-			description: ["Need even more room? Compact items into their 2x2 squashed forms."]
+			description: ["{homestead.the_portable_life.65F73F01203CDB76.quest15.description0}"]
 			id: "65F73F01203CDB76"
 			rewards: [
 				{
@@ -435,7 +450,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Compacting Upgrade"
+			subtitle: "{homestead.the_portable_life.65F73F01203CDB76.quest15.subtitle}"
 			tasks: [{
 				id: "56BF39CC803331B6"
 				item: "sophisticatedbackpacks:compacting_upgrade"
@@ -444,9 +459,10 @@
 			x: -6.5d
 			y: -4.5d
 		}
+
 		{
 			dependencies: ["65F73F01203CDB76"]
-			description: ["No stress here, just cozy vibes. Items compacted into 2x2 and 3x3 forms, filtering included."]
+			description: ["{homestead.the_portable_life.107D32DBA8D15A65.quest16.description0}"]
 			id: "107D32DBA8D15A65"
 			rewards: [
 				{
@@ -460,7 +476,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft an Advanced Compacting Upgrade"
+			subtitle: "{homestead.the_portable_life.107D32DBA8D15A65.quest16.subtitle}"
 			tasks: [{
 				id: "4CC3C918E7A8CBD3"
 				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
@@ -469,9 +485,10 @@
 			x: -5.5d
 			y: -5.5d
 		}
+
 		{
 			dependencies: ["5BFE66EE66CBD8BA"]
-			description: ["Yeet it. Delete it. Voids filtered items you don’t want."]
+			description: ["{homestead.the_portable_life.4FB0358EE59DBCFF.quest17.description0}"]
 			id: "4FB0358EE59DBCFF"
 			rewards: [
 				{
@@ -485,7 +502,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Void Upgrade"
+			subtitle: "{homestead.the_portable_life.4FB0358EE59DBCFF.quest17.subtitle}"
 			tasks: [{
 				id: "1DB8B0ADEEF8ADF6"
 				item: "sophisticatedbackpacks:void_upgrade"
@@ -494,9 +511,10 @@
 			x: -8.5d
 			y: -4.5d
 		}
+
 		{
 			dependencies: ["4FB0358EE59DBCFF"]
-			description: ["Make sure to ask what the trash wants to do. Voids filtered items with even more control."]
+			description: ["{homestead.the_portable_life.2D6A61E3B7B99DA6.quest18.description0}"]
 			id: "2D6A61E3B7B99DA6"
 			rewards: [
 				{
@@ -510,7 +528,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft an Advanced Void Upgrade"
+			subtitle: "{homestead.the_portable_life.2D6A61E3B7B99DA6.quest18.subtitle}"
 			tasks: [{
 				id: "218C54AF11EEA167"
 				item: "sophisticatedbackpacks:advanced_void_upgrade"
@@ -519,9 +537,10 @@
 			x: -9.5d
 			y: -5.5d
 		}
+
 		{
 			dependencies: ["5BFE66EE66CBD8BA"]
-			description: ["Never run out in battle again. Restocks backpack from sneak-right-clicked inventories."]
+			description: ["{homestead.the_portable_life.2F5DB6A65DB4446F.quest19.description0}"]
 			id: "2F5DB6A65DB4446F"
 			rewards: [
 				{
@@ -535,7 +554,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Restock Upgrade"
+			subtitle: "{homestead.the_portable_life.2F5DB6A65DB4446F.quest19.subtitle}"
 			tasks: [{
 				id: "165FC5807CE3E651"
 				item: "sophisticatedbackpacks:restock_upgrade"
@@ -544,9 +563,10 @@
 			x: -8.5d
 			y: -2.5d
 		}
+
 		{
 			dependencies: ["2F5DB6A65DB4446F"]
-			description: ["Precision restocking. It's a lifestyle. Restocks items with better filtering and control."]
+			description: ["{homestead.the_portable_life.594313275E7129A7.quest20.description0}"]
 			id: "594313275E7129A7"
 			rewards: [
 				{
@@ -560,7 +580,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft an Advanced Restock Upgrade"
+			subtitle: "{homestead.the_portable_life.594313275E7129A7.quest20.subtitle}"
 			tasks: [{
 				id: "0192DA5AF303A858"
 				item: "sophisticatedbackpacks:advanced_restock_upgrade"
@@ -569,9 +589,10 @@
 			x: -9.5d
 			y: -1.5d
 		}
+
 		{
 			dependencies: ["5BFE66EE66CBD8BA"]
-			description: ["Tidy up your loot instantly. Deposits items from backpack into sneak-right-clicked inventory."]
+			description: ["{homestead.the_portable_life.5DC3BC42DEDDB7B5.quest21.description0}"]
 			id: "5DC3BC42DEDDB7B5"
 			rewards: [
 				{
@@ -585,7 +606,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Deposit Upgrade"
+			subtitle: "{homestead.the_portable_life.5DC3BC42DEDDB7B5.quest21.subtitle}"
 			tasks: [{
 				id: "76C8C7B5E126BFFD"
 				item: "sophisticatedbackpacks:deposit_upgrade"
@@ -594,9 +615,10 @@
 			x: -6.5d
 			y: -2.5d
 		}
+
 		{
 			dependencies: ["5DC3BC42DEDDB7B5"]
-			description: ["Smart storage drop-off. Deposit items with more filtering options."]
+			description: ["{homestead.the_portable_life.4ABB1E416A4A408E.quest22.description0}"]
 			id: "4ABB1E416A4A408E"
 			rewards: [
 				{
@@ -610,7 +632,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft an Advanced Deposit Upgrade"
+			subtitle: "{homestead.the_portable_life.4ABB1E416A4A408E.quest22.subtitle}"
 			tasks: [{
 				id: "46F5A3BC180481C2"
 				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
@@ -619,12 +641,13 @@
 			x: -5.5d
 			y: -1.5d
 		}
+
 		{
 			dependencies: [
 				"7E23DA5887B8BB74"
 				"5BFE66EE66CBD8BA"
 			]
-			description: ["Backpack-ception. Lets you put backpacks... inside backpacks."]
+			description: ["{homestead.the_portable_life.55EA97E2F9B53D2B.quest23.description0}"]
 			hide_dependency_lines: true
 			id: "55EA97E2F9B53D2B"
 			rewards: [
@@ -639,7 +662,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft an Inception Upgrade"
+			subtitle: "{homestead.the_portable_life.55EA97E2F9B53D2B.quest23.subtitle}"
 			tasks: [{
 				id: "2F0F9190F0CE0875"
 				item: "sophisticatedbackpacks:inception_upgrade"
@@ -648,9 +671,10 @@
 			x: -6.5d
 			y: 0.5d
 		}
+
 		{
 			dependencies: ["60F84B0CCFF15C0B"]
-			description: ["The ultimate QoL stack support. Adds slot targeting and middle-click pick from backpack."]
+			description: ["{homestead.the_portable_life.3B2D570ACB9727DE.quest24.description0}"]
 			id: "3B2D570ACB9727DE"
 			rewards: [
 				{
@@ -664,7 +688,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft an Advanced Refill Upgrade"
+			subtitle: "{homestead.the_portable_life.3B2D570ACB9727DE.quest24.subtitle}"
 			tasks: [{
 				id: "2CFCDFA2A3F580ED"
 				item: "sophisticatedbackpacks:advanced_refill_upgrade"
@@ -673,9 +697,10 @@
 			x: 5.5d
 			y: -5.5d
 		}
+
 		{
 			dependencies: ["7E23DA5887B8BB74"]
-			description: ["Cook on the go. Manual smelting inside your backpack."]
+			description: ["{homestead.the_portable_life.0DBE058BFD52F8EE.quest25.description0}"]
 			id: "0DBE058BFD52F8EE"
 			rewards: [
 				{
@@ -689,7 +714,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Smelting Upgrade"
+			subtitle: "{homestead.the_portable_life.0DBE058BFD52F8EE.quest25.subtitle}"
 			tasks: [{
 				id: "1BEAFD7875CF8EBF"
 				item: "sophisticatedbackpacks:smelting_upgrade"
@@ -698,9 +723,10 @@
 			x: 8.5d
 			y: -4.5d
 		}
+
 		{
 			dependencies: ["0DBE058BFD52F8EE"]
-			description: ["Auto-cook everything. Automatically smelts from the backpack."]
+			description: ["{homestead.the_portable_life.62FDA6FFAC14CB18.quest26.description0}"]
 			id: "62FDA6FFAC14CB18"
 			rewards: [
 				{
@@ -714,7 +740,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft an Auto-Smelting Upgrade"
+			subtitle: "{homestead.the_portable_life.62FDA6FFAC14CB18.quest26.subtitle}"
 			tasks: [{
 				id: "7B53566A1F3E781E"
 				item: "sophisticatedbackpacks:auto_smelting_upgrade"
@@ -723,12 +749,13 @@
 			x: 9.5d
 			y: -5.5d
 		}
+
 		{
 			dependencies: [
 				"5BFE66EE66CBD8BA"
 				"7E23DA5887B8BB74"
 			]
-			description: ["Eternal inventory insurance. Prevents backpack from being destroyed or lost."]
+			description: ["{homestead.the_portable_life.08421288DB2438D6.quest27.description0}"]
 			hide_dependency_lines: true
 			id: "08421288DB2438D6"
 			rewards: [
@@ -743,7 +770,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft an Everlasting Upgrade"
+			subtitle: "{homestead.the_portable_life.08421288DB2438D6.quest27.subtitle}"
 			tasks: [{
 				id: "068C0910FC573EC1"
 				item: "sophisticatedbackpacks:everlasting_upgrade"
@@ -752,8 +779,9 @@
 			x: -8.5d
 			y: 0.5d
 		}
+
 		{
-			description: ["Every powerful upgrade starts with this humble little chip. Craft an upgrade base to use for making upgrades for your backpack that will make it even more functional!"]
+			description: ["{homestead.the_portable_life.7E23DA5887B8BB74.quest28.description0}"]
 			hide_dependency_lines: true
 			id: "7E23DA5887B8BB74"
 			rewards: [
@@ -770,19 +798,20 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Craft an Upgrade Base"
+			subtitle: "{homestead.the_portable_life.7E23DA5887B8BB74.quest28.subtitle}"
 			tasks: [{
 				id: "59CF557C7218DCD7"
 				item: "sophisticatedbackpacks:upgrade_base"
 				type: "item"
 			}]
-			title: "Upgrade Base"
+			title: "{homestead.the_portable_life.7E23DA5887B8BB74.quest28.title}"
 			x: 7.5d
 			y: -3.5d
 		}
+
 		{
 			dependencies: ["7E23DA5887B8BB74"]
-			description: ["BBQ in a bag. Manual food smoking in your backpack."]
+			description: ["{homestead.the_portable_life.1A3951F767C1D36E.quest29.description0}"]
 			id: "1A3951F767C1D36E"
 			rewards: [
 				{
@@ -796,7 +825,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Smoking Upgrade"
+			subtitle: "{homestead.the_portable_life.1A3951F767C1D36E.quest29.subtitle}"
 			tasks: [{
 				id: "327110FEB8C39042"
 				item: "sophisticatedbackpacks:smoking_upgrade"
@@ -805,9 +834,10 @@
 			x: 7.5d
 			y: -4.5d
 		}
+
 		{
 			dependencies: ["1A3951F767C1D36E"]
-			description: ["Set it and forget it. Smokes food automatically."]
+			description: ["{homestead.the_portable_life.6DC46DE37036EFD8.quest30.description0}"]
 			id: "6DC46DE37036EFD8"
 			rewards: [
 				{
@@ -821,7 +851,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft an Auto-smoking Upgrade"
+			subtitle: "{homestead.the_portable_life.6DC46DE37036EFD8.quest30.subtitle}"
 			tasks: [{
 				id: "747B0846FD25FD41"
 				item: "sophisticatedbackpacks:auto_smoking_upgrade"
@@ -830,9 +860,10 @@
 			x: 7.5d
 			y: -5.5d
 		}
+
 		{
 			dependencies: ["7E23DA5887B8BB74"]
-			description: ["Explosively efficient. Blast ores in your backpack."]
+			description: ["{homestead.the_portable_life.7849DE4811954D8F.quest31.description0}"]
 			id: "7849DE4811954D8F"
 			rewards: [
 				{
@@ -846,7 +877,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Blasting Upgrade"
+			subtitle: "{homestead.the_portable_life.7849DE4811954D8F.quest31.subtitle}"
 			tasks: [{
 				id: "578F67B168F57486"
 				item: "sophisticatedbackpacks:blasting_upgrade"
@@ -855,9 +886,10 @@
 			x: 7.5d
 			y: -2.5d
 		}
+
 		{
 			dependencies: ["7849DE4811954D8F"]
-			description: ["Hands-free ore popping. Auto-process ores via blasting."]
+			description: ["{homestead.the_portable_life.66F7A782716E76C7.quest32.description0}"]
 			id: "66F7A782716E76C7"
 			rewards: [
 				{
@@ -871,7 +903,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft an Auto-blasting Upgrade"
+			subtitle: "{homestead.the_portable_life.66F7A782716E76C7.quest32.subtitle}"
 			tasks: [{
 				id: "0B8D8E80BA302AD8"
 				item: "sophisticatedbackpacks:auto_blasting_upgrade"
@@ -880,9 +912,10 @@
 			x: 7.5d
 			y: -1.5d
 		}
+
 		{
 			dependencies: ["7E23DA5887B8BB74"]
-			description: ["Craft wherever you go. Crafting table in your backpack."]
+			description: ["{homestead.the_portable_life.57098C2537F0240B.quest33.description0}"]
 			id: "57098C2537F0240B"
 			rewards: [
 				{
@@ -896,7 +929,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Crafting Upgrade"
+			subtitle: "{homestead.the_portable_life.57098C2537F0240B.quest33.subtitle}"
 			tasks: [{
 				id: "259DB6A993004703"
 				item: "sophisticatedbackpacks:crafting_upgrade"
@@ -905,9 +938,10 @@
 			x: 6.5d
 			y: -3.5d
 		}
+
 		{
 			dependencies: ["57098C2537F0240B"]
-			description: ["Granite, diorite, perfection. Stonecutter in your backpack."]
+			description: ["{homestead.the_portable_life.12FD9916C5F851AA.quest34.description0}"]
 			id: "12FD9916C5F851AA"
 			rewards: [
 				{
@@ -921,7 +955,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Stonecutter Upgrade"
+			subtitle: "{homestead.the_portable_life.12FD9916C5F851AA.quest34.subtitle}"
 			tasks: [{
 				id: "0D21BCB1DF49E9EE"
 				item: "sophisticatedbackpacks:stonecutter_upgrade"
@@ -930,9 +964,10 @@
 			x: 5.5d
 			y: -3.5d
 		}
+
 		{
 			dependencies: ["7E23DA5887B8BB74"]
-			description: ["Right tool, every time. Swaps tools automatically for block/entity."]
+			description: ["{homestead.the_portable_life.4AD1512A68B8B9F0.quest35.description0}"]
 			id: "4AD1512A68B8B9F0"
 			rewards: [
 				{
@@ -952,7 +987,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Tool Swapper Upgrade"
+			subtitle: "{homestead.the_portable_life.4AD1512A68B8B9F0.quest35.subtitle}"
 			tasks: [{
 				id: "4B6CF49EE4ADA9E0"
 				item: "sophisticatedbackpacks:tool_swapper_upgrade"
@@ -961,9 +996,10 @@
 			x: 6.5d
 			y: -2.5d
 		}
+
 		{
 			dependencies: ["4AD1512A68B8B9F0"]
-			description: ["Smart swapping mastery. Adds filters, entity targeting, and wrench handling."]
+			description: ["{homestead.the_portable_life.15EDAC9AE987A5B5.quest36.description0}"]
 			id: "15EDAC9AE987A5B5"
 			rewards: [
 				{
@@ -983,7 +1019,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft an Advanced Tool Swapper Upgrade"
+			subtitle: "{homestead.the_portable_life.15EDAC9AE987A5B5.quest36.subtitle}"
 			tasks: [{
 				id: "008C2A06EB7CDA1D"
 				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
@@ -992,9 +1028,10 @@
 			x: 5.5d
 			y: -1.5d
 		}
+
 		{
 			dependencies: ["7E23DA5887B8BB74"]
-			description: ["Fluid goes here → Transfers fluids from tank upgrade to blocks."]
+			description: ["{homestead.the_portable_life.175BF4266A405763.quest37.description0}"]
 			id: "175BF4266A405763"
 			rewards: [
 				{
@@ -1008,7 +1045,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Pump Upgrade"
+			subtitle: "{homestead.the_portable_life.175BF4266A405763.quest37.subtitle}"
 			tasks: [{
 				id: "41D604C4AEC9A07E"
 				item: "sophisticatedbackpacks:pump_upgrade"
@@ -1017,9 +1054,10 @@
 			x: 8.5d
 			y: -2.5d
 		}
+
 		{
 			dependencies: ["175BF4266A405763"]
-			description: ["The smart plumbing solution. Filters fluids, interacts with world, containers and tanks."]
+			description: ["{homestead.the_portable_life.0AA1943B5C5C802B.quest38.description0}"]
 			id: "0AA1943B5C5C802B"
 			rewards: [
 				{
@@ -1033,7 +1071,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft an Advanced Pump Upgrade"
+			subtitle: "{homestead.the_portable_life.0AA1943B5C5C802B.quest38.subtitle}"
 			tasks: [{
 				id: "16F2CB91523C7F00"
 				item: "sophisticatedbackpacks:advanced_pump_upgrade"
@@ -1042,12 +1080,13 @@
 			x: 9.5d
 			y: -1.5d
 		}
+
 		{
 			dependencies: [
 				"7E23DA5887B8BB74"
 				"5BFE66EE66CBD8BA"
 			]
-			description: ["Because sometimes you carry soup. Converts inventory slots to fluid storage."]
+			description: ["{homestead.the_portable_life.4DC3A5FBA14613B3.quest39.description0}"]
 			hide_dependency_lines: true
 			id: "4DC3A5FBA14613B3"
 			rewards: [
@@ -1062,7 +1101,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Tank Upgrade"
+			subtitle: "{homestead.the_portable_life.4DC3A5FBA14613B3.quest39.subtitle}"
 			tasks: [{
 				id: "08D2CA78A291BC94"
 				item: "sophisticatedbackpacks:tank_upgrade"
@@ -1071,12 +1110,13 @@
 			x: -5.5d
 			y: 0.5d
 		}
+
 		{
 			dependencies: [
 				"7E23DA5887B8BB74"
 				"5BFE66EE66CBD8BA"
 			]
-			description: ["Power on the go. Converts slots to energy storage."]
+			description: ["{homestead.the_portable_life.2F77C3F459D4024B.quest40.description0}"]
 			hide_dependency_lines: true
 			id: "2F77C3F459D4024B"
 			rewards: [
@@ -1091,7 +1131,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Battery Upgrade"
+			subtitle: "{homestead.the_portable_life.2F77C3F459D4024B.quest40.subtitle}"
 			tasks: [{
 				id: "0BEC981B13E90575"
 				item: "sophisticatedbackpacks:battery_upgrade"
@@ -1100,12 +1140,13 @@
 			x: -9.5d
 			y: 0.5d
 		}
+
 		{
 			dependencies: [
 				"7E23DA5887B8BB74"
 				"5BFE66EE66CBD8BA"
 			]
-			description: ["XP on demand. Transfers XP between backpack and player."]
+			description: ["{homestead.the_portable_life.4926AEF6544D1536.quest41.description0}"]
 			hide_dependency_lines: true
 			id: "4926AEF6544D1536"
 			rewards: [
@@ -1121,7 +1162,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft an Experience Pump Upgrade"
+			subtitle: "{homestead.the_portable_life.4926AEF6544D1536.quest41.subtitle}"
 			tasks: [{
 				id: "3FA0D30FF3F96CCD"
 				item: "sophisticatedbackpacks:xp_pump_upgrade"
@@ -1130,9 +1171,10 @@
 			x: -7.5d
 			y: 0.5d
 		}
+
 		{
 			dependencies: ["7E23DA5887B8BB74"]
-			description: ["Rename it. Fix it. Anywhere. Use anvil features on the go."]
+			description: ["{homestead.the_portable_life.608C315893400242.quest42.description0}"]
 			id: "608C315893400242"
 			rewards: [
 				{
@@ -1146,7 +1188,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft an Anvil Upgrade"
+			subtitle: "{homestead.the_portable_life.608C315893400242.quest42.subtitle}"
 			tasks: [{
 				id: "360D7F7D90F3FF99"
 				item: "sophisticatedbackpacks:anvil_upgrade"
@@ -1155,9 +1197,10 @@
 			x: 8.5d
 			y: -3.5d
 		}
+
 		{
 			dependencies: ["608C315893400242"]
-			description: ["Upgrade your gear... from your gear. Smithing table in a backpack tab."]
+			description: ["{homestead.the_portable_life.3BD3F37AE9804819.quest43.description0}"]
 			id: "3BD3F37AE9804819"
 			rewards: [
 				{
@@ -1171,7 +1214,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Smithing Upgrade"
+			subtitle: "{homestead.the_portable_life.3BD3F37AE9804819.quest43.subtitle}"
 			tasks: [{
 				id: "4007B0EBFB16F57D"
 				item: "sophisticatedbackpacks:smithing_upgrade"
@@ -1180,14 +1223,15 @@
 			x: 9.5d
 			y: -3.5d
 		}
+
 		{
 			dependencies: [
 				"7E23DA5887B8BB74"
 				"5BFE66EE66CBD8BA"
 			]
 			description: [
-				"Love decorating with plants? Now you can carry your florally-charged chaos wherever you go."
-				"Petals, meet portability."
+				"{homestead.the_portable_life.5AA4908C80EECF1D.quest44.description0}"
+				"{homestead.the_portable_life.5AA4908C80EECF1D.quest44.description1}"
 			]
 			hide_dependency_lines: true
 			id: "5AA4908C80EECF1D"
@@ -1209,7 +1253,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Botanist Workbench Upgrade"
+			subtitle: "{homestead.the_portable_life.5AA4908C80EECF1D.quest44.subtitle}"
 			tasks: [{
 				id: "31596CB8CC1AB737"
 				item: "sophisticatedbackpacks:chipped/botanist_workbench_upgrade"
@@ -1218,12 +1262,13 @@
 			x: 7.5d
 			y: 0.5d
 		}
+
 		{
 			dependencies: [
 				"7E23DA5887B8BB74"
 				"5BFE66EE66CBD8BA"
 			]
-			description: ["You’re not just blowing glass—you’re blowing minds. Now take that style on the road."]
+			description: ["{homestead.the_portable_life.5972F2CBDCB479B0.quest45.description0}"]
 			hide_dependency_lines: true
 			id: "5972F2CBDCB479B0"
 			rewards: [
@@ -1250,7 +1295,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Glassblower Upgrade"
+			subtitle: "{homestead.the_portable_life.5972F2CBDCB479B0.quest45.subtitle}"
 			tasks: [{
 				id: "2DA6B282BDED9958"
 				item: "sophisticatedbackpacks:chipped/glassblower_upgrade"
@@ -1259,12 +1304,13 @@
 			x: 8.5d
 			y: 0.5d
 		}
+
 		{
 			dependencies: [
 				"7E23DA5887B8BB74"
 				"5BFE66EE66CBD8BA"
 			]
-			description: ["Chop, carve, build—no bench required. Your lumber-lust has never been so mobile."]
+			description: ["{homestead.the_portable_life.1BD9B0D0BCCB92D1.quest46.description0}"]
 			hide_dependency_lines: true
 			id: "1BD9B0D0BCCB92D1"
 			rewards: [
@@ -1280,7 +1326,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Carpenter's Workbench Upgrade."
+			subtitle: "{homestead.the_portable_life.1BD9B0D0BCCB92D1.quest46.subtitle}"
 			tasks: [{
 				id: "148C9E01C2AE7B06"
 				item: "sophisticatedbackpacks:chipped/carpenters_table_upgrade"
@@ -1289,12 +1335,13 @@
 			x: 9.5d
 			y: 0.5d
 		}
+
 		{
 			dependencies: [
 				"7E23DA5887B8BB74"
 				"5BFE66EE66CBD8BA"
 			]
-			description: ["Fashion on the fly. Embroidering your legacy one pixel at a time."]
+			description: ["{homestead.the_portable_life.1ABA57415E647606.quest47.description0}"]
 			hide_dependency_lines: true
 			id: "1ABA57415E647606"
 			rewards: [
@@ -1310,7 +1357,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Loom Table Upgrade."
+			subtitle: "{homestead.the_portable_life.1ABA57415E647606.quest47.subtitle}"
 			tasks: [{
 				id: "04BF9E049BF8B6CF"
 				item: "sophisticatedbackpacks:chipped/loom_table_upgrade"
@@ -1319,12 +1366,13 @@
 			x: 6.5d
 			y: 0.5d
 		}
+
 		{
 			dependencies: [
 				"7E23DA5887B8BB74"
 				"5BFE66EE66CBD8BA"
 			]
-			description: ["Stonecutting from your backpack? Blocky interior design just leveled up."]
+			description: ["{homestead.the_portable_life.223F1A74EE35E1BC.quest48.description0}"]
 			hide_dependency_lines: true
 			id: "223F1A74EE35E1BC"
 			rewards: [
@@ -1340,7 +1388,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Mason Table Upgrade."
+			subtitle: "{homestead.the_portable_life.223F1A74EE35E1BC.quest48.subtitle}"
 			tasks: [{
 				id: "481E0A672BCACBA1"
 				item: "sophisticatedbackpacks:chipped/mason_table_upgrade"
@@ -1349,14 +1397,15 @@
 			x: 5.5d
 			y: 0.5d
 		}
+
 		{
 			dependencies: [
 				"7E23DA5887B8BB74"
 				"5BFE66EE66CBD8BA"
 			]
 			description: [
-				"Make magical blocks in your backpack like the mystical little wizard you are."
-				"Now that’s portable power."
+				"{homestead.the_portable_life.57E1CABAD76CCB35.quest49.description0}"
+				"{homestead.the_portable_life.57E1CABAD76CCB35.quest49.description1}"
 			]
 			hide_dependency_lines: true
 			id: "57E1CABAD76CCB35"
@@ -1373,7 +1422,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft an Alchemy Bench Upgrade."
+			subtitle: "{homestead.the_portable_life.57E1CABAD76CCB35.quest49.subtitle}"
 			tasks: [{
 				id: "65F93CA017333B36"
 				item: "sophisticatedbackpacks:chipped/alchemy_bench_upgrade"
@@ -1382,14 +1431,15 @@
 			x: 4.5d
 			y: 0.5d
 		}
+
 		{
 			dependencies: [
 				"7E23DA5887B8BB74"
 				"5BFE66EE66CBD8BA"
 			]
 			description: [
-				"For when you want to fix, mod, or tweak things mid-exploration."
-				"It's like a workbench in your pocket."
+				"{homestead.the_portable_life.22DDE55718F1193E.quest50.description0}"
+				"{homestead.the_portable_life.22DDE55718F1193E.quest50.description1}"
 			]
 			hide_dependency_lines: true
 			id: "22DDE55718F1193E"
@@ -1406,7 +1456,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Tinkering Table Upgrade."
+			subtitle: "{homestead.the_portable_life.22DDE55718F1193E.quest50.subtitle}"
 			tasks: [{
 				id: "623BFBC70C15FD1A"
 				item: "sophisticatedbackpacks:chipped/tinkering_table_upgrade"
@@ -1415,12 +1465,13 @@
 			x: 10.5d
 			y: 0.5d
 		}
+
 		{
 			dependencies: [
 				"7E23DA5887B8BB74"
 				"5BFE66EE66CBD8BA"
 			]
-			description: ["You want more? Stack sizes increased by 1.5x"]
+			description: ["{homestead.the_portable_life.42C21CE8D9EFBA35.quest51.description0}"]
 			hide_dependency_lines: true
 			id: "42C21CE8D9EFBA35"
 			rewards: [
@@ -1437,7 +1488,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Craft a Stack Upgrade Starter Tier"
+			subtitle: "{homestead.the_portable_life.42C21CE8D9EFBA35.quest51.subtitle}"
 			tasks: [{
 				id: "7B201F9E66965B8A"
 				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
@@ -1446,9 +1497,10 @@
 			x: -2.0d
 			y: 2.5d
 		}
+
 		{
 			dependencies: ["42C21CE8D9EFBA35"]
-			description: ["Double the fun. Stack sizes increased by 2x"]
+			description: ["{homestead.the_portable_life.1ECB392A35CA74DF.quest52.description0}"]
 			id: "1ECB392A35CA74DF"
 			rewards: [
 				{
@@ -1462,7 +1514,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Stack Upgrade Tier 1"
+			subtitle: "{homestead.the_portable_life.1ECB392A35CA74DF.quest52.subtitle}"
 			tasks: [{
 				id: "31DDE623B89A5763"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
@@ -1471,9 +1523,10 @@
 			x: -1.0d
 			y: 2.5d
 		}
+
 		{
 			dependencies: ["1ECB392A35CA74DF"]
-			description: ["Stack away! Stack sizes increased by 4x"]
+			description: ["{homestead.the_portable_life.1A6BEB275F95C618.quest53.description0}"]
 			id: "1A6BEB275F95C618"
 			rewards: [
 				{
@@ -1487,7 +1540,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Stack Upgrade Tier 2"
+			subtitle: "{homestead.the_portable_life.1A6BEB275F95C618.quest53.subtitle}"
 			tasks: [{
 				id: "6837844C41F18EA8"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
@@ -1496,9 +1549,10 @@
 			x: 0.0d
 			y: 2.5d
 		}
+
 		{
 			dependencies: ["1A6BEB275F95C618"]
-			description: ["Bro be stacked. Stacks increased by 8x"]
+			description: ["{homestead.the_portable_life.02AF8549FB096436.quest54.description0}"]
 			id: "02AF8549FB096436"
 			rewards: [
 				{
@@ -1512,7 +1566,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Stack Upgrade Tier 3"
+			subtitle: "{homestead.the_portable_life.02AF8549FB096436.quest54.subtitle}"
 			tasks: [{
 				id: "43DBCAAE2ED235EA"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
@@ -1521,9 +1575,10 @@
 			x: 1.0d
 			y: 2.5d
 		}
+
 		{
 			dependencies: ["02AF8549FB096436"]
-			description: ["Stacks on stacks on stacks. Increased to 16x"]
+			description: ["{homestead.the_portable_life.065736A6011BE849.quest55.description0}"]
 			id: "065736A6011BE849"
 			rewards: [
 				{
@@ -1538,7 +1593,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Craft a Stack Upgrade Tier 4"
+			subtitle: "{homestead.the_portable_life.065736A6011BE849.quest55.subtitle}"
 			tasks: [{
 				id: "43D3846163830CC2"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
@@ -1547,12 +1602,13 @@
 			x: 2.0d
 			y: 2.5d
 		}
+
 		{
 			dependencies: [
 				"7E23DA5887B8BB74"
 				"5BFE66EE66CBD8BA"
 			]
-			description: ["Backpack beats. Portable music player in your backpack."]
+			description: ["{homestead.the_portable_life.0E2A0807918CAB37.quest56.description0}"]
 			hide_dependency_lines: true
 			id: "0E2A0807918CAB37"
 			rewards: [
@@ -1567,7 +1623,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Craft a Jukebox Upgrade"
+			subtitle: "{homestead.the_portable_life.0E2A0807918CAB37.quest56.subtitle}"
 			tasks: [{
 				id: "0A6423C0456E4EC3"
 				item: "sophisticatedbackpacks:jukebox_upgrade"
@@ -1576,6 +1632,5 @@
 			x: -7.5d
 			y: 1.5d
 		}
-	]
-	title: "The Portable Life"
-}
+
+	]	title: "The Portable Life"}

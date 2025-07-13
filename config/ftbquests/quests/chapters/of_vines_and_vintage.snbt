@@ -65,9 +65,9 @@
 	quests: [
 		{
 			description: [
-				"The world nurtures delicious fruits ready to be made into even more delicious wines! Coming in white and red varieties, there are many different types, so be sure to explore."
+				"{homestead.of_vines_and_vintage.792750222BE484C5.quest0.description0}"
 				""
-				"&nCollect grape seeds from wild grape bushes.&r"
+				"{homestead.of_vines_and_vintage.792750222BE484C5.quest0.description1}"
 			]
 			id: "792750222BE484C5"
 			rewards: [
@@ -85,7 +85,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Obtain any grape seed"
+			subtitle: "{homestead.of_vines_and_vintage.792750222BE484C5.quest0.subtitle}"
 			tasks: [{
 				id: "617EEE95FB6385A6"
 				item: {
@@ -98,13 +98,14 @@
 				title: "Any #vinery:grape_seeds"
 				type: "item"
 			}]
-			title: "Fruits of the Vine"
+			title: "{homestead.of_vines_and_vintage.792750222BE484C5.quest0.title}"
 			x: 0.0d
 			y: -8.0d
 		}
+
 		{
 			dependencies: ["792750222BE484C5"]
-			description: ["Wine isn't only made from grapes! These trees are native to temperate Biomes such as Plains, Meadows and Sunflower Plains."]
+			description: ["{homestead.of_vines_and_vintage.247A014E4F1A0053.quest1.description0}"]
 			id: "247A014E4F1A0053"
 			rewards: [
 				{
@@ -120,7 +121,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Obtain an Apple Tree Sapling and a Dark Cherry Sapling."
+			subtitle: "{homestead.of_vines_and_vintage.247A014E4F1A0053.quest1.subtitle}"
 			tasks: [
 				{
 					id: "0314C43C8B72DD71"
@@ -133,13 +134,14 @@
 					type: "item"
 				}
 			]
-			title: "Fruits in the Branches"
+			title: "{homestead.of_vines_and_vintage.247A014E4F1A0053.quest1.title}"
 			x: -1.0d
 			y: -7.0d
 		}
+
 		{
 			dependencies: ["247A014E4F1A0053"]
-			description: ["Grape bushes planted on the ground or against the wall have low yields. To improve your harvest plant seeds on stems; Click the upper half of the stem to plant. Jungle Grapes require lattices."]
+			description: ["{homestead.of_vines_and_vintage.3830DF8ED871BDBB.quest2.description0}"]
 			id: "3830DF8ED871BDBB"
 			rewards: [
 				{
@@ -155,7 +157,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Grape Vine Stem, Craft any Lattice [Vinery version]"
+			subtitle: "{homestead.of_vines_and_vintage.3830DF8ED871BDBB.quest2.subtitle}"
 			tasks: [
 				{
 					id: "1456C17492343009"
@@ -171,17 +173,18 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(vinery:lattice)"
 						}
 					}
-					title: "Any #vinery:lattice"
+					title: "{homestead.of_vines_and_vintage.3830DF8ED871BDBB.quest2.task1.title}"
 					type: "item"
 				}
 			]
-			title: "Vineyard Dreams"
+			title: "{homestead.of_vines_and_vintage.3830DF8ED871BDBB.quest2.title}"
 			x: 1.0d
 			y: -7.0d
 		}
+
 		{
 			dependencies: ["3830DF8ED871BDBB"]
-			description: ["Your vineyard is shaping up nicely now and you're ready to start making wines. Time to craft the tools needed."]
+			description: ["{homestead.of_vines_and_vintage.799FB5B2C65338F6.quest3.description0}"]
 			id: "799FB5B2C65338F6"
 			rewards: [
 				{
@@ -196,7 +199,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Craft a Grape Vine Pot, Fermentation Barrel, Apple Press, and Wine Bottle."
+			subtitle: "{homestead.of_vines_and_vintage.799FB5B2C65338F6.quest3.subtitle}"
 			tasks: [
 				{
 					id: "77D8DBEACAFB9EDA"
@@ -219,18 +222,19 @@
 					type: "item"
 				}
 			]
-			title: "The Winemaker's Kit"
+			title: "{homestead.of_vines_and_vintage.799FB5B2C65338F6.quest3.title}"
 			x: -1.0d
 			y: -6.0d
 		}
+
 		{
 			dependencies: ["799FB5B2C65338F6"]
 			description: [
-				"You can't make wine without smashing some grapes! "
+				"{homestead.of_vines_and_vintage.279E357E54A5304A.quest4.description0}"
 				""
-				"&nJump on top of the Grape Vine Pot a few times and show those grapes who's boss. For apples both the mash and juice can be made in the press.&r"
+				"{homestead.of_vines_and_vintage.279E357E54A5304A.quest4.description1}"
 				""
-				"&nUsing a Grape Vine Pot or Apple Press, grapes, and an empty Wine Bottle create your first bottle of Juice.&r"
+				"{homestead.of_vines_and_vintage.279E357E54A5304A.quest4.description2}"
 			]
 			id: "279E357E54A5304A"
 			rewards: [
@@ -250,7 +254,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Make any bottle of juice"
+			subtitle: "{homestead.of_vines_and_vintage.279E357E54A5304A.quest4.subtitle}"
 			tasks: [{
 				id: "584B162C1C4CDB04"
 				item: {
@@ -263,18 +267,19 @@
 				title: "Any #vinery:grapejuice"
 				type: "item"
 			}]
-			title: "Turbulent Juice"
+			title: "{homestead.of_vines_and_vintage.279E357E54A5304A.quest4.title}"
 			x: 1.0d
 			y: -6.0d
 		}
+
 		{
 			dependencies: ["279E357E54A5304A"]
 			description: [
-				"Time to bottle your first wine! "
+				"{homestead.of_vines_and_vintage.76DE9808E8F6C9DD.quest5.description0}"
 				""
-				"&nEach wine has it's own unique buff that gets stronger over time as the wine is aged. Simply store in any inventory and given time and patience your wine will become more potent.&r"
+				"{homestead.of_vines_and_vintage.76DE9808E8F6C9DD.quest5.description1}"
 				""
-				"&nUsing a Fermentation Barrel add the required juice, additional ingredients, and wine bottles to create your first wine.&r"
+				"{homestead.of_vines_and_vintage.76DE9808E8F6C9DD.quest5.description2}"
 			]
 			id: "76DE9808E8F6C9DD"
 			rewards: [{
@@ -283,7 +288,7 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "Craft Red Wine and Apple Wine"
+			subtitle: "{homestead.of_vines_and_vintage.76DE9808E8F6C9DD.quest5.subtitle}"
 			tasks: [
 				{
 					id: "5ABA565564034AB5"
@@ -304,13 +309,14 @@
 					type: "item"
 				}
 			]
-			title: "The First Drop"
+			title: "{homestead.of_vines_and_vintage.76DE9808E8F6C9DD.quest5.title}"
 			x: 0.0d
 			y: -5.0d
 		}
+
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using Apple Juice, a Honey Bottle and Sugar."]
+			description: ["{homestead.of_vines_and_vintage.6AA58533D5EBBC8F.quest6.description0}"]
 			hide_dependency_lines: true
 			id: "6AA58533D5EBBC8F"
 			rewards: [
@@ -330,7 +336,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Craft Mead"
+			subtitle: "{homestead.of_vines_and_vintage.6AA58533D5EBBC8F.quest6.subtitle}"
 			tasks: [{
 				id: "4A175BCC78CDE153"
 				item: {
@@ -340,13 +346,14 @@
 				}
 				type: "item"
 			}]
-			title: "Mead"
+			title: "{homestead.of_vines_and_vintage.6AA58533D5EBBC8F.quest6.title}"
 			x: -7.0d
 			y: -3.0d
 		}
+
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using Apple Juice and Sugar."]
+			description: ["{homestead.of_vines_and_vintage.68888EB3FFD9D8CD.quest7.description0}"]
 			hide_dependency_lines: true
 			id: "68888EB3FFD9D8CD"
 			rewards: [
@@ -361,7 +368,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Craft Cider"
+			subtitle: "{homestead.of_vines_and_vintage.68888EB3FFD9D8CD.quest7.subtitle}"
 			tasks: [{
 				id: "691B0EE70B24EDF6"
 				item: {
@@ -374,9 +381,10 @@
 			x: 7.0d
 			y: -4.0d
 		}
+
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using Apple Juice and a bottle of Apple Juice."]
+			description: ["{homestead.of_vines_and_vintage.4E2A9F993EE146E5.quest8.description0}"]
 			hide_dependency_lines: true
 			id: "4E2A9F993EE146E5"
 			rewards: [
@@ -391,7 +399,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Craft Apple Wine"
+			subtitle: "{homestead.of_vines_and_vintage.4E2A9F993EE146E5.quest8.subtitle}"
 			tasks: [{
 				id: "585E383E1901E94E"
 				item: {
@@ -404,9 +412,10 @@
 			x: -6.0d
 			y: -4.0d
 		}
+
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using White Grape Juice, Sugar and a Glowstone Dust."]
+			description: ["{homestead.of_vines_and_vintage.34365CC7B4787A01.quest9.description0}"]
 			hide_dependency_lines: true
 			id: "34365CC7B4787A01"
 			rewards: [
@@ -426,7 +435,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Craft Mellohi Wine"
+			subtitle: "{homestead.of_vines_and_vintage.34365CC7B4787A01.quest9.subtitle}"
 			tasks: [{
 				id: "1519B474DE0B657C"
 				item: {
@@ -439,9 +448,10 @@
 			x: -8.0d
 			y: -4.0d
 		}
+
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using White Grape Juice and Glow Berries."]
+			description: ["{homestead.of_vines_and_vintage.58FDCEECECD2956E.quest10.description0}"]
 			hide_dependency_lines: true
 			id: "58FDCEECECD2956E"
 			rewards: [
@@ -456,7 +466,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Craft Sun-kissed wine"
+			subtitle: "{homestead.of_vines_and_vintage.58FDCEECECD2956E.quest10.subtitle}"
 			tasks: [{
 				id: "10AFF68E97558C63"
 				item: {
@@ -469,9 +479,10 @@
 			x: -7.0d
 			y: -2.0d
 		}
+
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using White grape Juice, Sweet berries, and a Honey Bottle."]
+			description: ["{homestead.of_vines_and_vintage.5641322F44A45A4F.quest11.description0}"]
 			hide_dependency_lines: true
 			id: "5641322F44A45A4F"
 			rewards: [
@@ -491,7 +502,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Craft Solaris Wine"
+			subtitle: "{homestead.of_vines_and_vintage.5641322F44A45A4F.quest11.subtitle}"
 			tasks: [{
 				id: "1B66F9E86275A5D7"
 				item: {
@@ -504,9 +515,10 @@
 			x: -7.0d
 			y: -4.0d
 		}
+
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using Red Grape Juice and sweet berries."]
+			description: ["{homestead.of_vines_and_vintage.402F635659D5C6EC.quest12.description0}"]
 			hide_dependency_lines: true
 			id: "402F635659D5C6EC"
 			rewards: [
@@ -521,7 +533,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Craft Noir Wine"
+			subtitle: "{homestead.of_vines_and_vintage.402F635659D5C6EC.quest12.subtitle}"
 			tasks: [{
 				id: "0A5DECAE2FA0A3D2"
 				item: {
@@ -534,9 +546,10 @@
 			x: -8.0d
 			y: -3.0d
 		}
+
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using Red Grape Juice and Sugar."]
+			description: ["{homestead.of_vines_and_vintage.6F6F2DE7EAA17121.quest13.description0}"]
 			hide_dependency_lines: true
 			id: "6F6F2DE7EAA17121"
 			rewards: [
@@ -551,7 +564,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Craft Red Wine"
+			subtitle: "{homestead.of_vines_and_vintage.6F6F2DE7EAA17121.quest13.subtitle}"
 			tasks: [{
 				id: "1C41562E8C84713A"
 				item: {
@@ -564,9 +577,10 @@
 			x: -6.0d
 			y: -3.0d
 		}
+
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using Red Grape Juice, Cocoa Beans, and Sugar."]
+			description: ["{homestead.of_vines_and_vintage.3E661A25570C9575.quest14.description0}"]
 			hide_dependency_lines: true
 			id: "3E661A25570C9575"
 			rewards: [
@@ -586,7 +600,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Craft Strad Wine"
+			subtitle: "{homestead.of_vines_and_vintage.3E661A25570C9575.quest14.subtitle}"
 			tasks: [{
 				id: "74B560FBB0C6241D"
 				item: {
@@ -599,9 +613,10 @@
 			x: -7.0d
 			y: -5.0d
 		}
+
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using Red Grape Juice, and a Cherry [Vinery only]."]
+			description: ["{homestead.of_vines_and_vintage.504425E4B36F0B5D.quest15.description0}"]
 			hide_dependency_lines: true
 			id: "504425E4B36F0B5D"
 			rewards: [
@@ -616,7 +631,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Craft Cherry Wine"
+			subtitle: "{homestead.of_vines_and_vintage.504425E4B36F0B5D.quest15.subtitle}"
 			tasks: [{
 				id: "044D673E47CFEDBB"
 				item: {
@@ -629,9 +644,10 @@
 			x: -7.0d
 			y: -1.0d
 		}
+
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using Red Grape Juice, a Feather, Sugar and a Blaze Rod."]
+			description: ["{homestead.of_vines_and_vintage.26454470A143B50F.quest16.description0}"]
 			hide_dependency_lines: true
 			id: "26454470A143B50F"
 			rewards: [
@@ -656,7 +672,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Craft Cristel Wine"
+			subtitle: "{homestead.of_vines_and_vintage.26454470A143B50F.quest16.subtitle}"
 			tasks: [{
 				id: "65944FD4EBC56B51"
 				item: {
@@ -669,9 +685,10 @@
 			x: -5.0d
 			y: -3.0d
 		}
+
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using White Savanna Grape Juice, and Gunpowder."]
+			description: ["{homestead.of_vines_and_vintage.5C243B5EC5C727F4.quest17.description0}"]
 			hide_dependency_lines: true
 			id: "5C243B5EC5C727F4"
 			rewards: [
@@ -686,7 +703,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Craft A Bottle of 'Creepers Crush'"
+			subtitle: "{homestead.of_vines_and_vintage.5C243B5EC5C727F4.quest17.subtitle}"
 			tasks: [{
 				id: "780B7F01A42584FC"
 				item: {
@@ -699,9 +716,10 @@
 			x: -9.0d
 			y: -3.0d
 		}
+
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using White Savanna Grape Juice, and Kelp."]
+			description: ["{homestead.of_vines_and_vintage.440321CDEAEBC8FA.quest18.description0}"]
 			hide_dependency_lines: true
 			id: "440321CDEAEBC8FA"
 			rewards: [
@@ -716,7 +734,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Craft Kelp Cider"
+			subtitle: "{homestead.of_vines_and_vintage.440321CDEAEBC8FA.quest18.subtitle}"
 			tasks: [{
 				id: "5D75FE0D83B736AE"
 				item: {
@@ -729,9 +747,10 @@
 			x: -8.0d
 			y: -2.0d
 		}
+
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using Red Savanna Grape Juice, a Honey Bottle and a Cherry [Vinery only]."]
+			description: ["{homestead.of_vines_and_vintage.24E655E4159BA436.quest19.description0}"]
 			hide_dependency_lines: true
 			id: "24E655E4159BA436"
 			rewards: [
@@ -751,7 +770,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Craft Miss Lilitus Wine"
+			subtitle: "{homestead.of_vines_and_vintage.24E655E4159BA436.quest19.subtitle}"
 			tasks: [{
 				id: "61135AA4124A3E50"
 				item: {
@@ -764,9 +783,10 @@
 			x: -6.0d
 			y: -2.0d
 		}
+
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using Red Savanna Grape Juice, and a Fermented Spider Eye."]
+			description: ["{homestead.of_vines_and_vintage.0459F25E61041E88.quest20.description0}"]
 			hide_dependency_lines: true
 			id: "0459F25E61041E88"
 			rewards: [
@@ -781,7 +801,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Craft Jo's Special Mixture"
+			subtitle: "{homestead.of_vines_and_vintage.0459F25E61041E88.quest20.subtitle}"
 			tasks: [{
 				id: "65AD43A6CA068323"
 				item: {
@@ -794,9 +814,10 @@
 			x: 7.0d
 			y: -3.0d
 		}
+
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using White Taiga Grape Juice, and a Snowball."]
+			description: ["{homestead.of_vines_and_vintage.3BF03B8F70BECA9E.quest21.description0}"]
 			hide_dependency_lines: true
 			id: "3BF03B8F70BECA9E"
 			rewards: [
@@ -811,7 +832,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Craft Eiswein"
+			subtitle: "{homestead.of_vines_and_vintage.3BF03B8F70BECA9E.quest21.subtitle}"
 			tasks: [{
 				id: "2E45169133EAC58A"
 				item: {
@@ -824,9 +845,10 @@
 			x: 7.0d
 			y: -2.0d
 		}
+
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using White Taiga Grape Juice, Sugar, Kelp, and an Iron Ingot."]
+			description: ["{homestead.of_vines_and_vintage.4671CB330F71F3D3.quest22.description0}"]
 			hide_dependency_lines: true
 			id: "4671CB330F71F3D3"
 			rewards: [
@@ -851,7 +873,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Craft Aegis Wine"
+			subtitle: "{homestead.of_vines_and_vintage.4671CB330F71F3D3.quest22.subtitle}"
 			tasks: [{
 				id: "74E87A64035BD580"
 				item: {
@@ -864,9 +886,10 @@
 			x: 6.0d
 			y: -3.0d
 		}
+
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using Red Taiga Grape Juice, a Honey Bottle and a Cherry [Vinery only]."]
+			description: ["{homestead.of_vines_and_vintage.415F587BB329B198.quest23.description0}"]
 			hide_dependency_lines: true
 			id: "415F587BB329B198"
 			rewards: [
@@ -886,7 +909,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Craft Bolvar Wine"
+			subtitle: "{homestead.of_vines_and_vintage.415F587BB329B198.quest23.subtitle}"
 			tasks: [{
 				id: "66FAC849A7ABA3ED"
 				item: {
@@ -899,9 +922,10 @@
 			x: 8.0d
 			y: -3.0d
 		}
+
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using Red Taiga Grape Juice, and Chorus Fruit."]
+			description: ["{homestead.of_vines_and_vintage.30A9ADE340B1CEC9.quest24.description0}"]
 			hide_dependency_lines: true
 			id: "30A9ADE340B1CEC9"
 			rewards: [
@@ -916,7 +940,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Craft Chorus Wine"
+			subtitle: "{homestead.of_vines_and_vintage.30A9ADE340B1CEC9.quest24.subtitle}"
 			tasks: [{
 				id: "4356F907977BBE59"
 				item: {
@@ -929,9 +953,10 @@
 			x: 5.0d
 			y: -3.0d
 		}
+
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using White Jungle Grape Juice, and an Arrow."]
+			description: ["{homestead.of_vines_and_vintage.14DAD6C9B4A6FFA8.quest25.description0}"]
 			hide_dependency_lines: true
 			id: "14DAD6C9B4A6FFA8"
 			rewards: [
@@ -946,7 +971,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Craft A Bottle of 'Villagers Fright'"
+			subtitle: "{homestead.of_vines_and_vintage.14DAD6C9B4A6FFA8.quest25.subtitle}"
 			tasks: [{
 				id: "2D77BC697118F705"
 				item: {
@@ -959,9 +984,10 @@
 			x: 9.0d
 			y: -3.0d
 		}
+
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using White Jungle Grape Juice, and Sugar."]
+			description: ["{homestead.of_vines_and_vintage.626244F6ED274CB2.quest26.description0}"]
 			hide_dependency_lines: true
 			id: "626244F6ED274CB2"
 			rewards: [
@@ -976,7 +1002,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Craft Clark Wine"
+			subtitle: "{homestead.of_vines_and_vintage.626244F6ED274CB2.quest26.subtitle}"
 			tasks: [{
 				id: "73E2D75064C5B91F"
 				item: {
@@ -989,9 +1015,10 @@
 			x: 7.0d
 			y: -1.0d
 		}
+
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using Red Jungle Grape Juice, and an Iron Ingot."]
+			description: ["{homestead.of_vines_and_vintage.7E3127065BDF8CD6.quest27.description0}"]
 			hide_dependency_lines: true
 			id: "7E3127065BDF8CD6"
 			rewards: [
@@ -1006,7 +1033,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Craft Magnetic Wine"
+			subtitle: "{homestead.of_vines_and_vintage.7E3127065BDF8CD6.quest27.subtitle}"
 			tasks: [{
 				id: "6EBD1DD726E4B60E"
 				item: {
@@ -1019,9 +1046,10 @@
 			x: 7.0d
 			y: -5.0d
 		}
+
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using Red Jungle Grape Juice, Cocoa beans, and Sugar."]
+			description: ["{homestead.of_vines_and_vintage.4BD0216F7EAD3EE3.quest28.description0}"]
 			hide_dependency_lines: true
 			id: "4BD0216F7EAD3EE3"
 			rewards: [
@@ -1041,7 +1069,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Craft Stal Wine"
+			subtitle: "{homestead.of_vines_and_vintage.4BD0216F7EAD3EE3.quest28.subtitle}"
 			tasks: [{
 				id: "5BF3F8F4FA5C7716"
 				item: {
@@ -1054,9 +1082,10 @@
 			x: 6.0d
 			y: -2.0d
 		}
+
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using Red Jungle Grape Juice, a Spider Eye, and a Honey Bottle."]
+			description: ["{homestead.of_vines_and_vintage.571018D6EF18CBA4.quest29.description0}"]
 			hide_dependency_lines: true
 			id: "571018D6EF18CBA4"
 			rewards: [
@@ -1076,7 +1105,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Craft Chenet Wine"
+			subtitle: "{homestead.of_vines_and_vintage.571018D6EF18CBA4.quest29.subtitle}"
 			tasks: [{
 				id: "1B778336C67E9552"
 				item: {
@@ -1089,9 +1118,10 @@
 			x: 8.0d
 			y: -2.0d
 		}
+
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using Red Grape Juice, a Honey Bottle, a Cherry [Vinery version only], and a bottle of Red Wine."]
+			description: ["{homestead.of_vines_and_vintage.723A18B372853BB6.quest30.description0}"]
 			hide_dependency_lines: true
 			id: "723A18B372853BB6"
 			rewards: [
@@ -1120,7 +1150,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Craft A Bottle of 'Mojang Noir'"
+			subtitle: "{homestead.of_vines_and_vintage.723A18B372853BB6.quest30.subtitle}"
 			tasks: [{
 				id: "43DFF983210EFE6B"
 				item: {
@@ -1133,9 +1163,10 @@
 			x: 6.0d
 			y: -4.0d
 		}
+
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using White Grape Juice, a bottle of Apple Wine, Chenet Wine and Bolvar Wine."]
+			description: ["{homestead.of_vines_and_vintage.79011AE021672451.quest31.description0}"]
 			hide_dependency_lines: true
 			id: "79011AE021672451"
 			rewards: [
@@ -1172,7 +1203,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Craft Jellie Wine"
+			subtitle: "{homestead.of_vines_and_vintage.79011AE021672451.quest31.subtitle}"
 			tasks: [{
 				id: "3DA2E0DFC1FE9FBC"
 				item: {
@@ -1185,6 +1216,5 @@
 			x: 8.0d
 			y: -4.0d
 		}
-	]
-	title: "Vines and Vintage"
-}
+
+	]	title: "Vines and Vintage"}

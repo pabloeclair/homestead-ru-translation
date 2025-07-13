@@ -28,7 +28,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["The wilds just got a little friendlier."]
+			description: ["{homestead.whispers_of_the_wilds.630A0F8FE31DB885.quest0.description0}"]
 			id: "630A0F8FE31DB885"
 			rewards: [{
 				count: 2
@@ -36,19 +36,20 @@
 				item: "minecraft:lead"
 				type: "item"
 			}]
-			subtitle: "Tame a fox, a wolf, a cat, or a parrot."
+			subtitle: "{homestead.whispers_of_the_wilds.630A0F8FE31DB885.quest0.subtitle}"
 			tasks: [{
 				advancement: "minecraft:husbandry/tame_an_animal"
 				criterion: ""
 				id: "5BF31AA5D9D54BE0"
 				type: "advancement"
 			}]
-			title: "Friend of the Forest"
+			title: "{homestead.whispers_of_the_wilds.630A0F8FE31DB885.quest0.title}"
 			x: 1.5d
 			y: -3.0d
 		}
+
 		{
-			description: ["Bee careful! They’re watching."]
+			description: ["{homestead.whispers_of_the_wilds.45009CCE0AC3453A.quest1.description0}"]
 			id: "45009CCE0AC3453A"
 			rewards: [{
 				count: 3
@@ -56,7 +57,7 @@
 				item: "minecraft:honey_bottle"
 				type: "item"
 			}]
-			subtitle: "Collect honey from a beehive using a bottle."
+			subtitle: "{homestead.whispers_of_the_wilds.45009CCE0AC3453A.quest1.subtitle}"
 			tasks: [{
 				block: "minecraft:beehive"
 				block_type: 0
@@ -67,12 +68,13 @@
 				type: "questsadditions:use"
 				value: 1L
 			}]
-			title: "Buzz Buzz"
+			title: "{homestead.whispers_of_the_wilds.45009CCE0AC3453A.quest1.title}"
 			x: 3.5d
 			y: 1.0d
 		}
+
 		{
-			description: ["After hearing the call, you answered. And you lived."]
+			description: ["{homestead.whispers_of_the_wilds.51B8BD05569AAEA8.quest2.description0}"]
 			id: "51B8BD05569AAEA8"
 			rewards: [
 				{
@@ -87,19 +89,20 @@
 					xp: 100
 				}
 			]
-			subtitle: "Use a Totem of Undying."
+			subtitle: "{homestead.whispers_of_the_wilds.51B8BD05569AAEA8.quest2.subtitle}"
 			tasks: [{
 				advancement: "minecraft:adventure/totem_of_undying"
 				criterion: ""
 				id: "0A18B447670C70F5"
 				type: "advancement"
 			}]
-			title: "Call of the Wild"
+			title: "{homestead.whispers_of_the_wilds.51B8BD05569AAEA8.quest2.title}"
 			x: -2.5d
 			y: -3.0d
 		}
+
 		{
-			description: ["This world is starting to feel like home."]
+			description: ["{homestead.whispers_of_the_wilds.29DACA5BA50939B6.quest3.description0}"]
 			id: "29DACA5BA50939B6"
 			rewards: [
 				{
@@ -124,18 +127,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Reach day 500."
+			subtitle: "{homestead.whispers_of_the_wilds.29DACA5BA50939B6.quest3.subtitle}"
 			tasks: [{
 				days: 500
 				id: "0B995AF2034CF547"
 				type: "questsadditions:days"
 			}]
-			title: "Feels Like Home"
+			title: "{homestead.whispers_of_the_wilds.29DACA5BA50939B6.quest3.title}"
 			x: -0.5d
 			y: -3.5d
 		}
+
 		{
-			description: ["You’ve gained mastery of the skies. Just.. don’t look down."]
+			description: ["{homestead.whispers_of_the_wilds.524CAFCF9B479A4B.quest4.description0}"]
 			id: "524CAFCF9B479A4B"
 			rewards: [
 				{
@@ -150,7 +154,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Glide with Elytra for 5,000 blocks."
+			subtitle: "{homestead.whispers_of_the_wilds.524CAFCF9B479A4B.quest4.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -164,12 +168,13 @@
 				type: "stat"
 				value: 5000
 			}]
-			title: "Featherlight"
+			title: "{homestead.whispers_of_the_wilds.524CAFCF9B479A4B.quest4.title}"
 			x: -3.5d
 			y: -2.5d
 		}
+
 		{
-			description: ["These mountains are abundant in more than just fallen snow."]
+			description: ["{homestead.whispers_of_the_wilds.4FCD14C35DFA0AF5.quest5.description0}"]
 			id: "4FCD14C35DFA0AF5"
 			rewards: [
 				{
@@ -190,19 +195,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "Collect 32 Alpine Salt"
+			subtitle: "{homestead.whispers_of_the_wilds.4FCD14C35DFA0AF5.quest5.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "7516838B00908A4C"
 				item: { Count: 32, id: "meadow:alpine_salt" }
 				type: "item"
 			}]
-			title: "Crystals Among the Peaks"
+			title: "{homestead.whispers_of_the_wilds.4FCD14C35DFA0AF5.quest5.title}"
 			x: 2.5d
 			y: -2.5d
 		}
+
 		{
-			description: ["Aaanndd X marks the spot!"]
+			description: ["{homestead.whispers_of_the_wilds.509113AF406B4DAF.quest6.description0}"]
 			id: "509113AF406B4DAF"
 			rewards: [
 				{
@@ -232,7 +238,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Find 50 Loot Chests."
+			subtitle: "{homestead.whispers_of_the_wilds.509113AF406B4DAF.quest6.subtitle}"
 			tasks: [{
 				block: "lootr:lootr_chest"
 				block_type: 0
@@ -242,12 +248,13 @@
 				type: "questsadditions:use"
 				value: 50L
 			}]
-			title: "Burrowed Secrets"
+			title: "{homestead.whispers_of_the_wilds.509113AF406B4DAF.quest6.title}"
 			x: -4.5d
 			y: -2.0d
 		}
+
 		{
-			description: ["The sand and rocks look burnt.. You’ve got to take a picture of this."]
+			description: ["{homestead.whispers_of_the_wilds.1B6519F2535B8FBB.quest7.description0}"]
 			id: "1B6519F2535B8FBB"
 			rewards: [
 				{
@@ -267,31 +274,32 @@
 					type: "item"
 				}
 			]
-			subtitle: "Visit a badlands and mesa biome."
+			subtitle: "{homestead.whispers_of_the_wilds.1B6519F2535B8FBB.quest7.subtitle}"
 			tasks: [
 				{
 					biome: "#c:badlands"
 					icon: "minecraft:dead_bush"
 					id: "6D18ECDC147AF61C"
-					title: "Visit a badlands biome."
+					title: "{homestead.whispers_of_the_wilds.1B6519F2535B8FBB.quest7.task0.title}"
 					type: "biome"
 				}
 				{
 					biome: "#c:mesa"
 					icon: "minecraft:terracotta"
 					id: "5AEB1C95F1E53320"
-					title: "Visit a mesa biome."
+					title: "{homestead.whispers_of_the_wilds.1B6519F2535B8FBB.quest7.task1.title}"
 					type: "biome"
 				}
 			]
-			title: "Canyon Echoes"
+			title: "{homestead.whispers_of_the_wilds.1B6519F2535B8FBB.quest7.title}"
 			x: -4.5d
 			y: -1.0d
 		}
+
 		{
 			description: [
-				"You're not just fishing anymore. You're curating an aquatic art gallery."
-				"Cod? Caught. Salmon? Slammin’. Pufferfish? Spicy."
+				"{homestead.whispers_of_the_wilds.4961ABF6DA33A89A.quest8.description0}"
+				"{homestead.whispers_of_the_wilds.4961ABF6DA33A89A.quest8.description1}"
 			]
 			id: "4961ABF6DA33A89A"
 			rewards: [{
@@ -305,7 +313,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Get 8 of each Vanilla fish."
+			subtitle: "{homestead.whispers_of_the_wilds.4961ABF6DA33A89A.quest8.subtitle}"
 			tasks: [
 				{
 					count: 8L
@@ -332,12 +340,13 @@
 					type: "item"
 				}
 			]
-			title: "Catch of the Block"
+			title: "{homestead.whispers_of_the_wilds.4961ABF6DA33A89A.quest8.title}"
 			x: 3.5d
 			y: -2.0d
 		}
+
 		{
-			description: ["Did you know that mosses were among the first plants on Earth? Didn’t think you’d learn something today, did you?"]
+			description: ["{homestead.whispers_of_the_wilds.6365B4DF8C61DE55.quest9.description0}"]
 			id: "6365B4DF8C61DE55"
 			rewards: [
 				{
@@ -353,19 +362,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "Harvest 100 moss blocks."
+			subtitle: "{homestead.whispers_of_the_wilds.6365B4DF8C61DE55.quest9.subtitle}"
 			tasks: [{
 				count: 100L
 				id: "070DD090266493AE"
 				item: { Count: 100, id: "minecraft:moss_block" }
 				type: "item"
 			}]
-			title: "Ancient Greens"
+			title: "{homestead.whispers_of_the_wilds.6365B4DF8C61DE55.quest9.title}"
 			x: 3.5d
 			y: -1.0d
 		}
+
 		{
-			description: ["Hold on to your horses! Don't let them fall off the cliff!!"]
+			description: ["{homestead.whispers_of_the_wilds.7BE87D3F9F99C2C8.quest10.description0}"]
 			id: "7BE87D3F9F99C2C8"
 			rewards: [
 				{
@@ -379,19 +389,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "Vist a Windswept biome."
+			subtitle: "{homestead.whispers_of_the_wilds.7BE87D3F9F99C2C8.quest10.subtitle}"
 			tasks: [{
 				biome: "#c:windswept"
 				id: "63A4B50019EF6CB6"
 				title: "Visit a windswept biome."
 				type: "biome"
 			}]
-			title: "Windswept Wonder"
+			title: "{homestead.whispers_of_the_wilds.7BE87D3F9F99C2C8.quest10.title}"
 			x: -4.5d
 			y: 0.0d
 		}
+
 		{
-			description: ["Rustling leaves, hanging vines, and colorful creatures..Some louder than others."]
+			description: ["{homestead.whispers_of_the_wilds.12C1663D83B35B3C.quest11.description0}"]
 			id: "12C1663D83B35B3C"
 			rewards: [
 				{
@@ -407,7 +418,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Visit a Jungle biome."
+			subtitle: "{homestead.whispers_of_the_wilds.12C1663D83B35B3C.quest11.subtitle}"
 			tasks: [{
 				biome: "#c:jungle"
 				icon: "minecraft:jungle_sapling"
@@ -415,21 +426,22 @@
 				title: "Visit a Jungle biome."
 				type: "biome"
 			}]
-			title: "Jungle Beats"
+			title: "{homestead.whispers_of_the_wilds.12C1663D83B35B3C.quest11.title}"
 			x: -3.5d
 			y: 0.5d
 		}
+
 		{
 			description: [
-				"“Honey?”"
+				"{homestead.whispers_of_the_wilds.1EC5506A0D39CAC5.quest12.description0}"
 				""
-				"“What?”"
+				"{homestead.whispers_of_the_wilds.1EC5506A0D39CAC5.quest12.description1}"
 				""
-				"“Where’s my super suit?”"
+				"{homestead.whispers_of_the_wilds.1EC5506A0D39CAC5.quest12.description2}"
 				""
-				"“What?”"
+				"{homestead.whispers_of_the_wilds.1EC5506A0D39CAC5.quest12.description3}"
 				""
-				"“Where - is - my - &b&lSUPER&r&r - &f&lSUIT?!?&r&r"
+				"{homestead.whispers_of_the_wilds.1EC5506A0D39CAC5.quest12.description4}"
 			]
 			id: "1EC5506A0D39CAC5"
 			rewards: [
@@ -446,7 +458,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Visit an Ice Spikes biome."
+			subtitle: "{homestead.whispers_of_the_wilds.1EC5506A0D39CAC5.quest12.subtitle}"
 			tasks: [{
 				biome: "minecraft:ice_spikes"
 				icon: "minecraft:ice"
@@ -454,12 +466,13 @@
 				title: "Visit an Ice Spikes biome."
 				type: "biome"
 			}]
-			title: "Frozen Over"
+			title: "{homestead.whispers_of_the_wilds.1EC5506A0D39CAC5.quest12.title}"
 			x: -3.5d
 			y: 1.5d
 		}
+
 		{
-			description: ["Pandas eat it. You hoard it. Balance."]
+			description: ["{homestead.whispers_of_the_wilds.636E70886C04DF0A.quest13.description0}"]
 			id: "636E70886C04DF0A"
 			rewards: [
 				{
@@ -473,19 +486,20 @@
 					xp: 100
 				}
 			]
-			subtitle: "Collect 64 bamboo."
+			subtitle: "{homestead.whispers_of_the_wilds.636E70886C04DF0A.quest13.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "1A0DE2DD6E571E1D"
 				item: { Count: 64, id: "minecraft:bamboo" }
 				type: "item"
 			}]
-			title: "Bamboo Grove"
+			title: "{homestead.whispers_of_the_wilds.636E70886C04DF0A.quest13.title}"
 			x: 2.5d
 			y: 0.5d
 		}
+
 		{
-			description: ["A place where stone and flower coexist—like a rock concert with excellent landscaping."]
+			description: ["{homestead.whispers_of_the_wilds.56E0D4BA4A798624.quest14.description0}"]
 			id: "56E0D4BA4A798624"
 			rewards: [
 				{
@@ -500,7 +514,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Visit a Crag Garden biome."
+			subtitle: "{homestead.whispers_of_the_wilds.56E0D4BA4A798624.quest14.subtitle}"
 			tasks: [{
 				biome: "biomeswevegone:crag_gardens"
 				icon: "biomeswevegone:rocky_stone"
@@ -508,12 +522,13 @@
 				title: "Visit a Crag Gardens biome."
 				type: "biome"
 			}]
-			title: "Stone Blossoms"
+			title: "{homestead.whispers_of_the_wilds.56E0D4BA4A798624.quest14.title}"
 			x: -3.0d
 			y: 2.5d
 		}
+
 		{
-			description: ["Damn, damn, damn, double damn!"]
+			description: ["{homestead.whispers_of_the_wilds.16DA613E67313417.quest15.description0}"]
 			id: "16DA613E67313417"
 			rewards: [
 				{
@@ -533,7 +548,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Visit a Weeping Witch Forest biome."
+			subtitle: "{homestead.whispers_of_the_wilds.16DA613E67313417.quest15.subtitle}"
 			tasks: [{
 				biome: "biomeswevegone:weeping_witch_forest"
 				icon: "biomeswevegone:witch_hazel_sapling"
@@ -541,12 +556,13 @@
 				title: "Visit a Weeping Witch Forest biome."
 				type: "biome"
 			}]
-			title: "Witch Tears"
+			title: "{homestead.whispers_of_the_wilds.16DA613E67313417.quest15.title}"
 			x: -2.0d
 			y: 2.5d
 		}
+
 		{
-			description: ["Woah.. those trees are tall. So that’s where Skyrise comes from."]
+			description: ["{homestead.whispers_of_the_wilds.65965C1AA647732A.quest16.description0}"]
 			id: "65965C1AA647732A"
 			rewards: [{
 				id: "41197FF4BE0A624A"
@@ -559,7 +575,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Visit a Skyrise Vale biome."
+			subtitle: "{homestead.whispers_of_the_wilds.65965C1AA647732A.quest16.subtitle}"
 			tasks: [{
 				biome: "biomeswevegone:skyrise_vale"
 				icon: "biomeswevegone:skyris_sapling"
@@ -567,12 +583,13 @@
 				title: "Visit a Skyrise Vale biome."
 				type: "biome"
 			}]
-			title: "Breath of the Vale"
+			title: "{homestead.whispers_of_the_wilds.65965C1AA647732A.quest16.title}"
 			x: -1.0d
 			y: 2.5d
 		}
+
 		{
-			description: ["It’s green. It’s glowing. It’s gorgeous."]
+			description: ["{homestead.whispers_of_the_wilds.409EEF25369883DA.quest17.description0}"]
 			id: "409EEF25369883DA"
 			rewards: [
 				{
@@ -587,7 +604,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Visit a Lush Cave biome."
+			subtitle: "{homestead.whispers_of_the_wilds.409EEF25369883DA.quest17.subtitle}"
 			tasks: [{
 				biome: "minecraft:lush_caves"
 				icon: "minecraft:spore_blossom"
@@ -595,12 +612,13 @@
 				title: "Visit a Lush Cave biome."
 				type: "biome"
 			}]
-			title: "Glimmerglen"
+			title: "{homestead.whispers_of_the_wilds.409EEF25369883DA.quest17.title}"
 			x: 0.0d
 			y: 2.5d
 		}
+
 		{
-			description: ["It only takes one bullet!"]
+			description: ["{homestead.whispers_of_the_wilds.5DF3AE4D95C6E87D.quest18.description0}"]
 			id: "5DF3AE4D95C6E87D"
 			rewards: [
 				{
@@ -614,7 +632,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Visit a Saguaro Desert biome."
+			subtitle: "{homestead.whispers_of_the_wilds.5DF3AE4D95C6E87D.quest18.subtitle}"
 			tasks: [{
 				biome: "regions_unexplored:saguaro_desert"
 				icon: "regions_unexplored:saguaro_cactus"
@@ -622,12 +640,13 @@
 				title: "Visit a Saguaro Desert biome."
 				type: "biome"
 			}]
-			title: "Rango"
+			title: "{homestead.whispers_of_the_wilds.5DF3AE4D95C6E87D.quest18.title}"
 			x: 1.0d
 			y: 2.5d
 		}
+
 		{
-			description: ["Kinda hot in these Rhinos!"]
+			description: ["{homestead.whispers_of_the_wilds.6C82F2CE58B0B4F5.quest19.description0}"]
 			id: "6C82F2CE58B0B4F5"
 			rewards: [
 				{
@@ -648,7 +667,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Visit an Ironwood Gour biome."
+			subtitle: "{homestead.whispers_of_the_wilds.6C82F2CE58B0B4F5.quest19.subtitle}"
 			tasks: [{
 				biome: "biomeswevegone:ironwood_gour"
 				icon: "biomeswevegone:ironwood_sapling"
@@ -656,12 +675,13 @@
 				title: "Visit an Ironwood Gour biome."
 				type: "biome"
 			}]
-			title: "When Nature Calls"
+			title: "{homestead.whispers_of_the_wilds.6C82F2CE58B0B4F5.quest19.title}"
 			x: 2.0d
 			y: 2.5d
 		}
+
 		{
-			description: ["Forgotten no more."]
+			description: ["{homestead.whispers_of_the_wilds.5CB06507E73B8EEE.quest20.description0}"]
 			id: "5CB06507E73B8EEE"
 			rewards: [
 				{
@@ -683,7 +703,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Visit a Forgotten Forest biome."
+			subtitle: "{homestead.whispers_of_the_wilds.5CB06507E73B8EEE.quest20.subtitle}"
 			tasks: [{
 				biome: "biomeswevegone:forgotten_forest"
 				icon: "biomeswevegone:green_mushroom"
@@ -691,12 +711,13 @@
 				title: "Visit a Forgotten Forest biome."
 				type: "biome"
 			}]
-			title: "Lost but Found"
+			title: "{homestead.whispers_of_the_wilds.5CB06507E73B8EEE.quest20.title}"
 			x: -4.5d
 			y: 1.0d
 		}
+
 		{
-			description: ["Rolling hills, buzzing bees, and more flowers than your inventory can handle."]
+			description: ["{homestead.whispers_of_the_wilds.05489524CC750B48.quest21.description0}"]
 			id: "05489524CC750B48"
 			rewards: [
 				{
@@ -712,7 +733,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Visit a Meadow biome."
+			subtitle: "{homestead.whispers_of_the_wilds.05489524CC750B48.quest21.subtitle}"
 			tasks: [{
 				biome: "minecraft:meadow"
 				icon: "meadow:pine_sapling"
@@ -720,12 +741,13 @@
 				title: "Visit a Meadow biome."
 				type: "biome"
 			}]
-			title: "Where the Wind Waits"
+			title: "{homestead.whispers_of_the_wilds.05489524CC750B48.quest21.title}"
 			x: -0.5d
 			y: 3.5d
 		}
+
 		{
-			description: ["Echoes of a world beyond your reach… for now."]
+			description: ["{homestead.whispers_of_the_wilds.7AD422F32DF13DF6.quest22.description0}"]
 			id: "7AD422F32DF13DF6"
 			rewards: [
 				{
@@ -741,7 +763,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Find a Ruined Portal."
+			subtitle: "{homestead.whispers_of_the_wilds.7AD422F32DF13DF6.quest22.subtitle}"
 			tasks: [{
 				icon: "minecraft:crying_obsidian"
 				id: "6E9F30FA2AF404AC"
@@ -749,12 +771,13 @@
 				title: "Find a Ruined Portal."
 				type: "structure"
 			}]
-			title: "Ancient Echoes"
+			title: "{homestead.whispers_of_the_wilds.7AD422F32DF13DF6.quest22.title}"
 			x: 3.5d
 			y: 0.0d
 		}
+
 		{
-			description: ["After 250 sunrises and 250 nights spent building, exploring, fighting, and growing, you’re finally starting to feel this world become your domain, your dream, your home."]
+			description: ["{homestead.whispers_of_the_wilds.1DEA56CD931C198F.quest23.description0}"]
 			id: "1DEA56CD931C198F"
 			rewards: [
 				{
@@ -783,19 +806,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "Reach Day 250"
+			subtitle: "{homestead.whispers_of_the_wilds.1DEA56CD931C198F.quest23.subtitle}"
 			tasks: [{
 				days: 250
 				id: "4BE0F8133D56D57B"
 				title: "Reach Day 250"
 				type: "questsadditions:days"
 			}]
-			title: "Seasons in the Soul"
+			title: "{homestead.whispers_of_the_wilds.1DEA56CD931C198F.quest23.title}"
 			x: -1.5d
 			y: -3.5d
 		}
+
 		{
-			description: ["I wonder who lives here?"]
+			description: ["{homestead.whispers_of_the_wilds.32DBB2BFEC7227DA.quest24.description0}"]
 			id: "32DBB2BFEC7227DA"
 			rewards: [
 				{
@@ -810,7 +834,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Find an Aspen Manor."
+			subtitle: "{homestead.whispers_of_the_wilds.32DBB2BFEC7227DA.quest24.subtitle}"
 			tasks: [{
 				icon: "friendsandfoes:totem_of_illusion"
 				id: "099151E7EE6CEF11"
@@ -818,12 +842,13 @@
 				title: "Find an Aspen Manor."
 				type: "structure"
 			}]
-			title: "Homely Manor"
+			title: "{homestead.whispers_of_the_wilds.32DBB2BFEC7227DA.quest24.title}"
 			x: 2.5d
 			y: 1.5d
 		}
+
 		{
-			description: ["You’re part of the world's story now. How will you shape it in the future?"]
+			description: ["{homestead.whispers_of_the_wilds.0F0D320FDED6D64D.quest25.description0}"]
 			id: "0F0D320FDED6D64D"
 			rewards: [
 				{
@@ -859,17 +884,16 @@
 					xp: 500
 				}
 			]
-			subtitle: "Reach Day 1000."
+			subtitle: "{homestead.whispers_of_the_wilds.0F0D320FDED6D64D.quest25.subtitle}"
 			tasks: [{
 				days: 1000
 				id: "5903C5D78B23F2B1"
 				title: "Reach Day 1000"
 				type: "questsadditions:days"
 			}]
-			title: "The Thousandth Dawn"
+			title: "{homestead.whispers_of_the_wilds.0F0D320FDED6D64D.quest25.title}"
 			x: 0.5d
 			y: -3.5d
 		}
-	]
-	title: "Whispers of the Wilds"
-}
+
+	]	title: "Whispers of the Wilds"}

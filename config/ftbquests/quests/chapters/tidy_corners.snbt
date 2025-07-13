@@ -28,7 +28,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Place it by your chest, plug in the terminal, and enjoy some simple storage!"]
+			description: ["{homestead.tidy_corners.1CECE8C59C404BA4.quest0.description0}"]
 			id: "1CECE8C59C404BA4"
 			rewards: [
 				{
@@ -49,7 +49,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Place a Storage Terminal on an Inventory Connector."
+			subtitle: "{homestead.tidy_corners.1CECE8C59C404BA4.quest0.subtitle}"
 			tasks: [
 				{
 					block: "toms_storage:ts.storage_terminal"
@@ -70,19 +70,20 @@
 					value: 1L
 				}
 			]
-			title: "Storage, Simplified"
+			title: "{homestead.tidy_corners.1CECE8C59C404BA4.quest0.title}"
 			x: -4.5d
 			y: -0.5d
 		}
+
 		{
-			description: ["Great! You can now craft without taking a step away from your goodies.."]
+			description: ["{homestead.tidy_corners.6F2DC77792DEDA77.quest1.description0}"]
 			id: "6F2DC77792DEDA77"
 			rewards: [{
 				id: "093ABC90C06992C7"
 				item: "minecraft:spyglass"
 				type: "item"
 			}]
-			subtitle: "Place a Crafting Terminal."
+			subtitle: "{homestead.tidy_corners.6F2DC77792DEDA77.quest1.subtitle}"
 			tasks: [{
 				block: "toms_storage:ts.crafting_terminal"
 				block_type: 0
@@ -92,30 +93,32 @@
 				type: "questsadditions:place"
 				value: 1L
 			}]
-			title: "Craft-as-You-Go"
+			title: "{homestead.tidy_corners.6F2DC77792DEDA77.quest1.title}"
 			x: -4.5d
 			y: 1.0d
 		}
+
 		{
-			description: ["Check out your storage from up to 16 blocks away, just make sure you watch your step."]
+			description: ["{homestead.tidy_corners.7E1544159E5B5FBC.quest2.description0}"]
 			id: "7E1544159E5B5FBC"
 			rewards: [{
 				id: "488AA912D74A7CAB"
 				item: "minecraft:cactus"
 				type: "item"
 			}]
-			subtitle: "Craft a Standard Wireless Terminal."
+			subtitle: "{homestead.tidy_corners.7E1544159E5B5FBC.quest2.subtitle}"
 			tasks: [{
 				id: "7228550A9924BA14"
 				item: "toms_storage:ts.wireless_terminal"
 				type: "item"
 			}]
-			title: "Remote Control"
+			title: "{homestead.tidy_corners.7E1544159E5B5FBC.quest2.title}"
 			x: -4.0d
 			y: 2.5d
 		}
+
 		{
-			description: ["Shift right-click on a block with the kit and start to beautify those boring storage blocks!"]
+			description: ["{homestead.tidy_corners.5DD3A2830998D485.quest3.description0}"]
 			id: "5DD3A2830998D485"
 			rewards: [
 				{
@@ -137,7 +140,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Paint Kit."
+			subtitle: "{homestead.tidy_corners.5DD3A2830998D485.quest3.subtitle}"
 			tasks: [{
 				id: "41C3CDE4DD2D2EFB"
 				item: {
@@ -149,12 +152,13 @@
 				}
 				type: "item"
 			}]
-			title: "Bob Ross Mode"
+			title: "{homestead.tidy_corners.5DD3A2830998D485.quest3.title}"
 			x: -3.0d
 			y: 4.0d
 		}
+
 		{
-			description: ["Slurp items in and out of your network. Neat!"]
+			description: ["{homestead.tidy_corners.20FFF2E0BB5D4A4A.quest4.description0}"]
 			id: "20FFF2E0BB5D4A4A"
 			rewards: [
 				{
@@ -176,18 +180,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft an Inventory Hopper."
+			subtitle: "{homestead.tidy_corners.20FFF2E0BB5D4A4A.quest4.subtitle}"
 			tasks: [{
 				id: "7A6EF10F16F6D12D"
 				item: "toms_storage:ts.inventory_hopper_basic"
 				type: "item"
 			}]
-			title: "Suck It Up"
+			title: "{homestead.tidy_corners.20FFF2E0BB5D4A4A.quest4.title}"
 			x: -1.0d
 			y: 4.5d
 		}
+
 		{
-			description: ["Because sometimes one input just isn’t enough."]
+			description: ["{homestead.tidy_corners.0BAACE5A09388A89.quest5.description0}"]
 			id: "0BAACE5A09388A89"
 			rewards: [
 				{
@@ -203,18 +208,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft an Inventory Proxy."
+			subtitle: "{homestead.tidy_corners.0BAACE5A09388A89.quest5.subtitle}"
 			tasks: [{
 				id: "49C30C101E1205E5"
 				item: "toms_storage:ts.inventory_proxy"
 				type: "item"
 			}]
-			title: "More Faces = More Fun"
+			title: "{homestead.tidy_corners.0BAACE5A09388A89.quest5.title}"
 			x: 1.0d
 			y: 4.5d
 		}
+
 		{
-			description: ["Watch your items YOLO out of the crate like it’s Friday."]
+			description: ["{homestead.tidy_corners.2E43CB781D350C0F.quest6.description0}"]
 			id: "2E43CB781D350C0F"
 			rewards: [
 				{
@@ -230,18 +236,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft an Open Crate."
+			subtitle: "{homestead.tidy_corners.2E43CB781D350C0F.quest6.subtitle}"
 			tasks: [{
 				id: "7456E0CE1C5B82F6"
 				item: "toms_storage:ts.open_crate"
 				type: "item"
 			}]
-			title: "Oops! All Dropped"
+			title: "{homestead.tidy_corners.2E43CB781D350C0F.quest6.title}"
 			x: 3.0d
 			y: 4.0d
 		}
+
 		{
-			description: ["It tattles to redstone when you're low on stuff."]
+			description: ["{homestead.tidy_corners.60DF0944474B8AC7.quest7.description0}"]
 			id: "60DF0944474B8AC7"
 			rewards: [
 				{
@@ -256,18 +263,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Level Emitter."
+			subtitle: "{homestead.tidy_corners.60DF0944474B8AC7.quest7.subtitle}"
 			tasks: [{
 				id: "2A5EBD5712DC0B92"
 				item: "toms_storage:ts.level_emitter"
 				type: "item"
 			}]
-			title: "Redstone Snitch"
+			title: "{homestead.tidy_corners.60DF0944474B8AC7.quest7.title}"
 			x: 4.0d
 			y: 2.5d
 		}
+
 		{
-			description: ["Access your chests from literally anywhere. Because... science."]
+			description: ["{homestead.tidy_corners.37112C769785DC3D.quest8.description0}"]
 			id: "37112C769785DC3D"
 			rewards: [
 				{
@@ -282,18 +290,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft an Advanced Wireless Terminal."
+			subtitle: "{homestead.tidy_corners.37112C769785DC3D.quest8.subtitle}"
 			tasks: [{
 				id: "06FFE37FABCFA235"
 				item: "toms_storage:ts.adv_wireless_terminal"
 				type: "item"
 			}]
-			title: "Galaxy Brain Storage"
+			title: "{homestead.tidy_corners.37112C769785DC3D.quest8.title}"
 			x: 4.5d
 			y: 1.0d
 		}
+
 		{
-			description: ["Because not all your chests want to be clingy."]
+			description: ["{homestead.tidy_corners.0C0504E4096958E5.quest9.description0}"]
 			id: "0C0504E4096958E5"
 			rewards: [
 				{
@@ -320,7 +329,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Place Inventory Trims and Inventory Cables."
+			subtitle: "{homestead.tidy_corners.0C0504E4096958E5.quest9.subtitle}"
 			tasks: [
 				{
 					count: 8L
@@ -335,10 +344,9 @@
 					type: "item"
 				}
 			]
-			title: "Long Distance Relationship"
+			title: "{homestead.tidy_corners.0C0504E4096958E5.quest9.title}"
 			x: 4.5d
 			y: -0.5d
 		}
-	]
-	title: "Tidy Corners"
-}
+
+	]	title: "Tidy Corners"}

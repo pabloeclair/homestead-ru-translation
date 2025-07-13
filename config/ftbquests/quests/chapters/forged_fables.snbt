@@ -28,7 +28,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["You see ore. You mine ore. You become a god."]
+			description: ["{homestead.forged_fables.4E3FFFC9B87866BF.quest0.description0}"]
 			id: "4E3FFFC9B87866BF"
 			rewards: [
 				{
@@ -50,7 +50,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Mine 35 Necoium Ore and smelt them into ingots."
+			subtitle: "{homestead.forged_fables.4E3FFFC9B87866BF.quest0.subtitle}"
 			tasks: [{
 				count: 35L
 				id: "53E1FDFE055261E0"
@@ -60,8 +60,9 @@
 			x: 0.5d
 			y: -3.0d
 		}
+
 		{
-			description: ["You couldn't live with your own failure. Where did that bring you? Back to me."]
+			description: ["{homestead.forged_fables.68391B635F1A2FD9.quest1.description0}"]
 			id: "68391B635F1A2FD9"
 			rewards: [
 				{
@@ -115,7 +116,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Mine 245 Necoium Ore. Craft full sets of Topaz, Sapphire, Ruby, Aquamarine, Jade, Peridot, Ametrine equipment."
+			subtitle: "{homestead.forged_fables.68391B635F1A2FD9.quest1.subtitle}"
 			tasks: [
 				{
 					block: "mythicupgrades:necoium_ore"
@@ -819,15 +820,16 @@
 					type: "item"
 				}
 			]
-			title: "I Am Inevitable"
+			title: "{homestead.forged_fables.68391B635F1A2FD9.quest1.title}"
 			x: -1.5d
 			y: -3.0d
 		}
+
 		{
 			description: [
-				"Travel deep into the historic ruins of Bastion Remnants in The Nether, and you’ll have a chance to loot from the chests the template needed."
+				"{homestead.forged_fables.1BF9802A3022CF3A.quest2.description0}"
 				""
-				"These special templates can be duplicated with 7 Rubies, a block of Blackstone and the original Smithing Template."
+				"{homestead.forged_fables.1BF9802A3022CF3A.quest2.description1}"
 			]
 			id: "1BF9802A3022CF3A"
 			rewards: [
@@ -853,21 +855,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "Ruby Upgrade"
+			subtitle: "{homestead.forged_fables.1BF9802A3022CF3A.quest2.subtitle}"
 			tasks: [{
 				id: "5C999084359E5D2A"
 				item: "mythicupgrades:ruby_upgrade_smithing_template"
 				type: "item"
 			}]
-			title: "Smithing Template"
+			title: "{homestead.forged_fables.1BF9802A3022CF3A.quest2.title}"
 			x: -9.5d
 			y: -2.5d
 		}
+
 		{
 			description: [
-				"Red as the Blood Moon, Ruby generates in The Nether within Crimson Forest biomes between Y=0 and Y=32 (most commonly at Y=16)."
+				"{homestead.forged_fables.6A036F92418D5697.quest3.description0}"
 				""
-				"Collect 4 Rubies, place them in a Crafting Table with 4 Necoium Ingots to get 1 Ruby Ingot."
+				"{homestead.forged_fables.6A036F92418D5697.quest3.description1}"
 			]
 			id: "6A036F92418D5697"
 			rewards: [
@@ -888,22 +891,23 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive 8 Rubies"
+			subtitle: "{homestead.forged_fables.6A036F92418D5697.quest3.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "0FF3EB50E14B4EF7"
 				item: { Count: 8, id: "mythicupgrades:ruby" }
 				type: "item"
 			}]
-			title: "Ruby Gem"
+			title: "{homestead.forged_fables.6A036F92418D5697.quest3.title}"
 			x: -9.5d
 			y: -1.5d
 		}
+
 		{
 			description: [
-				"Red is often equated to power. With a full Ruby Armor set, you will gain Miner’s Shield which will apply 1.5 seconds of Mining Fatigue to your enemies!"
+				"{homestead.forged_fables.4C48EB435C782808.quest4.description0}"
 				""
-				"To create the whole armor set you will need 4 Ruby Smithing Templates, a full set of Netherite-Gold Armor, and 4 Ruby Ingots."
+				"{homestead.forged_fables.4C48EB435C782808.quest4.description1}"
 			]
 			id: "4C48EB435C782808"
 			rewards: [
@@ -925,7 +929,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a full Ruby Armor Set"
+			subtitle: "{homestead.forged_fables.4C48EB435C782808.quest4.subtitle}"
 			tasks: [
 				{
 					id: "03C7BF9D746885EB"
@@ -972,15 +976,16 @@
 					type: "item"
 				}
 			]
-			title: "Ruby Armor Set"
+			title: "{homestead.forged_fables.4C48EB435C782808.quest4.title}"
 			x: -9.5d
 			y: -0.5d
 		}
+
 		{
 			description: [
-				"With great power comes great responsibility. Be careful as you mine with these tools, as the pickaxe increases mining speed. The others will grant you Haste when held in your main hand."
+				"{homestead.forged_fables.7702AFA03FBD5CA4.quest5.description0}"
 				""
-				"To create the whole tool set you will need 5 Ruby Smithing Templates, a full set of Netherite Tools, and 5 Ruby Ingots."
+				"{homestead.forged_fables.7702AFA03FBD5CA4.quest5.description1}"
 			]
 			id: "7702AFA03FBD5CA4"
 			rewards: [
@@ -1000,7 +1005,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a full Ruby Tool Set"
+			subtitle: "{homestead.forged_fables.7702AFA03FBD5CA4.quest5.subtitle}"
 			tasks: [
 				{
 					id: "7633D0824A1B1E96"
@@ -1058,15 +1063,16 @@
 					type: "item"
 				}
 			]
-			title: "Ruby Tool Set"
+			title: "{homestead.forged_fables.7702AFA03FBD5CA4.quest5.title}"
 			x: -9.5d
 			y: 0.5d
 		}
+
 		{
 			description: [
-				"Get yourself out of the rain! Going into Desert Temples is where you will find Topaz Smithing Templates."
+				"{homestead.forged_fables.4879307DB829E4F4.quest6.description0}"
 				""
-				"These special templates can be duplicated with 7 Topaz, a block of Sandstone and the original Smithing Template."
+				"{homestead.forged_fables.4879307DB829E4F4.quest6.description1}"
 			]
 			id: "4879307DB829E4F4"
 			rewards: [
@@ -1092,21 +1098,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "Topaz Upgrade"
+			subtitle: "{homestead.forged_fables.4879307DB829E4F4.quest6.subtitle}"
 			tasks: [{
 				id: "0D5721F8774CB8D9"
 				item: "mythicupgrades:topaz_upgrade_smithing_template"
 				type: "item"
 			}]
-			title: "Smithing Template"
+			title: "{homestead.forged_fables.4879307DB829E4F4.quest6.title}"
 			x: -7.5d
 			y: -2.5d
 		}
+
 		{
 			description: [
-				"Jumanji: A game for those who seek to find a way to leave their world behind. Peridot Smithing Templates can be found in Jungle Temples."
+				"{homestead.forged_fables.6AB584F3234E46F7.quest7.description0}"
 				""
-				"These special templates can be duplicated with 7 Peridot, a block of Mossy Cobblestone and the original Smithing Template."
+				"{homestead.forged_fables.6AB584F3234E46F7.quest7.description1}"
 			]
 			id: "6AB584F3234E46F7"
 			rewards: [
@@ -1132,21 +1139,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "Peridot Upgrade"
+			subtitle: "{homestead.forged_fables.6AB584F3234E46F7.quest7.subtitle}"
 			tasks: [{
 				id: "453E3D01BD0F8FEA"
 				item: "mythicupgrades:peridot_upgrade_smithing_template"
 				type: "item"
 			}]
-			title: "Smithing Template"
+			title: "{homestead.forged_fables.6AB584F3234E46F7.quest7.title}"
 			x: -5.5d
 			y: -2.5d
 		}
+
 		{
 			description: [
-				"Let It Go! These templates can be looted from igloos within Icy Villages."
+				"{homestead.forged_fables.0725D37325D7D55D.quest8.description0}"
 				""
-				"These special templates can be duplicated with 7 Aquamarine, a block of Stone Bricks and the original Smithing Templates."
+				"{homestead.forged_fables.0725D37325D7D55D.quest8.description1}"
 			]
 			id: "0725D37325D7D55D"
 			rewards: [
@@ -1172,21 +1180,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "Aquamarine Upgrade"
+			subtitle: "{homestead.forged_fables.0725D37325D7D55D.quest8.subtitle}"
 			tasks: [{
 				id: "130CAD3B849EA54F"
 				item: "mythicupgrades:aquamarine_upgrade_smithing_template"
 				type: "item"
 			}]
-			title: "Smithing Template"
+			title: "{homestead.forged_fables.0725D37325D7D55D.quest8.title}"
 			x: 4.5d
 			y: -2.5d
 		}
+
 		{
 			description: [
-				"Sapphire Smithing Templates can be retrieved from Nether Fortresses."
+				"{homestead.forged_fables.15AEC560FCA12AC8.quest9.description0}"
 				""
-				"These special templates can be duplicated with 7 Sapphires, a block of Netherbricks and the original Smithing Template."
+				"{homestead.forged_fables.15AEC560FCA12AC8.quest9.description1}"
 			]
 			id: "15AEC560FCA12AC8"
 			rewards: [
@@ -1212,21 +1221,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "Sapphire Upgrade"
+			subtitle: "{homestead.forged_fables.15AEC560FCA12AC8.quest9.subtitle}"
 			tasks: [{
 				id: "321D6187771028DF"
 				item: "mythicupgrades:sapphire_upgrade_smithing_template"
 				type: "item"
 			}]
-			title: "Smithing Template"
+			title: "{homestead.forged_fables.15AEC560FCA12AC8.quest9.title}"
 			x: 6.5d
 			y: -2.5d
 		}
+
 		{
 			description: [
-				"You thought Shulks were annoying? You ain’t seen nothing! Ametrine Smithing Templates can be found within End Cities."
+				"{homestead.forged_fables.4D0C394A9BFCD113.quest10.description0}"
 				""
-				"These special templates can be duplicated with 7 Ametrine, a block of Endstone Bricks and the original Smithing Template."
+				"{homestead.forged_fables.4D0C394A9BFCD113.quest10.description1}"
 			]
 			id: "4D0C394A9BFCD113"
 			rewards: [
@@ -1252,21 +1262,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "Ametrine Upgrade"
+			subtitle: "{homestead.forged_fables.4D0C394A9BFCD113.quest10.subtitle}"
 			tasks: [{
 				id: "41BDC532E315C2D2"
 				item: "mythicupgrades:ametrine_upgrade_smithing_template"
 				type: "item"
 			}]
-			title: "Smithing Template"
+			title: "{homestead.forged_fables.4D0C394A9BFCD113.quest10.title}"
 			x: 8.5d
 			y: -2.5d
 		}
+
 		{
 			description: [
-				"For the Fire Nation! Topaz generates beneath Desert Biomes between Y=-64 and Y=32 (most commonly at Y=-16)."
+				"{homestead.forged_fables.44AEAB3D29866F0F.quest11.description0}"
 				""
-				"Collect 4 Topaz, place them in a Crafting Table with 4 Necoium Ingots to get 1 Topaz Ingot."
+				"{homestead.forged_fables.44AEAB3D29866F0F.quest11.description1}"
 			]
 			id: "44AEAB3D29866F0F"
 			rewards: [
@@ -1287,22 +1298,23 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive 8 Topaz"
+			subtitle: "{homestead.forged_fables.44AEAB3D29866F0F.quest11.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "57411798EFF72017"
 				item: "mythicupgrades:topaz"
 				type: "item"
 			}]
-			title: "Topaz Gem"
+			title: "{homestead.forged_fables.44AEAB3D29866F0F.quest11.title}"
 			x: -7.5d
 			y: -1.5d
 		}
+
 		{
 			description: [
-				"Adventurers Beware: Do not begin unless you intend to finish. Peridot generates beneath Jungle Biomes between Y=-64 and Y=32 (most commonly at Y=-16)."
+				"{homestead.forged_fables.0C93000C3F4043E9.quest12.description0}"
 				""
-				"Collect 4 Peridot, place them in a Crafting Table with 4 Necoium Ingots to get 1 Peridot Ingot."
+				"{homestead.forged_fables.0C93000C3F4043E9.quest12.description1}"
 			]
 			id: "0C93000C3F4043E9"
 			rewards: [
@@ -1323,22 +1335,23 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive 8 Peridot"
+			subtitle: "{homestead.forged_fables.0C93000C3F4043E9.quest12.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "43E2CFE0BA6DFDDF"
 				item: "mythicupgrades:peridot"
 				type: "item"
 			}]
-			title: "Peridot Gem"
+			title: "{homestead.forged_fables.0C93000C3F4043E9.quest12.title}"
 			x: -5.5d
 			y: -1.5d
 		}
+
 		{
 			description: [
-				"This icy force both foul and fair has a frozen heart worth mining! Aquamarine is located under Icy biomes between Y=-64 and Y=32 (most commonly at Y=-16)."
+				"{homestead.forged_fables.03F664EF2509422A.quest13.description0}"
 				""
-				"Collect 4 Aquamarine, place them in a Crafting Table with 4 Necoium Ingots to get 1 Aquamarine Ingot."
+				"{homestead.forged_fables.03F664EF2509422A.quest13.description1}"
 			]
 			id: "03F664EF2509422A"
 			rewards: [
@@ -1359,22 +1372,23 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive 8 Aquamarine"
+			subtitle: "{homestead.forged_fables.03F664EF2509422A.quest13.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "65BF09E4D9789F7C"
 				item: "mythicupgrades:aquamarine"
 				type: "item"
 			}]
-			title: "Aquamarine Gem"
+			title: "{homestead.forged_fables.03F664EF2509422A.quest13.title}"
 			x: 4.5d
 			y: -1.5d
 		}
+
 		{
 			description: [
-				"Sapphire generates in The Nether between Y=0 and Y=32 (most commonly at Y=16)."
+				"{homestead.forged_fables.0729DA74DFCC4D83.quest14.description0}"
 				""
-				"Collect 4 Sapphire, place them in a Crafting Table with 4 Necoium Ingots to get 1 Sapphire Ingot."
+				"{homestead.forged_fables.0729DA74DFCC4D83.quest14.description1}"
 			]
 			id: "0729DA74DFCC4D83"
 			rewards: [
@@ -1395,22 +1409,23 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive 8 Sapphire"
+			subtitle: "{homestead.forged_fables.0729DA74DFCC4D83.quest14.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "5E9760626BC7E3E0"
 				item: "mythicupgrades:sapphire"
 				type: "item"
 			}]
-			title: "Sapphire Gem"
+			title: "{homestead.forged_fables.0729DA74DFCC4D83.quest14.title}"
 			x: 6.5d
 			y: -1.5d
 		}
+
 		{
 			description: [
-				"Think of a thought, any merry little thought! Ametrine can be found in The End between Y=0 and Y=32 (most commonly at Y=16)."
+				"{homestead.forged_fables.11965479A90F520B.quest15.description0}"
 				""
-				"Collect 4 Ametrine, place them in a Crafting Table with 4 Necoium Ingots to get 1 Ametrine Ingot."
+				"{homestead.forged_fables.11965479A90F520B.quest15.description1}"
 			]
 			id: "11965479A90F520B"
 			rewards: [
@@ -1431,22 +1446,23 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive 8 Ametrine"
+			subtitle: "{homestead.forged_fables.11965479A90F520B.quest15.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "2F36D14AACC1F690"
 				item: "mythicupgrades:ametrine"
 				type: "item"
 			}]
-			title: "Ametrine Gem"
+			title: "{homestead.forged_fables.11965479A90F520B.quest15.title}"
 			x: 8.5d
 			y: -1.5d
 		}
+
 		{
 			description: [
-				"Is it hot in here or just you? Each individual armor piece has Triple Durability and gives you +1 Protection. With a full Topaz set, you will have full Fire Protection and Item Mastery V which gives you a 50% chance of your tool not taking durability hits.."
+				"{homestead.forged_fables.6E7534C8A367A4FC.quest16.description0}"
 				""
-				"To create the whole armor set you will need 4 Topaz Smithing Templates, a full set of Netherite-Gold Armor, and 4 Topaz Ingots."
+				"{homestead.forged_fables.6E7534C8A367A4FC.quest16.description1}"
 			]
 			id: "6E7534C8A367A4FC"
 			rewards: [
@@ -1468,7 +1484,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a full Topaz Armor Set"
+			subtitle: "{homestead.forged_fables.6E7534C8A367A4FC.quest16.subtitle}"
 			tasks: [
 				{
 					id: "66796811F0AD9FDC"
@@ -1515,15 +1531,16 @@
 					type: "item"
 				}
 			]
-			title: "Topaz Armor Set"
+			title: "{homestead.forged_fables.6E7534C8A367A4FC.quest16.title}"
 			x: -7.5d
 			y: -0.5d
 		}
+
 		{
 			description: [
-				"Don’t touch the purples ones, they shoot poisonous barbs. And definitely stay away from the pods… the big yellow ones. Full Peridot Armor will give you Infinite Poisonous Thorns, which applies Thorns and Poison to attacking enemies."
+				"{homestead.forged_fables.719EB23C561A0347.quest17.description0}"
 				""
-				"To create the whole armor set you will need 4 Peridot Smithing Templates, a full set of Netherite-Emerald Armor, and 4 Peridot Ingots."
+				"{homestead.forged_fables.719EB23C561A0347.quest17.description1}"
 			]
 			id: "719EB23C561A0347"
 			rewards: [
@@ -1545,7 +1562,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a full Peridot Armor Set"
+			subtitle: "{homestead.forged_fables.719EB23C561A0347.quest17.subtitle}"
 			tasks: [
 				{
 					id: "5F96948CF5E3BA86"
@@ -1592,15 +1609,16 @@
 					type: "item"
 				}
 			]
-			title: "Peridot Armor Set"
+			title: "{homestead.forged_fables.719EB23C561A0347.quest17.title}"
 			x: -5.5d
 			y: -0.5d
 		}
+
 		{
 			description: [
-				"See the beauty, sharp and sheer. Full Aquamarine Armor will give you Infinite Infinite Ice Shield III, inflicting Slowness III upon enemies when you are attacked"
+				"{homestead.forged_fables.7F4D8186E568223A.quest18.description0}"
 				""
-				"To create the whole armor set you will need 4 Aquamarine Smithing Templates, a full set of Netherite-Iron Armor, and 4 Aquamarine Ingots."
+				"{homestead.forged_fables.7F4D8186E568223A.quest18.description1}"
 			]
 			id: "7F4D8186E568223A"
 			rewards: [
@@ -1622,7 +1640,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a full Aquamarine Armor Set"
+			subtitle: "{homestead.forged_fables.7F4D8186E568223A.quest18.subtitle}"
 			tasks: [
 				{
 					id: "78885D1A03B9ECD9"
@@ -1669,15 +1687,16 @@
 					type: "item"
 				}
 			]
-			title: "Aquamarine Armor Set"
+			title: "{homestead.forged_fables.7F4D8186E568223A.quest18.title}"
 			x: 4.5d
 			y: -0.5d
 		}
+
 		{
 			description: [
-				"Sapphire Armor will give you Infinite Infinite Damage Deflection III, sending 30% of damage back at attacking mobs."
+				"{homestead.forged_fables.5B37533DC9D57D6D.quest19.description0}"
 				""
-				"To create the whole armor set you will need 4 Sapphire Smithing Templates, a full set of Netherite-Iron Armor, and 4 Sapphire Ingots."
+				"{homestead.forged_fables.5B37533DC9D57D6D.quest19.description1}"
 			]
 			id: "5B37533DC9D57D6D"
 			rewards: [
@@ -1699,7 +1718,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a full Sapphire Armor Set"
+			subtitle: "{homestead.forged_fables.5B37533DC9D57D6D.quest19.subtitle}"
 			tasks: [
 				{
 					id: "412B3DEB28BE426C"
@@ -1746,15 +1765,16 @@
 					type: "item"
 				}
 			]
-			title: "Sapphire Armor Set"
+			title: "{homestead.forged_fables.5B37533DC9D57D6D.quest19.title}"
 			x: 6.5d
 			y: -0.5d
 		}
+
 		{
 			description: [
-				"Think of the happiest thing, it’s the same as having wings! A full Ametrine Armor set will inflict Levitation V on any enemies attacking you for .75 seconds."
+				"{homestead.forged_fables.097FBD771071E333.quest20.description0}"
 				""
-				"To create the whole armor set you will need 4 Ametrine Smithing Templates, a full set of Netherite-Diamond Armor, and 4 Ametrine Ingots."
+				"{homestead.forged_fables.097FBD771071E333.quest20.description1}"
 			]
 			id: "097FBD771071E333"
 			rewards: [
@@ -1776,7 +1796,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a full Ametrine Armor Set"
+			subtitle: "{homestead.forged_fables.097FBD771071E333.quest20.subtitle}"
 			tasks: [
 				{
 					id: "59748E06A0C4032F"
@@ -1823,15 +1843,16 @@
 					type: "item"
 				}
 			]
-			title: "Ametrine Armor Set"
+			title: "{homestead.forged_fables.097FBD771071E333.quest20.title}"
 			x: 8.5d
 			y: -0.5d
 		}
+
 		{
 			description: [
-				"Topaz Tools have Triple Durability, Higher Mining Speed and more Combat Damage. Perfect for your goals of world domination."
+				"{homestead.forged_fables.738A3D2369B5DC45.quest21.description0}"
 				""
-				"To create the whole tool set you will need 5 Topaz Smithing Templates, a full set of Netherite Tools, and 5 Topaz Ingots."
+				"{homestead.forged_fables.738A3D2369B5DC45.quest21.description1}"
 			]
 			id: "738A3D2369B5DC45"
 			rewards: [
@@ -1851,7 +1872,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a full Topaz Tool Set"
+			subtitle: "{homestead.forged_fables.738A3D2369B5DC45.quest21.subtitle}"
 			tasks: [
 				{
 					id: "21DA7420037DC173"
@@ -1909,15 +1930,16 @@
 					type: "item"
 				}
 			]
-			title: "Topaz Tool Set"
+			title: "{homestead.forged_fables.738A3D2369B5DC45.quest21.title}"
 			x: -7.5d
 			y: 0.5d
 		}
+
 		{
 			description: [
-				"They grow much faster than bamboo. Take care or they’ll come after you. Peridot tools apply Poison III on contact."
+				"{homestead.forged_fables.1B933576E03AB9AF.quest22.description0}"
 				""
-				"To create the whole tool set you will need 5 Peridot Smithing Templates, a full set of Netherite Tools, and 5 Peridot Ingots."
+				"{homestead.forged_fables.1B933576E03AB9AF.quest22.description1}"
 			]
 			id: "1B933576E03AB9AF"
 			rewards: [
@@ -1937,7 +1959,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a full Peridot Tool Set"
+			subtitle: "{homestead.forged_fables.1B933576E03AB9AF.quest22.subtitle}"
 			tasks: [
 				{
 					id: "1DF1892EDF20725B"
@@ -1995,15 +2017,16 @@
 					type: "item"
 				}
 			]
-			title: "PeridotTool Set"
+			title: "{homestead.forged_fables.1B933576E03AB9AF.quest22.title}"
 			x: -5.5d
 			y: 0.5d
 		}
+
 		{
 			description: [
-				"Split the ice apart, and break the Frozen Heart! Aquamarine Tools Freeze enemies for 0.5 seconds."
+				"{homestead.forged_fables.2C74E4B13A39C27E.quest23.description0}"
 				""
-				"To create the whole tool set you will need 5 Aquamarine Smithing Templates, a full set of Netherite Tools, and 5 Aquamarine Ingots."
+				"{homestead.forged_fables.2C74E4B13A39C27E.quest23.description1}"
 			]
 			id: "2C74E4B13A39C27E"
 			rewards: [
@@ -2023,7 +2046,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a full Aquamarine Tool Set"
+			subtitle: "{homestead.forged_fables.2C74E4B13A39C27E.quest23.subtitle}"
 			tasks: [
 				{
 					id: "76474BD9C617022A"
@@ -2081,15 +2104,16 @@
 					type: "item"
 				}
 			]
-			title: "Aquamarine Tool Set"
+			title: "{homestead.forged_fables.2C74E4B13A39C27E.quest23.title}"
 			x: 4.5d
 			y: 0.5d
 		}
+
 		{
 			description: [
-				"Sapphire Tools have a higher attack damage as well as dealing 3% of your enemies Max Health in additional damage."
+				"{homestead.forged_fables.24722E2F72007C37.quest24.description0}"
 				""
-				"To create the whole tool set you will need 5 Sapphire Smithing Templates, a full set of Netherite Tools, and 5 Sapphire Ingots."
+				"{homestead.forged_fables.24722E2F72007C37.quest24.description1}"
 			]
 			id: "24722E2F72007C37"
 			rewards: [
@@ -2109,7 +2133,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a full Sapphire Tool Set"
+			subtitle: "{homestead.forged_fables.24722E2F72007C37.quest24.subtitle}"
 			tasks: [
 				{
 					id: "2EC85AEEC0AB4183"
@@ -2167,15 +2191,16 @@
 					type: "item"
 				}
 			]
-			title: "Sapphire Tool Set"
+			title: "{homestead.forged_fables.24722E2F72007C37.quest24.title}"
 			x: 6.5d
 			y: 0.5d
 		}
+
 		{
 			description: [
-				"You can fly! Ametrine tools inflict Levitation V for .75 seconds on enemies."
+				"{homestead.forged_fables.30432729DF267922.quest25.description0}"
 				""
-				"To create the whole tool set you will need 4 Ametrine Smithing Templates, a full set of Netherite-Diamond Armor, and 4 Ametrine Ingots."
+				"{homestead.forged_fables.30432729DF267922.quest25.description1}"
 			]
 			id: "30432729DF267922"
 			rewards: [
@@ -2195,7 +2220,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a full Ametrine Tool Set"
+			subtitle: "{homestead.forged_fables.30432729DF267922.quest25.subtitle}"
 			tasks: [
 				{
 					id: "40438545A5366DC2"
@@ -2253,15 +2278,16 @@
 					type: "item"
 				}
 			]
-			title: "Ametrine Tool Set"
+			title: "{homestead.forged_fables.30432729DF267922.quest25.title}"
 			x: 8.5d
 			y: 0.5d
 		}
+
 		{
 			description: [
-				"Is that the Jade Palace? No, but Jade Smithing Templates can be found in End Cities."
+				"{homestead.forged_fables.20483A72C553BF75.quest26.description0}"
 				""
-				"These special templates can be duplicated with 7 Jade, a block of Endstone Bricks and the original Smithing Template."
+				"{homestead.forged_fables.20483A72C553BF75.quest26.description1}"
 			]
 			id: "20483A72C553BF75"
 			rewards: [
@@ -2287,21 +2313,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "Jade Upgrade"
+			subtitle: "{homestead.forged_fables.20483A72C553BF75.quest26.subtitle}"
 			tasks: [{
 				id: "08CDCFE6D8B68BD0"
 				item: "mythicupgrades:jade_upgrade_smithing_template"
 				type: "item"
 			}]
-			title: "Smithing Template"
+			title: "{homestead.forged_fables.20483A72C553BF75.quest26.title}"
 			x: -3.0d
 			y: 1.5d
 		}
+
 		{
 			description: [
-				"Go forth Dragon Warrior! Jade generates in The End between Y=0 and Y=32 (most commonly at Y=16)."
+				"{homestead.forged_fables.656475CABE587074.quest27.description0}"
 				""
-				"Collect 4 Jade, place them in a Crafting Table with 4 Necoium Ingots to get 1 Jade Ingot."
+				"{homestead.forged_fables.656475CABE587074.quest27.description1}"
 			]
 			id: "656475CABE587074"
 			rewards: [
@@ -2322,22 +2349,23 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive 8 Jade"
+			subtitle: "{homestead.forged_fables.656475CABE587074.quest27.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "7861FF2EF3C25081"
 				item: "mythicupgrades:jade"
 				type: "item"
 			}]
-			title: "Jade Gem"
+			title: "{homestead.forged_fables.656475CABE587074.quest27.title}"
 			x: -1.5d
 			y: 1.5d
 		}
+
 		{
 			description: [
-				"Wax On. Full Jade Armor will give you Infinite Infinite Speed III and Jump Boost III."
+				"{homestead.forged_fables.0256B84C1F88952D.quest28.description0}"
 				""
-				"To create the whole armor set you will need 4 Jade Smithing Templates, a full set of Netherite-Emerald Armor, and 4 Jade Ingots."
+				"{homestead.forged_fables.0256B84C1F88952D.quest28.description1}"
 			]
 			id: "0256B84C1F88952D"
 			rewards: [
@@ -2359,7 +2387,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a full Jade Armor Set"
+			subtitle: "{homestead.forged_fables.0256B84C1F88952D.quest28.subtitle}"
 			tasks: [
 				{
 					id: "6EC1D36491A24FD8"
@@ -2406,15 +2434,16 @@
 					type: "item"
 				}
 			]
-			title: "Jade Armor Set"
+			title: "{homestead.forged_fables.0256B84C1F88952D.quest28.title}"
 			x: 0.5d
 			y: 1.5d
 		}
+
 		{
 			description: [
-				"Wax Off. When in your main hand, Jade Tools give you Bouncer V, which give you Jump Boost for 2 seconds after being attacked."
+				"{homestead.forged_fables.4D5FB52FE61066A7.quest29.description0}"
 				""
-				"To create the whole tool set you will need 5 Jade Smithing Templates, a full set of Netherite Tools, and 5 Jade Ingots."
+				"{homestead.forged_fables.4D5FB52FE61066A7.quest29.description1}"
 			]
 			id: "4D5FB52FE61066A7"
 			rewards: [
@@ -2434,7 +2463,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a full Jade Tool Set"
+			subtitle: "{homestead.forged_fables.4D5FB52FE61066A7.quest29.subtitle}"
 			tasks: [
 				{
 					id: "14AD1E503347BDC8"
@@ -2492,10 +2521,9 @@
 					type: "item"
 				}
 			]
-			title: "Jade Tool Set"
+			title: "{homestead.forged_fables.4D5FB52FE61066A7.quest29.title}"
 			x: 2.0d
 			y: 1.5d
 		}
-	]
-	title: "Forged Fables"
-}
+
+	]	title: "Forged Fables"}

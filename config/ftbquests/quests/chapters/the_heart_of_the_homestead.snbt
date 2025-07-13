@@ -29,13 +29,13 @@
 	quests: [
 		{
 			description: [
-				"The Farmer’s Delight mod questline."
+				"{homestead.the_heart_of_the_homestead.5AE4B6061101C9FB.quest0.description0}"
 				""
-				"Get ready for some farming and some grinding."
+				"{homestead.the_heart_of_the_homestead.5AE4B6061101C9FB.quest0.description1}"
 				""
-				"Good luck."
+				"{homestead.the_heart_of_the_homestead.5AE4B6061101C9FB.quest0.description2}"
 				""
-				"You're gonna need it.."
+				"{homestead.the_heart_of_the_homestead.5AE4B6061101C9FB.quest0.description3}"
 			]
 			id: "5AE4B6061101C9FB"
 			rewards: [
@@ -57,18 +57,19 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "No action required – just a warm welcome!"
+			subtitle: "{homestead.the_heart_of_the_homestead.5AE4B6061101C9FB.quest0.subtitle}"
 			tasks: [{
 				id: "545ED231C6347A70"
 				title: "Checkmark"
 				type: "checkmark"
 			}]
-			title: "A Taste of Tradition"
+			title: "{homestead.the_heart_of_the_homestead.5AE4B6061101C9FB.quest0.title}"
 			x: -3.0d
 			y: -4.0d
 		}
+
 		{
-			description: ["Healthy soil is the heart of a bountiful harvest. Time to enrich the earth!"]
+			description: ["{homestead.the_heart_of_the_homestead.63E8D46741EA5CEC.quest1.description0}"]
 			id: "63E8D46741EA5CEC"
 			rewards: [
 				{
@@ -83,18 +84,19 @@
 					xp: 100
 				}
 			]
-			subtitle: "Craft a Rich Soil"
+			subtitle: "{homestead.the_heart_of_the_homestead.63E8D46741EA5CEC.quest1.subtitle}"
 			tasks: [{
 				id: "77531176865A0492"
 				item: "farmersdelight:rich_soil"
 				type: "item"
 			}]
-			title: "Tilling New Ground"
+			title: "{homestead.the_heart_of_the_homestead.63E8D46741EA5CEC.quest1.title}"
 			x: -1.0d
 			y: 2.5d
 		}
+
 		{
-			description: ["Gather the core crops of Farmer’s Delight. These will be the foundation of your meals."]
+			description: ["{homestead.the_heart_of_the_homestead.0FDD1523328B1783.quest2.description0}"]
 			id: "0FDD1523328B1783"
 			rewards: [
 				{
@@ -133,7 +135,7 @@
 					xp: 500
 				}
 			]
-			subtitle: "Grow and harvest Rice, Cabbage, Tomatoes, Onions, and Carrots"
+			subtitle: "{homestead.the_heart_of_the_homestead.0FDD1523328B1783.quest2.subtitle}"
 			tasks: [
 				{
 					count: 4L
@@ -166,12 +168,13 @@
 					type: "item"
 				}
 			]
-			title: "The First Harvest"
+			title: "{homestead.the_heart_of_the_homestead.0FDD1523328B1783.quest2.title}"
 			x: 0.5d
 			y: -2.5d
 		}
+
 		{
-			description: ["You’ll need the right tools for a real kitchen. Let’s start crafting!"]
+			description: ["{homestead.the_heart_of_the_homestead.4880C21B6DC2E01E.quest3.description0}"]
 			id: "4880C21B6DC2E01E"
 			rewards: [
 				{
@@ -196,7 +199,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Skillet, Cooking Pot, and Cutting Board"
+			subtitle: "{homestead.the_heart_of_the_homestead.4880C21B6DC2E01E.quest3.subtitle}"
 			tasks: [
 				{
 					id: "726911BAB54E2BB1"
@@ -220,22 +223,23 @@
 					type: "item"
 				}
 			]
-			title: "Rustic Beginnings"
+			title: "{homestead.the_heart_of_the_homestead.4880C21B6DC2E01E.quest3.title}"
 			x: 1.5d
 			y: -1.0d
 		}
+
 		{
 			description: [
-				"Precision matters! Slice ingredients into usable portions."
+				"{homestead.the_heart_of_the_homestead.3D058C9B96C87A25.quest4.description0}"
 				""
-				"&nYou can use the cutting board on many items such as:"
+				"{homestead.the_heart_of_the_homestead.3D058C9B96C87A25.quest4.description1}"
 				""
-				"Stripping Wood"
-				"Vegetables"
-				"Meats"
-				"And more!&r"
+				"{homestead.the_heart_of_the_homestead.3D058C9B96C87A25.quest4.description2}"
+				"{homestead.the_heart_of_the_homestead.3D058C9B96C87A25.quest4.description3}"
+				"{homestead.the_heart_of_the_homestead.3D058C9B96C87A25.quest4.description4}"
+				"{homestead.the_heart_of_the_homestead.3D058C9B96C87A25.quest4.description5}"
 				""
-				"&lPress U while hovering over the Cutting Board in your inventory to see the uses of the Board!&r"
+				"{homestead.the_heart_of_the_homestead.3D058C9B96C87A25.quest4.description6}"
 			]
 			id: "3D058C9B96C87A25"
 			rewards: [
@@ -256,7 +260,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Use a Knife on food items on the Cutting Board"
+			subtitle: "{homestead.the_heart_of_the_homestead.3D058C9B96C87A25.quest4.subtitle}"
 			tasks: [{
 				block: "farmersdelight:cutting_board"
 				block_type: 0
@@ -267,12 +271,13 @@
 				type: "questsadditions:use"
 				value: 64L
 			}]
-			title: "Chop Chop!"
+			title: "{homestead.the_heart_of_the_homestead.3D058C9B96C87A25.quest4.title}"
 			x: 1.5d
 			y: 0.5d
 		}
+
 		{
-			description: ["Simmer those veggies into something hearty and warm."]
+			description: ["{homestead.the_heart_of_the_homestead.767AA735C1E9BE75.quest5.description0}"]
 			id: "767AA735C1E9BE75"
 			rewards: [{
 				count: 3
@@ -280,18 +285,19 @@
 				item: "farmersdelight:vegetable_soup"
 				type: "item"
 			}]
-			subtitle: "Make a Vegetable Soup in the Cooking Pot"
+			subtitle: "{homestead.the_heart_of_the_homestead.767AA735C1E9BE75.quest5.subtitle}"
 			tasks: [{
 				id: "596863436103EF9F"
 				item: "farmersdelight:vegetable_soup"
 				type: "item"
 			}]
-			title: "Soup's On!"
+			title: "{homestead.the_heart_of_the_homestead.767AA735C1E9BE75.quest5.title}"
 			x: 1.5d
 			y: 2.0d
 		}
+
 		{
-			description: ["Fire up the skillet and fry your way to flavor town."]
+			description: ["{homestead.the_heart_of_the_homestead.01996565F60F5A49.quest6.description0}"]
 			id: "01996565F60F5A49"
 			rewards: [
 				{
@@ -306,7 +312,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Use the Skillet to cook a meal like Fried Egg and Bacon and Eggs"
+			subtitle: "{homestead.the_heart_of_the_homestead.01996565F60F5A49.quest6.subtitle}"
 			tasks: [
 				{
 					id: "33997A030E96F66A"
@@ -319,14 +325,15 @@
 					type: "item"
 				}
 			]
-			title: "Pan Fried Perfection"
+			title: "{homestead.the_heart_of_the_homestead.01996565F60F5A49.quest6.title}"
 			x: 0.0d
 			y: 2.5d
 		}
+
 		{
 			description: [
-				"Whether it's a rustic cottage kitchen or a neon-lit mushroom diner, every meal needs a place to be devoured in peace (or in style)."
-				"Now get to crafting—those pancakes aren’t going to plate themselves."
+				"{homestead.the_heart_of_the_homestead.1F855FA73F385999.quest7.description0}"
+				"{homestead.the_heart_of_the_homestead.1F855FA73F385999.quest7.description1}"
 			]
 			id: "1F855FA73F385999"
 			rewards: [
@@ -342,7 +349,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft some Decor for a place to eat."
+			subtitle: "{homestead.the_heart_of_the_homestead.1F855FA73F385999.quest7.subtitle}"
 			tasks: [
 				{
 					count: 8L
@@ -360,7 +367,7 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:tables)"
 						}
 					}
-					title: "3x Any #handcrafted:tables"
+					title: "{homestead.the_heart_of_the_homestead.1F855FA73F385999.quest7.task3.title}"
 					type: "item"
 				}
 				{
@@ -373,7 +380,7 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:chairs)"
 						}
 					}
-					title: "4x Any #handcrafted:chairs"
+					title: "{homestead.the_heart_of_the_homestead.1F855FA73F385999.quest7.task4.title}"
 					type: "item"
 				}
 				{
@@ -386,7 +393,7 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:plates)"
 						}
 					}
-					title: "2x Any #handcrafted:plates"
+					title: "{homestead.the_heart_of_the_homestead.1F855FA73F385999.quest7.task5.title}"
 					type: "item"
 				}
 				{
@@ -399,16 +406,17 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:cups)"
 						}
 					}
-					title: "2x Any #handcrafted:cups"
+					title: "{homestead.the_heart_of_the_homestead.1F855FA73F385999.quest7.task1.title}"
 					type: "item"
 				}
 			]
-			title: "A Place to Eat"
+			title: "{homestead.the_heart_of_the_homestead.1F855FA73F385999.quest7.title}"
 			x: -2.0d
 			y: 2.5d
 		}
+
 		{
-			description: ["Use your leftovers and scraps to create something useful. Nothing goes to waste!"]
+			description: ["{homestead.the_heart_of_the_homestead.04BE85C88D7347CB.quest8.description0}"]
 			id: "04BE85C88D7347CB"
 			rewards: [
 				{
@@ -423,7 +431,7 @@
 					xp: 500
 				}
 			]
-			subtitle: "Craft a Composter and Organic Compost"
+			subtitle: "{homestead.the_heart_of_the_homestead.04BE85C88D7347CB.quest8.subtitle}"
 			tasks: [
 				{
 					id: "56EC5302238E3F4E"
@@ -437,12 +445,13 @@
 					type: "item"
 				}
 			]
-			title: "Compost Kitchen"
+			title: "{homestead.the_heart_of_the_homestead.04BE85C88D7347CB.quest8.title}"
 			x: -3.0d
 			y: 2.5d
 		}
+
 		{
-			description: ["Stews restore hearts and warm the soul. Try your hand at one!"]
+			description: ["{homestead.the_heart_of_the_homestead.2092998D2559930B.quest9.description0}"]
 			id: "2092998D2559930B"
 			rewards: [{
 				count: 3
@@ -450,7 +459,7 @@
 				item: "farmersdelight:baked_cod_stew"
 				type: "item"
 			}]
-			subtitle: "Cook Chicken Soup, Beef Stew, and Fish Stew"
+			subtitle: "{homestead.the_heart_of_the_homestead.2092998D2559930B.quest9.subtitle}"
 			tasks: [
 				{
 					id: "148AE78F444D8C86"
@@ -468,12 +477,13 @@
 					type: "item"
 				}
 			]
-			title: "Flavored Stews"
+			title: "{homestead.the_heart_of_the_homestead.2092998D2559930B.quest9.title}"
 			x: -4.0d
 			y: 2.5d
 		}
+
 		{
-			description: ["Quick, hot, and delicious! Stir-fry your way to a full belly."]
+			description: ["{homestead.the_heart_of_the_homestead.51497045B73BA3FB.quest10.description0}"]
 			id: "51497045B73BA3FB"
 			rewards: [
 				{
@@ -494,7 +504,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Use a Skillet 10x to cook your raw food"
+			subtitle: "{homestead.the_heart_of_the_homestead.51497045B73BA3FB.quest10.subtitle}"
 			tasks: [{
 				block: "farmersdelight:skillet"
 				block_type: 0
@@ -504,12 +514,13 @@
 				type: "questsadditions:use"
 				value: 10L
 			}]
-			title: "Sauté and Sizzle"
+			title: "{homestead.the_heart_of_the_homestead.51497045B73BA3FB.quest10.title}"
 			x: -5.0d
 			y: 2.5d
 		}
+
 		{
-			description: ["Impress your guests with this centerpiece feast!"]
+			description: ["{homestead.the_heart_of_the_homestead.4B7EBAA568C2D0F9.quest11.description0}"]
 			id: "4B7EBAA568C2D0F9"
 			rewards: [
 				{
@@ -523,25 +534,26 @@
 					xp: 100
 				}
 			]
-			subtitle: "Make a Stuffed Pumpkin"
+			subtitle: "{homestead.the_heart_of_the_homestead.4B7EBAA568C2D0F9.quest11.subtitle}"
 			tasks: [{
 				id: "792ADB9D047A232D"
 				item: "farmersdelight:stuffed_pumpkin_block"
 				type: "item"
 			}]
-			title: "Bountiful Banquet"
+			title: "{homestead.the_heart_of_the_homestead.4B7EBAA568C2D0F9.quest11.title}"
 			x: -6.0d
 			y: 2.5d
 		}
+
 		{
-			description: ["Nothing says celebration like a full spread!"]
+			description: ["{homestead.the_heart_of_the_homestead.7051F8EDE03FB284.quest12.description0}"]
 			id: "7051F8EDE03FB284"
 			rewards: [{
 				id: "120C299BB20DAC72"
 				item: "farmersdelight:honey_glazed_ham_block"
 				type: "item"
 			}]
-			subtitle: "Craft and place a Feast Block (Shepherd's Pie)"
+			subtitle: "{homestead.the_heart_of_the_homestead.7051F8EDE03FB284.quest12.subtitle}"
 			tasks: [{
 				block: "farmersdelight:shepherds_pie_block"
 				block_type: 0
@@ -551,12 +563,13 @@
 				type: "questsadditions:place"
 				value: 1L
 			}]
-			title: "Feast Fit for a Farmer"
+			title: "{homestead.the_heart_of_the_homestead.7051F8EDE03FB284.quest12.title}"
 			x: -7.5d
 			y: 2.0d
 		}
+
 		{
-			description: ["A little sweetness goes a long way. Who doesn’t love cheesecake?"]
+			description: ["{homestead.the_heart_of_the_homestead.37F81B6DFAD2440E.quest13.description0}"]
 			id: "37F81B6DFAD2440E"
 			rewards: [{
 				count: 2
@@ -564,21 +577,22 @@
 				item: "farmersdelight:sweet_berry_cheesecake"
 				type: "item"
 			}]
-			subtitle: "Bake a Sweet Berry Cheesecake"
+			subtitle: "{homestead.the_heart_of_the_homestead.37F81B6DFAD2440E.quest13.subtitle}"
 			tasks: [{
 				id: "1DA7C44CF26B0E05"
 				item: "farmersdelight:sweet_berry_cheesecake"
 				type: "item"
 			}]
-			title: "Sweet Simplicity"
+			title: "{homestead.the_heart_of_the_homestead.37F81B6DFAD2440E.quest13.title}"
 			x: -7.5d
 			y: -1.0d
 		}
+
 		{
 			description: [
-				"You thought you were safe from crusts."
-				"You were wrong."
-				"This time, &oyou&r are the baker… and the crust is inevitable."
+				"{homestead.the_heart_of_the_homestead.2CF83A4D26670FAF.quest14.description0}"
+				"{homestead.the_heart_of_the_homestead.2CF83A4D26670FAF.quest14.description1}"
+				"{homestead.the_heart_of_the_homestead.2CF83A4D26670FAF.quest14.description2}"
 			]
 			id: "2CF83A4D26670FAF"
 			rewards: [{
@@ -587,25 +601,26 @@
 				item: "farmersdelight:pie_crust"
 				type: "item"
 			}]
-			subtitle: "Craft a Pie Crust"
+			subtitle: "{homestead.the_heart_of_the_homestead.2CF83A4D26670FAF.quest14.subtitle}"
 			tasks: [{
 				id: "56F0F8585CFD1BAD"
 				item: "farmersdelight:pie_crust"
 				type: "item"
 			}]
-			title: "Uncrustables"
+			title: "{homestead.the_heart_of_the_homestead.2CF83A4D26670FAF.quest14.title}"
 			x: -7.5d
 			y: 0.5d
 		}
+
 		{
-			description: ["Not every meal has to be eaten at home. Pack something for the road."]
+			description: ["{homestead.the_heart_of_the_homestead.2392B114B7007CAF.quest15.description0}"]
 			id: "2392B114B7007CAF"
 			rewards: [{
 				id: "2F73C0D1BF0ADF06"
 				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
 				type: "item"
 			}]
-			subtitle: "Make Backpack Meals like Stuffed Potatoes or Steak and Potatoes"
+			subtitle: "{homestead.the_heart_of_the_homestead.2392B114B7007CAF.quest15.subtitle}"
 			tasks: [
 				{
 					count: 64L
@@ -620,12 +635,13 @@
 					type: "item"
 				}
 			]
-			title: "Food for the Journey"
+			title: "{homestead.the_heart_of_the_homestead.2392B114B7007CAF.quest15.title}"
 			x: -6.5d
 			y: -2.5d
 		}
+
 		{
-			description: ["Turns out, there’s more to grass than meets the eye."]
+			description: ["{homestead.the_heart_of_the_homestead.3063918D5127C568.quest16.description0}"]
 			id: "3063918D5127C568"
 			rewards: [
 				{
@@ -646,7 +662,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Use a Knife to cut Tall Grass and collect Straw"
+			subtitle: "{homestead.the_heart_of_the_homestead.3063918D5127C568.quest16.subtitle}"
 			tasks: [
 				{
 					count: 16L
@@ -663,16 +679,17 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(farmersdelight:tools/knives)"
 						}
 					}
-					title: "Craft 1x Any #farmersdelight:tools/knives"
+					title: "{homestead.the_heart_of_the_homestead.3063918D5127C568.quest16.task1.title}"
 					type: "item"
 				}
 			]
-			title: "Straws of the Trade"
+			title: "{homestead.the_heart_of_the_homestead.3063918D5127C568.quest16.title}"
 			x: -1.0d
 			y: -3.5d
 		}
+
 		{
-			description: ["Showcase your produce like a real farmer's market."]
+			description: ["{homestead.the_heart_of_the_homestead.52247D85E04AAA79.quest17.description0}"]
 			id: "52247D85E04AAA79"
 			rewards: [
 				{
@@ -691,7 +708,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Use Crop Crates for storage"
+			subtitle: "{homestead.the_heart_of_the_homestead.52247D85E04AAA79.quest17.subtitle}"
 			tasks: [
 				{
 					id: "4A2D3AEA9AAEAD2C"
@@ -724,12 +741,13 @@
 					type: "item"
 				}
 			]
-			title: "Garden of Plenty"
+			title: "{homestead.the_heart_of_the_homestead.52247D85E04AAA79.quest17.title}"
 			x: -5.0d
 			y: -3.5d
 		}
+
 		{
-			description: ["Make your kitchen more than functional—it should feel like home."]
+			description: ["{homestead.the_heart_of_the_homestead.7613FDD1448AD699.quest18.description0}"]
 			id: "7613FDD1448AD699"
 			rewards: [
 				{
@@ -767,7 +785,7 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "Decorate with at least 5 Farmer's Delight decor blocks (Cutting Board, Basket, Cabinets, etc.)"
+			subtitle: "{homestead.the_heart_of_the_homestead.7613FDD1448AD699.quest18.subtitle}"
 			tasks: [
 				{
 					id: "51B4DBA5E7F1A462"
@@ -796,7 +814,7 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(farmersdelight:cabinets)"
 						}
 					}
-					title: "Any #farmersdelight:cabinets"
+					title: "{homestead.the_heart_of_the_homestead.7613FDD1448AD699.quest18.task3.title}"
 					type: "item"
 				}
 				{
@@ -806,10 +824,9 @@
 					type: "item"
 				}
 			]
-			title: "A Cozy Kitchen"
+			title: "{homestead.the_heart_of_the_homestead.7613FDD1448AD699.quest18.title}"
 			x: -3.0d
 			y: -5.5d
 		}
-	]
-	title: "The Heart of The Homestead"
-}
+
+	]	title: "The Heart of The Homestead"}

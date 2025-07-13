@@ -37,11 +37,11 @@
 	quests: [
 		{
 			description: [
-				"Welcome to Hexalia, a mod focused around nature based magic! "
+				"{homestead.herbal_hexesz.32B932B74284FF9D.quest0.description0}"
 				""
-				"In this unique mod you’ll grow magical herbs and crops, perform rituals and create special brews to help you become a great witch and give you more tools for your journey through the world. "
+				"{homestead.herbal_hexesz.32B932B74284FF9D.quest0.description1}"
 				""
-				"To get you started you’ll need to gather some magical plants. First gather the four magical herbs that will be the base of your magic. "
+				"{homestead.herbal_hexesz.32B932B74284FF9D.quest0.description2}"
 			]
 			id: "32B932B74284FF9D"
 			tasks: [{
@@ -52,16 +52,17 @@
 			x: -5.0d
 			y: -3.0d
 		}
+
 		{
 			dependencies: ["32B932B74284FF9D"]
 			description: [
-				"Magical herbs grow in many places, but the best place to find them is the Enchanted Bayou, where all four magical herbs grow. Ghost ferns are exclusive to these bayous. That said the other three can be found in the following biomes:"
+				"{homestead.herbal_hexesz.5063703BFDF49E1C.quest1.description0}"
 				""
-				"Spirit Blooms are native to swamps and Mangrove swamps. "
+				"{homestead.herbal_hexesz.5063703BFDF49E1C.quest1.description1}"
 				""
-				"Dreamshrooms are found in Old growth Pine Taiga and Mushroom Field biomes."
+				"{homestead.herbal_hexesz.5063703BFDF49E1C.quest1.description2}"
 				""
-				"Siren kelp is found in Ocean and Deep Ocean biomes. You should gather a good amount of these as they’re the base to create the dirt required to duplicate these special herbs."
+				"{homestead.herbal_hexesz.5063703BFDF49E1C.quest1.description3}"
 			]
 			id: "5063703BFDF49E1C"
 			rewards: [
@@ -76,7 +77,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Visit an Enchanted Bayou or other biomes to find the 4 magical herbs"
+			subtitle: "{homestead.herbal_hexesz.5063703BFDF49E1C.quest1.subtitle}"
 			tasks: [
 				{
 					id: "18E555746F9E7DDC"
@@ -100,13 +101,14 @@
 					type: "item"
 				}
 			]
-			title: "Herbs Of Might and Magic"
+			title: "{homestead.herbal_hexesz.5063703BFDF49E1C.quest1.title}"
 			x: -3.0d
 			y: -3.5d
 		}
+
 		{
 			dependencies: ["5063703BFDF49E1C"]
-			description: ["Saltsprouts may not have the same magic properties as the magical herbs, but they’re no less important. They can be crushed into salt with a mortar and pestle to create salts you will need for rituals or for purifying salts later on. They grow naturally on sand, but can also be planted on Infused Dirt."]
+			description: ["{homestead.herbal_hexesz.0491DFA4A0C8400B.quest2.description0}"]
 			id: "0491DFA4A0C8400B"
 			rewards: [
 				{
@@ -126,19 +128,20 @@
 					xp: 25
 				}
 			]
-			subtitle: "Visit a desert and look for a Barren Hut to obtain Saltsprouts."
+			subtitle: "{homestead.herbal_hexesz.0491DFA4A0C8400B.quest2.subtitle}"
 			tasks: [{
 				id: "609AA0526338A865"
 				item: "hexalia:saltsprout"
 				type: "item"
 			}]
-			title: "Structures and Saltsprouts"
+			title: "{homestead.herbal_hexesz.0491DFA4A0C8400B.quest2.title}"
 			x: -1.0d
 			y: -3.5d
 		}
+
 		{
 			dependencies: ["0491DFA4A0C8400B"]
-			description: ["This special dirt is vital to your magical garden. When you plant magical herbs on this dirt you can bonemeal them to duplicate them. You can also hoe it to make Infused Farmland which allows your crops to grow without a water source! You can even plant Sugar cane on this rich soil."]
+			description: ["{homestead.herbal_hexesz.6D6C1F72F284C0B1.quest3.description0}"]
 			id: "6D6C1F72F284C0B1"
 			rewards: [
 				{
@@ -153,19 +156,20 @@
 					xp: 25
 				}
 			]
-			subtitle: "Combine 2 Dirt with 2 Siren Kelp in a crafting table."
+			subtitle: "{homestead.herbal_hexesz.6D6C1F72F284C0B1.quest3.subtitle}"
 			tasks: [{
 				id: "0DCB254CA5324EA7"
 				item: "hexalia:infused_dirt"
 				type: "item"
 			}]
-			title: "Spilling Dirt and Planting Seeds"
+			title: "{homestead.herbal_hexesz.6D6C1F72F284C0B1.quest3.title}"
 			x: 1.0d
 			y: -3.5d
 		}
+
 		{
 			dependencies: ["6D6C1F72F284C0B1"]
-			description: ["You usually have to process your magical herbs to use them, but they can be used in their raw form by burning them in a censer to provide an aoe effect in the area they’re burned in. Prevent fire damage or make hostile mobs neutral with a combination of burnt herbs. See your grimoire and look up the censer in the blocks section for the specific combinations and what they do!"]
+			description: ["{homestead.herbal_hexesz.42B3BACDD80247CE.quest4.description0}"]
 			id: "42B3BACDD80247CE"
 			rewards: [
 				{
@@ -185,19 +189,20 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft a Censer by combining 3 logs, 2 coal, and 2 bricks."
+			subtitle: "{homestead.herbal_hexesz.42B3BACDD80247CE.quest4.subtitle}"
 			tasks: [{
 				id: "746467012AE909A9"
 				item: "hexalia:censer"
 				type: "item"
 			}]
-			title: "Herbal Incense"
+			title: "{homestead.herbal_hexesz.42B3BACDD80247CE.quest4.title}"
 			x: 3.0d
 			y: -3.5d
 		}
+
 		{
 			dependencies: ["42B3BACDD80247CE"]
-			description: ["Magical herbs must be crushed up for various rituals and brews unique to hexalia. Luckily the mortar and pestle are easily crafted from a bowl and stone block. Once craft simply place the mortar and pestle in a crafting table with the herb you wish to crush up."]
+			description: ["{homestead.herbal_hexesz.18B0100C3B9B5D38.quest5.description0}"]
 			id: "18B0100C3B9B5D38"
 			rewards: [
 				{
@@ -217,7 +222,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft a mortar and pestle by combining a bowl with a stone block."
+			subtitle: "{homestead.herbal_hexesz.18B0100C3B9B5D38.quest5.subtitle}"
 			tasks: [{
 				id: "2A53816DC723F786"
 				item: {
@@ -232,12 +237,13 @@
 			x: 5.0d
 			y: -3.0d
 		}
+
 		{
 			dependencies: ["18B0100C3B9B5D38"]
 			description: [
-				"Some rituals and brews require tree resin. To get said resin you’ll need to use a stone dagger on dark oak or cotton wood trees."
+				"{homestead.herbal_hexesz.6486D3D5918599A8.quest6.description0}"
 				""
-				"&7&oShhh, you can also use it on the Farmer's Delight Cutting Board ;)&r&r"
+				"{homestead.herbal_hexesz.6486D3D5918599A8.quest6.description1}"
 			]
 			hide_dependency_lines: true
 			id: "6486D3D5918599A8"
@@ -260,7 +266,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft a stone dagger by combining a stick with a cobblestone block."
+			subtitle: "{homestead.herbal_hexesz.6486D3D5918599A8.quest6.subtitle}"
 			tasks: [
 				{
 					id: "462EF56F538BC2E3"
@@ -280,13 +286,14 @@
 					type: "item"
 				}
 			]
-			title: "Sticks and Stones"
+			title: "{homestead.herbal_hexesz.6486D3D5918599A8.quest6.title}"
 			x: 5.0d
 			y: 3.0d
 		}
+
 		{
 			dependencies: ["6486D3D5918599A8"]
-			description: ["You’re drawing close to tapping into the magic of the materials you’ve gathered so far, but to do so you’ll need to craft a special tool to help you channel that magic. This is done through the Hex Focus! To obtain a ritual table and perform rituals you’ll need the Hex Focus. It can also activate special enchanted plants you can make through rituals that have various uses. "]
+			description: ["{homestead.herbal_hexesz.6504CD999F1EA929.quest7.description0}"]
 			id: "6504CD999F1EA929"
 			rewards: [
 				{
@@ -307,22 +314,23 @@
 					xp: 25
 				}
 			]
-			subtitle: "Combine a stick, any leaf block, and an Amethyst Shard diagonally in a crafting table."
+			subtitle: "{homestead.herbal_hexesz.6504CD999F1EA929.quest7.subtitle}"
 			tasks: [{
 				id: "489BE581EBE93D3C"
 				item: "hexalia:hex_focus"
 				type: "item"
 			}]
-			title: "A Magical Tool"
+			title: "{homestead.herbal_hexesz.6504CD999F1EA929.quest7.title}"
 			x: 3.0d
 			y: 3.5d
 		}
+
 		{
 			dependencies: ["6504CD999F1EA929"]
 			description: [
-				"It’s time to get your ritual table set up! To perform rituals you’ll need enough space as every ritual requires grown crops to perform. Once you’ve picked a good spot, place down some cobbled or normal deepslate and right-click on it with your Hex Focus to change it into a ritual table. To create the braziers place down wood planks of any kind and right click them with a stone dagger while sneaking. With the table as the center, follow the below picture:"
+				"{homestead.herbal_hexesz.7E3964250F0EE163.quest8.description0}"
 				""
-				"{image:ftbquests:textures/homestead/ritual_setup.png width:165 height:100 align:center}"
+				"{homestead.herbal_hexesz.7E3964250F0EE163.quest8.description1}"
 			]
 			id: "7E3964250F0EE163"
 			rewards: [
@@ -338,7 +346,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Obtain a piece of cobbled or normal deepslate, 4 ritual braziers, and 16 Infused Dirt"
+			subtitle: "{homestead.herbal_hexesz.7E3964250F0EE163.quest8.subtitle}"
 			tasks: [
 				{
 					count: 4L
@@ -358,16 +366,17 @@
 					type: "item"
 				}
 			]
-			title: "Ritual Table and Set Up"
+			title: "{homestead.herbal_hexesz.7E3964250F0EE163.quest8.title}"
 			x: 1.0d
 			y: 3.5d
 		}
+
 		{
 			dependencies: ["7E3964250F0EE163"]
 			description: [
-				"Now that you’ve set up your ritual table it’s time to perform some rituals! There are two major rituals: The Ritual of Transmutation and the Ritual of Moonlight. "
+				"{homestead.herbal_hexesz.2E56970957B56B51.quest9.description0}"
 				""
-				"First let’s perform the ritual of transmutation and create a Rabbage. This useful crop can be used as a throwing weapon that induces bleeding in your enemy. Right-click each brazier with some hexalia salt first. Place a beetroot seed on the ritual table, then place dream paste, a poppy, an iron nugget, and a sweet berry on the braziers. Right-click with your hex focus and poof! Rabbage seeds acquired. Check your Grimoire for more items you can make!"
+				"{homestead.herbal_hexesz.2E56970957B56B51.quest9.description1}"
 			]
 			id: "2E56970957B56B51"
 			rewards: [
@@ -383,22 +392,23 @@
 					xp: 25
 				}
 			]
-			subtitle: "Obtain a Rabbage Seed"
+			subtitle: "{homestead.herbal_hexesz.2E56970957B56B51.quest9.subtitle}"
 			tasks: [{
 				id: "0AEB966F590520EA"
 				item: "hexalia:rabbage_seeds"
 				type: "item"
 			}]
-			title: "Ritual of Transmutation"
+			title: "{homestead.herbal_hexesz.2E56970957B56B51.quest9.title}"
 			x: -1.0d
 			y: 3.5d
 		}
+
 		{
 			dependencies: ["2E56970957B56B51"]
 			description: [
-				"The second ritual is much simpler than the ritual of transmutation. To perform it simply put the required item on a ritual brazier with a clear view of the sky during a full moon and right click with your hex focus to activate the ritual. After a few minutes the item will be infused with moonlight and transform."
+				"{homestead.herbal_hexesz.2F1F286E20C77088.quest10.description0}"
 				""
-				"For this quest, obtain a Glow Berry and place it on the Ritual Brazier."
+				"{homestead.herbal_hexesz.2F1F286E20C77088.quest10.description1}"
 			]
 			id: "2F1F286E20C77088"
 			rewards: [
@@ -414,25 +424,26 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft a Moon Berry"
+			subtitle: "{homestead.herbal_hexesz.2F1F286E20C77088.quest10.subtitle}"
 			tasks: [{
 				id: "75C28B5924F3A0FA"
 				item: "hexalia:moon_berries"
 				type: "item"
 			}]
-			title: "Moonlight Ritual"
+			title: "{homestead.herbal_hexesz.2F1F286E20C77088.quest10.title}"
 			x: -3.0d
 			y: 3.5d
 		}
+
 		{
 			description: [
-				"Hexalia doesn’t just add magical plants for rituals, it also has magical crops! Use them to create foods that provide you with interesting and useful buffs. "
+				"{homestead.herbal_hexesz.49AE5E7D6E8EDDDC.quest11.description0}"
 				""
-				"Sunfire Tomatoes are found in vanilla savannas. Be careful though, if you walk over them they’ll set you on fire! "
+				"{homestead.herbal_hexesz.49AE5E7D6E8EDDDC.quest11.description1}"
 				""
-				"Mandrakes are found in Forests and Birch Forest biomes. These plants can be used to stun enemies by holding right click with them or be made into a tasty stew. Be sure to wear earplugs when farming them, otherwise they’ll stun you!"
+				"{homestead.herbal_hexesz.49AE5E7D6E8EDDDC.quest11.description2}"
 				""
-				"Chill Berries can be found in taigas and snowy taigas. Be careful not to walk over these as well or you’ll start to freeze."
+				"{homestead.herbal_hexesz.49AE5E7D6E8EDDDC.quest11.description3}"
 			]
 			id: "49AE5E7D6E8EDDDC"
 			rewards: [
@@ -460,7 +471,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Collect 1 Sunfire Tomato seed, 1 Mandrake seed and 1 Chillberry"
+			subtitle: "{homestead.herbal_hexesz.49AE5E7D6E8EDDDC.quest11.subtitle}"
 			tasks: [
 				{
 					id: "3C4A9494F0656631"
@@ -478,15 +489,16 @@
 					type: "item"
 				}
 			]
-			title: "Magical Plants"
+			title: "{homestead.herbal_hexesz.49AE5E7D6E8EDDDC.quest11.title}"
 			x: -5.5d
 			y: -1.5d
 		}
+
 		{
 			description: [
-				"A magical kick of speed from a super spicy sandwich. Eating this grants you Speed II for 45 seconds."
+				"{homestead.herbal_hexesz.41C73F879A727077.quest12.description0}"
 				""
-				"Combine Bread, Sunfire Tomatoes, and any cooked meat in a crafting table."
+				"{homestead.herbal_hexesz.41C73F879A727077.quest12.description1}"
 			]
 			id: "41C73F879A727077"
 			rewards: [
@@ -502,21 +514,22 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft a Spicy Sandwich"
+			subtitle: "{homestead.herbal_hexesz.41C73F879A727077.quest12.subtitle}"
 			tasks: [{
 				id: "79265F60AAD74401"
 				item: "hexalia:spicy_sandwich"
 				type: "item"
 			}]
-			title: "Spicy Speed"
+			title: "{homestead.herbal_hexesz.41C73F879A727077.quest12.title}"
 			x: -5.5d
 			y: -0.5d
 		}
+
 		{
 			description: [
-				"This stuffing stew grants the Overfed buff, preventing Saturation loss for 45 seconds."
+				"{homestead.herbal_hexesz.664A6ADE83A8D6BB.quest13.description0}"
 				""
-				"Combine Mandrake, Potato, Carrot and Bowl in a crafting table."
+				"{homestead.herbal_hexesz.664A6ADE83A8D6BB.quest13.description1}"
 			]
 			id: "664A6ADE83A8D6BB"
 			rewards: [
@@ -532,21 +545,22 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft Mandrake Stew"
+			subtitle: "{homestead.herbal_hexesz.664A6ADE83A8D6BB.quest13.subtitle}"
 			tasks: [{
 				id: "5C422CA5753AABCF"
 				item: "hexalia:mandrake_stew"
 				type: "item"
 			}]
-			title: "Stew Stuffed"
+			title: "{homestead.herbal_hexesz.664A6ADE83A8D6BB.quest13.title}"
 			x: -5.5d
 			y: 0.5d
 		}
+
 		{
 			description: [
-				"A cold tart pie that grants Fire Resistance II for 45 seconds."
+				"{homestead.herbal_hexesz.6CADBDC18B992C24.quest14.description0}"
 				""
-				"Combine Sugar, Wheat, Egg and Chillberries."
+				"{homestead.herbal_hexesz.6CADBDC18B992C24.quest14.description1}"
 			]
 			id: "6CADBDC18B992C24"
 			rewards: [
@@ -562,22 +576,23 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft a Chillberry Pie"
+			subtitle: "{homestead.herbal_hexesz.6CADBDC18B992C24.quest14.subtitle}"
 			tasks: [{
 				id: "067372429605DEAD"
 				item: "hexalia:chillberry_pie"
 				type: "item"
 			}]
-			title: "Brrrr"
+			title: "{homestead.herbal_hexesz.6CADBDC18B992C24.quest14.title}"
 			x: -5.5d
 			y: 1.5d
 		}
+
 		{
 			dependencies: ["2F1F286E20C77088"]
 			description: [
-				"A witch-esque mod like Hexalia wouldn’t be complete without some potion brewing! You’ll need a small cauldron, a heat source, and the special bottles Hexalia adds for your brews. The mod provides a cute rustic oven you can use to warm your cauldron. This is crafted with 5 deepslate, coal in the center and 3 around across the top. The small cauldron is also crafted with 5 deepslate and 2 copper ingots. Finally the rustic bottles are made with 2 glass and a piece of clay. Happy brewing!"
+				"{homestead.herbal_hexesz.2363634EC47074DA.quest15.description0}"
 				""
-				"Recipes can be found in the grimoire under brewing."
+				"{homestead.herbal_hexesz.2363634EC47074DA.quest15.description1}"
 			]
 			id: "2363634EC47074DA"
 			rewards: [
@@ -593,7 +608,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft a Rustic Oven, Small Cauldron, and a Rustic Bottle"
+			subtitle: "{homestead.herbal_hexesz.2363634EC47074DA.quest15.subtitle}"
 			tasks: [
 				{
 					id: "43B606B1D9602689"
@@ -611,15 +626,16 @@
 					type: "item"
 				}
 			]
-			title: "Bottled Brews"
+			title: "{homestead.herbal_hexesz.2363634EC47074DA.quest15.title}"
 			x: -5.0d
 			y: 3.0d
 		}
+
 		{
 			description: [
-				"Combine an ender pearl, tree resin, and spirit powder in a small cauldron."
+				"{homestead.herbal_hexesz.150D4607A7091E79.quest16.description0}"
 				""
-				"Grants the Homestead effect which teleports you back to your assigned spawn point such as your bed."
+				"{homestead.herbal_hexesz.150D4607A7091E79.quest16.description1}"
 			]
 			id: "150D4607A7091E79"
 			rewards: [{
@@ -627,7 +643,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Brew up a Brew of Homestead"
+			subtitle: "{homestead.herbal_hexesz.150D4607A7091E79.quest16.subtitle}"
 			tasks: [{
 				id: "1912A4BDDBA10C71"
 				item: "hexalia:brew_of_homestead"
@@ -636,11 +652,12 @@
 			x: 5.5d
 			y: -1.5d
 		}
+
 		{
 			description: [
-				"Combine a slimeball, feather, and spider eye in a small cauldron."
+				"{homestead.herbal_hexesz.69B78F2EF325ED2A.quest17.description0}"
 				""
-				"Grants the Slimewalker effect which negates fall damage and allows you to bounce upwards if you press the sneak key."
+				"{homestead.herbal_hexesz.69B78F2EF325ED2A.quest17.description1}"
 			]
 			id: "69B78F2EF325ED2A"
 			rewards: [{
@@ -648,7 +665,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Brew up a Brew of Slimewalker"
+			subtitle: "{homestead.herbal_hexesz.69B78F2EF325ED2A.quest17.subtitle}"
 			tasks: [{
 				id: "25C56D3A29470C72"
 				item: "hexalia:brew_of_slimewalker"
@@ -657,11 +674,12 @@
 			x: 5.5d
 			y: -0.5d
 		}
+
 		{
 			description: [
-				"Combine a cactus, mandrake, and ghost powder in a small cauldron."
+				"{homestead.herbal_hexesz.2AED578F02503DBD.quest18.description0}"
 				""
-				"Grants the Spikeskin effect, which increases toughness and reflects a portion of damage received like the thorns enchant. "
+				"{homestead.herbal_hexesz.2AED578F02503DBD.quest18.description1}"
 			]
 			id: "2AED578F02503DBD"
 			rewards: [{
@@ -669,7 +687,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Brew up a Brew of Spikeskin"
+			subtitle: "{homestead.herbal_hexesz.2AED578F02503DBD.quest18.subtitle}"
 			tasks: [{
 				id: "093D894E96C96AAE"
 				item: "hexalia:brew_of_spikeskin"
@@ -678,11 +696,12 @@
 			x: 5.5d
 			y: 0.5d
 		}
+
 		{
 			description: [
-				"Combine a piece of flint, a gold nugget, and a mandrake in a small cauldron."
+				"{homestead.herbal_hexesz.3BD3806660C5524E.quest19.description0}"
 				""
-				"Grants the Siphon effect, increasing mining speed and makes items attract to you from a further distance."
+				"{homestead.herbal_hexesz.3BD3806660C5524E.quest19.description1}"
 			]
 			id: "3BD3806660C5524E"
 			rewards: [{
@@ -690,7 +709,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Brew up a Brew of Siphon"
+			subtitle: "{homestead.herbal_hexesz.3BD3806660C5524E.quest19.subtitle}"
 			tasks: [{
 				id: "1E39E51FE049FA5F"
 				item: "hexalia:brew_of_siphon"
@@ -699,11 +718,12 @@
 			x: 5.5d
 			y: 1.5d
 		}
+
 		{
 			description: [
-				"Combine a moon berry, sunfire tomato, and black dye in a small cauldron."
+				"{homestead.herbal_hexesz.558A339C8458333B.quest20.description0}"
 				""
-				"Grants the Daybloom effect that allows you to move faster and regeneration during the day, however darkness will harm you."
+				"{homestead.herbal_hexesz.558A339C8458333B.quest20.description1}"
 			]
 			id: "558A339C8458333B"
 			rewards: [{
@@ -711,7 +731,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Brew up a Brew of Daybloom"
+			subtitle: "{homestead.herbal_hexesz.558A339C8458333B.quest20.subtitle}"
 			tasks: [{
 				id: "0DAE51BEE6EE94B7"
 				item: "hexalia:brew_of_daybloom"
@@ -720,11 +740,12 @@
 			x: 6.5d
 			y: -1.0d
 		}
+
 		{
 			description: [
-				"Combine raw beef, siren paste, and a saltsprout in a small cauldron."
+				"{homestead.herbal_hexesz.3751615A4576BDC5.quest21.description0}"
 				""
-				"Grants the Bloodlust effect that makes you stronger and heals you for a portion of the damage you deal."
+				"{homestead.herbal_hexesz.3751615A4576BDC5.quest21.description1}"
 			]
 			id: "3751615A4576BDC5"
 			rewards: [{
@@ -732,7 +753,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Brew up a Brew of Bloodlust"
+			subtitle: "{homestead.herbal_hexesz.3751615A4576BDC5.quest21.subtitle}"
 			tasks: [{
 				id: "687405731B27E71E"
 				item: "hexalia:brew_of_bloodlust"
@@ -741,11 +762,12 @@
 			x: 6.5d
 			y: 1.0d
 		}
+
 		{
 			description: [
-				"Combine dream paste, a spider eye, and black dye in a small cauldron."
+				"{homestead.herbal_hexesz.6A5D5065AAA2943E.quest22.description0}"
 				""
-				"Grants the Arachnid Grace effect that allows you to freely move through cobwebs, climb up walls vertically, and makes you immune to poison."
+				"{homestead.herbal_hexesz.6A5D5065AAA2943E.quest22.description1}"
 			]
 			id: "6A5D5065AAA2943E"
 			rewards: [{
@@ -753,7 +775,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Brew up a Brew of Arachnid Grace"
+			subtitle: "{homestead.herbal_hexesz.6A5D5065AAA2943E.quest22.subtitle}"
 			tasks: [{
 				id: "4BB222A9E6E4B340"
 				item: "hexalia:brew_of_arachnid_grace"
@@ -762,11 +784,12 @@
 			x: 6.5d
 			y: 0.0d
 		}
+
 		{
 			description: [
-				"A magical ray of Night Vision from a super cold cookie. Eating this grants you Night Vision II for 45 seconds."
+				"{homestead.herbal_hexesz.11761FA3599C239D.quest23.description0}"
 				""
-				"Combine Sugar, 2 Wheat, and a Moon Berry in a crafting table."
+				"{homestead.herbal_hexesz.11761FA3599C239D.quest23.description1}"
 			]
 			id: "11761FA3599C239D"
 			rewards: [
@@ -790,6 +813,5 @@
 			x: -6.5d
 			y: 0.0d
 		}
-	]
-	title: "Herbal Hexes"
-}
+
+	]	title: "Herbal Hexes"}

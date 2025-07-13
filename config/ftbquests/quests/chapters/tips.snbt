@@ -23,19 +23,19 @@
 	quests: [
 		{
 			description: [
-				"&l&oWelcome, Traveler!&r"
+				"{homestead.tips.49B1251816EA4218.quest0.description0}"
 				""
-				"&7Here lies the &l&nTips Page&r&7 — your go-to guide for all things cozy, clever, and occasionally chaotic. Whether you’re knee-deep in crops, diving into the world of gears and gadgets, or simply soaking in the beauty of the wilds around you, this is the place to be."
+				"{homestead.tips.49B1251816EA4218.quest0.description1}"
 				""
-				"&7This section is dedicated to all the &oextra knowledge&r — the tidbits, tricks, and treasures of wisdom — that don’t quite fit into the main questlines but are &lno less important&r to your journey. From mod-specific mechanics to general building hacks, from crafting secrets to overlooked interactions, these pages are designed to &lhelp you build a better world&r, one block at a time."
+				"{homestead.tips.49B1251816EA4218.quest0.description2}"
 				""
-				"&7Here, you’ll find &lhandy tips&r for surviving and thriving, &oinsightful notes&r on lesser-known mod features, and &lcreative advice&r to inspire your next great idea. Whether you're experimenting with automation, decorating your homestead, or navigating the nuances of your newest tool, these insights will guide you along the way."
+				"{homestead.tips.49B1251816EA4218.quest0.description3}"
 				""
-				"&mThis isn’t just a help section&m — &lthis is your toolbox, your cheat sheet, your friend in the fog.&r"
+				"{homestead.tips.49B1251816EA4218.quest0.description4}"
 				""
-				"&7So read on, take notes, and don’t be afraid to come back often. The world of Homestead is vast and vibrant — and with a little guidance, you’ll shape it into something truly magical."
+				"{homestead.tips.49B1251816EA4218.quest0.description5}"
 				""
-				"&lYou’ve got this. 🌿"
+				"{homestead.tips.49B1251816EA4218.quest0.description6}"
 			]
 			id: "49B1251816EA4218"
 			invisible: true
@@ -49,13 +49,14 @@
 			x: 0.4642857142857153d
 			y: -4.017857142857146d
 		}
+
 		{
 			description: [
-				"Upgrade your storage with larger chests and barrels from dirt to netherite tiers."
+				"{homestead.tips.7DF4A71CE3985EE9.quest1.description0}"
 				""
-				"Use a Dolly to move full chests without unpacking."
+				"{homestead.tips.7DF4A71CE3985EE9.quest1.description1}"
 				""
-				"Add Locks and Keys to keep your loot safe in multiplayer."
+				"{homestead.tips.7DF4A71CE3985EE9.quest1.description2}"
 			]
 			icon: "ironchests:diamond_chest"
 			id: "7DF4A71CE3985EE9"
@@ -67,11 +68,12 @@
 			x: 0.5d
 			y: -7.5d
 		}
+
 		{
 			description: [
-				"Lootr makes chests and barrels player-bound, so everyone gets their own unique loot."
+				"{homestead.tips.70D5524715BEAA10.quest2.description0}"
 				""
-				"Don’t break loot containers!! Leave them for others to enjoy too."
+				"{homestead.tips.70D5524715BEAA10.quest2.description1}"
 			]
 			icon: "lootr:lootr_chest"
 			id: "70D5524715BEAA10"
@@ -83,12 +85,13 @@
 			x: 1.5d
 			y: -7.5d
 		}
+
 		{
 			description: [
-				"Chop one log with an axe, and the whole tree falls with a smooth animation; branches, leaves, and all. Items drop neatly where you broke it."
+				"{homestead.tips.6FF2A6C97ED4224A.quest3.description0}"
 				""
-				"Hold Shift to break just one log without felling the tree."
-				"Warning: Trees connected to builds can bring down your house, so make sure to use Shift near structures!"
+				"{homestead.tips.6FF2A6C97ED4224A.quest3.description1}"
+				"{homestead.tips.6FF2A6C97ED4224A.quest3.description2}"
 			]
 			icon: {
 				Count: 1
@@ -106,8 +109,9 @@
 			x: -0.5d
 			y: -7.5d
 		}
+
 		{
-			description: ["Quickly delete unwanted items by dragging them into the trash can icon in your inventory. It saves the last item in case you change your mind, but only until you throw in another. After that, it's gone for good. Use with care!"]
+			description: ["{homestead.tips.06EC0F06D47E5243.quest4.description0}"]
 			icon: "trashcans:item_trash_can"
 			id: "06EC0F06D47E5243"
 			tasks: [{
@@ -118,8 +122,9 @@
 			x: -1.5d
 			y: -7.5d
 		}
+
 		{
-			description: ["Find seashells along the shore and right-click to open them! They’re mini loot boxes with snacks, gear, and coastal goodies."]
+			description: ["{homestead.tips.03C2FB950A9DFA99.quest5.description0}"]
 			icon: "beachparty:seashell"
 			id: "03C2FB950A9DFA99"
 			tasks: [{
@@ -130,11 +135,12 @@
 			x: 2.5d
 			y: -7.5d
 		}
+
 		{
 			description: [
-				"In the Twigs mod, seashells can be crafted into bonemeal. Just an extra way to get some bonemeal if you need it!"
+				"{homestead.tips.191BEE4673E23683.quest6.description0}"
 				""
-				"&oThis is a huge tip for our peaceful players :)&r"
+				"{homestead.tips.191BEE4673E23683.quest6.description1}"
 			]
 			icon: "twigs:tangerine_seashell"
 			id: "191BEE4673E23683"
@@ -146,13 +152,14 @@
 			x: -3.0d
 			y: -4.0d
 		}
+
 		{
 			description: [
-				"Skip the crafting table and collect twigs from the forest floor or dropped leaves and craft them directly into sticks."
+				"{homestead.tips.71C047A46A1F158F.quest7.description0}"
 				""
-				"This tip is really good for early game stick needs; ladders, torches, or even some early tools."
+				"{homestead.tips.71C047A46A1F158F.quest7.description1}"
 				""
-				"Especially if you dont wanna waste your precious wooden planks."
+				"{homestead.tips.71C047A46A1F158F.quest7.description2}"
 			]
 			icon: "twigs:twig"
 			id: "71C047A46A1F158F"
@@ -164,13 +171,14 @@
 			x: -3.0d
 			y: -5.0d
 		}
+
 		{
 			description: [
-				"Place a flower on grass and right-click with bonemeal to duplicate it."
+				"{homestead.tips.7CCF924A05DA76C6.quest8.description0}"
 				""
-				"Works with most single-block flowers"
+				"{homestead.tips.7CCF924A05DA76C6.quest8.description1}"
 				""
-				"For tall flowers, just right-click the flower itself to duplicate."
+				"{homestead.tips.7CCF924A05DA76C6.quest8.description2}"
 			]
 			icon: "natures_spirit:yellow_wildflower"
 			id: "7CCF924A05DA76C6"
@@ -182,11 +190,12 @@
 			x: -3.0d
 			y: -6.0d
 		}
+
 		{
 			description: [
-				"If you find some Sunflowers, from the Spawn mod, and they have that brown center, go ahead and right click on them to be able to harvest their seeds!"
+				"{homestead.tips.73D692AD71F2A091.quest9.description0}"
 				""
-				"You can use these to tame Hamsters or even use them as a food source if you cook them!"
+				"{homestead.tips.73D692AD71F2A091.quest9.description1}"
 			]
 			icon: "spawn:roasted_sunflower_seeds"
 			id: "73D692AD71F2A091"
@@ -198,23 +207,24 @@
 			x: -3.0d
 			y: -3.0d
 		}
+
 		{
 			description: [
-				"Don’t let the name fool you! These pipes offer easy item transport with clever features."
+				"{homestead.tips.1EF602A50E861F46.quest10.description0}"
 				""
-				"Items flow through pipes in the direction they’re facing."
+				"{homestead.tips.1EF602A50E861F46.quest10.description1}"
 				""
-				"Connect to chests, barrels, hoppers, or even shoot items out if they are unblocked."
+				"{homestead.tips.1EF602A50E861F46.quest10.description2}"
 				""
-				"Copper Fittings control flow and direction, with redstone support."
+				"{homestead.tips.1EF602A50E861F46.quest10.description3}"
 				""
-				"Dispensers = boosted launch, Droppers = steady output."
+				"{homestead.tips.1EF602A50E861F46.quest10.description4}"
 				""
-				"Waxed pipes go faster and don’t oxidize. Use lightning rods to reverse oxidation."
+				"{homestead.tips.1EF602A50E861F46.quest10.description5}"
 				""
-				"Waterlogged pipes drip to hydrate farmland below, grow sugar cane, hurt Endermen, and send smoke if a campfire is behind them."
+				"{homestead.tips.1EF602A50E861F46.quest10.description6}"
 				""
-				"They also carry vibrations and Note Block sounds, and bubbles underwater just for fun."
+				"{homestead.tips.1EF602A50E861F46.quest10.description7}"
 			]
 			icon: "simple_copper_pipes:copper_pipe"
 			id: "1EF602A50E861F46"
@@ -226,27 +236,28 @@
 			x: 4.0d
 			y: -6.0d
 		}
+
 		{
 			description: [
-				"Place or destroy blocks in bulk with magical wands."
+				"{homestead.tips.1A90A13DEC730B55.quest11.description0}"
 				""
-				"&lWands:&r Stone, Iron, Diamond, and Infinity; higher tiers = more reach and blocks."
+				"{homestead.tips.1A90A13DEC730B55.quest11.description1}"
 				""
-				"&lModes:&r Shift + Scroll to change direction (horizontal, vertical, etc.)."
+				"{homestead.tips.1A90A13DEC730B55.quest11.description2}"
 				""
-				"&lCores:&r Upgrade your wand for new abilities:"
+				"{homestead.tips.1A90A13DEC730B55.quest11.description3}"
 				""
-				"Construction Core: Build in front of you."
+				"{homestead.tips.1A90A13DEC730B55.quest11.description4}"
 				""
-				"Angel Core: Place blocks midair or behind surfaces."
+				"{homestead.tips.1A90A13DEC730B55.quest11.description5}"
 				""
-				"Destruction Core: Instantly remove blocks, with undo support."
+				"{homestead.tips.1A90A13DEC730B55.quest11.description6}"
 				""
-				"&lTips:&r"
+				"{homestead.tips.1A90A13DEC730B55.quest11.description7}"
 				""
-				"Pulls from shulker boxes and offhand blocks."
+				"{homestead.tips.1A90A13DEC730B55.quest11.description8}"
 				""
-				"Infinity Wand is lava-proof."
+				"{homestead.tips.1A90A13DEC730B55.quest11.description9}"
 			]
 			icon: {
 				Count: 1
@@ -265,8 +276,9 @@
 			x: 4.0d
 			y: -5.0d
 		}
+
 		{
-			description: ["A portable crafting table you can use anywhere! Just right-click it while its in your hand!"]
+			description: ["{homestead.tips.193FFCA0EC8F69CF.quest12.description0}"]
 			icon: "craftingpad:craftingpad"
 			id: "193FFCA0EC8F69CF"
 			tasks: [{
@@ -277,20 +289,21 @@
 			x: 4.0d
 			y: -4.0d
 		}
+
 		{
 			description: [
-				"Mute annoying sounds like mobs, machines, or portals; Globally or in specific areas."
+				"{homestead.tips.577E3E7F53834444.quest13.description0}"
 				""
-				"&lHow it works:&r"
+				"{homestead.tips.577E3E7F53834444.quest13.description1}"
 				""
-				"- Open the GUI from your inventory or with a hotkey"
+				"{homestead.tips.577E3E7F53834444.quest13.description2}"
 				""
-				"- Click to mute any sound or adjust its volume"
+				"{homestead.tips.577E3E7F53834444.quest13.description3}"
 				""
-				"- Preview sounds before muting"
+				"{homestead.tips.577E3E7F53834444.quest13.description4}"
 				""
-				"&lAnchors:&r"
-				"Set up to 10 zones to silence sounds in specific areas (like farms or workshops). Customize each with a name and range."
+				"{homestead.tips.577E3E7F53834444.quest13.description5}"
+				"{homestead.tips.577E3E7F53834444.quest13.description6}"
 			]
 			icon: "minecraft:music_disc_pigstep"
 			id: "577E3E7F53834444"
@@ -302,21 +315,22 @@
 			x: 4.0d
 			y: -3.0d
 		}
+
 		{
 			description: [
-				"Add stylish, functional umbrellas to your world!"
+				"{homestead.tips.1DFBB5C5D53F2EE3.quest14.description0}"
 				""
-				"Craft with 5 Leather + 2 Sticks"
+				"{homestead.tips.1DFBB5C5D53F2EE3.quest14.description1}"
 				""
-				"Dye like leather armor or apply patterns (including pride flags and themed designs)"
+				"{homestead.tips.1DFBB5C5D53F2EE3.quest14.description2}"
 				""
-				"&lEnchantments:&r"
+				"{homestead.tips.1DFBB5C5D53F2EE3.quest14.description3}"
 				""
-				"Gliding → Slow falling"
+				"{homestead.tips.1DFBB5C5D53F2EE3.quest14.description4}"
 				""
-				"Wind Catching → Rise with campfire smoke"
+				"{homestead.tips.1DFBB5C5D53F2EE3.quest14.description5}"
 				""
-				"Place umbrellas in stands for cozy, rain-blocking decor!"
+				"{homestead.tips.1DFBB5C5D53F2EE3.quest14.description6}"
 			]
 			icon: {
 				Count: 1
@@ -334,21 +348,22 @@
 			x: 1.5d
 			y: -0.5d
 		}
+
 		{
 			description: [
-				"Fishing is now magical and rewarding! Catch over 35 new fish and eels, each with unique uses."
+				"{homestead.tips.5A12AF8EC722627B.quest15.description0}"
 				""
-				"&lFish = Potions&r"
+				"{homestead.tips.5A12AF8EC722627B.quest15.description1}"
 				""
-				"Magma Cod → Fire Resistance"
+				"{homestead.tips.5A12AF8EC722627B.quest15.description2}"
 				""
-				"Rainy Bass → Water Breathing"
+				"{homestead.tips.5A12AF8EC722627B.quest15.description3}"
 				""
-				"Cloudy Crab → Slow Falling"
+				"{homestead.tips.5A12AF8EC722627B.quest15.description4}"
 				""
-				"&lUnique Rods:&r Each rod type offers different effects."
+				"{homestead.tips.5A12AF8EC722627B.quest15.description5}"
 				""
-				"&lLoot Crates:&r Reel in rare crates filled with biome-themed treasure."
+				"{homestead.tips.5A12AF8EC722627B.quest15.description6}"
 			]
 			icon: {
 				Count: 1
@@ -366,15 +381,16 @@
 			x: 2.5d
 			y: -0.5d
 		}
+
 		{
 			description: [
-				"Speed up smelting with redstone-powered Bellows!"
+				"{homestead.tips.657455402FA79E5B.quest16.description0}"
 				""
-				"- Place next to a furnace (any side but the top)"
+				"{homestead.tips.657455402FA79E5B.quest16.description1}"
 				""
-				"- Activate with redstone to boost smelting speed"
+				"{homestead.tips.657455402FA79E5B.quest16.description2}"
 				""
-				"- Use a Redstone Torch for constant power and max efficiency"
+				"{homestead.tips.657455402FA79E5B.quest16.description3}"
 			]
 			icon: "supplementaries:bellows"
 			id: "657455402FA79E5B"
@@ -383,15 +399,16 @@
 				title: "Fanning the Flames"
 				type: "checkmark"
 			}]
-			title: "Fanning the Flames"
+			title: "{homestead.tips.657455402FA79E5B.quest16.title}"
 			x: 0.5d
 			y: -0.5d
 		}
+
 		{
 			description: [
-				"Do not throw away that Zombie Flesh! Thats littering! Use it for good instead!"
+				"{homestead.tips.6CCF735475110060.quest17.description0}"
 				""
-				"You can smelt Rotten Flesh in a furnace to get Leather."
+				"{homestead.tips.6CCF735475110060.quest17.description1}"
 			]
 			icon: "minecraft:leather"
 			id: "6CCF735475110060"
@@ -400,19 +417,20 @@
 				title: "Rotten to Refined!"
 				type: "checkmark"
 			}]
-			title: "Rotten to Refined!"
+			title: "{homestead.tips.6CCF735475110060.quest17.title}"
 			x: -0.5d
 			y: -0.5d
 		}
+
 		{
 			description: [
-				"Wool is now fully flexible and reusable!"
+				"{homestead.tips.037D019B5F37707F.quest18.description0}"
 				""
-				"Right-click with dye to recolor wool blocks, beds, and carpets in-world; No crafting table needed."
+				"{homestead.tips.037D019B5F37707F.quest18.description1}"
 				""
-				"Craft any wool block into 4 string when you're low on thread."
+				"{homestead.tips.037D019B5F37707F.quest18.description2}"
 				""
-				"Swap colors freely with any standard dye; No more waste."
+				"{homestead.tips.037D019B5F37707F.quest18.description3}"
 			]
 			icon: "minecraft:white_wool"
 			id: "037D019B5F37707F"
@@ -424,11 +442,12 @@
 			x: -1.5d
 			y: -0.5d
 		}
+
 		{
 			description: [
-				"Minisheep from Let’s Do: WilderNature are tiny, fluffy, and rideable companions."
+				"{homestead.tips.2033778989209CE2.quest19.description0}"
 				""
-				"Tame them with Sheared Grass, then saddle up for a cozy, compact mount."
+				"{homestead.tips.2033778989209CE2.quest19.description1}"
 			]
 			icon: "wildernature:minisheep_spawn_egg"
 			id: "2033778989209CE2"
@@ -440,11 +459,12 @@
 			x: -2.5d
 			y: -7.0d
 		}
+
 		{
 			description: [
-				"The Mossbloom is a tameable, rideable creature found in mossy biomes, added by the Clutter mod."
+				"{homestead.tips.271D8569B1FFA1D1.quest20.description0}"
 				""
-				"Feed it Glow Berries to gain its trust, then saddle up and ride."
+				"{homestead.tips.271D8569B1FFA1D1.quest20.description1}"
 			]
 			icon: "clutter:mossbloom_antler"
 			id: "271D8569B1FFA1D1"
@@ -456,13 +476,14 @@
 			x: 3.5d
 			y: -7.0d
 		}
+
 		{
 			description: [
-				"Add charm to your outdoor builds with a variety of decorative path blocks."
+				"{homestead.tips.1088813B7A8F78BD.quest21.description0}"
 				""
-				"Crafted from wood, gravel, stone, and bricks, these blocks blend naturally into any setting."
+				"{homestead.tips.1088813B7A8F78BD.quest21.description1}"
 				""
-				"Just search them up in JEI with \" @macaw \""
+				"{homestead.tips.1088813B7A8F78BD.quest21.description2}"
 			]
 			icon: "mcwpaths:cherry_planks_path"
 			id: "1088813B7A8F78BD"
@@ -474,11 +495,12 @@
 			x: -2.5d
 			y: -1.0d
 		}
+
 		{
 			description: [
-				"The Trowel places random blocks from your hotbar, making textured builds easy and natural."
+				"{homestead.tips.792671B2BB0E8F4F.quest22.description0}"
 				""
-				"Load your hotbar with blocks, right-click with the Trowel, and it’ll pick one at random to place."
+				"{homestead.tips.792671B2BB0E8F4F.quest22.description1}"
 			]
 			icon: "trowel:trowel"
 			id: "792671B2BB0E8F4F"
@@ -490,15 +512,16 @@
 			x: 3.5d
 			y: -1.0d
 		}
+
 		{
 			description: [
 				""
-				"{image:ftbquests:textures/homestead/saddle_recipe.png width:103 height:50 align:center}"
+				"{homestead.tips.67A53B779633EB50.quest23.description0}"
 				""
-				"&l3 Leather&r"
-				"&l2 Rope&r "
-				"&o(Rope from Supplementaries or Farmer's Delight)&r"
-				"&l2 Iron Ingots"
+				"{homestead.tips.67A53B779633EB50.quest23.description1}"
+				"{homestead.tips.67A53B779633EB50.quest23.description2}"
+				"{homestead.tips.67A53B779633EB50.quest23.description3}"
+				"{homestead.tips.67A53B779633EB50.quest23.description4}"
 			]
 			icon: "minecraft:saddle"
 			id: "67A53B779633EB50"
@@ -507,18 +530,19 @@
 				title: "Saddle"
 				type: "checkmark"
 			}]
-			title: "Craftable Saddle"
+			title: "{homestead.tips.67A53B779633EB50.quest23.title}"
 			x: 4.0d
 			y: -2.0d
 		}
+
 		{
 			description: [
 				""
-				"{image:ftbquests:textures/homestead/nametag_recipe.png width:103 height:50 align:center}"
+				"{homestead.tips.59160BFCA583C3FF.quest24.description0}"
 				""
-				"&l1 String"
-				"&l1 Iron Ingot&r"
-				"&l1 Paper&r&r"
+				"{homestead.tips.59160BFCA583C3FF.quest24.description1}"
+				"{homestead.tips.59160BFCA583C3FF.quest24.description2}"
+				"{homestead.tips.59160BFCA583C3FF.quest24.description3}"
 			]
 			icon: "minecraft:name_tag"
 			id: "59160BFCA583C3FF"
@@ -530,6 +554,5 @@
 			x: -3.0d
 			y: -2.0d
 		}
-	]
-	title: "TIPS"
-}
+
+	]	title: "TIPS"}

@@ -28,7 +28,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Hop Seeds are rare drops from grass. They're the foundation of every good brew."]
+			description: ["{homestead.liquid_courage.25CF21D8894F57A0.quest0.description0}"]
 			id: "25CF21D8894F57A0"
 			rewards: [{
 				count: 4
@@ -38,20 +38,21 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Break grass until you receive 1x Hop Seeds."
+			subtitle: "{homestead.liquid_courage.25CF21D8894F57A0.quest0.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "2D830510DB981988"
 				item: { Count: 8, id: "alcocraftplus:hop_seeds" }
 				type: "item"
 			}]
-			title: "Hoppin' Good Start"
+			title: "{homestead.liquid_courage.25CF21D8894F57A0.quest0.title}"
 			x: 7.0d
 			y: -4.5d
 		}
+
 		{
 			dependencies: ["25CF21D8894F57A0"]
-			description: ["Hops grow downward! Plant them on the underside of any solid block."]
+			description: ["{homestead.liquid_courage.44E1E7887623DD4E.quest1.description0}"]
 			id: "44E1E7887623DD4E"
 			rewards: [{
 				count: 8
@@ -59,7 +60,7 @@
 				item: "minecraft:bone_meal"
 				type: "item"
 			}]
-			subtitle: "Plant 8x Hop Seeds beneath a block to begin growing."
+			subtitle: "{homestead.liquid_courage.44E1E7887623DD4E.quest1.subtitle}"
 			tasks: [{
 				block: "alcocraftplus:hop"
 				block_type: 0
@@ -70,13 +71,14 @@
 				type: "questsadditions:place"
 				value: 8L
 			}]
-			title: "Vertical Farming"
+			title: "{homestead.liquid_courage.44E1E7887623DD4E.quest1.title}"
 			x: 5.0d
 			y: -3.0d
 		}
+
 		{
 			dependencies: ["44E1E7887623DD4E"]
-			description: ["Mature hops can be harvested by hand—no breaking required."]
+			description: ["{homestead.liquid_courage.3780747549EB3165.quest2.description0}"]
 			id: "3780747549EB3165"
 			rewards: [{
 				count: 8
@@ -84,20 +86,21 @@
 				item: "alcocraftplus:hop"
 				type: "item"
 			}]
-			subtitle: "Right-click the fully grown hops to harvest 8x Hop."
+			subtitle: "{homestead.liquid_courage.3780747549EB3165.quest2.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "04DB314014193F03"
 				item: { Count: 8, id: "alcocraftplus:hop" }
 				type: "item"
 			}]
-			title: "Time to Harvest"
+			title: "{homestead.liquid_courage.3780747549EB3165.quest2.title}"
 			x: 9.0d
 			y: -3.0d
 		}
+
 		{
 			dependencies: ["3780747549EB3165"]
-			description: ["Dry Seeds add depth and body to your brews. Just toast 'em in a furnace."]
+			description: ["{homestead.liquid_courage.25CE04B347A6979E.quest3.description0}"]
 			id: "25CE04B347A6979E"
 			rewards: [{
 				count: 32
@@ -105,23 +108,24 @@
 				item: "alcocraftplus:dry_seeds"
 				type: "item"
 			}]
-			subtitle: "Smelt Wheat Seeds in a Furnace to create 32x Dry Seeds."
+			subtitle: "{homestead.liquid_courage.25CE04B347A6979E.quest3.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "7BA1F0D7D059D86A"
 				item: { Count: 32, id: "alcocraftplus:dry_seeds" }
 				type: "item"
 			}]
-			title: "Smokin' Seeds"
+			title: "{homestead.liquid_courage.25CE04B347A6979E.quest3.title}"
 			x: 5.0d
 			y: -1.5d
 		}
+
 		{
 			dependencies: ["25CE04B347A6979E"]
 			description: [
-				"The Keg is your fermentation station. It stores water and transforms ingredients into drinks."
+				"{homestead.liquid_courage.512211AD135E5128.quest4.description0}"
 				""
-				"{image:ftbquests:textures/homestead/keg_recipe.png width:103 height:50 align:center}"
+				"{homestead.liquid_courage.512211AD135E5128.quest4.description1}"
 			]
 			id: "512211AD135E5128"
 			rewards: [{
@@ -129,19 +133,20 @@
 				item: "alcocraftplus:keg"
 				type: "item"
 			}]
-			subtitle: "Craft 1x Keg."
+			subtitle: "{homestead.liquid_courage.512211AD135E5128.quest4.subtitle}"
 			tasks: [{
 				id: "338EC17A0ECB7491"
 				item: "alcocraftplus:keg"
 				type: "item"
 			}]
-			title: "Keg Stand"
+			title: "{homestead.liquid_courage.512211AD135E5128.quest4.title}"
 			x: 9.0d
 			y: -1.5d
 		}
+
 		{
 			dependencies: ["512211AD135E5128"]
-			description: ["You’ll need a full keg of water before you can start brewing."]
+			description: ["{homestead.liquid_courage.2B50B025A2C46356.quest5.description0}"]
 			id: "2B50B025A2C46356"
 			rewards: [{
 				count: 4
@@ -151,7 +156,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Right-click a Keg with 4 Water Buckets to fully fill it."
+			subtitle: "{homestead.liquid_courage.2B50B025A2C46356.quest5.subtitle}"
 			tasks: [
 				{
 					block: "alcocraftplus:keg"
@@ -169,12 +174,13 @@
 					type: "item"
 				}
 			]
-			title: "Just Add Water"
+			title: "{homestead.liquid_courage.2B50B025A2C46356.quest5.title}"
 			x: 7.0d
 			y: 0.0d
 		}
+
 		{
-			description: ["Gives Regeneration. A bright and revitalizing drink."]
+			description: ["{homestead.liquid_courage.68679A2078FCFE69.quest6.description0}"]
 			hide_dependency_lines: true
 			id: "68679A2078FCFE69"
 			rewards: [{
@@ -182,18 +188,19 @@
 				item: "alcocraftplus:sun_pale_ale"
 				type: "item"
 			}]
-			subtitle: "Brew Sun Pale Ale in a full Keg with: Hop, Dry Seeds, Sunflower, Glistering Melon Slice."
+			subtitle: "{homestead.liquid_courage.68679A2078FCFE69.quest6.subtitle}"
 			tasks: [{
 				id: "6061587B03760024"
 				item: "alcocraftplus:sun_pale_ale"
 				type: "item"
 			}]
-			title: "Sun Pale Ale"
+			title: "{homestead.liquid_courage.68679A2078FCFE69.quest6.title}"
 			x: 4.5d
 			y: 2.0d
 		}
+
 		{
-			description: ["Gives Haste. Great for mining sessions."]
+			description: ["{homestead.liquid_courage.4CC88FD6A64AD3AB.quest7.description0}"]
 			hide_dependency_lines: true
 			id: "4CC88FD6A64AD3AB"
 			rewards: [{
@@ -201,18 +208,19 @@
 				item: "alcocraftplus:digger_bitter"
 				type: "item"
 			}]
-			subtitle: "Brew Digger Bitter with: Hop, Dry Seeds, Glow Lichen, Diamond."
+			subtitle: "{homestead.liquid_courage.4CC88FD6A64AD3AB.quest7.subtitle}"
 			tasks: [{
 				id: "2EC6B2A1E11033D4"
 				item: "alcocraftplus:digger_bitter"
 				type: "item"
 			}]
-			title: "Digger Bitter"
+			title: "{homestead.liquid_courage.4CC88FD6A64AD3AB.quest7.title}"
 			x: 5.5d
 			y: 2.0d
 		}
+
 		{
-			description: ["Gives Fire Resistance. Toasty and toasty."]
+			description: ["{homestead.liquid_courage.57195848638B5779.quest8.description0}"]
 			hide_dependency_lines: true
 			id: "57195848638B5779"
 			rewards: [{
@@ -220,18 +228,19 @@
 				item: "alcocraftplus:nether_porter"
 				type: "item"
 			}]
-			subtitle: "Brew Nether Porter with: Hop, Dry Seeds, Golden Nugget, Blaze Powder."
+			subtitle: "{homestead.liquid_courage.57195848638B5779.quest8.subtitle}"
 			tasks: [{
 				id: "646BAFFDFEE4A8B8"
 				item: "alcocraftplus:nether_porter"
 				type: "item"
 			}]
-			title: "Nether Porter"
+			title: "{homestead.liquid_courage.57195848638B5779.quest8.title}"
 			x: 6.5d
 			y: 2.0d
 		}
+
 		{
-			description: ["Gives Wither Touch. Strike and watch enemies wither."]
+			description: ["{homestead.liquid_courage.4CF6B17360872DCA.quest9.description0}"]
 			hide_dependency_lines: true
 			id: "4CF6B17360872DCA"
 			rewards: [{
@@ -239,18 +248,19 @@
 				item: "alcocraftplus:wither_stout"
 				type: "item"
 			}]
-			subtitle: "Brew Wither Stout with: Hop, Dry Seeds, Nether Wart, Wither Skeleton Skull."
+			subtitle: "{homestead.liquid_courage.4CF6B17360872DCA.quest9.subtitle}"
 			tasks: [{
 				id: "500E771A3F7E3D1A"
 				item: "alcocraftplus:wither_stout"
 				type: "item"
 			}]
-			title: "Wither Stout"
+			title: "{homestead.liquid_courage.4CF6B17360872DCA.quest9.title}"
 			x: 7.5d
 			y: 2.0d
 		}
+
 		{
-			description: ["Gives Attraction. Pulls in nearby items."]
+			description: ["{homestead.liquid_courage.1ECF0EE8B3147079.quest10.description0}"]
 			hide_dependency_lines: true
 			id: "1ECF0EE8B3147079"
 			rewards: [{
@@ -258,18 +268,19 @@
 				item: "alcocraftplus:magnet_pilsner"
 				type: "item"
 			}]
-			subtitle: "Brew Magnet Pilsner with: Hop, Dry Seeds, Iron Nugget, Redstone."
+			subtitle: "{homestead.liquid_courage.1ECF0EE8B3147079.quest10.subtitle}"
 			tasks: [{
 				id: "370923A024D94E55"
 				item: "alcocraftplus:magnet_pilsner"
 				type: "item"
 			}]
-			title: "Magnet Pilsner"
+			title: "{homestead.liquid_courage.1ECF0EE8B3147079.quest10.title}"
 			x: 8.5d
 			y: 2.0d
 		}
+
 		{
-			description: ["Gives Water Breathing and Dolphin’s Grace. Swim like the tides."]
+			description: ["{homestead.liquid_courage.0D44A0A5DC0D4F00.quest11.description0}"]
 			hide_dependency_lines: true
 			id: "0D44A0A5DC0D4F00"
 			rewards: [{
@@ -277,18 +288,19 @@
 				item: "alcocraftplus:drowned_ale"
 				type: "item"
 			}]
-			subtitle: "Brew Drowned Ale with: Hop, Dry Seeds, Prismarine Crystal, Prismarine Shard."
+			subtitle: "{homestead.liquid_courage.0D44A0A5DC0D4F00.quest11.subtitle}"
 			tasks: [{
 				id: "72353E4D3D87AF91"
 				item: "alcocraftplus:drowned_ale"
 				type: "item"
 			}]
-			title: "Drowned Ale"
+			title: "{homestead.liquid_courage.0D44A0A5DC0D4F00.quest11.title}"
 			x: 9.5d
 			y: 2.0d
 		}
+
 		{
-			description: ["Gives Night Vision and Well Rested (no more phantoms!)."]
+			description: ["{homestead.liquid_courage.6BFB884A22D59DA7.quest12.description0}"]
 			hide_dependency_lines: true
 			id: "6BFB884A22D59DA7"
 			rewards: [{
@@ -296,18 +308,19 @@
 				item: "alcocraftplus:night_rauch"
 				type: "item"
 			}]
-			subtitle: "Brew Night Rauch with: Hop, Dry Seeds, Charcoal, Phantom Membrane."
+			subtitle: "{homestead.liquid_courage.6BFB884A22D59DA7.quest12.subtitle}"
 			tasks: [{
 				id: "0EEA044815618B50"
 				item: "alcocraftplus:night_rauch"
 				type: "item"
 			}]
-			title: "Night Rauch"
+			title: "{homestead.liquid_courage.6BFB884A22D59DA7.quest12.title}"
 			x: 4.5d
 			y: 3.0d
 		}
+
 		{
-			description: ["Gives Frosty. Walk on water… literally."]
+			description: ["{homestead.liquid_courage.7FA1605F6BE8F5CF.quest13.description0}"]
 			hide_dependency_lines: true
 			id: "7FA1605F6BE8F5CF"
 			rewards: [{
@@ -315,18 +328,19 @@
 				item: "alcocraftplus:ice_beer"
 				type: "item"
 			}]
-			subtitle: "Brew Ice Beer with: Hop, Dry Seeds, Snowball, Packed Ice."
+			subtitle: "{homestead.liquid_courage.7FA1605F6BE8F5CF.quest13.subtitle}"
 			tasks: [{
 				id: "3B06D1475F16A302"
 				item: "alcocraftplus:ice_beer"
 				type: "item"
 			}]
-			title: "Ice Beer"
+			title: "{homestead.liquid_courage.7FA1605F6BE8F5CF.quest13.title}"
 			x: 5.5d
 			y: 3.0d
 		}
+
 		{
-			description: ["Gives Health Boost and Saturation. Cozy and hearty."]
+			description: ["{homestead.liquid_courage.431C6DED723DD222.quest14.description0}"]
 			hide_dependency_lines: true
 			id: "431C6DED723DD222"
 			rewards: [{
@@ -334,18 +348,19 @@
 				item: "alcocraftplus:kvass"
 				type: "item"
 			}]
-			subtitle: "Brew Kvass with: Hop, Apple, Honeycomb, Bread."
+			subtitle: "{homestead.liquid_courage.431C6DED723DD222.quest14.subtitle}"
 			tasks: [{
 				id: "69D4CA7D1A275E19"
 				item: "alcocraftplus:kvass"
 				type: "item"
 			}]
-			title: "Kvass"
+			title: "{homestead.liquid_courage.431C6DED723DD222.quest14.title}"
 			x: 6.5d
 			y: 3.0d
 		}
+
 		{
-			description: ["Gives Luck. Chase rainbows and rare drops."]
+			description: ["{homestead.liquid_courage.539FBDBDD538B5E7.quest15.description0}"]
 			hide_dependency_lines: true
 			id: "539FBDBDD538B5E7"
 			rewards: [{
@@ -353,18 +368,19 @@
 				item: "alcocraftplus:leprechaun_cider"
 				type: "item"
 			}]
-			subtitle: "Brew Leprechaun Cider with: Hop, Dry Seeds, Emerald, Rabbit Foot."
+			subtitle: "{homestead.liquid_courage.539FBDBDD538B5E7.quest15.subtitle}"
 			tasks: [{
 				id: "746512789F38B065"
 				item: "alcocraftplus:leprechaun_cider"
 				type: "item"
 			}]
-			title: "Leprechaun Cider"
+			title: "{homestead.liquid_courage.539FBDBDD538B5E7.quest15.title}"
 			x: 7.5d
 			y: 3.0d
 		}
+
 		{
-			description: ["Gives Levitation and Slow Falling. A bouncy, floaty brew."]
+			description: ["{homestead.liquid_courage.2AC4773869F2C993.quest16.description0}"]
 			hide_dependency_lines: true
 			id: "2AC4773869F2C993"
 			rewards: [{
@@ -372,18 +388,19 @@
 				item: "alcocraftplus:chorus_ale"
 				type: "item"
 			}]
-			subtitle: "Brew Chorus Ale with: Hop, Dry Seeds, Phantom Membrane, Chorus Fruit."
+			subtitle: "{homestead.liquid_courage.2AC4773869F2C993.quest16.subtitle}"
 			tasks: [{
 				id: "07262FCB2494FE7A"
 				item: "alcocraftplus:chorus_ale"
 				type: "item"
 			}]
-			title: "Chorus Ale"
+			title: "{homestead.liquid_courage.2AC4773869F2C993.quest16.title}"
 			x: 8.5d
 			y: 3.0d
 		}
+
 		{
-			description: ["Gives Flight. Yep. Flight."]
+			description: ["{homestead.liquid_courage.5AA8FCF2F4FB8117.quest17.description0}"]
 			hide_dependency_lines: true
 			id: "5AA8FCF2F4FB8117"
 			rewards: [{
@@ -391,21 +408,22 @@
 				item: "alcocraftplus:nether_star_lager"
 				type: "item"
 			}]
-			subtitle: "Brew Nether Star Lager with: Hop, Dry Seeds, Diamond, Nether Star."
+			subtitle: "{homestead.liquid_courage.5AA8FCF2F4FB8117.quest17.subtitle}"
 			tasks: [{
 				id: "08C6324F0CFF0F4D"
 				item: "alcocraftplus:nether_star_lager"
 				type: "item"
 			}]
-			title: "Nether Star Lager"
+			title: "{homestead.liquid_courage.5AA8FCF2F4FB8117.quest17.title}"
 			x: 9.5d
 			y: 3.0d
 		}
+
 		{
 			description: [
-				"These seeds are rare but essential. Look for them in Taiga villages and outposts."
+				"{homestead.liquid_courage.133718A3FD0C25E7.quest18.description0}"
 				""
-				"Or their bushes you can find in the wild!"
+				"{homestead.liquid_courage.133718A3FD0C25E7.quest18.description1}"
 			]
 			id: "133718A3FD0C25E7"
 			rewards: [{
@@ -416,20 +434,21 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Find 8x Hop Seeds in the wild, structures or villages."
+			subtitle: "{homestead.liquid_courage.133718A3FD0C25E7.quest18.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "06FEF5D9904DD0FE"
 				item: { Count: 8, id: "brewery:hops_seeds" }
 				type: "item"
 			}]
-			title: "Hunt for Hops"
+			title: "{homestead.liquid_courage.133718A3FD0C25E7.quest18.title}"
 			x: -7.0d
 			y: -4.5d
 		}
+
 		{
 			dependencies: ["133718A3FD0C25E7"]
-			description: ["Barley grows in Rivers, Plains, Sunflower Plains, or Savannas"]
+			description: ["{homestead.liquid_courage.60FE47595880A1A6.quest19.description0}"]
 			id: "60FE47595880A1A6"
 			rewards: [{
 				count: 8
@@ -437,20 +456,21 @@
 				item: "farm_and_charm:barley_seeds"
 				type: "item"
 			}]
-			subtitle: "Find 8x Barley Seeds in the wild, structures or villages."
+			subtitle: "{homestead.liquid_courage.60FE47595880A1A6.quest19.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "4206861A818BF818"
 				item: { Count: 8, id: "farm_and_charm:barley_seeds" }
 				type: "item"
 			}]
-			title: "Barley Bonanza"
+			title: "{homestead.liquid_courage.60FE47595880A1A6.quest19.title}"
 			x: -5.5d
 			y: -4.0d
 		}
+
 		{
 			dependencies: ["60FE47595880A1A6"]
-			description: ["Corn grows in Plains, Savannas, and Badlands."]
+			description: ["{homestead.liquid_courage.48C349C8ACAD4A5C.quest20.description0}"]
 			id: "48C349C8ACAD4A5C"
 			rewards: [{
 				count: 8
@@ -458,23 +478,24 @@
 				item: "farm_and_charm:kernels"
 				type: "item"
 			}]
-			subtitle: "Find 8x Corn Kernels in the wild, structures or villages."
+			subtitle: "{homestead.liquid_courage.48C349C8ACAD4A5C.quest20.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "4734B85C4CCC5858"
 				item: { Count: 8, id: "farm_and_charm:kernels" }
 				type: "item"
 			}]
-			title: "Corn Quest"
+			title: "{homestead.liquid_courage.48C349C8ACAD4A5C.quest20.title}"
 			x: -8.5d
 			y: -4.0d
 		}
+
 		{
 			dependencies: ["398F2BE56C7FEB0D"]
 			description: [
-				"Use Barley in the middle and String on both sides in a crafting table."
+				"{homestead.liquid_courage.1B28CB294EACE04C.quest21.description0}"
 				""
-				"{image:ftbquests:textures/homestead/rope_recipe.png width:103 height:50 align:center}"
+				"{homestead.liquid_courage.1B28CB294EACE04C.quest21.description1}"
 			]
 			id: "1B28CB294EACE04C"
 			rewards: [{
@@ -483,20 +504,21 @@
 				item: "brewery:rope"
 				type: "item"
 			}]
-			subtitle: "Craft 8x Rope using Barley and String."
+			subtitle: "{homestead.liquid_courage.1B28CB294EACE04C.quest21.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "25B950AFA7419FA7"
 				item: { Count: 8, id: "brewery:rope" }
 				type: "item"
 			}]
-			title: "Bundle Up"
+			title: "{homestead.liquid_courage.1B28CB294EACE04C.quest21.title}"
 			x: -8.5d
 			y: -3.0d
 		}
+
 		{
 			dependencies: ["1B28CB294EACE04C"]
-			description: ["Cultivate your new crops—they’re the base of everything."]
+			description: ["{homestead.liquid_courage.0A92F6114413C556.quest22.description0}"]
 			id: "0A92F6114413C556"
 			rewards: [
 				{
@@ -524,7 +546,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Grow and harvest 8x each of Hops, Barley, Corn, and Oat."
+			subtitle: "{homestead.liquid_courage.0A92F6114413C556.quest22.subtitle}"
 			tasks: [
 				{
 					count: 8L
@@ -551,16 +573,17 @@
 					type: "item"
 				}
 			]
-			title: "Grow the Goods"
+			title: "{homestead.liquid_courage.0A92F6114413C556.quest22.title}"
 			x: -5.5d
 			y: -2.0d
 		}
+
 		{
 			dependencies: ["0A92F6114413C556"]
 			description: [
-				"Silage drying begins with storage—silos are stackable and efficient."
+				"{homestead.liquid_courage.4DCB8817B8B15692.quest23.description0}"
 				""
-				"{image:ftbquests:textures/homestead/wooden_silo_recipe.png width:103 height:50 align:center}"
+				"{homestead.liquid_courage.4DCB8817B8B15692.quest23.description1}"
 			]
 			id: "4DCB8817B8B15692"
 			rewards: [{
@@ -568,17 +591,18 @@
 				item: "farm_and_charm:silo_wood"
 				type: "item"
 			}]
-			subtitle: "Craft 8x Wooden Silos. (Tip: You can stack them up to 9 tall!)"
+			subtitle: "{homestead.liquid_courage.4DCB8817B8B15692.quest23.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "18E94EDEE49CE876"
 				item: { Count: 8, id: "farm_and_charm:silo_wood" }
 				type: "item"
 			}]
-			title: "Stacking Storage"
+			title: "{homestead.liquid_courage.4DCB8817B8B15692.quest23.title}"
 			x: -8.5d
 			y: -2.0d
 		}
+
 		{
 			dependencies: ["4DCB8817B8B15692"]
 			id: "190F9645D217253D"
@@ -608,7 +632,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Dry 8x Wheat, 8x Corn, 8x Oat and 8x Barley using the Silo."
+			subtitle: "{homestead.liquid_courage.190F9645D217253D.quest24.subtitle}"
 			tasks: [
 				{
 					count: 8L
@@ -635,13 +659,14 @@
 					type: "item"
 				}
 			]
-			title: "Crop Conversion"
+			title: "{homestead.liquid_courage.190F9645D217253D.quest24.title}"
 			x: -5.5d
 			y: -1.0d
 		}
+
 		{
 			dependencies: ["48C349C8ACAD4A5C"]
-			description: ["Oat is found in Meadows and Taigas"]
+			description: ["{homestead.liquid_courage.398F2BE56C7FEB0D.quest25.description0}"]
 			id: "398F2BE56C7FEB0D"
 			rewards: [{
 				count: 8
@@ -649,42 +674,43 @@
 				item: "farm_and_charm:oat_seeds"
 				type: "item"
 			}]
-			subtitle: "Find 8x Oat Seeds in the wild, structures or villages."
+			subtitle: "{homestead.liquid_courage.398F2BE56C7FEB0D.quest25.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "4D0FE45DC5744586"
 				item: { Count: 8, id: "farm_and_charm:oat_seeds" }
 				type: "item"
 			}]
-			title: "Oat to Know You"
+			title: "{homestead.liquid_courage.398F2BE56C7FEB0D.quest25.title}"
 			x: -5.5d
 			y: -3.0d
 		}
+
 		{
 			dependencies: ["6BA946C6734053CB"]
 			description: [
-				"{image:ftbquests:textures/homestead/brewingstation_recipe.png width:103 height:50 align:center}"
-				"The heart of your operation. You'll need this to brew anything!"
+				"{homestead.liquid_courage.7F3673A6F0EE63C5.quest26.description0}"
+				"{homestead.liquid_courage.7F3673A6F0EE63C5.quest26.description1}"
 				""
-				"&lStart by inserting ingredients, then water. Monitor effects during the brew to avoid summoning the Booze!&r"
+				"{homestead.liquid_courage.7F3673A6F0EE63C5.quest26.description2}"
 				""
-				"&lTo start the process, click on the furnace with some coal. &r"
+				"{homestead.liquid_courage.7F3673A6F0EE63C5.quest26.description3}"
 				""
-				"&lThen the minigame starts. &r"
+				"{homestead.liquid_courage.7F3673A6F0EE63C5.quest26.description4}"
 				""
-				"&n&lThe 3 following things can happen: &r&r"
+				"{homestead.liquid_courage.7F3673A6F0EE63C5.quest26.description5}"
 				""
-				"&lBubbles will appear.&r To get rid of them, right click them with an empty bucket. "
+				"{homestead.liquid_courage.7F3673A6F0EE63C5.quest26.description6}"
 				""
-				"&lThe water will get drained.&r To counter this, add more water. "
+				"{homestead.liquid_courage.7F3673A6F0EE63C5.quest26.description7}"
 				""
-				"&lRedstone particles will appear.&r To counter that, walk to the side of the brewingstation, and right click the timer. "
+				"{homestead.liquid_courage.7F3673A6F0EE63C5.quest26.description8}"
 				""
-				"After enough time passes, and if you did it correctly while watching what happens, your water will turn into a nice golden liquor. "
+				"{homestead.liquid_courage.7F3673A6F0EE63C5.quest26.description9}"
 				""
-				"Right click on it with empty beer mugs to retrieve your liquor you just made. "
+				"{homestead.liquid_courage.7F3673A6F0EE63C5.quest26.description10}"
 				""
-				"&0&lIf you miss a step&r&r, or let it run without doing anything, it will &6&lsummon a Booze&r&r. An entity that flies that has 80 health. Make sure you do the steps to make sure you don't die."
+				"{homestead.liquid_courage.7F3673A6F0EE63C5.quest26.description11}"
 			]
 			id: "7F3673A6F0EE63C5"
 			rewards: [
@@ -707,22 +733,23 @@
 			]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft 1x Wooden Brewingstation."
+			subtitle: "{homestead.liquid_courage.7F3673A6F0EE63C5.quest26.subtitle}"
 			tasks: [{
 				id: "7B855603A22A57E1"
 				item: "brewery:wooden_brewingstation"
 				type: "item"
 			}]
-			title: "The First Brew"
+			title: "{homestead.liquid_courage.7F3673A6F0EE63C5.quest26.title}"
 			x: -7.0d
 			y: 0.0d
 		}
+
 		{
 			dependencies: ["190F9645D217253D"]
 			description: [
-				"You'll need these to collect your finished brews. Get mugged!"
+				"{homestead.liquid_courage.6BA946C6734053CB.quest27.description0}"
 				""
-				"{image:ftbquests:textures/homestead/beer_mug_recipe.png width:103 height:50 align:center}"
+				"{homestead.liquid_courage.6BA946C6734053CB.quest27.description1}"
 			]
 			id: "6BA946C6734053CB"
 			rewards: [{
@@ -731,19 +758,20 @@
 				item: "brewery:beer_mug"
 				type: "item"
 			}]
-			subtitle: "Craft 32x Beer Mugs."
+			subtitle: "{homestead.liquid_courage.6BA946C6734053CB.quest27.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "1AA20A553591E61C"
 				item: { Count: 32, id: "brewery:beer_mug" }
 				type: "item"
 			}]
-			title: "Mugs for Days"
+			title: "{homestead.liquid_courage.6BA946C6734053CB.quest27.title}"
 			x: -8.5d
 			y: -1.0d
 		}
+
 		{
-			description: ["Yeast is essential for fermentation. Don’t skip it!"]
+			description: ["{homestead.liquid_courage.390F7C0C3EC9D054.quest28.description0}"]
 			hide_dependency_lines: true
 			id: "390F7C0C3EC9D054"
 			rewards: [{
@@ -752,19 +780,20 @@
 				item: "farm_and_charm:yeast"
 				type: "item"
 			}]
-			subtitle: "Craft 12x Yeast in a Cooking Pot using Water Bucket, Sugar, and a Grain."
+			subtitle: "{homestead.liquid_courage.390F7C0C3EC9D054.quest28.subtitle}"
 			tasks: [{
 				count: 12L
 				id: "0B954198122BD875"
 				item: { Count: 12, id: "farm_and_charm:yeast" }
 				type: "item"
 			}]
-			title: "Make Yeast"
+			title: "{homestead.liquid_courage.390F7C0C3EC9D054.quest28.title}"
 			x: -8.5d
 			y: 1.5d
 		}
+
 		{
-			description: ["Snow White effect: peaceful mobs follow you."]
+			description: ["{homestead.liquid_courage.56896DD92E2A6991.quest29.description0}"]
 			hide_dependency_lines: true
 			id: "56896DD92E2A6991"
 			rewards: [{
@@ -772,18 +801,19 @@
 				item: "brewery:beer_wheat"
 				type: "item"
 			}]
-			subtitle: "Brew Wheat Beer with 1x Dried Wheat 1 Yeast and 1x Hops."
+			subtitle: "{homestead.liquid_courage.56896DD92E2A6991.quest29.subtitle}"
 			tasks: [{
 				id: "67DDE92B86E9C4D5"
 				item: "brewery:beer_wheat"
 				type: "item"
 			}]
-			title: "Wheat Beer"
+			title: "{homestead.liquid_courage.56896DD92E2A6991.quest29.title}"
 			x: -9.5d
 			y: 2.5d
 		}
+
 		{
-			description: ["Pint Charisma: lowers trade prices with villagers."]
+			description: ["{homestead.liquid_courage.4720502D9EAF7DB2.quest30.description0}"]
 			hide_dependency_lines: true
 			id: "4720502D9EAF7DB2"
 			rewards: [{
@@ -791,18 +821,19 @@
 				item: "brewery:beer_barley"
 				type: "item"
 			}]
-			subtitle: "Brew Barley Beer with 1x Dried Barley 1x Yeast and 1x Hops."
+			subtitle: "{homestead.liquid_courage.4720502D9EAF7DB2.quest30.subtitle}"
 			tasks: [{
 				id: "7F8A6BB2CB2AAB82"
 				item: "brewery:beer_barley"
 				type: "item"
 			}]
-			title: "Barley Beer"
+			title: "{homestead.liquid_courage.4720502D9EAF7DB2.quest30.title}"
 			x: -8.5d
 			y: 2.5d
 		}
+
 		{
-			description: ["Partystarter: mobs explode with fireworks when hit."]
+			description: ["{homestead.liquid_courage.0F4244F50DEF2740.quest31.description0}"]
 			hide_dependency_lines: true
 			id: "0F4244F50DEF2740"
 			rewards: [{
@@ -810,18 +841,19 @@
 				item: "brewery:beer_hops"
 				type: "item"
 			}]
-			subtitle: "Brew Hops Beer with 1x Yeast and 2x Hops."
+			subtitle: "{homestead.liquid_courage.0F4244F50DEF2740.quest31.subtitle}"
 			tasks: [{
 				id: "7F26CFC391C90BAE"
 				item: "brewery:beer_hops"
 				type: "item"
 			}]
-			title: "Hops Beer"
+			title: "{homestead.liquid_courage.0F4244F50DEF2740.quest31.title}"
 			x: -7.5d
 			y: 2.5d
 		}
+
 		{
-			description: ["Pacify: Look at Endermen safely. Less mob aggro."]
+			description: ["{homestead.liquid_courage.03D6733DD4B40426.quest32.description0}"]
 			hide_dependency_lines: true
 			id: "03D6733DD4B40426"
 			rewards: [{
@@ -829,18 +861,19 @@
 				item: "brewery:beer_nettle"
 				type: "item"
 			}]
-			subtitle: "Brew Nettle Beer with Wild Nettle, Yeast, and Hop."
+			subtitle: "{homestead.liquid_courage.03D6733DD4B40426.quest32.subtitle}"
 			tasks: [{
 				id: "48F1D05E0F76C75B"
 				item: "brewery:beer_nettle"
 				type: "item"
 			}]
-			title: "Nettle Beer"
+			title: "{homestead.liquid_courage.03D6733DD4B40426.quest32.title}"
 			x: -6.5d
 			y: 2.5d
 		}
+
 		{
-			description: ["Mining: Dig faster the deeper you are."]
+			description: ["{homestead.liquid_courage.1A1AEFD9FCD39683.quest33.description0}"]
 			hide_dependency_lines: true
 			id: "1A1AEFD9FCD39683"
 			rewards: [{
@@ -848,18 +881,19 @@
 				item: "brewery:beer_oat"
 				type: "item"
 			}]
-			subtitle: "Brew Oat Beer with Dried Oat, Yeast, and Hop."
+			subtitle: "{homestead.liquid_courage.1A1AEFD9FCD39683.quest33.subtitle}"
 			tasks: [{
 				id: "79F95A68D1A11038"
 				item: "brewery:beer_oat"
 				type: "item"
 			}]
-			title: "Oat Beer"
+			title: "{homestead.liquid_courage.1A1AEFD9FCD39683.quest33.title}"
 			x: -5.5d
 			y: 2.5d
 		}
+
 		{
-			description: ["Amorous Glide: grants creative flight."]
+			description: ["{homestead.liquid_courage.423A13FD3CD6DB1E.quest34.description0}"]
 			hide_dependency_lines: true
 			id: "423A13FD3CD6DB1E"
 			rewards: [{
@@ -867,18 +901,19 @@
 				item: "brewery:beer_haley"
 				type: "item"
 			}]
-			subtitle: "Brew Haley Beer with 1x Popping Chorus Fruit 1x Yeast and 1x Hops."
+			subtitle: "{homestead.liquid_courage.423A13FD3CD6DB1E.quest34.subtitle}"
 			tasks: [{
 				id: "7447396BED4EC6C6"
 				item: "brewery:beer_haley"
 				type: "item"
 			}]
-			title: "Haley Beer"
+			title: "{homestead.liquid_courage.423A13FD3CD6DB1E.quest34.title}"
 			x: -4.5d
 			y: 2.5d
 		}
+
 		{
-			description: ["Use a Smithing Table with a Sentry Trim, Copper Ingot, and Wooden Brewingstation."]
+			description: ["{homestead.liquid_courage.1E23852964607A6F.quest35.description0}"]
 			hide_dependency_lines: true
 			id: "1E23852964607A6F"
 			rewards: [
@@ -894,18 +929,19 @@
 					xp: 100
 				}
 			]
-			subtitle: "Upgrade Wooden Brewingstation into Copper Brewingstation."
+			subtitle: "{homestead.liquid_courage.1E23852964607A6F.quest35.subtitle}"
 			tasks: [{
 				id: "085928183E39DDB9"
 				item: "brewery:copper_brewingstation"
 				type: "item"
 			}]
-			title: "Upgrade to Copper"
+			title: "{homestead.liquid_courage.1E23852964607A6F.quest35.title}"
 			x: -7.5d
 			y: 1.5d
 		}
+
 		{
-			description: ["Toxic Touch: Applies poison to hit mobs."]
+			description: ["{homestead.liquid_courage.5996975F9EF78E94.quest36.description0}"]
 			hide_dependency_lines: true
 			id: "5996975F9EF78E94"
 			rewards: [{
@@ -913,18 +949,19 @@
 				item: "brewery:whiskey_jojannik"
 				type: "item"
 			}]
-			subtitle: "Brew JoJannik Select in upgraded Brewing station with 2x Dried Barley and 1x Yeast"
+			subtitle: "{homestead.liquid_courage.5996975F9EF78E94.quest36.subtitle}"
 			tasks: [{
 				id: "3B896ECBE12F5C6C"
 				item: "brewery:whiskey_jojannik"
 				type: "item"
 			}]
-			title: "JoJannik Select"
+			title: "{homestead.liquid_courage.5996975F9EF78E94.quest36.title}"
 			x: -9.5d
 			y: 3.5d
 		}
+
 		{
-			description: ["Partystarter: mobs explode with fireworks when hit."]
+			description: ["{homestead.liquid_courage.55865F6A94DDD9E7.quest37.description0}"]
 			hide_dependency_lines: true
 			id: "55865F6A94DDD9E7"
 			rewards: [{
@@ -932,7 +969,7 @@
 				item: "brewery:whiskey_lilitusinglemalt"
 				type: "item"
 			}]
-			subtitle: "Brew Lilitu Single Malt in upgraded Brewing station with 1x Dried Wheat, 1x Dried Barley, and 1x Yeast"
+			subtitle: "{homestead.liquid_courage.55865F6A94DDD9E7.quest37.subtitle}"
 			tasks: [{
 				id: "7FA594A85DAE3822"
 				item: "brewery:whiskey_lilitusinglemalt"
@@ -941,8 +978,9 @@
 			x: -8.5d
 			y: 3.5d
 		}
+
 		{
-			description: ["Protective Touch: gives absorption to hit mobs."]
+			description: ["{homestead.liquid_courage.5B2789714FA74A04.quest38.description0}"]
 			hide_dependency_lines: true
 			id: "5B2789714FA74A04"
 			rewards: [{
@@ -950,7 +988,7 @@
 				item: "brewery:whiskey_cristelwalker"
 				type: "item"
 			}]
-			subtitle: "Brew CristelWalker Original with 2x Dried Corn, and 1x Yeast"
+			subtitle: "{homestead.liquid_courage.5B2789714FA74A04.quest38.subtitle}"
 			tasks: [{
 				id: "3FBE6DA3E1053F60"
 				item: "brewery:whiskey_cristelwalker"
@@ -959,8 +997,9 @@
 			x: -7.5d
 			y: 3.5d
 		}
+
 		{
-			description: ["Healing Touch: heals hit mobs."]
+			description: ["{homestead.liquid_courage.41AC462E72E8F3DC.quest39.description0}"]
 			hide_dependency_lines: true
 			id: "41AC462E72E8F3DC"
 			rewards: [{
@@ -968,7 +1007,7 @@
 				item: "brewery:whiskey_maggoallan"
 				type: "item"
 			}]
-			subtitle: "Brew Maggoallan Aged with 2x Dried Wheat and 1x Yeast"
+			subtitle: "{homestead.liquid_courage.41AC462E72E8F3DC.quest39.subtitle}"
 			tasks: [{
 				id: "583C0DCF95C8C504"
 				item: "brewery:whiskey_maggoallan"
@@ -977,8 +1016,9 @@
 			x: -6.5d
 			y: 3.5d
 		}
+
 		{
-			description: ["Renewing Touch: grants regeneration to hit mobs."]
+			description: ["{homestead.liquid_courage.41AE4A3DB35C8416.quest40.description0}"]
 			hide_dependency_lines: true
 			id: "41AE4A3DB35C8416"
 			rewards: [{
@@ -986,7 +1026,7 @@
 				item: "brewery:whiskey_carrasconlabel"
 				type: "item"
 			}]
-			subtitle: "Brew Carrasconlabel Heritage with 1x Dried Wheat, 1x Dried Corn, and 1x Yeast"
+			subtitle: "{homestead.liquid_courage.41AE4A3DB35C8416.quest40.subtitle}"
 			tasks: [{
 				id: "16939E928571FE09"
 				item: "brewery:whiskey_carrasconlabel"
@@ -995,8 +1035,9 @@
 			x: -5.5d
 			y: 3.5d
 		}
+
 		{
-			description: ["Lightning Strike: small chance to summon lightning."]
+			description: ["{homestead.liquid_courage.3465439E95EAB87F.quest41.description0}"]
 			hide_dependency_lines: true
 			id: "3465439E95EAB87F"
 			rewards: [{
@@ -1004,7 +1045,7 @@
 				item: "brewery:whiskey_ak"
 				type: "item"
 			}]
-			subtitle: "Brew AK Reserve with 1x Dried Oat, 1x Dried Corn, and 1x Yeast"
+			subtitle: "{homestead.liquid_courage.3465439E95EAB87F.quest41.subtitle}"
 			tasks: [{
 				id: "0362EF32EBFCEB01"
 				item: "brewery:whiskey_ak"
@@ -1013,8 +1054,9 @@
 			x: -4.5d
 			y: 3.5d
 		}
+
 		{
-			description: ["Repulsion: pushes enemies away at intervals."]
+			description: ["{homestead.liquid_courage.6355DBDB90D286EA.quest42.description0}"]
 			hide_dependency_lines: true
 			id: "6355DBDB90D286EA"
 			rewards: [{
@@ -1022,7 +1064,7 @@
 				item: "brewery:whiskey_highland_hearth"
 				type: "item"
 			}]
-			subtitle: "Brew Highland Hearth Signature with 1x Dried Wheat, 1x Dried Oat, and 1x Yeast"
+			subtitle: "{homestead.liquid_courage.6355DBDB90D286EA.quest42.subtitle}"
 			tasks: [{
 				id: "2AB1C9A07187D9F1"
 				item: "brewery:whiskey_highland_hearth"
@@ -1031,8 +1073,9 @@
 			x: -8.0d
 			y: 4.5d
 		}
+
 		{
-			description: ["Combustion: ignites nearby enemies."]
+			description: ["{homestead.liquid_courage.6408B51A1A3E21C7.quest43.description0}"]
 			hide_dependency_lines: true
 			id: "6408B51A1A3E21C7"
 			rewards: [{
@@ -1040,7 +1083,7 @@
 				item: "brewery:whiskey_smokey_reverie"
 				type: "item"
 			}]
-			subtitle: "Brew Smokey Reverie with 2x Dried Oat, and 1x Yeast"
+			subtitle: "{homestead.liquid_courage.6408B51A1A3E21C7.quest43.subtitle}"
 			tasks: [{
 				id: "7990627DFE5B3828"
 				item: "brewery:whiskey_smokey_reverie"
@@ -1049,8 +1092,9 @@
 			x: -7.0d
 			y: 4.5d
 		}
+
 		{
-			description: ["Explosions: chance to shoot fireballs on hit."]
+			description: ["{homestead.liquid_courage.074D2E66FC2A7772.quest44.description0}"]
 			hide_dependency_lines: true
 			id: "074D2E66FC2A7772"
 			rewards: [{
@@ -1058,7 +1102,7 @@
 				item: "brewery:whiskey_jamesons_malt"
 				type: "item"
 			}]
-			subtitle: "Brew Jameson Malt Whiskey with 1x Dried Barley, 1x Dried Oat, and 1x Yeast"
+			subtitle: "{homestead.liquid_courage.074D2E66FC2A7772.quest44.subtitle}"
 			tasks: [{
 				id: "1EC4C8D22E3E8FC5"
 				item: "brewery:whiskey_jamesons_malt"
@@ -1067,8 +1111,9 @@
 			x: -6.0d
 			y: 4.5d
 		}
+
 		{
-			description: ["Because sometimes, you need to check yourself."]
+			description: ["{homestead.liquid_courage.60F46B1FBB453146.quest45.description0}"]
 			hide_dependency_lines: true
 			id: "60F46B1FBB453146"
 			rewards: [{
@@ -1082,18 +1127,19 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Craft a Breathalyzer."
+			subtitle: "{homestead.liquid_courage.60F46B1FBB453146.quest45.subtitle}"
 			tasks: [{
 				id: "758B174A055D95D3"
 				item: "brewery:breathalyzer"
 				type: "item"
 			}]
-			title: "Test Responsibly"
+			title: "{homestead.liquid_courage.60F46B1FBB453146.quest45.title}"
 			x: -5.5d
 			y: 1.5d
 		}
+
 		{
-			description: ["Place a Netherite Upgrade Template, Copper Brewingstation, and a Netherite Ingot into a Smithing Table to craft the ultimate brewing tool."]
+			description: ["{homestead.liquid_courage.4E63C305B129AF3F.quest46.description0}"]
 			hide_dependency_lines: true
 			id: "4E63C305B129AF3F"
 			rewards: [
@@ -1108,16 +1154,15 @@
 					xp: 100
 				}
 			]
-			subtitle: "Upgrade the Copper Brewingstation into a Netherite Brewingstation using a Smithing Table."
+			subtitle: "{homestead.liquid_courage.4E63C305B129AF3F.quest46.subtitle}"
 			tasks: [{
 				id: "6688778DCFFB0D5E"
 				item: "brewery:netherite_brewingstation"
 				type: "item"
 			}]
-			title: "Forged in Flame"
+			title: "{homestead.liquid_courage.4E63C305B129AF3F.quest46.title}"
 			x: -6.5d
 			y: 1.5d
 		}
-	]
-	title: "Liquid Courage"
-}
+
+	]	title: "Liquid Courage"}

@@ -53,11 +53,11 @@
 	quests: [
 		{
 			description: [
-				"Welcome to Farm and Charm, a farming rework from the let’s do series! Featuring its own crops such as strawberries, oats, and corn, these new additions will help fill out your catalogue of foods that fill hunger and provide buffs."
+				"{homestead.seasoned_and_settled.46B4CBE90F82043E.quest0.description0}"
 				""
-				"Most crops can be located in plains or forest biomes, but there are a few that are more elusive. Wild Nettle and Ribwort are located in forests and swamps, Wild Oats are located in meadows and taigas, and wild potatoes are found in taiga and forest biomes. "
+				"{homestead.seasoned_and_settled.46B4CBE90F82043E.quest0.description1}"
 				""
-				"&lFun Planting tip: You can attach ropes from Brewery to some fence posts to create a hanging rope for tomatoes to cling onto and grow larger.&r"
+				"{homestead.seasoned_and_settled.46B4CBE90F82043E.quest0.description2}"
 			]
 			id: "46B4CBE90F82043E"
 			rewards: [
@@ -85,7 +85,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Collect 8x of some farm and charm crops"
+			subtitle: "{homestead.seasoned_and_settled.46B4CBE90F82043E.quest0.subtitle}"
 			tasks: [
 				{
 					count: 8L
@@ -118,12 +118,13 @@
 					type: "item"
 				}
 			]
-			title: "Harvest Valley"
+			title: "{homestead.seasoned_and_settled.46B4CBE90F82043E.quest0.title}"
 			x: -3.5d
 			y: -5.0d
 		}
+
 		{
-			description: ["You’ve obtained the crops and you’re ready to plant. To give yourself and your crops the best, rather than putting down a block of water in the ground, craft yourself a Sprinkler! This automated infinite waterer will hydrate tilled soil up to 8 blocks away, double that of a normal water block."]
+			description: ["{homestead.seasoned_and_settled.1955C8FAA3A8AC66.quest1.description0}"]
 			id: "1955C8FAA3A8AC66"
 			rewards: [
 				{
@@ -144,22 +145,23 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Wooden Silo and a Sprinkler"
+			subtitle: "{homestead.seasoned_and_settled.1955C8FAA3A8AC66.quest1.subtitle}"
 			tasks: [{
 				id: "3B2B7E6BB792A3A2"
 				item: "farm_and_charm:water_sprinkler"
 				type: "item"
 			}]
-			title: "Well Watered Crops"
+			title: "{homestead.seasoned_and_settled.1955C8FAA3A8AC66.quest1.title}"
 			x: -2.5d
 			y: -5.0d
 		}
+
 		{
 			description: [
-				"Your farm is starting to thrive and you’ve gotten settled down. Now’s the time to invest in better soil for your crops. Combining 9 fertilizer produced in your silos in a crafting table will provide you with Fertilized Soil. This soil, when tilled and planted on, will permanently bone meal itself at random intervals and help boost your crop production. "
+				"{homestead.seasoned_and_settled.3D3B23CE1D7FEB1F.quest2.description0}"
 				""
-				"To further save you time, you should craft a plow so that you can till the soil quickly. Once crafted you can place the plow down with right click and mount and dismount it using the same button. Once you’ve mounted it all you have to do is walk around and it will till the soil behind you as you go. It can also harvest the crops without destroying them. No more hoes for you!"
-				"Tip: If you’re having trouble dismounting the plow try right clicking on the center of the beam connecting the wheels."
+				"{homestead.seasoned_and_settled.3D3B23CE1D7FEB1F.quest2.description1}"
+				"{homestead.seasoned_and_settled.3D3B23CE1D7FEB1F.quest2.description2}"
 			]
 			id: "3D3B23CE1D7FEB1F"
 			rewards: [
@@ -176,7 +178,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 5 Fertilized Soil and a plow for faster tilling."
+			subtitle: "{homestead.seasoned_and_settled.3D3B23CE1D7FEB1F.quest2.subtitle}"
 			tasks: [
 				{
 					count: 5L
@@ -190,12 +192,13 @@
 					type: "item"
 				}
 			]
-			title: "Watching Grass Grow"
+			title: "{homestead.seasoned_and_settled.3D3B23CE1D7FEB1F.quest2.title}"
 			x: -0.5d
 			y: -5.0d
 		}
+
 		{
-			description: ["Farming isn’t just about crops, it’s also about animal husbandry. Farm and Charm has your back with a feeding trough. Once placed down you can fill it with almost any type of seeds and animals will automatically come and eat from it, allowing them to breed as if you fed them the required food. They will eat and reproduce every time they are off the breeding cooldown or until the trough is empty. "]
+			description: ["{homestead.seasoned_and_settled.5FC752A81189726E.quest3.description0}"]
 			id: "5FC752A81189726E"
 			rewards: [
 				{
@@ -210,21 +213,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Feeding Trough"
+			subtitle: "{homestead.seasoned_and_settled.5FC752A81189726E.quest3.subtitle}"
 			tasks: [{
 				id: "534FE4F99069DD28"
 				item: "farm_and_charm:feeding_trough"
 				type: "item"
 			}]
-			title: "Feeding Frenzy"
+			title: "{homestead.seasoned_and_settled.5FC752A81189726E.quest3.title}"
 			x: 0.5d
 			y: -5.0d
 		}
+
 		{
 			description: [
-				"You should be well stocked on raw ingredients, but raw foods are nothing compared to a well cooked meal. To get your kitchen started you’ll need a mixing bowl. The mixing bowl is where you’ll make common ingredients like butter, mozzarella, or dough, as well as fresh salads. "
+				"{homestead.seasoned_and_settled.651AAEAFCB58FB12.quest4.description0}"
 				""
-				"&lAll recipes and their required ingredients for the mixing bowl are listed to the left side of the Seasoned and Settled quest page.&r"
+				"{homestead.seasoned_and_settled.651AAEAFCB58FB12.quest4.description1}"
 			]
 			id: "651AAEAFCB58FB12"
 			rewards: [
@@ -246,21 +250,22 @@
 					xp: 15
 				}
 			]
-			subtitle: "Craft a Mixing Bowl"
+			subtitle: "{homestead.seasoned_and_settled.651AAEAFCB58FB12.quest4.subtitle}"
 			tasks: [{
 				id: "1FBF8F5A44CF5809"
 				item: "farm_and_charm:crafting_bowl"
 				type: "item"
 			}]
-			title: "Stirring Success"
+			title: "{homestead.seasoned_and_settled.651AAEAFCB58FB12.quest4.title}"
 			x: 1.5d
 			y: -5.0d
 		}
+
 		{
 			description: [
-				"Last, but not least, it’s time to turn up the heat and roast, bake, and boil yourself some more filling meals. You’ll need a fuel source like coal to bake things in your stove, but even without fuel the stove provides heat for your roaster and cooking pot. Each method has a variety of different recipes you can try. "
+				"{homestead.seasoned_and_settled.3E45BA90FA0F257A.quest5.description0}"
 				""
-				"&lIf you decide to take on the challenge of making them all you’ll earn the completionist reward for Farm and Charm, a Scarecrow that makes crops near it grow faster!&r"
+				"{homestead.seasoned_and_settled.3E45BA90FA0F257A.quest5.description1}"
 			]
 			id: "3E45BA90FA0F257A"
 			rewards: [
@@ -277,7 +282,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Craft a Stove, Roaster, and Cooking Pot"
+			subtitle: "{homestead.seasoned_and_settled.3E45BA90FA0F257A.quest5.subtitle}"
 			tasks: [
 				{
 					id: "0714976CFAB41CEE"
@@ -295,13 +300,14 @@
 					type: "item"
 				}
 			]
-			title: "Turn Up The Heat"
+			title: "{homestead.seasoned_and_settled.3E45BA90FA0F257A.quest5.title}"
 			x: 3.5d
 			y: -5.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["A warm bowl of morning comfort. Sweet and hearty."]
+			description: ["{homestead.seasoned_and_settled.6CBEF43A6526116E.quest6.description0}"]
 			hide_dependency_lines: true
 			id: "6CBEF43A6526116E"
 			rewards: [
@@ -321,19 +327,20 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine a Milk Bucket, Oats and a Strawberry in a crafting bowl."
+			subtitle: "{homestead.seasoned_and_settled.6CBEF43A6526116E.quest6.subtitle}"
 			tasks: [{
 				id: "7DF5A8CE192799E6"
 				item: "farm_and_charm:oatmeal_with_strawberries"
 				type: "item"
 			}]
-			title: "Oatmeal with Strawberries"
+			title: "{homestead.seasoned_and_settled.6CBEF43A6526116E.quest6.title}"
 			x: -7.5d
 			y: -2.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Crisp and juicy—tastes like spring!"]
+			description: ["{homestead.seasoned_and_settled.5884E74AB81D760A.quest7.description0}"]
 			hide_dependency_lines: true
 			id: "5884E74AB81D760A"
 			rewards: [
@@ -353,19 +360,20 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine Tomato, Onion, Lettuce, and a Strawberry in a crafting bowl."
+			subtitle: "{homestead.seasoned_and_settled.5884E74AB81D760A.quest7.subtitle}"
 			tasks: [{
 				id: "15571163A0389C44"
 				item: "farm_and_charm:farmer_salad"
 				type: "item"
 			}]
-			title: "Farmer's Salad"
+			title: "{homestead.seasoned_and_settled.5884E74AB81D760A.quest7.title}"
 			x: -7.5d
 			y: 4.0d
 		}
+
 		{
 			dependencies: ["5DA495EE70E0ABFD"]
-			description: ["A baker's essential ingredient for countless meals."]
+			description: ["{homestead.seasoned_and_settled.0F66963234906BA4.quest8.description0}"]
 			hide_dependency_lines: true
 			id: "0F66963234906BA4"
 			rewards: [
@@ -385,7 +393,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine Flour, Yeast, and a Water Bucket in a crafting bowl."
+			subtitle: "{homestead.seasoned_and_settled.0F66963234906BA4.quest8.subtitle}"
 			tasks: [{
 				id: "1CEB3F8738AFAED3"
 				item: "farm_and_charm:dough"
@@ -394,9 +402,10 @@
 			x: -7.5d
 			y: 0.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Churn it up! Essential for rich meals."]
+			description: ["{homestead.seasoned_and_settled.4648ADD15C9685EE.quest9.description0}"]
 			hide_dependency_lines: true
 			id: "4648ADD15C9685EE"
 			rewards: [
@@ -416,7 +425,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Put a Milk Bucket in a crafting bowl."
+			subtitle: "{homestead.seasoned_and_settled.4648ADD15C9685EE.quest9.subtitle}"
 			tasks: [{
 				id: "3FB5DE57D4583444"
 				item: "farm_and_charm:butter"
@@ -425,9 +434,10 @@
 			x: -7.5d
 			y: -1.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["A tasty treat for man's best friend."]
+			description: ["{homestead.seasoned_and_settled.311E41D20B4B0856.quest10.description0}"]
 			hide_dependency_lines: true
 			id: "311E41D20B4B0856"
 			rewards: [
@@ -447,7 +457,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine Steak, Raw Beef, and a Bone in a crafting bowl."
+			subtitle: "{homestead.seasoned_and_settled.311E41D20B4B0856.quest10.subtitle}"
 			tasks: [{
 				id: "022F975D7975D07A"
 				item: "farm_and_charm:dog_food"
@@ -456,9 +466,10 @@
 			x: -7.5d
 			y: -5.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Meow mix for your furry overlords."]
+			description: ["{homestead.seasoned_and_settled.497D9F9B64482A98.quest11.description0}"]
 			hide_dependency_lines: true
 			id: "497D9F9B64482A98"
 			rewards: [
@@ -478,7 +489,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine Steak, Any Raw Fish, Raw Chicken, and a Raw Porkchop in a crafting bowl."
+			subtitle: "{homestead.seasoned_and_settled.497D9F9B64482A98.quest11.subtitle}"
 			tasks: [{
 				id: "65F9DC34E23C4A7B"
 				item: "farm_and_charm:cat_food"
@@ -487,9 +498,10 @@
 			x: -8.5d
 			y: -5.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Soft and stretchy—ready for salad or pasta."]
+			description: ["{homestead.seasoned_and_settled.241DD577064C4BD9.quest12.description0}"]
 			hide_dependency_lines: true
 			id: "241DD577064C4BD9"
 			rewards: [
@@ -509,7 +521,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine a Milk Bucket and a Water Bucket in a crafting bowl."
+			subtitle: "{homestead.seasoned_and_settled.241DD577064C4BD9.quest12.subtitle}"
 			tasks: [{
 				id: "1DD1208F13CB804B"
 				item: "candlelight:mozzarella"
@@ -518,9 +530,10 @@
 			x: -7.5d
 			y: 1.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["A refreshing Mediterranean snack."]
+			description: ["{homestead.seasoned_and_settled.1380D1789AFC2E96.quest13.description0}"]
 			hide_dependency_lines: true
 			id: "1380D1789AFC2E96"
 			rewards: [
@@ -540,7 +553,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine a Tomato, Mozzarella, and a Bowl in a crafting bowl."
+			subtitle: "{homestead.seasoned_and_settled.1380D1789AFC2E96.quest13.subtitle}"
 			tasks: [{
 				id: "784A7F567C4BED71"
 				item: "candlelight:tomato_mozzarella_salad"
@@ -549,9 +562,10 @@
 			x: -7.5d
 			y: 2.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Simple, green, and good for you."]
+			description: ["{homestead.seasoned_and_settled.219175E0F38C773C.quest14.description0}"]
 			hide_dependency_lines: true
 			id: "219175E0F38C773C"
 			rewards: [
@@ -571,7 +585,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine Lettuce, Tomato, Mozzarella or any Cheese, and a Bowl in a crafting bowl."
+			subtitle: "{homestead.seasoned_and_settled.219175E0F38C773C.quest14.subtitle}"
 			tasks: [{
 				id: "4C7BBB29FCBBD9C2"
 				item: "candlelight:salad"
@@ -580,9 +594,10 @@
 			x: -7.5d
 			y: 3.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["A classic farm-to-table meal."]
+			description: ["{homestead.seasoned_and_settled.0B8F71A6D2B7F89E.quest15.description0}"]
 			hide_dependency_lines: true
 			id: "0B8F71A6D2B7F89E"
 			rewards: [
@@ -597,7 +612,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine a Carrot, Potato, Tomato, and a Bowl in a crafting bowl."
+			subtitle: "{homestead.seasoned_and_settled.0B8F71A6D2B7F89E.quest15.subtitle}"
 			tasks: [{
 				id: "4CA10F8404F322AB"
 				item: "candlelight:harvest_plate"
@@ -606,9 +621,10 @@
 			x: -7.5d
 			y: 5.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Fresh and crispy. Straight from the soil."]
+			description: ["{homestead.seasoned_and_settled.4BC20C3DF64A2225.quest16.description0}"]
 			hide_dependency_lines: true
 			id: "4BC20C3DF64A2225"
 			rewards: [
@@ -623,7 +639,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine Lettuce, Tomato, Carrot, and a Bowl in a crafting bowl."
+			subtitle: "{homestead.seasoned_and_settled.4BC20C3DF64A2225.quest16.subtitle}"
 			tasks: [{
 				id: "3B9A8E48089779A1"
 				item: "candlelight:fresh_garden_salad"
@@ -632,9 +648,10 @@
 			x: -8.5d
 			y: 5.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Earthy and rich with creamy tang."]
+			description: ["{homestead.seasoned_and_settled.5F3094E571BC9129.quest17.description0}"]
 			hide_dependency_lines: true
 			id: "5F3094E571BC9129"
 			rewards: [
@@ -649,7 +666,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine a Beetroot, Any Cheese, and a Bowl in a crafting bowl."
+			subtitle: "{homestead.seasoned_and_settled.5F3094E571BC9129.quest17.subtitle}"
 			tasks: [{
 				id: "5D24BA9FD2734FA2"
 				item: "candlelight:beetroot_salad"
@@ -658,9 +675,10 @@
 			x: -7.5d
 			y: -4.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Raw and refined. For fancy tastes."]
+			description: ["{homestead.seasoned_and_settled.74C52DE0F8A62172.quest18.description0}"]
 			hide_dependency_lines: true
 			id: "74C52DE0F8A62172"
 			rewards: [
@@ -675,7 +693,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine Minced Beef, an Onion, and a bowl in a crafting bowl."
+			subtitle: "{homestead.seasoned_and_settled.74C52DE0F8A62172.quest18.subtitle}"
 			tasks: [{
 				id: "06585B40020AE1FE"
 				item: "candlelight:beef_tartare"
@@ -684,9 +702,10 @@
 			x: -7.5d
 			y: -3.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["A savory classic with a vineyard twist."]
+			description: ["{homestead.seasoned_and_settled.235EF0F411FEE5B3.quest19.description0}"]
 			hide_dependency_lines: true
 			id: "235EF0F411FEE5B3"
 			rewards: [
@@ -706,7 +725,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine Lettuce, Lamb Ham, any Red Grape Wine, and a Bowl in a roaster."
+			subtitle: "{homestead.seasoned_and_settled.235EF0F411FEE5B3.quest19.subtitle}"
 			tasks: [{
 				id: "54570EAC2E42FE27"
 				item: {
@@ -721,9 +740,10 @@
 			x: 9.5d
 			y: -5.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Rich, meaty, and made with love."]
+			description: ["{homestead.seasoned_and_settled.6A847FDD2BA67321.quest20.description0}"]
 			hide_dependency_lines: true
 			id: "6A847FDD2BA67321"
 			rewards: [
@@ -743,7 +763,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine Tomato Soup, Minced Beef, Bacon, Onion, Carrot, any Red Grape Wine, and a Bowl in a roaster."
+			subtitle: "{homestead.seasoned_and_settled.6A847FDD2BA67321.quest20.subtitle}"
 			tasks: [{
 				id: "57541F2F125A96C9"
 				item: {
@@ -758,9 +778,10 @@
 			x: 7.5d
 			y: -5.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["A comfort meal everyone loves."]
+			description: ["{homestead.seasoned_and_settled.4A06C5C302A16D45.quest21.description0}"]
 			hide_dependency_lines: true
 			id: "4A06C5C302A16D45"
 			rewards: [
@@ -780,7 +801,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine Bolognese, Pasta, any Cheese, and a Bowl in a roaster."
+			subtitle: "{homestead.seasoned_and_settled.4A06C5C302A16D45.quest21.subtitle}"
 			tasks: [{
 				id: "37B9533EF78B9C55"
 				item: {
@@ -795,9 +816,10 @@
 			x: 7.5d
 			y: -4.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Light and cheesy with a green crunch."]
+			description: ["{homestead.seasoned_and_settled.5D3D055B5BEB4A8A.quest22.description0}"]
 			hide_dependency_lines: true
 			id: "5D3D055B5BEB4A8A"
 			rewards: [
@@ -817,7 +839,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine Lettuce, Pasta, any Cheese, and a Bowl in a roaster."
+			subtitle: "{homestead.seasoned_and_settled.5D3D055B5BEB4A8A.quest22.subtitle}"
 			tasks: [{
 				id: "15F0D96E9D773F03"
 				item: "candlelight:pasta_with_lettuce"
@@ -826,9 +848,10 @@
 			x: 7.5d
 			y: -3.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["A fluffy breakfast delight."]
+			description: ["{homestead.seasoned_and_settled.242DDBBD43D99C51.quest23.description0}"]
 			hide_dependency_lines: true
 			id: "242DDBBD43D99C51"
 			rewards: [
@@ -843,7 +866,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Combine an Egg, Butter, Flour, Sugar, a Strawberry, and a Bowl in a roaster."
+			subtitle: "{homestead.seasoned_and_settled.242DDBBD43D99C51.quest23.subtitle}"
 			tasks: [{
 				id: "46830309BD0E1C39"
 				item: "candlelight:omelet"
@@ -852,9 +875,10 @@
 			x: 7.5d
 			y: -2.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["For fancy nights and candlelit tables."]
+			description: ["{homestead.seasoned_and_settled.484471703700395B.quest24.description0}"]
 			hide_dependency_lines: true
 			id: "484471703700395B"
 			rewards: [
@@ -880,7 +904,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine Raw Beef, Butter, any Wine, and a Bowl in a roaster."
+			subtitle: "{homestead.seasoned_and_settled.484471703700395B.quest24.subtitle}"
 			tasks: [{
 				id: "753E7955BF9CB4B7"
 				item: {
@@ -895,9 +919,10 @@
 			x: 7.5d
 			y: -1.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Earthy, creamy, and filling."]
+			description: ["{homestead.seasoned_and_settled.73ECA0417BF5A887.quest25.description0}"]
 			hide_dependency_lines: true
 			id: "73ECA0417BF5A887"
 			rewards: [
@@ -917,7 +942,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine Baked Potato, Fillet Steak, any Mushroom, any White Grape Wine, and a Bowl in a roaster."
+			subtitle: "{homestead.seasoned_and_settled.73ECA0417BF5A887.quest25.subtitle}"
 			tasks: [{
 				id: "0B45EACCECC5DF24"
 				item: {
@@ -932,9 +957,10 @@
 			x: 7.5d
 			y: 0.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["A veggie-friendly hearty meal."]
+			description: ["{homestead.seasoned_and_settled.0DC4B1C5BE9DB42F.quest26.description0}"]
 			hide_dependency_lines: true
 			id: "0DC4B1C5BE9DB42F"
 			rewards: [
@@ -954,7 +980,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine 2 Barley, a Potato, an Egg, any Cheese, Lettuce, and a Bowl in a roaster."
+			subtitle: "{homestead.seasoned_and_settled.0DC4B1C5BE9DB42F.quest26.subtitle}"
 			tasks: [{
 				id: "3F90052E8356419F"
 				item: "farm_and_charm:barley_patties_with_potatoes"
@@ -963,9 +989,10 @@
 			x: 7.5d
 			y: 1.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Classic breakfast of champions."]
+			description: ["{homestead.seasoned_and_settled.5E0774B25B0A9EF3.quest27.description0}"]
 			hide_dependency_lines: true
 			id: "5E0774B25B0A9EF3"
 			rewards: [
@@ -985,7 +1012,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine 2 Eggs, 2 Bacon, Butter, and a Bowl in a roaster."
+			subtitle: "{homestead.seasoned_and_settled.5E0774B25B0A9EF3.quest27.subtitle}"
 			tasks: [{
 				id: "2F4FB2B0ABD18424"
 				item: "farm_and_charm:bacon_with_eggs"
@@ -994,9 +1021,10 @@
 			x: 7.5d
 			y: 2.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["A modern classic with crispy flavor."]
+			description: ["{homestead.seasoned_and_settled.5674B725B3BE4222.quest28.description0}"]
 			hide_dependency_lines: true
 			id: "5674B725B3BE4222"
 			rewards: [
@@ -1016,7 +1044,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine Bacon, Chicken Parts, Pasta, Butter, and a Bowl in a roaster."
+			subtitle: "{homestead.seasoned_and_settled.5674B725B3BE4222.quest28.subtitle}"
 			tasks: [{
 				id: "0D18187478A1771A"
 				item: "farm_and_charm:chicken_wrapped_in_bacon"
@@ -1025,9 +1053,10 @@
 			x: 7.5d
 			y: 3.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Meaty and packed with nutrients."]
+			description: ["{homestead.seasoned_and_settled.3FDE083124399E2B.quest29.description0}"]
 			hide_dependency_lines: true
 			id: "3FDE083124399E2B"
 			rewards: [
@@ -1047,7 +1076,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine Raw Beef, a Carrot, Butter, a Potato, Beetroot, Lettuce, and a Bowl in a roaster."
+			subtitle: "{homestead.seasoned_and_settled.3FDE083124399E2B.quest29.subtitle}"
 			tasks: [{
 				id: "1F9A843839261EA6"
 				item: "farm_and_charm:beef_patty_with_vegetables"
@@ -1056,9 +1085,10 @@
 			x: 7.5d
 			y: 4.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["A seafaring plate of flavor."]
+			description: ["{homestead.seasoned_and_settled.5CA100F42C383BE9.quest30.description0}"]
 			hide_dependency_lines: true
 			id: "5CA100F42C383BE9"
 			rewards: [
@@ -1084,7 +1114,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine a Carrot, Lettuce, Raw Cod, Butter, and a Bowl in a roaster."
+			subtitle: "{homestead.seasoned_and_settled.5CA100F42C383BE9.quest30.subtitle}"
 			tasks: [{
 				id: "6241F21BF64F4C4A"
 				item: "farm_and_charm:cooked_cod"
@@ -1093,9 +1123,10 @@
 			x: 7.5d
 			y: 5.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Pink perfection from river to plate."]
+			description: ["{homestead.seasoned_and_settled.6036F8201C245910.quest31.description0}"]
 			hide_dependency_lines: true
 			id: "6036F8201C245910"
 			rewards: [
@@ -1115,7 +1146,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine Lettuce, Corn, Raw Salmon, Butter, and a Bowl in a roaster."
+			subtitle: "{homestead.seasoned_and_settled.6036F8201C245910.quest31.subtitle}"
 			tasks: [{
 				id: "5270B59BB8B991F6"
 				item: "farm_and_charm:cooked_salmon"
@@ -1124,9 +1155,10 @@
 			x: 8.5d
 			y: 5.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Fluffy, warm, and topped with sweetness."]
+			description: ["{homestead.seasoned_and_settled.7A41DB067F94E1B0.quest32.description0}"]
 			hide_dependency_lines: true
 			id: "7A41DB067F94E1B0"
 			rewards: [
@@ -1141,7 +1173,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine 3 Oats, Dough, Butter, a Strawberry, and a Bowl in a roaster."
+			subtitle: "{homestead.seasoned_and_settled.7A41DB067F94E1B0.quest32.subtitle}"
 			tasks: [{
 				id: "1008D00833A4F5B4"
 				item: "farm_and_charm:oat_pancake"
@@ -1150,9 +1182,10 @@
 			x: 9.5d
 			y: 5.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Farm-raised flavors come together."]
+			description: ["{homestead.seasoned_and_settled.506CA85F80486D2B.quest33.description0}"]
 			hide_dependency_lines: true
 			id: "506CA85F80486D2B"
 			rewards: [
@@ -1178,7 +1211,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine a Carrot, Corn, a Lamb Ham, Butter, and a Bowl in a roaster."
+			subtitle: "{homestead.seasoned_and_settled.506CA85F80486D2B.quest33.subtitle}"
 			tasks: [{
 				id: "45FC998D96A21A11"
 				item: "farm_and_charm:lamb_with_corn"
@@ -1187,9 +1220,10 @@
 			x: 8.5d
 			y: 0.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Protein-packed and oh so savory."]
+			description: ["{homestead.seasoned_and_settled.651A9CF62FC0C9EF.quest34.description0}"]
 			hide_dependency_lines: true
 			id: "651A9CF62FC0C9EF"
 			rewards: [
@@ -1215,7 +1249,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine 2 Minced Beef, Oat, Carrot, Butter, Potato and a Bowl in a Cooking Pot."
+			subtitle: "{homestead.seasoned_and_settled.651A9CF62FC0C9EF.quest34.subtitle}"
 			tasks: [{
 				id: "75C80E8A9E7CD785"
 				item: "farm_and_charm:sausage_with_oat_patty"
@@ -1224,9 +1258,10 @@
 			x: 8.5d
 			y: -5.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["A warm dish that brings everyone to the table."]
+			description: ["{homestead.seasoned_and_settled.2DA74F7B15EC2D78.quest35.description0}"]
 			hide_dependency_lines: true
 			id: "2DA74F7B15EC2D78"
 			rewards: [
@@ -1246,7 +1281,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine a Lamb Ham and Lettuce in a Stove."
+			subtitle: "{homestead.seasoned_and_settled.2DA74F7B15EC2D78.quest35.subtitle}"
 			tasks: [{
 				id: "1C169A1A8ABB1EE6"
 				item: "farm_and_charm:baked_lamb_ham"
@@ -1255,9 +1290,10 @@
 			x: -5.5d
 			y: 2.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Crusty and golden, just like grandma made."]
+			description: ["{homestead.seasoned_and_settled.443980ECCAAEEDF5.quest36.description0}"]
 			hide_dependency_lines: true
 			id: "443980ECCAAEEDF5"
 			rewards: [
@@ -1278,7 +1314,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine a Water Bucket and Dough in a Stove."
+			subtitle: "{homestead.seasoned_and_settled.443980ECCAAEEDF5.quest36.subtitle}"
 			tasks: [{
 				id: "7BF6CA12D741290F"
 				item: "farm_and_charm:farmers_bread"
@@ -1287,9 +1323,10 @@
 			x: -1.5d
 			y: 5.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["A sweet slice of nostalgia."]
+			description: ["{homestead.seasoned_and_settled.76DB2969869D77A1.quest37.description0}"]
 			hide_dependency_lines: true
 			id: "76DB2969869D77A1"
 			rewards: [
@@ -1309,7 +1346,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine Dough, a Strawberry, and Sugar in a Stove."
+			subtitle: "{homestead.seasoned_and_settled.76DB2969869D77A1.quest37.subtitle}"
 			tasks: [{
 				id: "22DC6138FEEF51DB"
 				item: "farm_and_charm:grandmothers_strawberry_cake"
@@ -1318,9 +1355,10 @@
 			x: -2.5d
 			y: 5.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Simple, savory, and deeply satisfying."]
+			description: ["{homestead.seasoned_and_settled.33F5D8BB67DEEA4E.quest38.description0}"]
 			hide_dependency_lines: true
 			id: "33F5D8BB67DEEA4E"
 			rewards: [
@@ -1335,7 +1373,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine Pasta and 2 onions separated into two spaces in a Stove."
+			subtitle: "{homestead.seasoned_and_settled.33F5D8BB67DEEA4E.quest38.subtitle}"
 			tasks: [{
 				id: "4E2D1343B449735A"
 				item: "farm_and_charm:pasta_with_onion_sauce"
@@ -1344,9 +1382,10 @@
 			x: -3.5d
 			y: 5.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Sweet, salty, and filling all at once."]
+			description: ["{homestead.seasoned_and_settled.2BAFC65CD3999B51.quest39.description0}"]
 			hide_dependency_lines: true
 			id: "2BAFC65CD3999B51"
 			rewards: [
@@ -1366,7 +1405,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine a Potato, Raw Beef, and a Honey Bottle in a Stove."
+			subtitle: "{homestead.seasoned_and_settled.2BAFC65CD3999B51.quest39.subtitle}"
 			tasks: [{
 				id: "559C587C52B65CA8"
 				item: "farm_and_charm:potato_with_roast_meat"
@@ -1375,9 +1414,10 @@
 			x: -4.5d
 			y: 5.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["A perfect pairing of pasta and protein."]
+			description: ["{homestead.seasoned_and_settled.770FB4E67777842B.quest40.description0}"]
 			hide_dependency_lines: true
 			id: "770FB4E67777842B"
 			rewards: [
@@ -1397,7 +1437,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine Pasta, Chicken Parts, and a Carrot in a Stove."
+			subtitle: "{homestead.seasoned_and_settled.770FB4E67777842B.quest40.subtitle}"
 			tasks: [{
 				id: "68EC229FDDD2914D"
 				item: "farm_and_charm:roasted_chicken"
@@ -1406,9 +1446,10 @@
 			x: 5.5d
 			y: 2.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Golden kernels with buttery char."]
+			description: ["{homestead.seasoned_and_settled.0527BF9F9CEB2744.quest41.description0}"]
 			hide_dependency_lines: true
 			id: "0527BF9F9CEB2744"
 			rewards: [
@@ -1428,7 +1469,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine 2 Corn separated into two spaces and Butter in a Stove."
+			subtitle: "{homestead.seasoned_and_settled.0527BF9F9CEB2744.quest41.subtitle}"
 			tasks: [{
 				id: "431E75B030CC288A"
 				item: "farm_and_charm:roasted_corn"
@@ -1437,9 +1478,10 @@
 			x: 1.5d
 			y: 5.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Hearty, homey, and holiday-ready."]
+			description: ["{homestead.seasoned_and_settled.36238556B2707752.quest42.description0}"]
 			hide_dependency_lines: true
 			id: "36238556B2707752"
 			rewards: [
@@ -1465,7 +1507,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine an Onion, Raw Chicken, and a Carrot in a Stove."
+			subtitle: "{homestead.seasoned_and_settled.36238556B2707752.quest42.subtitle}"
 			tasks: [{
 				id: "47E025209E6B05CE"
 				item: "farm_and_charm:stuffed_chicken"
@@ -1474,9 +1516,10 @@
 			x: 2.5d
 			y: 5.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Rustic flavor with a gamey twist."]
+			description: ["{homestead.seasoned_and_settled.17A24A93C891EAA7.quest43.description0}"]
 			hide_dependency_lines: true
 			id: "17A24A93C891EAA7"
 			rewards: [
@@ -1501,7 +1544,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine an Onion, Raw Rabbit, and a Carrot in a Stove."
+			subtitle: "{homestead.seasoned_and_settled.17A24A93C891EAA7.quest43.subtitle}"
 			tasks: [{
 				id: "32CFFE0E553C5BD7"
 				item: "farm_and_charm:stuffed_rabbit"
@@ -1510,9 +1553,10 @@
 			x: 3.5d
 			y: 5.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Decadent and worthy of royalty."]
+			description: ["{homestead.seasoned_and_settled.7FBC3615A5B722D0.quest44.description0}"]
 			hide_dependency_lines: true
 			id: "7FBC3615A5B722D0"
 			rewards: [
@@ -1532,7 +1576,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine Dough, Lamb Ham, and Mushroom Soup in a Stove."
+			subtitle: "{homestead.seasoned_and_settled.7FBC3615A5B722D0.quest44.subtitle}"
 			tasks: [{
 				id: "26DCD8A51A92EC48"
 				item: {
@@ -1547,9 +1591,10 @@
 			x: 4.5d
 			y: 5.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Creamy comfort with a culinary kick."]
+			description: ["{homestead.seasoned_and_settled.6F74FCD7E03CC337.quest45.description0}"]
 			hide_dependency_lines: true
 			id: "6F74FCD7E03CC337"
 			rewards: [
@@ -1575,7 +1620,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine Pasta, Chicken Parts, and any Wine in a Stove."
+			subtitle: "{homestead.seasoned_and_settled.6F74FCD7E03CC337.quest45.subtitle}"
 			tasks: [{
 				id: "6823BE7C560050EB"
 				item: {
@@ -1590,9 +1635,10 @@
 			x: -5.5d
 			y: 5.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["A wholesome platter of goodness."]
+			description: ["{homestead.seasoned_and_settled.55022F47D9CC8F99.quest46.description0}"]
 			hide_dependency_lines: true
 			id: "55022F47D9CC8F99"
 			rewards: [
@@ -1612,7 +1658,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine Chicken Parts, any White Grape Wine, and a Harvest Plate in a Stove."
+			subtitle: "{homestead.seasoned_and_settled.55022F47D9CC8F99.quest46.subtitle}"
 			tasks: [{
 				id: "2AA50A6B90D87979"
 				item: {
@@ -1627,9 +1673,10 @@
 			x: -5.5d
 			y: 4.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Layered joy in every bite."]
+			description: ["{homestead.seasoned_and_settled.63468A28AC75EC4E.quest47.description0}"]
 			hide_dependency_lines: true
 			id: "63468A28AC75EC4E"
 			rewards: [
@@ -1649,7 +1696,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine Pasta, any Cheese, and Bolognese in a Stove."
+			subtitle: "{homestead.seasoned_and_settled.63468A28AC75EC4E.quest47.subtitle}"
 			tasks: [{
 				id: "6CDE3909573232AF"
 				item: {
@@ -1664,9 +1711,10 @@
 			x: -5.5d
 			y: 3.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Sweet and sticky with a smoky edge."]
+			description: ["{homestead.seasoned_and_settled.6CABA4BAA0519C22.quest48.description0}"]
 			hide_dependency_lines: true
 			id: "6CABA4BAA0519C22"
 			rewards: [
@@ -1686,7 +1734,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine a Raw Porkchop, Honey Bottle, and any Red Grape Wine in a Stove."
+			subtitle: "{homestead.seasoned_and_settled.6CABA4BAA0519C22.quest48.subtitle}"
 			tasks: [{
 				id: "1B9060C9B6A1BF13"
 				item: {
@@ -1701,9 +1749,10 @@
 			x: 5.5d
 			y: 5.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["Savory, saucy, and full of flavor."]
+			description: ["{homestead.seasoned_and_settled.34D36742434DDABF.quest49.description0}"]
 			hide_dependency_lines: true
 			id: "34D36742434DDABF"
 			rewards: [
@@ -1729,7 +1778,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "Combine Raw Beef, a Carrot, and any Red Grape Wine in a Stove."
+			subtitle: "{homestead.seasoned_and_settled.34D36742434DDABF.quest49.subtitle}"
 			tasks: [{
 				id: "2D86BB0828CFE4F3"
 				item: {
@@ -1744,9 +1793,10 @@
 			x: 5.5d
 			y: 4.0d
 		}
+
 		{
 			dependencies: ["3E45BA90FA0F257A"]
-			description: ["A tropical taste of elegance."]
+			description: ["{homestead.seasoned_and_settled.2C1EA56A24E66529.quest50.description0}"]
 			hide_dependency_lines: true
 			id: "2C1EA56A24E66529"
 			rewards: [
@@ -1772,7 +1822,7 @@
 					xp: 250
 				}
 			]
-			subtitle: "Combine a Tropical Fish, Lettuce, and any White Grape Wine in a Stove."
+			subtitle: "{homestead.seasoned_and_settled.2C1EA56A24E66529.quest50.subtitle}"
 			tasks: [{
 				id: "11D282EA61C10760"
 				item: {
@@ -1787,11 +1837,12 @@
 			x: 5.5d
 			y: 3.0d
 		}
+
 		{
 			description: [
-				"The next essential tool in your kitchen is the Mincer. The mincer is where you will convert wheat into flour, and dough into pasta. It is also where you can turn meats obtained from animals into various different versions for cooking, such as raw mutton being ground into lamb ham or raw pork providing bacon. Once your mincer is placed you need only right click on it with the item to load it in and hold it down right click with an empty hand to grind it up."
+				"{homestead.seasoned_and_settled.5DA495EE70E0ABFD.quest51.description0}"
 				""
-				"&lTip: Food isn’t the only thing the mincer can grind up! It can also strip vanilla logs of bark for you or break iron into nuggets.&r"
+				"{homestead.seasoned_and_settled.5DA495EE70E0ABFD.quest51.description1}"
 			]
 			id: "5DA495EE70E0ABFD"
 			rewards: [
@@ -1813,7 +1864,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Mincer, Craft Flour, Craft Pasta"
+			subtitle: "{homestead.seasoned_and_settled.5DA495EE70E0ABFD.quest51.subtitle}"
 			tasks: [
 				{
 					id: "17DEA1D12557D3B3"
@@ -1831,19 +1882,20 @@
 					type: "item"
 				}
 			]
-			title: "On The Grind"
+			title: "{homestead.seasoned_and_settled.5DA495EE70E0ABFD.quest51.title}"
 			x: 2.5d
 			y: -5.0d
 		}
+
 		{
 			description: [
-				"With your crops watered you’ll want to begin exploring ways to enrich your soil for better growth. To do so you’ll want to craft a silo. "
+				"{homestead.seasoned_and_settled.56DD851614712E4F.quest52.description0}"
 				""
-				"To make 2 wooden silos all you need to do is combine 9 wooden planks in a crafting table. "
+				"{homestead.seasoned_and_settled.56DD851614712E4F.quest52.description1}"
 				""
-				"The silo is a useful structure that dries rotten flesh or bone meal into fertilizer. Combine 4 fertilizer together to create compost, an item that behaves like a multi-use bone meal with the added bonus of affecting more than one block. "
+				"{homestead.seasoned_and_settled.56DD851614712E4F.quest52.description2}"
 				""
-				"The silo is also important to the Let’s do Brewery mod and can be used to dry grains for beers. Silos can be stacked on top of each other to increase capacity and for better drying times."
+				"{homestead.seasoned_and_settled.56DD851614712E4F.quest52.description3}"
 			]
 			id: "56DD851614712E4F"
 			rewards: [
@@ -1860,17 +1912,16 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 4 wooden silos"
+			subtitle: "{homestead.seasoned_and_settled.56DD851614712E4F.quest52.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "11C69A91A2561F22"
 				item: { Count: 4, id: "farm_and_charm:silo_wood" }
 				type: "item"
 			}]
-			title: "A Song of Silos"
+			title: "{homestead.seasoned_and_settled.56DD851614712E4F.quest52.title}"
 			x: -1.5d
 			y: -5.0d
 		}
-	]
-	title: "Seasoned and Settled"
-}
+
+	]	title: "Seasoned and Settled"}

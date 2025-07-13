@@ -28,7 +28,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Rock by rock, you will build a kingdom… or at least a cosy cobbled deepslate hut."]
+			description: ["{homestead.roots_that_run_deep.5349E0C38C031F1A.quest0.description0}"]
 			id: "5349E0C38C031F1A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -36,7 +36,7 @@
 				table_id: 8585761087875589383L
 				type: "random"
 			}]
-			subtitle: "Gathering the Foundations"
+			subtitle: "{homestead.roots_that_run_deep.5349E0C38C031F1A.quest0.subtitle}"
 			tasks: [{
 				block: "minecraft:deepslate"
 				block_type: 0
@@ -45,12 +45,13 @@
 				type: "questsadditions:break"
 				value: 25000L
 			}]
-			title: "Stone by Stone"
+			title: "{homestead.roots_that_run_deep.5349E0C38C031F1A.quest0.title}"
 			x: -0.5d
 			y: -9.0d
 		}
+
 		{
-			description: ["Going deep? Take your torches and your bravery!"]
+			description: ["{homestead.roots_that_run_deep.1724A7754CB44ADF.quest1.description0}"]
 			id: "1724A7754CB44ADF"
 			rewards: [
 				{
@@ -70,7 +71,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Descend into the depths and get a bucket of lava, and smelt 64 Cobbled Deepslate into Deepslate"
+			subtitle: "{homestead.roots_that_run_deep.1724A7754CB44ADF.quest1.subtitle}"
 			tasks: [
 				{
 					id: "77CA2ED62176ABDF"
@@ -84,19 +85,20 @@
 					type: "item"
 				}
 			]
-			title: "Deep Delver"
+			title: "{homestead.roots_that_run_deep.1724A7754CB44ADF.quest1.title}"
 			x: 1.5d
 			y: -0.5d
 		}
+
 		{
-			description: ["How much wood could a woodchuck chuck if a woodchuck could chuck wood? A lot"]
+			description: ["{homestead.roots_that_run_deep.21C27F6552136974.quest2.description0}"]
 			id: "21C27F6552136974"
 			rewards: [{
 				id: "5F692DEA9B396350"
 				item: "sophisticatedbackpacks:backpack"
 				type: "item"
 			}]
-			subtitle: "Gather 1000 logs of any type."
+			subtitle: "{homestead.roots_that_run_deep.21C27F6552136974.quest2.subtitle}"
 			tasks: [{
 				count: 1000L
 				id: "1843858976F30887"
@@ -110,12 +112,13 @@
 				title: "Any #minecraft:logs"
 				type: "item"
 			}]
-			title: "Natural Reserves"
+			title: "{homestead.roots_that_run_deep.21C27F6552136974.quest2.title}"
 			x: 3.5d
 			y: -1.0d
 		}
+
 		{
-			description: ["Mushrooms: nature’s umbrella and a cozy friend."]
+			description: ["{homestead.roots_that_run_deep.7FFA209E3B6B99D9.quest3.description0}"]
 			id: "7FFA209E3B6B99D9"
 			rewards: [
 				{
@@ -130,7 +133,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Harvest 100 mushrooms."
+			subtitle: "{homestead.roots_that_run_deep.7FFA209E3B6B99D9.quest3.subtitle}"
 			tasks: [{
 				count: 100L
 				id: "458BF6234C94F652"
@@ -144,51 +147,54 @@
 				title: "Any #c:mushrooms"
 				type: "item"
 			}]
-			title: "Fungal Foundations"
+			title: "{homestead.roots_that_run_deep.7FFA209E3B6B99D9.quest3.title}"
 			x: 0.5d
 			y: -0.5d
 		}
+
 		{
-			description: ["Two buckets are better than one. Infinite water? Witchcraft."]
+			description: ["{homestead.roots_that_run_deep.01019DB76E61913F.quest4.description0}"]
 			id: "01019DB76E61913F"
 			rewards: [{
 				id: "549F6F666AB29AFC"
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
-			subtitle: "Collect 2 water buckets."
+			subtitle: "{homestead.roots_that_run_deep.01019DB76E61913F.quest4.subtitle}"
 			tasks: [{
 				count: 2L
 				id: "2373866F97906A51"
 				item: { Count: 2, id: "minecraft:water_bucket" }
 				type: "item"
 			}]
-			title: "Flow and Function"
+			title: "{homestead.roots_that_run_deep.01019DB76E61913F.quest4.title}"
 			x: -0.5d
 			y: -1.0d
 		}
+
 		{
 			dependencies: ["01019DB76E61913F"]
-			description: ["How is this?.. Possible?.."]
+			description: ["{homestead.roots_that_run_deep.3408C836B3D2E763.quest5.description0}"]
 			id: "3408C836B3D2E763"
 			rewards: [{
 				id: "2C90E75A70B6229B"
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "Craft a Bater Wucket"
+			subtitle: "{homestead.roots_that_run_deep.3408C836B3D2E763.quest5.subtitle}"
 			tasks: [{
 				id: "131CC80B35427382"
 				item: "things:bater_wucket"
 				title: "Craft 1x Bater Wucket"
 				type: "item"
 			}]
-			title: "Witchcraft"
+			title: "{homestead.roots_that_run_deep.3408C836B3D2E763.quest5.title}"
 			x: -1.5d
 			y: -1.0d
 		}
+
 		{
-			description: ["Bricks? Never heard of them. Smooth stone is where it’s at.&l"]
+			description: ["{homestead.roots_that_run_deep.43EC615E2B0F6AE5.quest6.description0}"]
 			id: "43EC615E2B0F6AE5"
 			rewards: [
 				{
@@ -209,7 +215,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Smelt 1000 stone."
+			subtitle: "{homestead.roots_that_run_deep.43EC615E2B0F6AE5.quest6.subtitle}"
 			tasks: [{
 				count: 1000L
 				id: "5672F51D7C2A04D6"
@@ -217,12 +223,13 @@
 				title: "Smelt 1,000 Stone"
 				type: "item"
 			}]
-			title: "Stoneheart"
+			title: "{homestead.roots_that_run_deep.43EC615E2B0F6AE5.quest6.title}"
 			x: -3.5d
 			y: -5.5d
 		}
+
 		{
-			description: ["Iron is the glue that holds this family together."]
+			description: ["{homestead.roots_that_run_deep.71D3DBF93EB85909.quest7.description0}"]
 			id: "71D3DBF93EB85909"
 			rewards: [
 				{
@@ -237,7 +244,7 @@
 					xp: 250
 				}
 			]
-			subtitle: "Mine 2048 iron ore."
+			subtitle: "{homestead.roots_that_run_deep.71D3DBF93EB85909.quest7.subtitle}"
 			tasks: [{
 				block: "minecraft:iron_ore"
 				block_type: 0
@@ -246,12 +253,13 @@
 				type: "questsadditions:break"
 				value: 2048L
 			}]
-			title: "Iron Veins"
+			title: "{homestead.roots_that_run_deep.71D3DBF93EB85909.quest7.title}"
 			x: 5.5d
 			y: -2.5d
 		}
+
 		{
-			description: ["There is one of you, 61 biomes, sounds like a challenge to me!"]
+			description: ["{homestead.roots_that_run_deep.117233DA2D10A7CD.quest8.description0}"]
 			id: "117233DA2D10A7CD"
 			rewards: [{
 				id: "013ABA4B9993EA88"
@@ -294,7 +302,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Explore all Regions Unexplored Biomes"
+			subtitle: "{homestead.roots_that_run_deep.117233DA2D10A7CD.quest8.subtitle}"
 			tasks: [{
 				advancement: "regions_unexplored:pioneer"
 				criterion: ""
@@ -302,12 +310,13 @@
 				title: "Explore all Regions Unexplored Biomes"
 				type: "advancement"
 			}]
-			title: "Grounded Traveler"
+			title: "{homestead.roots_that_run_deep.117233DA2D10A7CD.quest8.title}"
 			x: -3.5d
 			y: -2.5d
 		}
+
 		{
-			description: ["The ultimate cozy collection, but where are they?"]
+			description: ["{homestead.roots_that_run_deep.4EEDFDE36D6699E1.quest9.description0}"]
 			id: "4EEDFDE36D6699E1"
 			rewards: [
 				{
@@ -322,7 +331,7 @@
 					xp: 2500
 				}
 			]
-			subtitle: "Collect The Entirety of The CozyCord Team Plushies"
+			subtitle: "{homestead.roots_that_run_deep.4EEDFDE36D6699E1.quest9.subtitle}"
 			tasks: [
 				{
 					id: "5BB23C47C1BD79D0"
@@ -375,12 +384,13 @@
 					type: "item"
 				}
 			]
-			title: "Mystery Inc."
+			title: "{homestead.roots_that_run_deep.4EEDFDE36D6699E1.quest9.title}"
 			x: 2.5d
 			y: -1.0d
 		}
+
 		{
-			description: ["Collect &levery&r legendary upgrade to harness the power of the mines."]
+			description: ["{homestead.roots_that_run_deep.157AE0A435D66D95.quest10.description0}"]
 			id: "157AE0A435D66D95"
 			rewards: [
 				{
@@ -395,7 +405,7 @@
 					xp: 5000
 				}
 			]
-			subtitle: "Collect all Mythic Upgrades Pickaxes."
+			subtitle: "{homestead.roots_that_run_deep.157AE0A435D66D95.quest10.subtitle}"
 			tasks: [
 				{
 					id: "733E179EE8BC9CC2"
@@ -475,12 +485,13 @@
 					type: "item"
 				}
 			]
-			title: "Upgrades Upgrades Upgrades!"
+			title: "{homestead.roots_that_run_deep.157AE0A435D66D95.quest10.title}"
 			x: 5.5d
 			y: -4.5d
 		}
+
 		{
-			description: ["The dead know better than to underestimate you now!"]
+			description: ["{homestead.roots_that_run_deep.079E15B555F3E4A4.quest11.description0}"]
 			id: "079E15B555F3E4A4"
 			optional: true
 			rewards: [{
@@ -489,19 +500,20 @@
 				table_id: 8585761087875589383L
 				type: "random"
 			}]
-			subtitle: "Kill 1,000 Zombies."
+			subtitle: "{homestead.roots_that_run_deep.079E15B555F3E4A4.quest11.subtitle}"
 			tasks: [{
 				entity: "minecraft:zombie"
 				id: "548429A51CC53870"
 				type: "kill"
 				value: 1000L
 			}]
-			title: "Undead and Over It"
+			title: "{homestead.roots_that_run_deep.079E15B555F3E4A4.quest11.title}"
 			x: -2.5d
 			y: -1.5d
 		}
+
 		{
-			description: ["You have found a Ribbits Village! If not friends, why friend shaped?"]
+			description: ["{homestead.roots_that_run_deep.3F7CB7A15424A77D.quest12.description0}"]
 			id: "3F7CB7A15424A77D"
 			rewards: [
 				{
@@ -516,7 +528,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Visit A Ribbit's Village!"
+			subtitle: "{homestead.roots_that_run_deep.3F7CB7A15424A77D.quest12.subtitle}"
 			tasks: [{
 				icon: "perfectplushies:frog_plushie"
 				id: "76B99963C5C6A090"
@@ -524,12 +536,13 @@
 				title: "Visit A Ribbit's Village!"
 				type: "structure"
 			}]
-			title: "Hop On In"
+			title: "{homestead.roots_that_run_deep.3F7CB7A15424A77D.quest12.title}"
 			x: 4.5d
 			y: -1.5d
 		}
+
 		{
-			description: ["Catch &levery&r Go Fish crate to become the one and only angler of the cozy seas."]
+			description: ["{homestead.roots_that_run_deep.7B8899D1A8FEAF3C.quest13.description0}"]
 			id: "7B8899D1A8FEAF3C"
 			rewards: [
 				{
@@ -544,7 +557,7 @@
 					xp: 500
 				}
 			]
-			subtitle: "Collect 1x of each Go Fish crate"
+			subtitle: "{homestead.roots_that_run_deep.7B8899D1A8FEAF3C.quest13.subtitle}"
 			tasks: [
 				{
 					id: "091EAD29AB845077"
@@ -607,12 +620,13 @@
 					type: "item"
 				}
 			]
-			title: "Catch ’Em All"
+			title: "{homestead.roots_that_run_deep.7B8899D1A8FEAF3C.quest13.title}"
 			x: 5.5d
 			y: -3.5d
 		}
+
 		{
-			description: ["Got yourself a chest monster? Build a storage drawer system to tame the beast."]
+			description: ["{homestead.roots_that_run_deep.044EA145ED8013B7.quest14.description0}"]
 			id: "044EA145ED8013B7"
 			rewards: [
 				{
@@ -631,7 +645,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Create a Storage Drawer's system"
+			subtitle: "{homestead.roots_that_run_deep.044EA145ED8013B7.quest14.subtitle}"
 			tasks: [
 				{
 					id: "450B162A1AF95E68"
@@ -648,16 +662,17 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(storagedrawers:drawers)"
 						}
 					}
-					title: "Any #storagedrawers:drawers"
+					title: "{homestead.roots_that_run_deep.044EA145ED8013B7.quest14.task1.title}"
 					type: "item"
 				}
 			]
-			title: "Drawer Décor"
+			title: "{homestead.roots_that_run_deep.044EA145ED8013B7.quest14.title}"
 			x: -3.5d
 			y: -4.5d
 		}
+
 		{
-			description: ["Collect &levery&r sapling from &levery&r mod in the game."]
+			description: ["{homestead.roots_that_run_deep.6EFBF3915FF714F2.quest15.description0}"]
 			id: "6EFBF3915FF714F2"
 			rewards: [{
 				id: "42FA63A1748BDFD3"
@@ -684,7 +699,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Collect All Saplings"
+			subtitle: "{homestead.roots_that_run_deep.6EFBF3915FF714F2.quest15.subtitle}"
 			tasks: [
 				{
 					id: "7D15F7067E6D5FB8"
@@ -1237,12 +1252,13 @@
 					type: "item"
 				}
 			]
-			title: "Wood you like some variety?"
+			title: "{homestead.roots_that_run_deep.6EFBF3915FF714F2.quest15.title}"
 			x: -3.5d
 			y: -6.5d
 		}
+
 		{
-			description: ["The worms are eternally grateful."]
+			description: ["{homestead.roots_that_run_deep.7E6DAB4B18ABC0EF.quest16.description0}"]
 			id: "7E6DAB4B18ABC0EF"
 			rewards: [
 				{
@@ -1289,7 +1305,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Till 1000 Farmland"
+			subtitle: "{homestead.roots_that_run_deep.7E6DAB4B18ABC0EF.quest16.subtitle}"
 			tasks: [{
 				block: "minecraft:farmland"
 				block_type: 0
@@ -1299,12 +1315,13 @@
 				type: "questsadditions:use"
 				value: 1000L
 			}]
-			title: "Worm Whisperer"
+			title: "{homestead.roots_that_run_deep.7E6DAB4B18ABC0EF.quest16.title}"
 			x: 5.5d
 			y: -5.5d
 		}
+
 		{
-			description: ["A potato for your thoughts?"]
+			description: ["{homestead.roots_that_run_deep.1F393F62C247D315.quest17.description0}"]
 			id: "1F393F62C247D315"
 			rewards: [
 				{
@@ -1345,7 +1362,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Harvest 250 carrots, 250 potatoes, 250 onions and 250 tomatoes."
+			subtitle: "{homestead.roots_that_run_deep.1F393F62C247D315.quest17.subtitle}"
 			tasks: [
 				{
 					count: 250L
@@ -1372,12 +1389,13 @@
 					type: "item"
 				}
 			]
-			title: "Root Veggie Royalty"
+			title: "{homestead.roots_that_run_deep.1F393F62C247D315.quest17.title}"
 			x: 5.5d
 			y: -6.5d
 		}
+
 		{
-			description: ["Open every chest you see, it may have loot! It may not! It probably will."]
+			description: ["{homestead.roots_that_run_deep.06D0E4C501443773.quest18.description0}"]
 			id: "06D0E4C501443773"
 			rewards: [
 				{
@@ -1393,19 +1411,20 @@
 					type: "random"
 				}
 			]
-			subtitle: "Open 100 loot chests"
+			subtitle: "{homestead.roots_that_run_deep.06D0E4C501443773.quest18.subtitle}"
 			tasks: [{
 				advancement: "lootr:100loot"
 				criterion: ""
 				id: "483E3A8ABA33DD6D"
 				type: "advancement"
 			}]
-			title: "Loot Goblin Supreme"
+			title: "{homestead.roots_that_run_deep.06D0E4C501443773.quest18.title}"
 			x: 5.5d
 			y: -7.5d
 		}
+
 		{
-			description: ["E-I-E-I-O-M-G that’s a lot of moo!"]
+			description: ["{homestead.roots_that_run_deep.1CEA1E67FC3A8B0F.quest19.description0}"]
 			id: "1CEA1E67FC3A8B0F"
 			rewards: [
 				{
@@ -1446,7 +1465,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Breed 100 Cows"
+			subtitle: "{homestead.roots_that_run_deep.1CEA1E67FC3A8B0F.quest19.subtitle}"
 			tasks: [{
 				checkItem: false
 				entity: "minecraft:cow"
@@ -1455,15 +1474,16 @@
 				type: "questsadditions:interaction"
 				value: 100L
 			}]
-			title: "Old McCozy Had a Farm"
+			title: "{homestead.roots_that_run_deep.1CEA1E67FC3A8B0F.quest19.title}"
 			x: -3.5d
 			y: -7.5d
 		}
+
 		{
 			description: [
-				"All those steps and you found… nothing. Congrats! "
+				"{homestead.roots_that_run_deep.1793D9CDA5CB10C7.quest20.description0}"
 				""
-				"&8&n&oNo the numbers are not wrong, one whole block is worth 128! So multiply that by 50,000 and you get 6.4 Million!&r&r&r"
+				"{homestead.roots_that_run_deep.1793D9CDA5CB10C7.quest20.description1}"
 			]
 			id: "1793D9CDA5CB10C7"
 			rewards: [{
@@ -1477,7 +1497,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Reach 50,000 blocks walked"
+			subtitle: "{homestead.roots_that_run_deep.1793D9CDA5CB10C7.quest20.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1492,12 +1512,13 @@
 				type: "stat"
 				value: 6400000
 			}]
-			title: "Diggy Diggy Stats"
+			title: "{homestead.roots_that_run_deep.1793D9CDA5CB10C7.quest20.title}"
 			x: -2.5d
 			y: -8.5d
 		}
+
 		{
-			description: ["You’re not obsessed, you’re rooted for growth!"]
+			description: ["{homestead.roots_that_run_deep.2A573FC228D165BA.quest21.description0}"]
 			id: "2A573FC228D165BA"
 			rewards: [
 				{
@@ -1535,7 +1556,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Collect 500 of any flower"
+			subtitle: "{homestead.roots_that_run_deep.2A573FC228D165BA.quest21.subtitle}"
 			tasks: [{
 				count: 500L
 				id: "15CB133A7A9C1CB7"
@@ -1549,12 +1570,13 @@
 				title: "Any #minecraft:flowers"
 				type: "item"
 			}]
-			title: "Flora Fanatic"
+			title: "{homestead.roots_that_run_deep.2A573FC228D165BA.quest21.title}"
 			x: 4.5d
 			y: -8.5d
 		}
+
 		{
-			description: ["Melting rocks for fun, you are the rock now! "]
+			description: ["{homestead.roots_that_run_deep.7836400749B807FA.quest22.description0}"]
 			id: "7836400749B807FA"
 			rewards: [
 				{
@@ -1569,7 +1591,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "Smelt 25,000 stone"
+			subtitle: "{homestead.roots_that_run_deep.7836400749B807FA.quest22.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 25000L
@@ -1577,12 +1599,13 @@
 				item: "minecraft:stone"
 				type: "item"
 			}]
-			title: "Stuck Between a Rock and a…"
+			title: "{homestead.roots_that_run_deep.7836400749B807FA.quest22.title}"
 			x: 0.5d
 			y: -9.5d
 		}
+
 		{
-			description: ["Sweet but it’ll stab ya."]
+			description: ["{homestead.roots_that_run_deep.575C8E7F528E4573.quest23.description0}"]
 			id: "575C8E7F528E4573"
 			rewards: [
 				{
@@ -1622,7 +1645,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Harvest 500 sweet berries, 500 Strawberries, and 500 Blueberries."
+			subtitle: "{homestead.roots_that_run_deep.575C8E7F528E4573.quest23.subtitle}"
 			tasks: [
 				{
 					count: 500L
@@ -1644,12 +1667,13 @@
 					type: "item"
 				}
 			]
-			title: "Berry Bonanza"
+			title: "{homestead.roots_that_run_deep.575C8E7F528E4573.quest23.title}"
 			x: 3.5d
 			y: -9.0d
 		}
+
 		{
-			description: ["Look at you go! Learning a skele&lton.&r"]
+			description: ["{homestead.roots_that_run_deep.415E1E2E1F0FD0BC.quest24.description0}"]
 			id: "415E1E2E1F0FD0BC"
 			rewards: [
 				{
@@ -1685,19 +1709,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 500 bonemeal"
+			subtitle: "{homestead.roots_that_run_deep.415E1E2E1F0FD0BC.quest24.subtitle}"
 			tasks: [{
 				count: 500L
 				id: "584F224EB964C72B"
 				item: "minecraft:bone_meal"
 				type: "item"
 			}]
-			title: "Fertilizer Fanatic"
+			title: "{homestead.roots_that_run_deep.415E1E2E1F0FD0BC.quest24.title}"
 			x: 2.5d
 			y: -9.0d
 		}
+
 		{
-			description: ["It may be weird and ugly, but you love it now."]
+			description: ["{homestead.roots_that_run_deep.08783F659C8946BE.quest25.description0}"]
 			id: "08783F659C8946BE"
 			rewards: [
 				{
@@ -1712,7 +1737,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "Collect 15,000 tuff blocks"
+			subtitle: "{homestead.roots_that_run_deep.08783F659C8946BE.quest25.subtitle}"
 			tasks: [{
 				block: "minecraft:tuff"
 				block_type: 0
@@ -1721,12 +1746,13 @@
 				type: "questsadditions:break"
 				value: 15000L
 			}]
-			title: "Tuff Enough?"
+			title: "{homestead.roots_that_run_deep.08783F659C8946BE.quest25.title}"
 			x: 1.5d
 			y: -9.5d
 		}
+
 		{
-			description: ["Dirt glorious dirt! It is everywhere! "]
+			description: ["{homestead.roots_that_run_deep.04556BCB5B4EE188.quest26.description0}"]
 			id: "04556BCB5B4EE188"
 			rewards: [
 				{
@@ -1766,7 +1792,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Place 5,000 dirt blocks"
+			subtitle: "{homestead.roots_that_run_deep.04556BCB5B4EE188.quest26.subtitle}"
 			tasks: [{
 				block: "minecraft:dirt"
 				block_type: 0
@@ -1776,15 +1802,16 @@
 				type: "questsadditions:place"
 				value: 5000L
 			}]
-			title: "Dirt Depot"
+			title: "{homestead.roots_that_run_deep.04556BCB5B4EE188.quest26.title}"
 			x: -3.5d
 			y: -3.5d
 		}
+
 		{
 			description: [
-				"Do you even have lungs? You have become one with water."
+				"{homestead.roots_that_run_deep.1DAFA16DACE341E9.quest27.description0}"
 				""
-				"&8&n&oThe numbers are still not wrong, swimming one block is worth 128! Then multiply that by 10,000 and you get 1.28 Million!&r&r&r"
+				"{homestead.roots_that_run_deep.1DAFA16DACE341E9.quest27.description1}"
 			]
 			id: "1DAFA16DACE341E9"
 			rewards: [
@@ -1822,7 +1849,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Swim 10,000 blocks"
+			subtitle: "{homestead.roots_that_run_deep.1DAFA16DACE341E9.quest27.subtitle}"
 			tasks: [{
 				icon: "minecraft:water_bucket"
 				id: "30AAE4195248A5E7"
@@ -1830,10 +1857,9 @@
 				type: "stat"
 				value: 1280000
 			}]
-			title: "Swimfan 3000"
+			title: "{homestead.roots_that_run_deep.1DAFA16DACE341E9.quest27.title}"
 			x: -1.5d
 			y: -9.0d
 		}
-	]
-	title: "Roots That Run Deep"
-}
+
+	]	title: "Roots That Run Deep"}

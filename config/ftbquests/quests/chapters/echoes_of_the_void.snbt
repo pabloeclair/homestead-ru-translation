@@ -116,7 +116,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Defeat the Ender Dragon and claim the egg it leaves behind. The beginning of your End journey."]
+			description: ["{homestead.echoes_of_the_void.71E074AFC26F3300.quest0.description0}"]
 			id: "71E074AFC26F3300"
 			rewards: [
 				{
@@ -138,7 +138,7 @@
 			]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Kill the Ender Dragon and obtain the Dragon Egg."
+			subtitle: "{homestead.echoes_of_the_void.71E074AFC26F3300.quest0.subtitle}"
 			tasks: [
 				{
 					entity: "minecraft:ender_dragon"
@@ -152,13 +152,14 @@
 					type: "item"
 				}
 			]
-			title: "The End?"
+			title: "{homestead.echoes_of_the_void.71E074AFC26F3300.quest0.title}"
 			x: -2.0d
 			y: -8.5d
 		}
+
 		{
 			dependencies: ["71E074AFC26F3300"]
-			description: ["Find and enter an End City structure—your gateway to advanced loot and danger."]
+			description: ["{homestead.echoes_of_the_void.2995FF9F44D3DEF6.quest1.description0}"]
 			hide_dependency_lines: true
 			id: "2995FF9F44D3DEF6"
 			rewards: [
@@ -173,23 +174,24 @@
 					xp: 25
 				}
 			]
-			subtitle: "Visit an End City."
+			subtitle: "{homestead.echoes_of_the_void.2995FF9F44D3DEF6.quest1.subtitle}"
 			tasks: [{
 				icon: "minecraft:purpur_block"
 				id: "4329E5D03784095A"
 				structure: "#minecraft:end_city"
 				type: "structure"
 			}]
-			title: "City of Light"
+			title: "{homestead.echoes_of_the_void.2995FF9F44D3DEF6.quest1.title}"
 			x: -11.142857142857139d
 			y: -1.0892857142857082d
 		}
+
 		{
 			dependencies: ["71E074AFC26F3300"]
 			description: [
-				"The End has more than just dragons and danger—it has dinner."
-				"With the End Knife, you can carve rare meats, and the End Stove lets you cook them to perfection in purple, void-touched style."
-				"Slice, sizzle, and serve with interdimensional flair!"
+				"{homestead.echoes_of_the_void.020CCFA85761CC69.quest2.description0}"
+				"{homestead.echoes_of_the_void.020CCFA85761CC69.quest2.description1}"
+				"{homestead.echoes_of_the_void.020CCFA85761CC69.quest2.description2}"
 			]
 			hide_dependency_lines: true
 			id: "020CCFA85761CC69"
@@ -210,7 +212,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Craft the End Knife and End Stove from Ends Delight."
+			subtitle: "{homestead.echoes_of_the_void.020CCFA85761CC69.quest2.subtitle}"
 			tasks: [
 				{
 					id: "63B713A2AA4D87EE"
@@ -229,15 +231,16 @@
 					type: "item"
 				}
 			]
-			title: "A Taste Beyond the End"
+			title: "{homestead.echoes_of_the_void.020CCFA85761CC69.quest2.title}"
 			x: 5.357142857142854d
 			y: -7.053571428571427d
 		}
+
 		{
 			dependencies: ["71E074AFC26F3300"]
 			description: [
-				"The End teaches you to value a second chance."
-				"Craft a Respawn Anchor—a block normally for the Nether—by combining Crying Obsidian (often found in Bastions) with Glowstone. It’s a safety net, forged across dimensions.It's Just Iron."
+				"{homestead.echoes_of_the_void.5FC6F8D6CC85DB8E.quest3.description0}"
+				"{homestead.echoes_of_the_void.5FC6F8D6CC85DB8E.quest3.description1}"
 			]
 			hide_dependency_lines: true
 			id: "5FC6F8D6CC85DB8E"
@@ -266,19 +269,20 @@
 					xp: 50
 				}
 			]
-			subtitle: "Craft and place a Respawn Anchor using Crying Obsidian and Glowstone."
+			subtitle: "{homestead.echoes_of_the_void.5FC6F8D6CC85DB8E.quest3.subtitle}"
 			tasks: [{
 				id: "4F4F3D0768A37EF6"
 				item: "minecraft:respawn_anchor"
 				type: "item"
 			}]
-			title: "Anchored in the End"
+			title: "{homestead.echoes_of_the_void.5FC6F8D6CC85DB8E.quest3.title}"
 			x: -8.428571428571423d
 			y: -2.375d
 		}
+
 		{
 			dependencies: ["71E074AFC26F3300"]
-			description: ["Find and collect the Elytra from an End Ship. You’ll need it to truly master the skies."]
+			description: ["{homestead.echoes_of_the_void.339BC5D3A24DFC85.quest4.description0}"]
 			hide_dependency_lines: true
 			id: "339BC5D3A24DFC85"
 			rewards: [
@@ -302,7 +306,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Obtain an Elytra."
+			subtitle: "{homestead.echoes_of_the_void.339BC5D3A24DFC85.quest4.subtitle}"
 			tasks: [{
 				id: "3C623E2794664DCD"
 				item: {
@@ -314,13 +318,14 @@
 				}
 				type: "item"
 			}]
-			title: "Skybound"
+			title: "{homestead.echoes_of_the_void.339BC5D3A24DFC85.quest4.title}"
 			x: 6.285714285714278d
 			y: -5.125d
 		}
+
 		{
 			dependencies: ["71E074AFC26F3300"]
-			description: ["Dragon Heads are found at the tips of End Ships. Don’t fall trying to grab one!"]
+			description: ["{homestead.echoes_of_the_void.58629F2E11B31263.quest5.description0}"]
 			hide_dependency_lines: true
 			id: "58629F2E11B31263"
 			rewards: [
@@ -335,19 +340,20 @@
 					xp: 25
 				}
 			]
-			subtitle: "Obtain a Dragon Head."
+			subtitle: "{homestead.echoes_of_the_void.58629F2E11B31263.quest5.subtitle}"
 			tasks: [{
 				id: "775F238A76D4B13F"
 				item: "minecraft:dragon_head"
 				type: "item"
 			}]
-			title: "Heads Up"
+			title: "{homestead.echoes_of_the_void.58629F2E11B31263.quest5.title}"
 			x: -7.642857142857146d
 			y: -6.589285714285715d
 		}
+
 		{
 			dependencies: ["71E074AFC26F3300"]
-			description: ["Defeat 10 Shulkers in End Cities to earn shells—and dodge that levitation!"]
+			description: ["{homestead.echoes_of_the_void.0A2AB555C1974A7A.quest6.description0}"]
 			hide_dependency_lines: true
 			id: "0A2AB555C1974A7A"
 			optional: true
@@ -364,20 +370,21 @@
 					xp: 25
 				}
 			]
-			subtitle: "Kill 10 Shulkers."
+			subtitle: "{homestead.echoes_of_the_void.0A2AB555C1974A7A.quest6.subtitle}"
 			tasks: [{
 				entity: "minecraft:shulker"
 				id: "3EC157D866C00BA4"
 				type: "kill"
 				value: 10L
 			}]
-			title: "Shell Shocked"
+			title: "{homestead.echoes_of_the_void.0A2AB555C1974A7A.quest6.title}"
 			x: 4.0714285714285765d
 			y: -3.875d
 		}
+
 		{
 			dependencies: ["71E074AFC26F3300"]
-			description: ["These mini-menaces spawn when throwing Ender Pearls. Hunt them down!"]
+			description: ["{homestead.echoes_of_the_void.32EC0250CABD4D4B.quest7.description0}"]
 			hide_dependency_lines: true
 			id: "32EC0250CABD4D4B"
 			optional: true
@@ -387,23 +394,24 @@
 				item: "minecraft:ender_pearl"
 				type: "item"
 			}]
-			subtitle: "Kill 5 Endermites."
+			subtitle: "{homestead.echoes_of_the_void.32EC0250CABD4D4B.quest7.subtitle}"
 			tasks: [{
 				entity: "minecraft:endermite"
 				id: "3484E8ED1BE01645"
 				type: "kill"
 				value: 5L
 			}]
-			title: "Endermite Exterminator"
+			title: "{homestead.echoes_of_the_void.32EC0250CABD4D4B.quest7.title}"
 			x: 7.857142857142854d
 			y: -2.0535714285714306d
 		}
+
 		{
 			dependencies: ["71E074AFC26F3300"]
 			description: [
-				"They teleport, they scream, they hold random blocks."
-				"But when you stare too long... things get ugly."
-				"Time to make the End a little quieter."
+				"{homestead.echoes_of_the_void.1AA6D1C2371E16BE.quest8.description0}"
+				"{homestead.echoes_of_the_void.1AA6D1C2371E16BE.quest8.description1}"
+				"{homestead.echoes_of_the_void.1AA6D1C2371E16BE.quest8.description2}"
 			]
 			hide_dependency_lines: true
 			id: "1AA6D1C2371E16BE"
@@ -425,20 +433,21 @@
 					xp: 50
 				}
 			]
-			subtitle: "Kill 50 Endermen."
+			subtitle: "{homestead.echoes_of_the_void.1AA6D1C2371E16BE.quest8.subtitle}"
 			tasks: [{
 				entity: "minecraft:enderman"
 				id: "4DA10F79DDFE8A14"
 				type: "kill"
 				value: 50L
 			}]
-			title: "Blink and You'll Miss It"
+			title: "{homestead.echoes_of_the_void.1AA6D1C2371E16BE.quest8.title}"
 			x: 3.3214285714285694d
 			y: -0.5535714285714306d
 		}
+
 		{
 			dependencies: ["71E074AFC26F3300"]
-			description: ["Use a glass bottle on the Ender Dragon’s breath cloud to collect this brewing essential."]
+			description: ["{homestead.echoes_of_the_void.09B37CBD3321EF79.quest9.description0}"]
 			hide_dependency_lines: true
 			id: "09B37CBD3321EF79"
 			rewards: [
@@ -459,19 +468,20 @@
 					xp: 25
 				}
 			]
-			subtitle: "Obtain Dragon’s Breath."
+			subtitle: "{homestead.echoes_of_the_void.09B37CBD3321EF79.quest9.subtitle}"
 			tasks: [{
 				id: "3F643E72E55A718D"
 				item: "minecraft:dragon_breath"
 				type: "item"
 			}]
-			title: "Dragon’s Breath"
+			title: "{homestead.echoes_of_the_void.09B37CBD3321EF79.quest9.title}"
 			x: -10.107142857142854d
 			y: -4.053571428571431d
 		}
+
 		{
 			dependencies: ["71E074AFC26F3300"]
-			description: ["Break a Chorus Plant to collect both its flower and fruit. Mysterious and versatile."]
+			description: ["{homestead.echoes_of_the_void.3F74F0C9AE371727.quest10.description0}"]
 			hide_dependency_lines: true
 			id: "3F74F0C9AE371727"
 			rewards: [
@@ -487,7 +497,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Obtain a Chorus Flower and Fruit."
+			subtitle: "{homestead.echoes_of_the_void.3F74F0C9AE371727.quest10.subtitle}"
 			tasks: [
 				{
 					id: "7451FA0DBA6BD259"
@@ -500,10 +510,9 @@
 					type: "item"
 				}
 			]
-			title: "Chorus Collector"
+			title: "{homestead.echoes_of_the_void.3F74F0C9AE371727.quest10.title}"
 			x: -9.464285714285715d
 			y: -8.375d
 		}
-	]
-	title: "Echoes of the Void"
-}
+
+	]	title: "Echoes of the Void"}

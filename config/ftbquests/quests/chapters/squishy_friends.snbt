@@ -28,7 +28,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Can't believe you found me breh"]
+			description: ["{homestead.squishy_friends.5054F72F0C199008.quest0.description0}"]
 			id: "5054F72F0C199008"
 			rewards: [
 				{
@@ -50,18 +50,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a Xodk Plushie"
+			subtitle: "{homestead.squishy_friends.5054F72F0C199008.quest0.subtitle}"
 			tasks: [{
 				id: "022D354FD1A0BB7E"
 				item: "perfectplushies:nyf_plushie"
 				type: "item"
 			}]
-			title: "Best Admin Ever"
+			title: "{homestead.squishy_friends.5054F72F0C199008.quest0.title}"
 			x: -7.0d
 			y: -4.0d
 		}
+
 		{
-			description: ["You rolled a 20!"]
+			description: ["{homestead.squishy_friends.5B9207614E6F8ED6.quest1.description0}"]
 			id: "5B9207614E6F8ED6"
 			rewards: [
 				{
@@ -88,18 +89,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a Yuki Plushie"
+			subtitle: "{homestead.squishy_friends.5B9207614E6F8ED6.quest1.subtitle}"
 			tasks: [{
 				id: "472E169745DC0760"
 				item: "perfectplushies:sirjain_plushie"
 				type: "item"
 			}]
-			title: "Best Artist I Know!"
+			title: "{homestead.squishy_friends.5B9207614E6F8ED6.quest1.title}"
 			x: -7.0d
 			y: -1.5d
 		}
+
 		{
-			description: ["The biggest bully you will ever meet"]
+			description: ["{homestead.squishy_friends.3825CF6442A89F11.quest2.description0}"]
 			id: "3825CF6442A89F11"
 			rewards: [
 				{
@@ -118,18 +120,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a Meleon Plushie"
+			subtitle: "{homestead.squishy_friends.3825CF6442A89F11.quest2.subtitle}"
 			tasks: [{
 				id: "06583F9E31B465E3"
 				item: "perfectplushies:sizableshrimp_plushie"
 				type: "item"
 			}]
-			title: "Worst Admin Ever"
+			title: "{homestead.squishy_friends.3825CF6442A89F11.quest2.title}"
 			x: -7.0d
 			y: 1.0d
 		}
+
 		{
-			description: ["The Noblest of Knights roaming in the Kingdom of Homestead"]
+			description: ["{homestead.squishy_friends.74A40509071E96CE.quest3.description0}"]
 			id: "74A40509071E96CE"
 			rewards: [
 				{
@@ -199,18 +202,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a SirWagselot Plushie"
+			subtitle: "{homestead.squishy_friends.74A40509071E96CE.quest3.subtitle}"
 			tasks: [{
 				id: "0FCB616821E2461E"
 				item: "perfectplushies:tslat_plushie"
 				type: "item"
 			}]
-			title: "Knight in Shining Armor"
+			title: "{homestead.squishy_friends.74A40509071E96CE.quest3.title}"
 			x: -7.0d
 			y: 3.5d
 		}
+
 		{
-			description: ["You're my friend now!"]
+			description: ["{homestead.squishy_friends.464AD5BA52D693F6.quest4.description0}"]
 			id: "464AD5BA52D693F6"
 			rewards: [
 				{
@@ -238,21 +242,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a Rod Plushie"
+			subtitle: "{homestead.squishy_friends.464AD5BA52D693F6.quest4.subtitle}"
 			tasks: [{
 				id: "4B4AA9F9741109FA"
 				item: "perfectplushies:silk_plushie"
 				type: "item"
 			}]
-			title: "Preschool Bud"
+			title: "{homestead.squishy_friends.464AD5BA52D693F6.quest4.title}"
 			x: -5.0d
 			y: 4.5d
 		}
+
 		{
 			description: [
-				"&d&lBUFFOONERY&r&r"
+				"{homestead.squishy_friends.5B68F276515C6987.quest5.description0}"
 				""
-				"&4&lPOOPY HEAD NO MACARONI&r&r"
+				"{homestead.squishy_friends.5B68F276515C6987.quest5.description1}"
 			]
 			id: "5B68F276515C6987"
 			rewards: [
@@ -267,18 +272,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a Mama Plushie"
+			subtitle: "{homestead.squishy_friends.5B68F276515C6987.quest5.subtitle}"
 			tasks: [{
 				id: "5755AC67B9946A1F"
 				item: "perfectplushies:june_plushie"
 				type: "item"
 			}]
-			title: "Loves Her Squish"
+			title: "{homestead.squishy_friends.5B68F276515C6987.quest5.title}"
 			x: -1.0d
 			y: 4.5d
 		}
+
 		{
-			description: ["Just here to annoy Lyn <3"]
+			description: ["{homestead.squishy_friends.6DE2ADB5C2E9CAD8.quest6.description0}"]
 			id: "6DE2ADB5C2E9CAD8"
 			rewards: [
 				{
@@ -307,18 +313,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a Cobra Plushie"
+			subtitle: "{homestead.squishy_friends.6DE2ADB5C2E9CAD8.quest6.subtitle}"
 			tasks: [{
 				id: "6EA114503F0C760C"
 				item: "perfectplushies:daniel_plushie"
 				type: "item"
 			}]
-			title: "Money Man"
+			title: "{homestead.squishy_friends.6DE2ADB5C2E9CAD8.quest6.title}"
 			x: 2.5d
 			y: 4.5d
 		}
+
 		{
-			description: ["Has the cutest dog &lEVER&r"]
+			description: ["{homestead.squishy_friends.101A55FB3F5F4FC8.quest7.description0}"]
 			id: "101A55FB3F5F4FC8"
 			rewards: [
 				{
@@ -338,18 +345,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a BreezyBry Plushie"
+			subtitle: "{homestead.squishy_friends.101A55FB3F5F4FC8.quest7.subtitle}"
 			tasks: [{
 				id: "77D98FE54DE04FFD"
 				item: "perfectplushies:gamerpotion_plushie"
 				type: "item"
 			}]
-			title: "Breezy"
+			title: "{homestead.squishy_friends.101A55FB3F5F4FC8.quest7.title}"
 			x: 5.0d
 			y: 1.0d
 		}
+
 		{
-			description: ["The Noblest of Wives to the one and only SirWagselot"]
+			description: ["{homestead.squishy_friends.249025368F4E5167.quest8.description0}"]
 			id: "249025368F4E5167"
 			rewards: [
 				{
@@ -371,18 +379,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a LadyWagselot Plushie"
+			subtitle: "{homestead.squishy_friends.249025368F4E5167.quest8.subtitle}"
 			tasks: [{
 				id: "6E5B86B14711AF86"
 				item: "perfectplushies:joosh_plushie"
 				type: "item"
 			}]
-			title: "The Noblest of Wives"
+			title: "{homestead.squishy_friends.249025368F4E5167.quest8.title}"
 			x: 5.0d
 			y: 3.5d
 		}
+
 		{
-			description: ["&lMORE RAM&r"]
+			description: ["{homestead.squishy_friends.1730E73D814D0E0B.quest9.description0}"]
 			id: "1730E73D814D0E0B"
 			rewards: [
 				{
@@ -417,18 +426,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a Lyn Plushie"
+			subtitle: "{homestead.squishy_friends.1730E73D814D0E0B.quest9.subtitle}"
 			tasks: [{
 				id: "766DA2B765DF49E9"
 				item: "perfectplushies:rocris_plushie"
 				type: "item"
 			}]
-			title: "4GB"
+			title: "{homestead.squishy_friends.1730E73D814D0E0B.quest9.title}"
 			x: 5.0d
 			y: -1.5d
 		}
+
 		{
-			description: ["Toast Toast Toast!"]
+			description: ["{homestead.squishy_friends.5A11DB7523DE5F68.quest10.description0}"]
 			id: "5A11DB7523DE5F68"
 			rewards: [
 				{
@@ -453,21 +463,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a Nylon Plushie"
+			subtitle: "{homestead.squishy_friends.5A11DB7523DE5F68.quest10.subtitle}"
 			tasks: [{
 				id: "2F891E7226DBC454"
 				item: "perfectplushies:geode_plushie"
 				type: "item"
 			}]
-			title: "Toast Lover"
+			title: "{homestead.squishy_friends.5A11DB7523DE5F68.quest10.title}"
 			x: 5.0d
 			y: -4.0d
 		}
+
 		{
 			description: [
-				"\"Hi\" c: "
-				"*disconnects* "
-				"\"tokimiya is typing…”"
+				"{homestead.squishy_friends.3B99020FF9729327.quest11.description0}"
+				"{homestead.squishy_friends.3B99020FF9729327.quest11.description1}"
+				"{homestead.squishy_friends.3B99020FF9729327.quest11.description2}"
 			]
 			id: "3B99020FF9729327"
 			rewards: [
@@ -490,18 +501,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a Tokimiya Plushie"
+			subtitle: "{homestead.squishy_friends.3B99020FF9729327.quest11.subtitle}"
 			tasks: [{
 				id: "325A43D033929B57"
 				item: "perfectplushies:gamerpotion_plushie_rare"
 				type: "item"
 			}]
-			title: "The Waifu"
+			title: "{homestead.squishy_friends.3B99020FF9729327.quest11.title}"
 			x: 1.0d
 			y: -5.232142857142861d
 		}
+
 		{
-			description: ["“Stay cozy, little mushrooms!”"]
+			description: ["{homestead.squishy_friends.0BC4230942EC9273.quest12.description0}"]
 			id: "0BC4230942EC9273"
 			rewards: [
 				{
@@ -538,16 +550,15 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retreive a Tokimi Plushie"
+			subtitle: "{homestead.squishy_friends.0BC4230942EC9273.quest12.subtitle}"
 			tasks: [{
 				id: "67D544C643164163"
 				item: "perfectplushies:sirjain_plushie_rare"
 				type: "item"
 			}]
-			title: "Modpack Dev"
+			title: "{homestead.squishy_friends.0BC4230942EC9273.quest12.title}"
 			x: -2.5d
 			y: -5.267857142857146d
 		}
-	]
-	title: "Squishy Friends"
-}
+
+	]	title: "Squishy Friends"}

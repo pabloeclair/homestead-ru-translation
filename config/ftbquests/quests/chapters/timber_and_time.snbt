@@ -28,7 +28,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["The core component of all Create Recipes"]
+			description: ["{homestead.timber_and_time.3BDE5D297174F538.quest0.description0}"]
 			id: "3BDE5D297174F538"
 			rewards: [
 				{
@@ -44,19 +44,20 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Craft 16 Andesite Alloy to begin your engineering journey."
+			subtitle: "{homestead.timber_and_time.3BDE5D297174F538.quest0.subtitle}"
 			tasks: [{
 				count: 16L
 				id: "485134339AB33A3A"
 				item: { Count: 16, id: "create:andesite_alloy" }
 				type: "item"
 			}]
-			title: "Whimsy in Motion"
+			title: "{homestead.timber_and_time.3BDE5D297174F538.quest0.title}"
 			x: 0.5d
 			y: -4.5d
 		}
+
 		{
-			description: ["Cogwheels transfer and modify rotational power (kinetic energy) between machines.&r"]
+			description: ["{homestead.timber_and_time.3471C6995DC62762.quest1.description0}"]
 			id: "3471C6995DC62762"
 			rewards: [
 				{
@@ -77,7 +78,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft both Small and Large Cogwheels."
+			subtitle: "{homestead.timber_and_time.3471C6995DC62762.quest1.subtitle}"
 			tasks: [
 				{
 					id: "74C94A526BFA1786"
@@ -90,12 +91,13 @@
 					type: "item"
 				}
 			]
-			title: "Gear Up"
+			title: "{homestead.timber_and_time.3471C6995DC62762.quest1.title}"
 			x: 2.5d
 			y: -4.5d
 		}
+
 		{
-			description: ["These bad boys transfer motion"]
+			description: ["{homestead.timber_and_time.08F97D3E9B234523.quest2.description0}"]
 			id: "08F97D3E9B234523"
 			rewards: [
 				{
@@ -110,19 +112,20 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft 8 Mechanical Shafts."
+			subtitle: "{homestead.timber_and_time.08F97D3E9B234523.quest2.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "413A8499F6D3C858"
 				item: { Count: 8, id: "create:shaft" }
 				type: "item"
 			}]
-			title: "Shafted"
+			title: "{homestead.timber_and_time.08F97D3E9B234523.quest2.title}"
 			x: 1.5d
 			y: -4.5d
 		}
+
 		{
-			description: ["Used to make belts. (An essential piece in the Create world)"]
+			description: ["{homestead.timber_and_time.0B168E8A6697B5F0.quest3.description0}"]
 			id: "0B168E8A6697B5F0"
 			rewards: [
 				{
@@ -138,19 +141,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retrieve 64 Kelp."
+			subtitle: "{homestead.timber_and_time.0B168E8A6697B5F0.quest3.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "4A0D2D0D4E775D0A"
 				item: { Count: 64, id: "minecraft:kelp" }
 				type: "item"
 			}]
-			title: "Kelp Yourself"
+			title: "{homestead.timber_and_time.0B168E8A6697B5F0.quest3.title}"
 			x: 7.5d
 			y: -2.5d
 		}
+
 		{
-			description: ["Mechanical Belt: Moves items between machines or inventories. Think of it as a horizontal conveyor."]
+			description: ["{homestead.timber_and_time.1DE5C3F1444FEAC1.quest4.description0}"]
 			id: "1DE5C3F1444FEAC1"
 			rewards: [
 				{
@@ -165,19 +169,20 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft 12 Belts to begin item transport."
+			subtitle: "{homestead.timber_and_time.1DE5C3F1444FEAC1.quest4.subtitle}"
 			tasks: [{
 				count: 12L
 				id: "5C1750C308BF42D2"
 				item: { Count: 12, id: "create:belt_connector" }
 				type: "item"
 			}]
-			title: "A Belted Effort"
+			title: "{homestead.timber_and_time.1DE5C3F1444FEAC1.quest4.title}"
 			x: 7.5d
 			y: -1.5d
 		}
+
 		{
-			description: ["Water wheels generate passive power for Create machines"]
+			description: ["{homestead.timber_and_time.50FB1252FF540BEF.quest5.description0}"]
 			id: "50FB1252FF540BEF"
 			rewards: [
 				{
@@ -191,7 +196,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Build and place a Water Wheel."
+			subtitle: "{homestead.timber_and_time.50FB1252FF540BEF.quest5.subtitle}"
 			tasks: [
 				{
 					id: "51CD541A48D81B7D"
@@ -208,12 +213,13 @@
 					value: 1L
 				}
 			]
-			title: "Hydro Helper"
+			title: "{homestead.timber_and_time.50FB1252FF540BEF.quest5.title}"
 			x: 3.5d
 			y: -4.5d
 		}
+
 		{
-			description: ["A key crafting ingredient for most Create machines and components."]
+			description: ["{homestead.timber_and_time.3936D35F380560AF.quest6.description0}"]
 			id: "3936D35F380560AF"
 			rewards: [
 				{
@@ -234,19 +240,20 @@
 					xp: 25
 				}
 			]
-			subtitle: "Objective: Craft 16 Andesite Casings"
+			subtitle: "{homestead.timber_and_time.3936D35F380560AF.quest6.subtitle}"
 			tasks: [{
 				count: 16L
 				id: "66163888F4BACB99"
 				item: { Count: 4, id: "create:andesite_casing" }
 				type: "item"
 			}]
-			title: "Casing the Joint"
+			title: "{homestead.timber_and_time.3936D35F380560AF.quest6.title}"
 			x: 4.5d
 			y: -4.5d
 		}
+
 		{
-			description: ["Crushes items placed on a Depot to create plates and other flat components. Requires rotational power."]
+			description: ["{homestead.timber_and_time.0B78FA9FD8FFB214.quest7.description0}"]
 			id: "0B78FA9FD8FFB214"
 			rewards: [
 				{
@@ -261,18 +268,19 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft 1 Mechanical Press"
+			subtitle: "{homestead.timber_and_time.0B78FA9FD8FFB214.quest7.subtitle}"
 			tasks: [{
 				id: "677B1870D31D2FFF"
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			title: "Press F to Smush"
+			title: "{homestead.timber_and_time.0B78FA9FD8FFB214.quest7.title}"
 			x: 5.5d
 			y: -4.5d
 		}
+
 		{
-			description: ["Holds single items or stacks to be processed by machines like the Press or Deployer."]
+			description: ["{homestead.timber_and_time.65ED3EC173EA8D7A.quest8.description0}"]
 			id: "65ED3EC173EA8D7A"
 			rewards: [
 				{
@@ -292,19 +300,20 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft 2 Depots"
+			subtitle: "{homestead.timber_and_time.65ED3EC173EA8D7A.quest8.subtitle}"
 			tasks: [{
 				count: 2L
 				id: "0D37481EB998B872"
 				item: { Count: 2, id: "create:depot" }
 				type: "item"
 			}]
-			title: "Drop It Like It's Hot"
+			title: "{homestead.timber_and_time.65ED3EC173EA8D7A.quest8.title}"
 			x: 5.5d
 			y: -3.5d
 		}
+
 		{
-			description: ["Manually generates rotation to power nearby Create machines. Great for early-game tests."]
+			description: ["{homestead.timber_and_time.49BEC504C0BE94B6.quest9.description0}"]
 			id: "49BEC504C0BE94B6"
 			rewards: [
 				{
@@ -319,18 +328,19 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft 1 Hand Crank"
+			subtitle: "{homestead.timber_and_time.49BEC504C0BE94B6.quest9.subtitle}"
 			tasks: [{
 				id: "026E9ADDAE9F5A36"
 				item: "create:hand_crank"
 				type: "item"
 			}]
-			title: "Handy Spinny Thing"
+			title: "{homestead.timber_and_time.49BEC504C0BE94B6.quest9.title}"
 			x: 5.5d
 			y: -2.5d
 		}
+
 		{
-			description: ["A flat form of iron used in advanced crafting recipes in Create. Made by pressing iron ingots."]
+			description: ["{homestead.timber_and_time.3EC515A5F143671C.quest10.description0}"]
 			id: "3EC515A5F143671C"
 			rewards: [
 				{
@@ -350,19 +360,20 @@
 					xp: 25
 				}
 			]
-			subtitle: "Press 5 Iron Sheets"
+			subtitle: "{homestead.timber_and_time.3EC515A5F143671C.quest10.subtitle}"
 			tasks: [{
 				count: 5L
 				id: "185664FD2849D575"
 				item: { Count: 5, id: "create:iron_sheet" }
 				type: "item"
 			}]
-			title: "Irony, But Flat"
+			title: "{homestead.timber_and_time.3EC515A5F143671C.quest10.title}"
 			x: 5.5d
 			y: -1.5d
 		}
+
 		{
-			description: ["A pressed form of gold used in high-tech crafting recipes like the Goggles or the Wrench"]
+			description: ["{homestead.timber_and_time.4E30D1CC1B61A07C.quest11.description0}"]
 			id: "4E30D1CC1B61A07C"
 			rewards: [
 				{
@@ -377,19 +388,20 @@
 					xp: 25
 				}
 			]
-			subtitle: "Press 5 Golden Sheets"
+			subtitle: "{homestead.timber_and_time.4E30D1CC1B61A07C.quest11.subtitle}"
 			tasks: [{
 				count: 5L
 				id: "4437577C34FA0BFD"
 				item: { Count: 5, id: "create:golden_sheet" }
 				type: "item"
 			}]
-			title: "Golden Flakes of Industry"
+			title: "{homestead.timber_and_time.4E30D1CC1B61A07C.quest11.title}"
 			x: 5.5d
 			y: -0.5d
 		}
+
 		{
-			description: ["Rotates, removes, and configures Create blocks. Your best friend in machine setup."]
+			description: ["{homestead.timber_and_time.0A011EA4FE9C2551.quest12.description0}"]
 			id: "0A011EA4FE9C2551"
 			rewards: [
 				{
@@ -409,18 +421,19 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft 1 Wrench"
+			subtitle: "{homestead.timber_and_time.0A011EA4FE9C2551.quest12.subtitle}"
 			tasks: [{
 				id: "3E67E432F530CEB6"
 				item: "create:wrench"
 				type: "item"
 			}]
-			title: "Wrench, Please!"
+			title: "{homestead.timber_and_time.0A011EA4FE9C2551.quest12.title}"
 			x: 5.5d
 			y: 0.5d
 		}
+
 		{
-			description: ["Lets you see detailed tooltips and kinetic stats on Create machines."]
+			description: ["{homestead.timber_and_time.0D2B2726F40CB853.quest13.description0}"]
 			id: "0D2B2726F40CB853"
 			rewards: [
 				{
@@ -435,18 +448,19 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft 1 Pair of Goggles"
+			subtitle: "{homestead.timber_and_time.0D2B2726F40CB853.quest13.subtitle}"
 			tasks: [{
 				id: "449452E14F1D3372"
 				item: "create:goggles"
 				type: "item"
 			}]
-			title: "Goggle Up!"
+			title: "{homestead.timber_and_time.0D2B2726F40CB853.quest13.title}"
 			x: 5.5d
 			y: 1.5d
 		}
+
 		{
-			description: ["Redirects rotational power in different directions. Essential for complex builds."]
+			description: ["{homestead.timber_and_time.217C65A42053D0D1.quest14.description0}"]
 			id: "217C65A42053D0D1"
 			rewards: [
 				{
@@ -467,7 +481,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft 2 of each Gearbox"
+			subtitle: "{homestead.timber_and_time.217C65A42053D0D1.quest14.subtitle}"
 			tasks: [
 				{
 					count: 2L
@@ -482,12 +496,13 @@
 					type: "item"
 				}
 			]
-			title: "Gears of Whimsy"
+			title: "{homestead.timber_and_time.217C65A42053D0D1.quest14.title}"
 			x: 5.5d
 			y: 2.5d
 		}
+
 		{
-			description: ["Millstones grind up items like wheat into flour, cobblestone into gravel, or quartz into powder. They’re one of the simplest early automation tools. Requires rotational power to run."]
+			description: ["{homestead.timber_and_time.45F66EC6D1C11043.quest15.description0}"]
 			id: "45F66EC6D1C11043"
 			rewards: [
 				{
@@ -506,18 +521,19 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft 1 Millstone"
+			subtitle: "{homestead.timber_and_time.45F66EC6D1C11043.quest15.subtitle}"
 			tasks: [{
 				id: "6F04E907696B75CF"
 				item: "create:millstone"
 				type: "item"
 			}]
-			title: "Grain Pain"
+			title: "{homestead.timber_and_time.45F66EC6D1C11043.quest15.title}"
 			x: 5.5d
 			y: 3.5d
 		}
+
 		{
-			description: ["Dough is made using wheat flour and water. It’s used to bake bread and other Create recipes. Usually made with a Basin + Mechanical Mixer, or in a crafting table."]
+			description: ["{homestead.timber_and_time.17023F1B8B8013CB.quest16.description0}"]
 			id: "17023F1B8B8013CB"
 			rewards: [
 				{
@@ -531,18 +547,19 @@
 					xp: 25
 				}
 			]
-			subtitle: "Obtain 1 Dough"
+			subtitle: "{homestead.timber_and_time.17023F1B8B8013CB.quest16.subtitle}"
 			tasks: [{
 				id: "153A280EBFB69F23"
 				item: "create:dough"
 				type: "item"
 			}]
-			title: "Doughn't Worry About It"
+			title: "{homestead.timber_and_time.17023F1B8B8013CB.quest16.title}"
 			x: 5.5d
 			y: 4.5d
 		}
+
 		{
-			description: ["The dye of slime. The glow-up of green."]
+			description: ["{homestead.timber_and_time.320DE19F21809D06.quest17.description0}"]
 			id: "320DE19F21809D06"
 			rewards: [
 				{
@@ -556,18 +573,19 @@
 					xp: 5
 				}
 			]
-			subtitle: "Obtain 1 Lime Dye"
+			subtitle: "{homestead.timber_and_time.320DE19F21809D06.quest17.subtitle}"
 			tasks: [{
 				id: "74213BAD0168B957"
 				item: "minecraft:lime_dye"
 				type: "item"
 			}]
-			title: "Lime Crime"
+			title: "{homestead.timber_and_time.320DE19F21809D06.quest17.title}"
 			x: 6.5d
 			y: 4.5d
 		}
+
 		{
-			description: ["Slimeballs are used to make Super Glue, Sticky Mechanical Pistons, and other components that require blocks to stick together."]
+			description: ["{homestead.timber_and_time.120D842C6B39E2C1.quest18.description0}"]
 			id: "120D842C6B39E2C1"
 			rewards: [
 				{
@@ -581,18 +599,19 @@
 					xp: 5
 				}
 			]
-			subtitle: "Obtain 1 Slimeball"
+			subtitle: "{homestead.timber_and_time.120D842C6B39E2C1.quest18.subtitle}"
 			tasks: [{
 				id: "039F75A4DF2F1EE9"
 				item: "minecraft:slime_ball"
 				type: "item"
 			}]
-			title: "So You Want to Get Slimy..."
+			title: "{homestead.timber_and_time.120D842C6B39E2C1.quest18.title}"
 			x: 6.5d
 			y: 3.5d
 		}
+
 		{
-			description: ["Super Glue allows blocks to stick together so they move as a single structure in contraptions (like flying machines or rotating assemblies)."]
+			description: ["{homestead.timber_and_time.604106984AE815F6.quest19.description0}"]
 			id: "604106984AE815F6"
 			rewards: [
 				{
@@ -611,7 +630,7 @@
 					xp: 5
 				}
 			]
-			subtitle: "Craft 1 Super Glue"
+			subtitle: "{homestead.timber_and_time.604106984AE815F6.quest19.subtitle}"
 			tasks: [{
 				id: "39FA3A9BF710DA80"
 				item: {
@@ -623,12 +642,13 @@
 				}
 				type: "item"
 			}]
-			title: "Stick Em' Up!"
+			title: "{homestead.timber_and_time.604106984AE815F6.quest19.title}"
 			x: 6.5d
 			y: 2.5d
 		}
+
 		{
-			description: ["Used to rotate a structure of blocks, like windmills or rotating platforms. Place it, glue blocks to it, then power it to make spinny magic happen."]
+			description: ["{homestead.timber_and_time.28BD177E5443182F.quest20.description0}"]
 			id: "28BD177E5443182F"
 			rewards: [
 				{
@@ -648,18 +668,19 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft 1 Mechanical Bearing"
+			subtitle: "{homestead.timber_and_time.28BD177E5443182F.quest20.subtitle}"
 			tasks: [{
 				id: "2A03BA766531871E"
 				item: "create:mechanical_bearing"
 				type: "item"
 			}]
-			title: "Spin Me Right Round"
+			title: "{homestead.timber_and_time.28BD177E5443182F.quest20.title}"
 			x: 6.5d
 			y: 1.5d
 		}
+
 		{
-			description: ["Automatically harvests and plants crops when attached to a moving contraption, like a windmill or gantry. Needs a structure + power to operate."]
+			description: ["{homestead.timber_and_time.0BA4F1F5F02866D6.quest21.description0}"]
 			id: "0BA4F1F5F02866D6"
 			rewards: [
 				{
@@ -679,19 +700,20 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft 5 Mechanical Harvesters"
+			subtitle: "{homestead.timber_and_time.0BA4F1F5F02866D6.quest21.subtitle}"
 			tasks: [{
 				count: 5L
 				id: "3AA34524F8A57999"
 				item: { Count: 5, id: "create:mechanical_harvester" }
 				type: "item"
 			}]
-			title: "Farmageddon Begins"
+			title: "{homestead.timber_and_time.0BA4F1F5F02866D6.quest21.title}"
 			x: 6.5d
 			y: 0.5d
 		}
+
 		{
-			description: ["Lets items fall downward between blocks, sort of like vertical hoppers, but faster and more efficient. Can also connect to belts and processing systems."]
+			description: ["{homestead.timber_and_time.40E806A3DE366445.quest22.description0}"]
 			id: "40E806A3DE366445"
 			rewards: [
 				{
@@ -712,19 +734,20 @@
 					xp: 5
 				}
 			]
-			subtitle: "Craft 2 Chutes"
+			subtitle: "{homestead.timber_and_time.40E806A3DE366445.quest22.subtitle}"
 			tasks: [{
 				count: 2L
 				id: "38502976681CC488"
 				item: "create:chute"
 				type: "item"
 			}]
-			title: "Yeet Tube"
+			title: "{homestead.timber_and_time.40E806A3DE366445.quest22.title}"
 			x: 6.5d
 			y: -0.5d
 		}
+
 		{
-			description: ["Used to transfer items between a moving contraption and a stationary system. Great for things like automated farming carts and flying factories."]
+			description: ["{homestead.timber_and_time.5A87E56A598E8753.quest23.description0}"]
 			id: "5A87E56A598E8753"
 			rewards: [
 				{
@@ -745,19 +768,20 @@
 					xp: 5
 				}
 			]
-			subtitle: "Craft 2 Portable Storage Interfaces"
+			subtitle: "{homestead.timber_and_time.5A87E56A598E8753.quest23.subtitle}"
 			tasks: [{
 				count: 2L
 				id: "0B4E99AE76317766"
 				item: { Count: 2, id: "create:portable_storage_interface" }
 				type: "item"
 			}]
-			title: "Touch Grass (Remotely)"
+			title: "{homestead.timber_and_time.5A87E56A598E8753.quest23.title}"
 			x: 6.5d
 			y: -1.5d
 		}
+
 		{
-			description: ["This setup creates a spinning auto-harvester that collects crops and drops them into storage."]
+			description: ["{homestead.timber_and_time.3602D2C4028CFB39.quest24.description0}"]
 			id: "3602D2C4028CFB39"
 			rewards: [
 				{
@@ -772,7 +796,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Build a functioning auto-crop farm"
+			subtitle: "{homestead.timber_and_time.3602D2C4028CFB39.quest24.subtitle}"
 			tasks: [
 				{
 					block: "create:water_wheel"
@@ -820,12 +844,13 @@
 					value: 2L
 				}
 			]
-			title: "Farm to Table... to Gearbox"
+			title: "{homestead.timber_and_time.3602D2C4028CFB39.quest24.title}"
 			x: 6.5d
 			y: -2.5d
 		}
+
 		{
-			description: ["This setup gets you a full functioning auto tree farm! No more chop chop!"]
+			description: ["{homestead.timber_and_time.3E6309B2CFD52040.quest25.description0}"]
 			id: "3E6309B2CFD52040"
 			rewards: [
 				{
@@ -845,7 +870,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Build an automatic tree farm using a mechanical contraption"
+			subtitle: "{homestead.timber_and_time.3E6309B2CFD52040.quest25.subtitle}"
 			tasks: [
 				{
 					block: "create:mechanical_bearing"
@@ -893,14 +918,15 @@
 					value: 3L
 				}
 			]
-			title: "Lumber? I Hardly Know Her!"
+			title: "{homestead.timber_and_time.3E6309B2CFD52040.quest25.title}"
 			x: 6.5d
 			y: -3.5d
 		}
+
 		{
 			description: [
-				"Every Create player hits the same wall: no andesite, no automation."
-				"But guess what? You can fake it till you make it—with cobble and diorite, or a good old-fashioned stir in the Mixer."
+				"{homestead.timber_and_time.3B5A77B3F132EE47.quest26.description0}"
+				"{homestead.timber_and_time.3B5A77B3F132EE47.quest26.description1}"
 			]
 			id: "3B5A77B3F132EE47"
 			rewards: [
@@ -923,7 +949,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Create Andesite using either a Mixer and Basin or by crafting it from Diorite and Cobblestone."
+			subtitle: "{homestead.timber_and_time.3B5A77B3F132EE47.quest26.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "4D134CFDEEA6F67B"
@@ -931,12 +957,13 @@
 				title: "Craft 64 Andesite"
 				type: "item"
 			}]
-			title: "Running out of Andesite?"
+			title: "{homestead.timber_and_time.3B5A77B3F132EE47.quest26.title}"
 			x: 6.5d
 			y: -4.5d
 		}
+
 		{
-			description: ["Andesite Funnel: Pulls items out of inventories (like chests) or deposits them into machines."]
+			description: ["{homestead.timber_and_time.6FEBC5F2207BCCEF.quest27.description0}"]
 			id: "6FEBC5F2207BCCEF"
 			rewards: [
 				{
@@ -957,19 +984,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 4 Andesite Funnels."
+			subtitle: "{homestead.timber_and_time.6FEBC5F2207BCCEF.quest27.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "1F47C0C410031436"
 				item: { Count: 4, id: "create:andesite_funnel" }
 				type: "item"
 			}]
-			title: "Funnel Vision"
+			title: "{homestead.timber_and_time.6FEBC5F2207BCCEF.quest27.title}"
 			x: 7.5d
 			y: -0.5d
 		}
+
 		{
-			description: ["Encased Chain Drives transmit rotational power between components, like gears, but through chains."]
+			description: ["{homestead.timber_and_time.6B428F9D2C8A0A72.quest28.description0}"]
 			id: "6B428F9D2C8A0A72"
 			rewards: [
 				{
@@ -989,19 +1017,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 4x Encased Chain Drives."
+			subtitle: "{homestead.timber_and_time.6B428F9D2C8A0A72.quest28.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "142ED72E1E9E3F00"
 				item: { Count: 4, id: "create:encased_chain_drive" }
 				type: "item"
 			}]
-			title: "Encased in Ambition"
+			title: "{homestead.timber_and_time.6B428F9D2C8A0A72.quest28.title}"
 			x: 7.5d
 			y: -4.5d
 		}
+
 		{
-			description: ["This setup will get you the ultimate washing,smelting,blasting,and haunting system!"]
+			description: ["{homestead.timber_and_time.208C31226AFCAA1C.quest29.description0}"]
 			id: "208C31226AFCAA1C"
 			rewards: [
 				{
@@ -1025,7 +1054,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 4x Encased Fans, 1x Campfire, 1x Water Bucket, 1x Lava Bucket, and 1x Soul Campfire."
+			subtitle: "{homestead.timber_and_time.208C31226AFCAA1C.quest29.subtitle}"
 			tasks: [
 				{
 					count: 4L
@@ -1054,12 +1083,13 @@
 					type: "item"
 				}
 			]
-			title: "Fanning the Flames (and the Funk)"
+			title: "{homestead.timber_and_time.208C31226AFCAA1C.quest29.title}"
 			x: 7.5d
 			y: -3.5d
 		}
+
 		{
-			description: ["This setup will get you your very first windmill going! Just plop the sails on top of the bearing and right click the bearing once you're finished, and voila! You got yourself some spinnin power!"]
+			description: ["{homestead.timber_and_time.0368CB5AB06667D8.quest30.description0}"]
 			id: "0368CB5AB06667D8"
 			rewards: [
 				{
@@ -1081,7 +1111,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 1x Windmill Bearing and 32x Windmill Sails."
+			subtitle: "{homestead.timber_and_time.0368CB5AB06667D8.quest30.subtitle}"
 			tasks: [
 				{
 					id: "04F25DB942B74045"
@@ -1095,15 +1125,16 @@
 					type: "item"
 				}
 			]
-			title: "Catch the Breeze"
+			title: "{homestead.timber_and_time.0368CB5AB06667D8.quest30.title}"
 			x: 7.5d
 			y: 0.5d
 		}
+
 		{
 			description: [
-				"List Filter: Lets you create a specific whitelist/blacklist of items. Great for precise control in automated systems."
+				"{homestead.timber_and_time.0BA9E17BD1B7E332.quest31.description0}"
 				""
-				"This filter is used with Deployers, Funnels, and Brass Tunnels to refine automation."
+				"{homestead.timber_and_time.0BA9E17BD1B7E332.quest31.description1}"
 			]
 			id: "0BA9E17BD1B7E332"
 			rewards: [
@@ -1123,23 +1154,24 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 1x List Filter."
+			subtitle: "{homestead.timber_and_time.0BA9E17BD1B7E332.quest31.subtitle}"
 			tasks: [{
 				id: "0687E4326AD417F6"
 				item: "create:filter"
 				type: "item"
 			}]
-			title: "Filter Me This"
+			title: "{homestead.timber_and_time.0BA9E17BD1B7E332.quest31.title}"
 			x: 7.5d
 			y: 1.5d
 		}
+
 		{
 			description: [
-				"Clutch: When powered by redstone(i prefer lever), it stops power transmission—like a redstone-powered off switch for your machines."
+				"{homestead.timber_and_time.767C57FBC43CD1EA.quest32.description0}"
 				""
-				"Gearshift: Reverses rotational direction when powered."
+				"{homestead.timber_and_time.767C57FBC43CD1EA.quest32.description1}"
 				""
-				"Use them to toggle contraptions, redirect power, or pause automation."
+				"{homestead.timber_and_time.767C57FBC43CD1EA.quest32.description2}"
 			]
 			id: "767C57FBC43CD1EA"
 			rewards: [
@@ -1161,7 +1193,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 1x Clutch and 1x Gearshift."
+			subtitle: "{homestead.timber_and_time.767C57FBC43CD1EA.quest32.subtitle}"
 			tasks: [
 				{
 					id: "0D7F4E6887B0A129"
@@ -1174,15 +1206,16 @@
 					type: "item"
 				}
 			]
-			title: "Clutch Kick"
+			title: "{homestead.timber_and_time.767C57FBC43CD1EA.quest32.title}"
 			x: 7.5d
 			y: 2.5d
 		}
+
 		{
 			description: [
-				"Use a Mechanical Piston to move blocks in a straight line."
+				"{homestead.timber_and_time.6A51F171FC2DDB57.quest33.description0}"
 				""
-				"A Sticky Mechanical Piston pulls blocks back too!"
+				"{homestead.timber_and_time.6A51F171FC2DDB57.quest33.description1}"
 			]
 			id: "6A51F171FC2DDB57"
 			rewards: [
@@ -1198,7 +1231,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft and use 1x Mechanical Piston and 1x Sticky Mechanical Piston."
+			subtitle: "{homestead.timber_and_time.6A51F171FC2DDB57.quest33.subtitle}"
 			tasks: [
 				{
 					id: "2FDE5857E3C18AB8"
@@ -1211,12 +1244,13 @@
 					type: "item"
 				}
 			]
-			title: "Sticky Situation"
+			title: "{homestead.timber_and_time.6A51F171FC2DDB57.quest33.title}"
 			x: 7.5d
 			y: 3.5d
 		}
+
 		{
-			description: ["These bad boys will get you your very own schematic building cannon! Just slap down a Table, pull in your schematic from your other worlds, plop in an empty schematic, and fill that cannon with some gunpowder and you are on your way to a fully built kingdom!"]
+			description: ["{homestead.timber_and_time.4BB3EDF5CE18D191.quest34.description0}"]
 			id: "4BB3EDF5CE18D191"
 			rewards: [
 				{
@@ -1238,7 +1272,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Craft the full schematic system."
+			subtitle: "{homestead.timber_and_time.4BB3EDF5CE18D191.quest34.subtitle}"
 			tasks: [
 				{
 					id: "34A5436FF282F1F2"
@@ -1256,19 +1290,20 @@
 					type: "item"
 				}
 			]
-			title: "Blueprints of Tomorrow"
+			title: "{homestead.timber_and_time.4BB3EDF5CE18D191.quest34.title}"
 			x: 7.5d
 			y: 4.5d
 		}
+
 		{
 			description: [
-				"Craft an Empty Blaze Burner using iron sheets and Netherrack."
+				"{homestead.timber_and_time.505402D07947CC7A.quest35.description0}"
 				""
-				"Head to the Nether and right-click a blaze with it to trap it inside."
+				"{homestead.timber_and_time.505402D07947CC7A.quest35.description1}"
 				""
-				"Once filled, the Blaze Burner becomes the fuel source for the Heated Mixer, which is required to make Brass Ingots."
+				"{homestead.timber_and_time.505402D07947CC7A.quest35.description2}"
 				""
-				"Peaceful Players can craft the Blaze Burner with a Blaze Already in it if you dont like killing mobs. But you can also do it by going to the nether with an empty one and right clicking on a spawner anyway."
+				"{homestead.timber_and_time.505402D07947CC7A.quest35.description3}"
 			]
 			hide_dependency_lines: true
 			id: "505402D07947CC7A"
@@ -1292,18 +1327,19 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Craft 1x Empty Blaze Burner."
+			subtitle: "{homestead.timber_and_time.505402D07947CC7A.quest35.subtitle}"
 			tasks: [{
 				id: "45A52EF9882AA861"
 				item: "create:empty_blaze_burner"
 				type: "item"
 			}]
-			title: "The Heat Begins"
+			title: "{homestead.timber_and_time.505402D07947CC7A.quest35.title}"
 			x: -0.5d
 			y: -4.5d
 		}
+
 		{
-			description: ["Right-click a Blaze or Blaze Spawner with an Empty Blaze Burner in-hand."]
+			description: ["{homestead.timber_and_time.567B7ABE0C8AD086.quest36.description0}"]
 			id: "567B7ABE0C8AD086"
 			rewards: [
 				{
@@ -1323,21 +1359,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "Capture a Blaze using the Empty Blaze Burner."
+			subtitle: "{homestead.timber_and_time.567B7ABE0C8AD086.quest36.subtitle}"
 			tasks: [{
 				id: "347072C497FB300E"
 				item: "create:blaze_burner"
 				type: "item"
 			}]
-			title: "Blaze of Glory"
+			title: "{homestead.timber_and_time.567B7ABE0C8AD086.quest36.title}"
 			x: -1.5d
 			y: -4.5d
 		}
+
 		{
 			description: [
-				"These machines work together to stir heated ingredients. Place the Basin, Mixer above it, and the Blaze Burner below."
+				"{homestead.timber_and_time.4AFF029B9E7B7058.quest37.description0}"
 				""
-				"Use the Blaze Burner by feeding it fuel, aka coal, wooden items, etc."
+				"{homestead.timber_and_time.4AFF029B9E7B7058.quest37.description1}"
 			]
 			id: "4AFF029B9E7B7058"
 			rewards: [
@@ -1359,7 +1396,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a Mechanical Mixer and Basin, and set them up above a Blaze Burner."
+			subtitle: "{homestead.timber_and_time.4AFF029B9E7B7058.quest37.subtitle}"
 			tasks: [
 				{
 					block: "create:blaze_burner"
@@ -1381,12 +1418,13 @@
 					type: "item"
 				}
 			]
-			title: "Into the Mix"
+			title: "{homestead.timber_and_time.4AFF029B9E7B7058.quest37.title}"
 			x: -2.5d
 			y: -4.5d
 		}
+
 		{
-			description: ["Drop one Zinc and one Copper Ingot into a heated Basin, then let the Mixer do its thing. Congrats, you've made Brass!"]
+			description: ["{homestead.timber_and_time.7E7427FC0F552C33.quest38.description0}"]
 			id: "7E7427FC0F552C33"
 			rewards: [
 				{
@@ -1406,20 +1444,21 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mix Zinc and Copper using a Mechanical Mixer + Blaze Burner to create Brass."
+			subtitle: "{homestead.timber_and_time.7E7427FC0F552C33.quest38.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "2975FC5D25E2B984"
 				item: { Count: 8, id: "create:brass_ingot" }
 				type: "item"
 			}]
-			title: "Forged in Flame"
+			title: "{homestead.timber_and_time.7E7427FC0F552C33.quest38.title}"
 			x: -3.5d
 			y: -4.5d
 		}
+
 		{
 			dependency_requirement: "one_completed"
-			description: ["Used in crafting recipes for \"higher tech\" machines in Create"]
+			description: ["{homestead.timber_and_time.79DBD51D1B4A5650.quest39.description0}"]
 			id: "79DBD51D1B4A5650"
 			rewards: [
 				{
@@ -1433,18 +1472,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 1x Brass Casing."
+			subtitle: "{homestead.timber_and_time.79DBD51D1B4A5650.quest39.subtitle}"
 			tasks: [{
 				id: "0FBABBB934459E0C"
 				item: "create:brass_casing"
 				type: "item"
 			}]
-			title: "Casing the Future"
+			title: "{homestead.timber_and_time.79DBD51D1B4A5650.quest39.title}"
 			x: -4.5d
 			y: -4.5d
 		}
+
 		{
-			description: ["Used to polish &c&lRose Quartz&r&r by holding the paper in one and the &c&lRose Quartz&r&r in the other and holding right click or inserting into a Deployer system."]
+			description: ["{homestead.timber_and_time.18078B6A239A87C0.quest40.description0}"]
 			id: "18078B6A239A87C0"
 			rewards: [
 				{
@@ -1459,7 +1499,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 1x Sandpaper."
+			subtitle: "{homestead.timber_and_time.18078B6A239A87C0.quest40.subtitle}"
 			tasks: [{
 				id: "2AB87065B40E6D96"
 				item: {
@@ -1471,12 +1511,13 @@
 				}
 				type: "item"
 			}]
-			title: "Smooth Finish"
+			title: "{homestead.timber_and_time.18078B6A239A87C0.quest40.title}"
 			x: -5.5d
 			y: -4.5d
 		}
+
 		{
-			description: ["Crafted using Redstone and Quartz. Used for polishing into components like Electron Tubes."]
+			description: ["{homestead.timber_and_time.5A88964644644729.quest41.description0}"]
 			id: "5A88964644644729"
 			rewards: [
 				{
@@ -1491,18 +1532,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 1x Rose Quartz."
+			subtitle: "{homestead.timber_and_time.5A88964644644729.quest41.subtitle}"
 			tasks: [{
 				id: "2352E86BBED05AB3"
 				item: "create:rose_quartz"
 				type: "item"
 			}]
-			title: "Quartz with a Spark"
+			title: "{homestead.timber_and_time.5A88964644644729.quest41.title}"
 			x: -5.5d
 			y: -3.5d
 		}
+
 		{
-			description: ["Polished Rose Quartz is required for making Electron Tubes. You can polish it by right-clicking or using Deployers."]
+			description: ["{homestead.timber_and_time.114C841CC23F41B6.quest42.description0}"]
 			id: "114C841CC23F41B6"
 			rewards: [{
 				id: "249C008423A19055"
@@ -1515,18 +1557,19 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Polish 1x Rose Quartz with Sandpaper."
+			subtitle: "{homestead.timber_and_time.114C841CC23F41B6.quest42.subtitle}"
 			tasks: [{
 				id: "24B3B90C7BC21FC3"
 				item: "create:polished_rose_quartz"
 				type: "item"
 			}]
-			title: "Shiny and Refined"
+			title: "{homestead.timber_and_time.114C841CC23F41B6.quest42.title}"
 			x: -5.5d
 			y: -2.5d
 		}
+
 		{
-			description: ["Used in crafting Deployers, Smart Chutes, and many tech-tier machines."]
+			description: ["{homestead.timber_and_time.34CA588AA594CED1.quest43.description0}"]
 			id: "34CA588AA594CED1"
 			rewards: [
 				{
@@ -1540,22 +1583,23 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 1x Electron Tube."
+			subtitle: "{homestead.timber_and_time.34CA588AA594CED1.quest43.subtitle}"
 			tasks: [{
 				id: "05BF59C3766232B7"
 				item: "create:electron_tube"
 				type: "item"
 			}]
-			title: "Conduit Core"
+			title: "{homestead.timber_and_time.34CA588AA594CED1.quest43.title}"
 			x: -5.5d
 			y: -1.5d
 		}
+
 		{
 			description: [
-				"Used in multi-block crafting setups like crafting the Crushing Wheel recipe."
+				"{homestead.timber_and_time.4BB5AA6398B775B8.quest44.description0}"
 				""
 				""
-				"{image:ftbquests:textures/homestead/mechanical_crafter_demonstration.png width:100 height:100 align:center}"
+				"{homestead.timber_and_time.4BB5AA6398B775B8.quest44.description1}"
 			]
 			id: "4BB5AA6398B775B8"
 			rewards: [
@@ -1576,19 +1620,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 21x Mechanical Crafters."
+			subtitle: "{homestead.timber_and_time.4BB5AA6398B775B8.quest44.subtitle}"
 			tasks: [{
 				count: 21L
 				id: "2B3CB4AF7663396D"
 				item: { Count: 21, id: "create:mechanical_crafter" }
 				type: "item"
 			}]
-			title: "Hands-Free Assembly"
+			title: "{homestead.timber_and_time.4BB5AA6398B775B8.quest44.title}"
 			x: -5.5d
 			y: -0.5d
 		}
+
 		{
-			description: ["Required to build the Crushing Wheel structure used to process ores and materials into dusts and more."]
+			description: ["{homestead.timber_and_time.001CBBC7A707BC85.quest45.description0}"]
 			id: "001CBBC7A707BC85"
 			rewards: [
 				{
@@ -1609,19 +1654,20 @@
 					xp: 100
 				}
 			]
-			subtitle: "Craft 2x Crushing Wheels."
+			subtitle: "{homestead.timber_and_time.001CBBC7A707BC85.quest45.subtitle}"
 			tasks: [{
 				count: 2L
 				id: "0A40CEA93E54A577"
 				item: { Count: 2, id: "create:crushing_wheel" }
 				type: "item"
 			}]
-			title: "The Big Crunch"
+			title: "{homestead.timber_and_time.001CBBC7A707BC85.quest45.title}"
 			x: -5.5d
 			y: 0.5d
 		}
+
 		{
-			description: ["An upgrade to Andesite Funnels that lets you filter or speed up item routing on belts and machines."]
+			description: ["{homestead.timber_and_time.2206FC73973CBFD7.quest46.description0}"]
 			id: "2206FC73973CBFD7"
 			rewards: [
 				{
@@ -1637,22 +1683,23 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 4x Brass Funnels."
+			subtitle: "{homestead.timber_and_time.2206FC73973CBFD7.quest46.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "05337242AC1F0BB6"
 				item: "create:brass_funnel"
 				type: "item"
 			}]
-			title: "Funneled Efficiency"
+			title: "{homestead.timber_and_time.2206FC73973CBFD7.quest46.title}"
 			x: -5.5d
 			y: 1.5d
 		}
+
 		{
 			description: [
-				"Place it above blocks you want to move."
+				"{homestead.timber_and_time.00449ADB2E33575E.quest47.description0}"
 				""
-				"Power it with rotation to pull the structure up and down."
+				"{homestead.timber_and_time.00449ADB2E33575E.quest47.description1}"
 			]
 			id: "00449ADB2E33575E"
 			rewards: [
@@ -1668,23 +1715,24 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 1x Rope Pulley."
+			subtitle: "{homestead.timber_and_time.00449ADB2E33575E.quest47.subtitle}"
 			tasks: [{
 				id: "640124A5DB17010D"
 				item: "create:rope_pulley"
 				type: "item"
 			}]
-			title: "Drop It Like It’s Pulled"
+			title: "{homestead.timber_and_time.00449ADB2E33575E.quest47.title}"
 			x: -5.5d
 			y: 4.5d
 		}
+
 		{
 			description: [
-				"The Elevator Pulley functions similarly to the Rope Pulley, but:"
+				"{homestead.timber_and_time.3E16B69159AEA522.quest48.description0}"
 				""
-				"Automatically tracks and syncs movement using the Gantry Shaft."
+				"{homestead.timber_and_time.3E16B69159AEA522.quest48.description1}"
 				""
-				"Works great with redstone control for floor selection and advanced automation."
+				"{homestead.timber_and_time.3E16B69159AEA522.quest48.description2}"
 			]
 			id: "3E16B69159AEA522"
 			rewards: [
@@ -1705,28 +1753,29 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 1x Elevator Pulley."
+			subtitle: "{homestead.timber_and_time.3E16B69159AEA522.quest48.subtitle}"
 			tasks: [{
 				id: "22D9C4C02146EE94"
 				item: "create:elevator_pulley"
 				type: "item"
 			}]
-			title: "Elevator Evolution"
+			title: "{homestead.timber_and_time.3E16B69159AEA522.quest48.title}"
 			x: -6.5d
 			y: 4.5d
 		}
+
 		{
 			description: [
-				"Attach a Contraption Control to a movable structure (like an elevator or drill platform)."
+				"{homestead.timber_and_time.321F09A7A156C31A.quest49.description0}"
 				""
-				"Right-click to access its GUI and assign functions."
+				"{homestead.timber_and_time.321F09A7A156C31A.quest49.description1}"
 				""
-				"Works like a mobile redstone controller, allowing players to:"
-				"- Emit redstone signals"
+				"{homestead.timber_and_time.321F09A7A156C31A.quest49.description2}"
+				"{homestead.timber_and_time.321F09A7A156C31A.quest49.description3}"
 				""
-				"- Interact with sequenced logic"
+				"{homestead.timber_and_time.321F09A7A156C31A.quest49.description4}"
 				""
-				"- Trigger actions on board the contraption"
+				"{homestead.timber_and_time.321F09A7A156C31A.quest49.description5}"
 			]
 			id: "321F09A7A156C31A"
 			rewards: [
@@ -1748,18 +1797,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 1x Contraption Controls."
+			subtitle: "{homestead.timber_and_time.321F09A7A156C31A.quest49.subtitle}"
 			tasks: [{
 				id: "765DB20D052E3638"
 				item: "create:contraption_controls"
 				type: "item"
 			}]
-			title: "Push to Engage"
+			title: "{homestead.timber_and_time.321F09A7A156C31A.quest49.title}"
 			x: -6.5d
 			y: 3.5d
 		}
+
 		{
-			description: ["Used to transport fluids between tanks, machines, or other components. These pipes automatically connect to fluid-accepting blocks."]
+			description: ["{homestead.timber_and_time.30DAF055D4D08578.quest50.description0}"]
 			id: "30DAF055D4D08578"
 			rewards: [{
 				count: 8
@@ -1767,19 +1817,20 @@
 				item: "create:copper_sheet"
 				type: "item"
 			}]
-			subtitle: "Craft 8x Fluid Pipes."
+			subtitle: "{homestead.timber_and_time.30DAF055D4D08578.quest50.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "1D71E2D51A2EC0FC"
 				item: { Count: 8, id: "create:fluid_pipe" }
 				type: "item"
 			}]
-			title: "Piping It Up"
+			title: "{homestead.timber_and_time.30DAF055D4D08578.quest50.title}"
 			x: -6.5d
 			y: 1.5d
 		}
+
 		{
-			description: ["A compact fluid storage solution. Can be connected to pipes and pumps. Stackable vertically for more capacity."]
+			description: ["{homestead.timber_and_time.0B534E3CCFAF2F97.quest51.description0}"]
 			id: "0B534E3CCFAF2F97"
 			rewards: [
 				{
@@ -1793,18 +1844,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 1x Fluid Tank."
+			subtitle: "{homestead.timber_and_time.0B534E3CCFAF2F97.quest51.subtitle}"
 			tasks: [{
 				id: "029DBCC9841A5723"
 				item: "create:fluid_tank"
 				type: "item"
 			}]
-			title: "Tank You Very Much"
+			title: "{homestead.timber_and_time.0B534E3CCFAF2F97.quest51.title}"
 			x: -6.5d
 			y: 0.5d
 		}
+
 		{
-			description: ["Used to extract fluid from items like potions or bottles. Connects to fluid pipes and tanks."]
+			description: ["{homestead.timber_and_time.0F2CC8DD0731A875.quest52.description0}"]
 			id: "0F2CC8DD0731A875"
 			rewards: [
 				{
@@ -1818,18 +1870,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 1x Item Drain."
+			subtitle: "{homestead.timber_and_time.0F2CC8DD0731A875.quest52.subtitle}"
 			tasks: [{
 				id: "2F51C53DD38BA9B6"
 				item: "create:item_drain"
 				type: "item"
 			}]
-			title: "Drain Game"
+			title: "{homestead.timber_and_time.0F2CC8DD0731A875.quest52.title}"
 			x: -6.5d
 			y: -0.5d
 		}
+
 		{
-			description: ["Used to deposit fluid onto items in passing (e.g. fill bottles, coat foods). Can be placed over belts or Depots."]
+			description: ["{homestead.timber_and_time.0BC09957030970A7.quest53.description0}"]
 			id: "0BC09957030970A7"
 			rewards: [
 				{
@@ -1843,18 +1896,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 1x Spout."
+			subtitle: "{homestead.timber_and_time.0BC09957030970A7.quest53.subtitle}"
 			tasks: [{
 				id: "70428EF47F9DEF1C"
 				item: "create:spout"
 				type: "item"
 			}]
-			title: "Spray and Pray"
+			title: "{homestead.timber_and_time.0BC09957030970A7.quest53.title}"
 			x: -6.5d
 			y: -1.5d
 		}
+
 		{
-			description: ["Used to move fluids vertically into tanks or oceans. Good for water/lava automation or fluid source collection."]
+			description: ["{homestead.timber_and_time.3C5EF61AA8A8B90F.quest54.description0}"]
 			id: "3C5EF61AA8A8B90F"
 			rewards: [
 				{
@@ -1868,18 +1922,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 1x Hose Pulley."
+			subtitle: "{homestead.timber_and_time.3C5EF61AA8A8B90F.quest54.subtitle}"
 			tasks: [{
 				id: "6599F26F878557ED"
 				item: "create:hose_pulley"
 				type: "item"
 			}]
-			title: "Pulley Potential"
+			title: "{homestead.timber_and_time.3C5EF61AA8A8B90F.quest54.title}"
 			x: -6.5d
 			y: -2.5d
 		}
+
 		{
-			description: ["Moves fluids directionally through fluid pipes. Requires rotation to function. Can be reversed with Gearshifts."]
+			description: ["{homestead.timber_and_time.7279BFB5227C487B.quest55.description0}"]
 			id: "7279BFB5227C487B"
 			rewards: [
 				{
@@ -1893,18 +1948,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 1x Mechanical Pump."
+			subtitle: "{homestead.timber_and_time.7279BFB5227C487B.quest55.subtitle}"
 			tasks: [{
 				id: "66DD0AAC6C8FD4DF"
 				item: "create:mechanical_pump"
 				type: "item"
 			}]
-			title: "Push Comes to Pump"
+			title: "{homestead.timber_and_time.7279BFB5227C487B.quest55.title}"
 			x: -6.5d
 			y: -3.5d
 		}
+
 		{
-			description: ["Smart Fluid Pipes track what fluids pass through them. Fluid Valves can control or shut off flow with redstone."]
+			description: ["{homestead.timber_and_time.4372D7B29E8832DB.quest56.description0}"]
 			id: "4372D7B29E8832DB"
 			rewards: [
 				{
@@ -1918,7 +1974,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 1x Smart Fluid Pipe and 1x Fluid Valve."
+			subtitle: "{homestead.timber_and_time.4372D7B29E8832DB.quest56.subtitle}"
 			tasks: [
 				{
 					id: "51C84743A27CD997"
@@ -1931,12 +1987,13 @@
 					type: "item"
 				}
 			]
-			title: "Smart Flow"
+			title: "{homestead.timber_and_time.4372D7B29E8832DB.quest56.title}"
 			x: -6.5d
 			y: -4.5d
 		}
+
 		{
-			description: ["Used for transferring fluids between contraptions (like a mobile tank cart and a stationary tank). Requires contact via Portable Fluid Interface pair."]
+			description: ["{homestead.timber_and_time.2808923D4B8EC845.quest57.description0}"]
 			id: "2808923D4B8EC845"
 			rewards: [
 				{
@@ -1950,18 +2007,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 1x Portable Fluid Interface."
+			subtitle: "{homestead.timber_and_time.2808923D4B8EC845.quest57.subtitle}"
 			tasks: [{
 				id: "792C1ABBD8C6BBA1"
 				item: "create:portable_fluid_interface"
 				type: "item"
 			}]
-			title: "Porta-Pipe"
+			title: "{homestead.timber_and_time.2808923D4B8EC845.quest57.title}"
 			x: -7.5d
 			y: -4.5d
 		}
+
 		{
-			description: ["This casing protects machinery involved in piping, spouting, and tanking."]
+			description: ["{homestead.timber_and_time.08E79F6B22C21D7C.quest58.description0}"]
 			id: "08E79F6B22C21D7C"
 			rewards: [
 				{
@@ -1976,21 +2034,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 1x Copper Casing."
+			subtitle: "{homestead.timber_and_time.08E79F6B22C21D7C.quest58.subtitle}"
 			tasks: [{
 				id: "29B13976730D592B"
 				item: "create:copper_casing"
 				type: "item"
 			}]
-			title: "Copper Core"
+			title: "{homestead.timber_and_time.08E79F6B22C21D7C.quest58.title}"
 			x: -6.5d
 			y: 2.5d
 		}
+
 		{
 			description: [
-				"Place on top of fluid pipes (especially over a Fluid Valve)"
+				"{homestead.timber_and_time.1D23495572D9BEA4.quest59.description0}"
 				""
-				"Right-click to toggle fluid flow! No redstone needed."
+				"{homestead.timber_and_time.1D23495572D9BEA4.quest59.description1}"
 			]
 			id: "1D23495572D9BEA4"
 			rewards: [
@@ -2010,46 +2069,48 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 1x Copper Valve Handle."
+			subtitle: "{homestead.timber_and_time.1D23495572D9BEA4.quest59.subtitle}"
 			tasks: [{
 				id: "69794E8AD73DBCB2"
 				item: "create:copper_valve_handle"
 				type: "item"
 			}]
-			title: "Turn the Tide"
+			title: "{homestead.timber_and_time.1D23495572D9BEA4.quest59.title}"
 			x: -7.5d
 			y: -3.5d
 		}
+
 		{
-			description: ["This little machine will make your rotational speed power go to the MAX"]
+			description: ["{homestead.timber_and_time.07854B4B69AF0BC3.quest60.description0}"]
 			id: "07854B4B69AF0BC3"
-			subtitle: "Craft 1x Rotation Speed Controller."
+			subtitle: "{homestead.timber_and_time.07854B4B69AF0BC3.quest60.subtitle}"
 			tasks: [{
 				id: "043A01B63FC40553"
 				item: "create:rotation_speed_controller"
 				type: "item"
 			}]
-			title: "Speed Matters"
+			title: "{homestead.timber_and_time.07854B4B69AF0BC3.quest60.title}"
 			x: -5.5d
 			y: 3.5d
 		}
+
 		{
 			description: [
-				"&lStart with a Gold Sheet on a Depot or Belt.&r"
+				"{homestead.timber_and_time.6A3AFEBFC112A659.quest61.description0}"
 				""
-				"&n&lUse 3 Deployers, each loaded with:&r&r"
+				"{homestead.timber_and_time.6A3AFEBFC112A659.quest61.description1}"
 				""
-				"&l🟤 Cogwheel&r"
+				"{homestead.timber_and_time.6A3AFEBFC112A659.quest61.description2}"
 				""
-				"&l⚙ Large Cogwheel&r"
+				"{homestead.timber_and_time.6A3AFEBFC112A659.quest61.description3}"
 				""
-				"&l🪙 Iron Nugget&r"
+				"{homestead.timber_and_time.6A3AFEBFC112A659.quest61.description4}"
 				""
-				"Apply the items listed above onto a Golden Sheet in &lORDER 5 times&r."
+				"{homestead.timber_and_time.6A3AFEBFC112A659.quest61.description5}"
 				""
-				"So the Golden Sheet should have a Cogwheel, then a Large Cogwheel, then an Iron Nugget deployed onto it 5 times in a row."
+				"{homestead.timber_and_time.6A3AFEBFC112A659.quest61.description6}"
 				""
-				"There is a slight chance that it will fail and give you scrap. If it does, you will have to restart the process again."
+				"{homestead.timber_and_time.6A3AFEBFC112A659.quest61.description7}"
 			]
 			id: "6A3AFEBFC112A659"
 			rewards: [
@@ -2070,18 +2131,19 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft 1x Precision Mechanism."
+			subtitle: "{homestead.timber_and_time.6A3AFEBFC112A659.quest61.subtitle}"
 			tasks: [{
 				id: "53F0C9FC27A4BCE7"
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
-			title: "Precision Perfected"
+			title: "{homestead.timber_and_time.6A3AFEBFC112A659.quest61.title}"
 			x: -5.5d
 			y: 2.5d
 		}
+
 		{
-			description: ["Used to convert regular blocks into train bogeys and car frames. Required for every segment of a train."]
+			description: ["{homestead.timber_and_time.525E7C2D2C9463F3.quest62.description0}"]
 			id: "525E7C2D2C9463F3"
 			rewards: [
 				{
@@ -2102,7 +2164,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Craft 1x Sturdy sheet to Craft 1x Train Casing."
+			subtitle: "{homestead.timber_and_time.525E7C2D2C9463F3.quest62.subtitle}"
 			tasks: [
 				{
 					id: "32521B7135507740"
@@ -2115,12 +2177,13 @@
 					type: "item"
 				}
 			]
-			title: "All Aboard the Casing"
+			title: "{homestead.timber_and_time.525E7C2D2C9463F3.quest62.title}"
 			x: -7.5d
 			y: -2.5d
 		}
+
 		{
-			description: ["Train Tracks form the rails your train will ride on. Place in any direction and use curves and slopes for full flexibility."]
+			description: ["{homestead.timber_and_time.42BF2645E2C3E6C2.quest63.description0}"]
 			id: "42BF2645E2C3E6C2"
 			rewards: [
 				{
@@ -2141,19 +2204,20 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft 16x Train Tracks."
+			subtitle: "{homestead.timber_and_time.42BF2645E2C3E6C2.quest63.subtitle}"
 			tasks: [{
 				count: 16L
 				id: "476B8D77851DB027"
 				item: { Count: 16, id: "create:track" }
 				type: "item"
 			}]
-			title: "On the Right Track"
+			title: "{homestead.timber_and_time.42BF2645E2C3E6C2.quest63.title}"
 			x: -7.5d
 			y: -1.5d
 		}
+
 		{
-			description: ["Train Stations let you summon, name, and automate train routes. Trains must start or end at a station to be controlled."]
+			description: ["{homestead.timber_and_time.10A50F64F415E1BC.quest64.description0}"]
 			id: "10A50F64F415E1BC"
 			rewards: [
 				{
@@ -2172,18 +2236,19 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft 1x Train Station."
+			subtitle: "{homestead.timber_and_time.10A50F64F415E1BC.quest64.subtitle}"
 			tasks: [{
 				id: "622D32E545DB5CEB"
 				item: "create:track_station"
 				type: "item"
 			}]
-			title: "Next Stop: Progress"
+			title: "{homestead.timber_and_time.10A50F64F415E1BC.quest64.title}"
 			x: -7.5d
 			y: -0.5d
 		}
+
 		{
-			description: ["Train Schedules define the stops and behaviors of your train—fully automating its path and logic."]
+			description: ["{homestead.timber_and_time.468AF9412A6CF3F4.quest65.description0}"]
 			id: "468AF9412A6CF3F4"
 			rewards: [
 				{
@@ -2202,18 +2267,19 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft 1x Train Schedule."
+			subtitle: "{homestead.timber_and_time.468AF9412A6CF3F4.quest65.subtitle}"
 			tasks: [{
 				id: "637208DFEF38F079"
 				item: "create:schedule"
 				type: "item"
 			}]
-			title: "On Schedule"
+			title: "{homestead.timber_and_time.468AF9412A6CF3F4.quest65.title}"
 			x: -7.5d
 			y: 0.5d
 		}
+
 		{
-			description: ["Train Signals help prevent collisions and manage multi-track intersections. Used for automation with redstone logic."]
+			description: ["{homestead.timber_and_time.1D4EDDB15B4F3265.quest66.description0}"]
 			id: "1D4EDDB15B4F3265"
 			rewards: [
 				{
@@ -2232,18 +2298,19 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft 1x Train Signal."
+			subtitle: "{homestead.timber_and_time.1D4EDDB15B4F3265.quest66.subtitle}"
 			tasks: [{
 				id: "4DE73C200A6ECB34"
 				item: "create:track_signal"
 				type: "item"
 			}]
-			title: "All Clear"
+			title: "{homestead.timber_and_time.1D4EDDB15B4F3265.quest66.title}"
 			x: -7.5d
 			y: 1.5d
 		}
+
 		{
-			description: ["The Train Observer monitors which trains pass by and emits a redstone signal. Useful for logic gates and automation."]
+			description: ["{homestead.timber_and_time.4416BC1057B42ED9.quest67.description0}"]
 			id: "4416BC1057B42ED9"
 			rewards: [
 				{
@@ -2262,18 +2329,19 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft 1x Train Observer."
+			subtitle: "{homestead.timber_and_time.4416BC1057B42ED9.quest67.subtitle}"
 			tasks: [{
 				id: "781146386A97BCE8"
 				item: "create:track_observer"
 				type: "item"
 			}]
-			title: "Track Watcher"
+			title: "{homestead.timber_and_time.4416BC1057B42ED9.quest67.title}"
 			x: -7.5d
 			y: 2.5d
 		}
+
 		{
-			description: ["Train Controls allow you to pilot the train manually. Must be placed on a powered car for player control."]
+			description: ["{homestead.timber_and_time.1FDF6D2E51232DEF.quest68.description0}"]
 			id: "1FDF6D2E51232DEF"
 			rewards: [
 				{
@@ -2292,18 +2360,19 @@
 					xp: 25
 				}
 			]
-			subtitle: "Craft 1x Train Controls."
+			subtitle: "{homestead.timber_and_time.1FDF6D2E51232DEF.quest68.subtitle}"
 			tasks: [{
 				id: "4BF530CCF6F9EC72"
 				item: "create:controls"
 				type: "item"
 			}]
-			title: "Conduct Yourself"
+			title: "{homestead.timber_and_time.1FDF6D2E51232DEF.quest68.title}"
 			x: -7.5d
 			y: 3.5d
 		}
+
 		{
-			description: ["Display Boards show dynamic information about arriving trains, destinations, or cargo using redstone signal inputs."]
+			description: ["{homestead.timber_and_time.0707A24DD0000DB8.quest69.description0}"]
 			id: "0707A24DD0000DB8"
 			rewards: [
 				{
@@ -2328,18 +2397,19 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Craft 1x Display Board."
+			subtitle: "{homestead.timber_and_time.0707A24DD0000DB8.quest69.subtitle}"
 			tasks: [{
 				id: "5C35A6057D32B1CC"
 				item: "create:display_board"
 				type: "item"
 			}]
-			title: "Info On the Go"
+			title: "{homestead.timber_and_time.0707A24DD0000DB8.quest69.title}"
 			x: -7.5d
 			y: 4.5d
 		}
+
 		{
-			description: ["This magical tool mirrors your block placements in perfect symmetry—horizontally, vertically, or across diagonals."]
+			description: ["{homestead.timber_and_time.4E3FDEDE78D4CDDB.quest70.description0}"]
 			hide_dependency_lines: true
 			id: "4E3FDEDE78D4CDDB"
 			rewards: [
@@ -2359,7 +2429,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 1x Wand of Symmetry."
+			subtitle: "{homestead.timber_and_time.4E3FDEDE78D4CDDB.quest70.subtitle}"
 			tasks: [{
 				id: "2A13B6B397A1FBF6"
 				item: {
@@ -2381,12 +2451,13 @@
 				}
 				type: "item"
 			}]
-			title: "Perfectly Mirrored"
+			title: "{homestead.timber_and_time.4E3FDEDE78D4CDDB.quest70.title}"
 			x: 0.0d
 			y: 5.0d
 		}
+
 		{
-			description: ["The Extendo Grip increases your reach distance and attack range. Very handy (literally) for automation and combat."]
+			description: ["{homestead.timber_and_time.012AADAB4A531208.quest71.description0}"]
 			hide_dependency_lines: true
 			id: "012AADAB4A531208"
 			rewards: [
@@ -2407,7 +2478,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 1x Extendo Grip."
+			subtitle: "{homestead.timber_and_time.012AADAB4A531208.quest71.subtitle}"
 			tasks: [{
 				id: "78E7198114CDF8B1"
 				item: {
@@ -2419,12 +2490,13 @@
 				}
 				type: "item"
 			}]
-			title: "Stretch Your Limits"
+			title: "{homestead.timber_and_time.012AADAB4A531208.quest71.title}"
 			x: -1.0d
 			y: 5.0d
 		}
+
 		{
-			description: ["Turns your extra potatoes into ammo. This fun weapon can launch a variety of food items at mobs—or friends."]
+			description: ["{homestead.timber_and_time.5FFBB089C9E65077.quest72.description0}"]
 			hide_dependency_lines: true
 			id: "5FFBB089C9E65077"
 			rewards: [
@@ -2445,7 +2517,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 1x Potato Cannon."
+			subtitle: "{homestead.timber_and_time.5FFBB089C9E65077.quest72.subtitle}"
 			tasks: [{
 				id: "3F4FDE757C7D35F1"
 				item: {
@@ -2457,10 +2529,9 @@
 				}
 				type: "item"
 			}]
-			title: "Tuber Warfare"
+			title: "{homestead.timber_and_time.5FFBB089C9E65077.quest72.title}"
 			x: 1.0d
 			y: 5.0d
 		}
-	]
-	title: "Cogs and Whimsy"
-}
+
+	]	title: "Cogs and Whimsy"}
