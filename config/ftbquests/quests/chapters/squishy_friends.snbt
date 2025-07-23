@@ -561,4 +561,6 @@
 			y: -5.267857142857146d
 		}
 
-	]	title: "Squishy Friends"}
+	]	
+	title: "{homestead.squishy_friends.title}"
+}

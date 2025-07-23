@@ -954,7 +954,7 @@
 				count: 64L
 				id: "4D134CFDEEA6F67B"
 				item: { Count: 64, id: "minecraft:andesite" }
-				title: "Craft 64 Andesite"
+				title: "{homestead.timber_and_time.3B5A77B3F132EE47.quest26.task0.title}"
 				type: "item"
 			}]
 			title: "{homestead.timber_and_time.3B5A77B3F132EE47.quest26.title}"
@@ -2534,4 +2534,6 @@
 			y: 5.0d
 		}
 
-	]	title: "Cogs and Whimsy"}
+	]	
+	title: "{homestead.timber_and_time.title}"
+}

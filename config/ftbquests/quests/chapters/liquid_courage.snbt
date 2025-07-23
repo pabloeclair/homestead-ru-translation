@@ -67,7 +67,7 @@
 				id: "745077924E465A4E"
 				replace: false
 				replaced: "minecraft:air"
-				title: "Place 8x Hop Seeds"
+				title: "{homestead.liquid_courage.44E1E7887623DD4E.quest1.task0.title}"
 				type: "questsadditions:place"
 				value: 8L
 			}]
@@ -1165,4 +1165,6 @@
 			y: 1.5d
 		}
 
-	]	title: "Liquid Courage"}
+	]	
+	title: "{homestead.liquid_courage.title}"
+}

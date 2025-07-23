@@ -1924,4 +1924,6 @@
 			y: -5.0d
 		}
 
-	]	title: "Seasoned and Settled"}
+	]	
+	title: "{homestead.seasoned_and_settled.title}"
+}

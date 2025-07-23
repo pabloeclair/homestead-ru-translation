@@ -60,7 +60,7 @@
 			subtitle: "{homestead.the_heart_of_the_homestead.5AE4B6061101C9FB.quest0.subtitle}"
 			tasks: [{
 				id: "545ED231C6347A70"
-				title: "Checkmark"
+				title: "{homestead.the_heart_of_the_homestead.5AE4B6061101C9FB.quest0.task0.title}"
 				type: "checkmark"
 			}]
 			title: "{homestead.the_heart_of_the_homestead.5AE4B6061101C9FB.quest0.title}"
@@ -267,7 +267,7 @@
 				checkItem: false
 				id: "717B9191E65E2939"
 				isItemInteraction: false
-				title: "Use Cutting Board 64x"
+				title: "{homestead.the_heart_of_the_homestead.3D058C9B96C87A25.quest4.task0.title}"
 				type: "questsadditions:use"
 				value: 64L
 			}]
@@ -367,7 +367,7 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:tables)"
 						}
 					}
-					title: "{homestead.the_heart_of_the_homestead.1F855FA73F385999.quest7.task3.title}"
+					title: "{homestead.the_heart_of_the_homestead.1F855FA73F385999.quest7.task1.title}"
 					type: "item"
 				}
 				{
@@ -380,7 +380,7 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:chairs)"
 						}
 					}
-					title: "{homestead.the_heart_of_the_homestead.1F855FA73F385999.quest7.task4.title}"
+					title: "{homestead.the_heart_of_the_homestead.1F855FA73F385999.quest7.task3.title}"
 					type: "item"
 				}
 				{
@@ -406,7 +406,7 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:cups)"
 						}
 					}
-					title: "{homestead.the_heart_of_the_homestead.1F855FA73F385999.quest7.task1.title}"
+					title: "{homestead.the_heart_of_the_homestead.1F855FA73F385999.quest7.task7.title}"
 					type: "item"
 				}
 			]
@@ -829,4 +829,6 @@
 			y: -5.5d
 		}
 
-	]	title: "The Heart of The Homestead"}
+	]	
+	title: "{homestead.the_heart_of_the_homestead.title}"
+}

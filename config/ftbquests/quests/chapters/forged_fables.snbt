@@ -2526,4 +2526,6 @@
 			y: 1.5d
 		}
 
-	]	title: "Forged Fables"}
+	]	
+	title: "{homestead.forged_fables.title}"
+}

@@ -290,4 +290,6 @@
 			y: 1.8035714285714235d
 		}
 
-	]	title: "Shaped With Care"}
+	]	
+	title: "{homestead.shaped_with_care.title}"
+}

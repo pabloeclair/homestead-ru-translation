@@ -43,7 +43,7 @@
 			size: 5.0d
 			tasks: [{
 				id: "34AAE1E6983BD2C3"
-				title: "Welcome to the Tips Page!"
+				title: "{homestead.tips.49B1251816EA4218.quest0.task0.title}"
 				type: "checkmark"
 			}]
 			x: 0.4642857142857153d
@@ -62,7 +62,7 @@
 			id: "7DF4A71CE3985EE9"
 			tasks: [{
 				id: "2DFF33356C7C140B"
-				title: "Iron Chests: Restocked"
+				title: "{homestead.tips.7DF4A71CE3985EE9.quest1.task0.title}"
 				type: "checkmark"
 			}]
 			x: 0.5d
@@ -79,7 +79,7 @@
 			id: "70D5524715BEAA10"
 			tasks: [{
 				id: "4E8DC4FAA0619F6E"
-				title: "Lootr"
+				title: "{homestead.tips.70D5524715BEAA10.quest2.task0.title}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -103,7 +103,7 @@
 			id: "6FF2A6C97ED4224A"
 			tasks: [{
 				id: "69FD5EBF9205F65A"
-				title: "Panda's Falling Tree's"
+				title: "{homestead.tips.6FF2A6C97ED4224A.quest3.task0.title}"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -116,7 +116,7 @@
 			id: "06EC0F06D47E5243"
 			tasks: [{
 				id: "3C6580DF851774BD"
-				title: "Trash Can Slot"
+				title: "{homestead.tips.06EC0F06D47E5243.quest4.task0.title}"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -129,7 +129,7 @@
 			id: "03C2FB950A9DFA99"
 			tasks: [{
 				id: "154B405EF221A5B4"
-				title: "Let's Do Beachparty Seashells"
+				title: "{homestead.tips.03C2FB950A9DFA99.quest5.task0.title}"
 				type: "checkmark"
 			}]
 			x: 2.5d
@@ -146,7 +146,7 @@
 			id: "191BEE4673E23683"
 			tasks: [{
 				id: "2DC782F82BE9CC29"
-				title: "Twigs Seashells!"
+				title: "{homestead.tips.191BEE4673E23683.quest6.task0.title}"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -165,7 +165,7 @@
 			id: "71C047A46A1F158F"
 			tasks: [{
 				id: "2577767C191A084D"
-				title: "Twigs into Sticks!"
+				title: "{homestead.tips.71C047A46A1F158F.quest7.task0.title}"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -184,7 +184,7 @@
 			id: "7CCF924A05DA76C6"
 			tasks: [{
 				id: "03A059564CC3D8F4"
-				title: "Flower Power!"
+				title: "{homestead.tips.7CCF924A05DA76C6.quest8.task0.title}"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -201,7 +201,7 @@
 			id: "73D692AD71F2A091"
 			tasks: [{
 				id: "2314429774B6B4D9"
-				title: "Sunflowers: Seeds of Sunshine!"
+				title: "{homestead.tips.73D692AD71F2A091.quest9.task0.title}"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -230,7 +230,7 @@
 			id: "1EF602A50E861F46"
 			tasks: [{
 				id: "31212E6E6B0A8FBE"
-				title: "Simple Copper Pipes"
+				title: "{homestead.tips.1EF602A50E861F46.quest10.task0.title}"
 				type: "checkmark"
 			}]
 			x: 4.0d
@@ -270,7 +270,7 @@
 			id: "1A90A13DEC730B55"
 			tasks: [{
 				id: "3E2EF41C7753D390"
-				title: "Construction Wands"
+				title: "{homestead.tips.1A90A13DEC730B55.quest11.task0.title}"
 				type: "checkmark"
 			}]
 			x: 4.0d
@@ -283,7 +283,7 @@
 			id: "193FFCA0EC8F69CF"
 			tasks: [{
 				id: "244DCED79B1BA139"
-				title: "Crafting Pad"
+				title: "{homestead.tips.193FFCA0EC8F69CF.quest12.task0.title}"
 				type: "checkmark"
 			}]
 			x: 4.0d
@@ -309,7 +309,7 @@
 			id: "577E3E7F53834444"
 			tasks: [{
 				id: "39FC2FEC741B5DED"
-				title: "Extreme Sound Muffler"
+				title: "{homestead.tips.577E3E7F53834444.quest13.task0.title}"
 				type: "checkmark"
 			}]
 			x: 4.0d
@@ -342,7 +342,7 @@
 			id: "1DFBB5C5D53F2EE3"
 			tasks: [{
 				id: "119A36B1F47CCA12"
-				title: "Umbrellas"
+				title: "{homestead.tips.1DFBB5C5D53F2EE3.quest14.task0.title}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -375,7 +375,7 @@
 			id: "5A12AF8EC722627B"
 			tasks: [{
 				id: "1A01B22DAA989385"
-				title: "GoFish"
+				title: "{homestead.tips.5A12AF8EC722627B.quest15.task0.title}"
 				type: "checkmark"
 			}]
 			x: 2.5d
@@ -396,7 +396,7 @@
 			id: "657455402FA79E5B"
 			tasks: [{
 				id: "4FECB2AC79DC0422"
-				title: "Fanning the Flames"
+				title: "{homestead.tips.657455402FA79E5B.quest16.task0.title}"
 				type: "checkmark"
 			}]
 			title: "{homestead.tips.657455402FA79E5B.quest16.title}"
@@ -414,7 +414,7 @@
 			id: "6CCF735475110060"
 			tasks: [{
 				id: "4F9E29C180DD720B"
-				title: "Rotten to Refined!"
+				title: "{homestead.tips.6CCF735475110060.quest17.task0.title}"
 				type: "checkmark"
 			}]
 			title: "{homestead.tips.6CCF735475110060.quest17.title}"
@@ -436,7 +436,7 @@
 			id: "037D019B5F37707F"
 			tasks: [{
 				id: "5CF89BCEA083F186"
-				title: "Wool Tweaks!"
+				title: "{homestead.tips.037D019B5F37707F.quest18.task0.title}"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -453,7 +453,7 @@
 			id: "2033778989209CE2"
 			tasks: [{
 				id: "47D8BB0C83A8BDD1"
-				title: "Minisheep"
+				title: "{homestead.tips.2033778989209CE2.quest19.task0.title}"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -470,7 +470,7 @@
 			id: "271D8569B1FFA1D1"
 			tasks: [{
 				id: "14014DC76B0D116A"
-				title: "Mossbloom"
+				title: "{homestead.tips.271D8569B1FFA1D1.quest20.task0.title}"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -489,7 +489,7 @@
 			id: "1088813B7A8F78BD"
 			tasks: [{
 				id: "558A4C22807EBB86"
-				title: "Macaw's Paths and Pavings"
+				title: "{homestead.tips.1088813B7A8F78BD.quest21.task0.title}"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -506,7 +506,7 @@
 			id: "792671B2BB0E8F4F"
 			tasks: [{
 				id: "2A1EC75AFDAA03EE"
-				title: "Trowel"
+				title: "{homestead.tips.792671B2BB0E8F4F.quest22.task0.title}"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -527,7 +527,7 @@
 			id: "67A53B779633EB50"
 			tasks: [{
 				id: "49C90C11D35336AE"
-				title: "Saddle"
+				title: "{homestead.tips.67A53B779633EB50.quest23.task0.title}"
 				type: "checkmark"
 			}]
 			title: "{homestead.tips.67A53B779633EB50.quest23.title}"
@@ -548,11 +548,13 @@
 			id: "59160BFCA583C3FF"
 			tasks: [{
 				id: "20EE26F5AA273F68"
-				title: "Craftable Nametag"
+				title: "{homestead.tips.59160BFCA583C3FF.quest24.task0.title}"
 				type: "checkmark"
 			}]
 			x: -3.0d
 			y: -2.0d
 		}
 
-	]	title: "TIPS"}
+	]	
+	title: "{homestead.tips.title}"
+}

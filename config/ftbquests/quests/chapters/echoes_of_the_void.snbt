@@ -515,4 +515,6 @@
 			y: -8.375d
 		}
 
-	]	title: "Echoes of the Void"}
+	]	
+	title: "{homestead.echoes_of_the_void.title}"
+}

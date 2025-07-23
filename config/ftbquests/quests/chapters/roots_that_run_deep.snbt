@@ -109,7 +109,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)"
 					}
 				}
-				title: "Any #minecraft:logs"
+				title: "{homestead.roots_that_run_deep.21C27F6552136974.quest2.task1.title}"
 				type: "item"
 			}]
 			title: "{homestead.roots_that_run_deep.21C27F6552136974.quest2.title}"
@@ -144,7 +144,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:mushrooms)"
 					}
 				}
-				title: "Any #c:mushrooms"
+				title: "{homestead.roots_that_run_deep.7FFA209E3B6B99D9.quest3.task1.title}"
 				type: "item"
 			}]
 			title: "{homestead.roots_that_run_deep.7FFA209E3B6B99D9.quest3.title}"
@@ -185,7 +185,7 @@
 			tasks: [{
 				id: "131CC80B35427382"
 				item: "things:bater_wucket"
-				title: "Craft 1x Bater Wucket"
+				title: "{homestead.roots_that_run_deep.3408C836B3D2E763.quest5.task0.title}"
 				type: "item"
 			}]
 			title: "{homestead.roots_that_run_deep.3408C836B3D2E763.quest5.title}"
@@ -220,7 +220,7 @@
 				count: 1000L
 				id: "5672F51D7C2A04D6"
 				item: "minecraft:stone"
-				title: "Smelt 1,000 Stone"
+				title: "{homestead.roots_that_run_deep.43EC615E2B0F6AE5.quest6.task0.title}"
 				type: "item"
 			}]
 			title: "{homestead.roots_that_run_deep.43EC615E2B0F6AE5.quest6.title}"
@@ -307,7 +307,7 @@
 				advancement: "regions_unexplored:pioneer"
 				criterion: ""
 				id: "6810B068967C11FE"
-				title: "Explore all Regions Unexplored Biomes"
+				title: "{homestead.roots_that_run_deep.117233DA2D10A7CD.quest8.task0.title}"
 				type: "advancement"
 			}]
 			title: "{homestead.roots_that_run_deep.117233DA2D10A7CD.quest8.title}"
@@ -533,7 +533,7 @@
 				icon: "perfectplushies:frog_plushie"
 				id: "76B99963C5C6A090"
 				structure: "ribbits:ribbit_village"
-				title: "Visit A Ribbit's Village!"
+				title: "{homestead.roots_that_run_deep.3F7CB7A15424A77D.quest12.task0.title}"
 				type: "structure"
 			}]
 			title: "{homestead.roots_that_run_deep.3F7CB7A15424A77D.quest12.title}"
@@ -1508,7 +1508,7 @@
 				}
 				id: "07DAFE773DDBAF28"
 				stat: "minecraft:walk_one_cm"
-				title: "Walk 50,000 blocks"
+				title: "{homestead.roots_that_run_deep.1793D9CDA5CB10C7.quest20.task1.title}"
 				type: "stat"
 				value: 6400000
 			}]
@@ -1567,7 +1567,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:flowers)"
 					}
 				}
-				title: "Any #minecraft:flowers"
+				title: "{homestead.roots_that_run_deep.2A573FC228D165BA.quest21.task1.title}"
 				type: "item"
 			}]
 			title: "{homestead.roots_that_run_deep.2A573FC228D165BA.quest21.title}"
@@ -1862,4 +1862,6 @@
 			y: -9.0d
 		}
 
-	]	title: "Roots That Run Deep"}
+	]	
+	title: "{homestead.roots_that_run_deep.title}"
+}

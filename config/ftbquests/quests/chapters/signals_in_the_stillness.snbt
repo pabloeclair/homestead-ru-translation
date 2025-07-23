@@ -120,7 +120,7 @@
 			subtitle: "{homestead.signals_in_the_stillness.1FA32046C76E1A9F.quest0.subtitle}"
 			tasks: [{
 				id: "23AB2E9A1C831AB3"
-				title: "Whispers of the Signal"
+				title: "{homestead.signals_in_the_stillness.1FA32046C76E1A9F.quest0.task0.title}"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -288,4 +288,6 @@
 			y: -4.5d
 		}
 
-	]	title: "Signals in the Stillness"}
+	]	
+	title: "{homestead.signals_in_the_stillness.title}"
+}

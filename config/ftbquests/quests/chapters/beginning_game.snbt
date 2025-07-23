@@ -53,8 +53,8 @@
 			]
 			shape: "diamond"
 			tasks: [{
-				id: "38A3886485CC5ADE",
-				title: "{homestead.beginning_game.70E4CC545EFE64E3.quest0.task0.title}",
+				id: "38A3886485CC5ADE"
+				title: "{homestead.beginning_game.70E4CC545EFE64E3.quest0.task0.title}"
 				type: "checkmark"
 			}]
 			x: -6.0d
@@ -106,7 +106,7 @@
 				}
 				match_nbt: false
 				only_from_crafting: false
-				title: "Any #minecraft:logs"
+				title: "{homestead.beginning_game.12D2461BFD36A91D.quest1.task1.title}"
 				type: "item"
 			}]
 			title: "{homestead.beginning_game.12D2461BFD36A91D.quest1.title}"
@@ -177,7 +177,7 @@
 				id: "741E579C5D960B32"
 				replace: false
 				replaced: "minecraft:air"
-				title: "Let There Be Light"
+				title: "{homestead.beginning_game.4233C91E7D48BE66.quest3.task0.title}"
 				type: "questsadditions:place"
 				value: 20L
 			}]
@@ -479,7 +479,7 @@
 					icon: "minecraft:white_bed"
 					id: "09E2E208013C1D6A"
 					stat: "minecraft:sleep_in_bed"
-					title: "{homestead.beginning_game.4A9AA961A2D5156E.quest9.task2.title}"
+					title: "{homestead.beginning_game.4A9AA961A2D5156E.quest9.task1.title}"
 					type: "stat"
 					value: 1
 				}
@@ -521,7 +521,7 @@
 				{
 					id: "757F20C595481EF5"
 					table_id: 4133455367915971063L
-					title: "{homestead.beginning_game.0E8B55E424772D66.quest10.task4.title}"
+					title: "{homestead.beginning_game.0E8B55E424772D66.quest10.reward2.title}"
 					type: "random"
 				}
 			]
@@ -609,7 +609,7 @@
 				advancement: "minecraft:husbandry/tame_an_animal"
 				criterion: ""
 				id: "6EB3C38AA3F15928"
-				title: "Tame your first animal"
+				title: "{homestead.beginning_game.42BB1EF6F4AEE16C.quest11.task0.title}"
 				type: "advancement"
 			}]
 			title: "{homestead.beginning_game.42BB1EF6F4AEE16C.quest11.title}"
@@ -639,7 +639,7 @@
 				checkItem: false
 				id: "1047069C7292E46D"
 				isItemInteraction: false
-				title: "Use the Crafting Table 100x"
+				title: "{homestead.beginning_game.163BF40F2F8A9A73.quest12.task0.title}"
 				type: "questsadditions:use"
 				value: 100L
 			}]
@@ -1268,7 +1268,7 @@
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "140E52A137B0495F"
-				title: "Hell"
+				title: "{homestead.beginning_game.6F884213DDBE1A6A.quest22.task0.title}"
 				type: "dimension"
 			}]
 			x: -1.5d
@@ -1323,4 +1323,6 @@
 			y: -3.5d
 		}
 
-	]	title: "The First Sprout"}
+	]	
+	title: "{homestead.beginning_game.title}"
+}

@@ -95,7 +95,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(vinery:grape_seeds)"
 					}
 				}
-				title: "Any #vinery:grape_seeds"
+				title: "{homestead.of_vines_and_vintage.792750222BE484C5.quest0.task1.title}"
 				type: "item"
 			}]
 			title: "{homestead.of_vines_and_vintage.792750222BE484C5.quest0.title}"
@@ -264,7 +264,7 @@
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(vinery:grapejuice)"
 					}
 				}
-				title: "Any #vinery:grapejuice"
+				title: "{homestead.of_vines_and_vintage.279E357E54A5304A.quest4.task1.title}"
 				type: "item"
 			}]
 			title: "{homestead.of_vines_and_vintage.279E357E54A5304A.quest4.title}"
@@ -1217,4 +1217,6 @@
 			y: -4.0d
 		}
 
-	]	title: "Vines and Vintage"}
+	]	
+	title: "{homestead.of_vines_and_vintage.title}"
+}

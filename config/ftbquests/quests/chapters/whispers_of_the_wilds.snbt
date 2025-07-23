@@ -64,7 +64,7 @@
 				checkItem: false
 				id: "3885C45198FA2C0A"
 				isItemInteraction: false
-				title: "Collect honey from a beehive."
+				title: "{homestead.whispers_of_the_wilds.45009CCE0AC3453A.quest1.task0.title}"
 				type: "questsadditions:use"
 				value: 1L
 			}]
@@ -287,7 +287,7 @@
 					biome: "#c:mesa"
 					icon: "minecraft:terracotta"
 					id: "5AEB1C95F1E53320"
-					title: "{homestead.whispers_of_the_wilds.1B6519F2535B8FBB.quest7.task1.title}"
+					title: "{homestead.whispers_of_the_wilds.1B6519F2535B8FBB.quest7.task2.title}"
 					type: "biome"
 				}
 			]
@@ -393,7 +393,7 @@
 			tasks: [{
 				biome: "#c:windswept"
 				id: "63A4B50019EF6CB6"
-				title: "Visit a windswept biome."
+				title: "{homestead.whispers_of_the_wilds.7BE87D3F9F99C2C8.quest10.task0.title}"
 				type: "biome"
 			}]
 			title: "{homestead.whispers_of_the_wilds.7BE87D3F9F99C2C8.quest10.title}"
@@ -423,7 +423,7 @@
 				biome: "#c:jungle"
 				icon: "minecraft:jungle_sapling"
 				id: "6D7A2603F60FF7A4"
-				title: "Visit a Jungle biome."
+				title: "{homestead.whispers_of_the_wilds.12C1663D83B35B3C.quest11.task0.title}"
 				type: "biome"
 			}]
 			title: "{homestead.whispers_of_the_wilds.12C1663D83B35B3C.quest11.title}"
@@ -463,7 +463,7 @@
 				biome: "minecraft:ice_spikes"
 				icon: "minecraft:ice"
 				id: "447B889B1D1FE99D"
-				title: "Visit an Ice Spikes biome."
+				title: "{homestead.whispers_of_the_wilds.1EC5506A0D39CAC5.quest12.task0.title}"
 				type: "biome"
 			}]
 			title: "{homestead.whispers_of_the_wilds.1EC5506A0D39CAC5.quest12.title}"
@@ -519,7 +519,7 @@
 				biome: "biomeswevegone:crag_gardens"
 				icon: "biomeswevegone:rocky_stone"
 				id: "5FF28568D9CCFC3D"
-				title: "Visit a Crag Gardens biome."
+				title: "{homestead.whispers_of_the_wilds.56E0D4BA4A798624.quest14.task0.title}"
 				type: "biome"
 			}]
 			title: "{homestead.whispers_of_the_wilds.56E0D4BA4A798624.quest14.title}"
@@ -553,7 +553,7 @@
 				biome: "biomeswevegone:weeping_witch_forest"
 				icon: "biomeswevegone:witch_hazel_sapling"
 				id: "5B8CFB112A40742F"
-				title: "Visit a Weeping Witch Forest biome."
+				title: "{homestead.whispers_of_the_wilds.16DA613E67313417.quest15.task0.title}"
 				type: "biome"
 			}]
 			title: "{homestead.whispers_of_the_wilds.16DA613E67313417.quest15.title}"
@@ -580,7 +580,7 @@
 				biome: "biomeswevegone:skyrise_vale"
 				icon: "biomeswevegone:skyris_sapling"
 				id: "2B7522B5F8B91DF5"
-				title: "Visit a Skyrise Vale biome."
+				title: "{homestead.whispers_of_the_wilds.65965C1AA647732A.quest16.task0.title}"
 				type: "biome"
 			}]
 			title: "{homestead.whispers_of_the_wilds.65965C1AA647732A.quest16.title}"
@@ -609,7 +609,7 @@
 				biome: "minecraft:lush_caves"
 				icon: "minecraft:spore_blossom"
 				id: "2D243488F3897143"
-				title: "Visit a Lush Cave biome."
+				title: "{homestead.whispers_of_the_wilds.409EEF25369883DA.quest17.task0.title}"
 				type: "biome"
 			}]
 			title: "{homestead.whispers_of_the_wilds.409EEF25369883DA.quest17.title}"
@@ -637,7 +637,7 @@
 				biome: "regions_unexplored:saguaro_desert"
 				icon: "regions_unexplored:saguaro_cactus"
 				id: "4DCA9C296CA3FAEE"
-				title: "Visit a Saguaro Desert biome."
+				title: "{homestead.whispers_of_the_wilds.5DF3AE4D95C6E87D.quest18.task0.title}"
 				type: "biome"
 			}]
 			title: "{homestead.whispers_of_the_wilds.5DF3AE4D95C6E87D.quest18.title}"
@@ -672,7 +672,7 @@
 				biome: "biomeswevegone:ironwood_gour"
 				icon: "biomeswevegone:ironwood_sapling"
 				id: "0201A279DA804679"
-				title: "Visit an Ironwood Gour biome."
+				title: "{homestead.whispers_of_the_wilds.6C82F2CE58B0B4F5.quest19.task0.title}"
 				type: "biome"
 			}]
 			title: "{homestead.whispers_of_the_wilds.6C82F2CE58B0B4F5.quest19.title}"
@@ -708,7 +708,7 @@
 				biome: "biomeswevegone:forgotten_forest"
 				icon: "biomeswevegone:green_mushroom"
 				id: "36487AE10B80AA45"
-				title: "Visit a Forgotten Forest biome."
+				title: "{homestead.whispers_of_the_wilds.5CB06507E73B8EEE.quest20.task0.title}"
 				type: "biome"
 			}]
 			title: "{homestead.whispers_of_the_wilds.5CB06507E73B8EEE.quest20.title}"
@@ -738,7 +738,7 @@
 				biome: "minecraft:meadow"
 				icon: "meadow:pine_sapling"
 				id: "61F73CC6B34B5850"
-				title: "Visit a Meadow biome."
+				title: "{homestead.whispers_of_the_wilds.05489524CC750B48.quest21.task0.title}"
 				type: "biome"
 			}]
 			title: "{homestead.whispers_of_the_wilds.05489524CC750B48.quest21.title}"
@@ -768,7 +768,7 @@
 				icon: "minecraft:crying_obsidian"
 				id: "6E9F30FA2AF404AC"
 				structure: "#minecraft:ruined_portal"
-				title: "Find a Ruined Portal."
+				title: "{homestead.whispers_of_the_wilds.7AD422F32DF13DF6.quest22.task0.title}"
 				type: "structure"
 			}]
 			title: "{homestead.whispers_of_the_wilds.7AD422F32DF13DF6.quest22.title}"
@@ -810,7 +810,7 @@
 			tasks: [{
 				days: 250
 				id: "4BE0F8133D56D57B"
-				title: "Reach Day 250"
+				title: "{homestead.whispers_of_the_wilds.1DEA56CD931C198F.quest23.task0.title}"
 				type: "questsadditions:days"
 			}]
 			title: "{homestead.whispers_of_the_wilds.1DEA56CD931C198F.quest23.title}"
@@ -839,7 +839,7 @@
 				icon: "friendsandfoes:totem_of_illusion"
 				id: "099151E7EE6CEF11"
 				structure: "#biomeswevegone:aspen_manors"
-				title: "Find an Aspen Manor."
+				title: "{homestead.whispers_of_the_wilds.32DBB2BFEC7227DA.quest24.task0.title}"
 				type: "structure"
 			}]
 			title: "{homestead.whispers_of_the_wilds.32DBB2BFEC7227DA.quest24.title}"
@@ -888,7 +888,7 @@
 			tasks: [{
 				days: 1000
 				id: "5903C5D78B23F2B1"
-				title: "Reach Day 1000"
+				title: "{homestead.whispers_of_the_wilds.0F0D320FDED6D64D.quest25.task0.title}"
 				type: "questsadditions:days"
 			}]
 			title: "{homestead.whispers_of_the_wilds.0F0D320FDED6D64D.quest25.title}"
@@ -896,4 +896,6 @@
 			y: -3.5d
 		}
 
-	]	title: "Whispers of the Wilds"}
+	]	
+	title: "{homestead.whispers_of_the_wilds.title}"
+}

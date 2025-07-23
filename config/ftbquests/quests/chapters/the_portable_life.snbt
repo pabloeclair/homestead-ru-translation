@@ -1633,4 +1633,6 @@
 			y: 1.5d
 		}
 
-	]	title: "The Portable Life"}
+	]	
+	title: "{homestead.the_portable_life.title}"
+}

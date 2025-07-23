@@ -46,7 +46,7 @@
 			id: "32B932B74284FF9D"
 			tasks: [{
 				id: "6276167EA9E3716A"
-				title: "Welcome To Hexalia!"
+				title: "{homestead.herbal_hexesz.32B932B74284FF9D.quest0.task0.title}"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -814,4 +814,6 @@
 			y: 0.0d
 		}
 
-	]	title: "Herbal Hexes"}
+	]	
+	title: "{homestead.herbal_hexesz.title}"
+}

@@ -751,4 +751,6 @@
 			y: -3.0d
 		}
 
-	]	title: "Embers Beneath"}
+	]	
+	title: "{homestead.embers_beneath.title}"
+}

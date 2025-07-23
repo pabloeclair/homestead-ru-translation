@@ -49,7 +49,7 @@
 			size: 3.0d
 			tasks: [{
 				id: "5DC5561350C7C74F"
-				title: "Homestead Custom Mod"
+				title: "{homestead.homestead.1CDC7463A908FC2B.quest0.task0.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -80,7 +80,7 @@
 			id: "41210CFB89986F2E"
 			tasks: [{
 				id: "1D3EEF5EB344305E"
-				title: "Golden Lead"
+				title: "{homestead.homestead.41210CFB89986F2E.quest1.task0.title}"
 				type: "checkmark"
 			}]
 			title: "{homestead.homestead.41210CFB89986F2E.quest1.title}"
@@ -111,7 +111,7 @@
 			id: "3A10EB162A3129B6"
 			tasks: [{
 				id: "4811B0D030337DBE"
-				title: "Tranquil Lantern"
+				title: "{homestead.homestead.3A10EB162A3129B6.quest2.task0.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -157,7 +157,7 @@
 			id: "2BCDA4053CC2E1C2"
 			tasks: [{
 				id: "0A7CD97BE2A34270"
-				title: "Mobs"
+				title: "{homestead.homestead.2BCDA4053CC2E1C2.quest3.task0.title}"
 				type: "checkmark"
 			}]
 			title: "{homestead.homestead.2BCDA4053CC2E1C2.quest3.title}"
@@ -187,11 +187,13 @@
 			id: "2689B2FD34CD485B"
 			tasks: [{
 				id: "3AB82C6C8469DE23"
-				title: "Cozy Crumbs"
+				title: "{homestead.homestead.2689B2FD34CD485B.quest4.task0.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 2.5d
 		}
 
-	]	title: "Homestead Mod Tips"}
+	]	
+	title: "{homestead.homestead.title}"
+}

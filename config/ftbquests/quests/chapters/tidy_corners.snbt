@@ -349,4 +349,6 @@
 			y: -0.5d
 		}
 
-	]	title: "Tidy Corners"}
+	]	
+	title: "{homestead.tidy_corners.title}"
+}

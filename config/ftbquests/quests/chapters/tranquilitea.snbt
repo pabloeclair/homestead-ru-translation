@@ -499,4 +499,6 @@
 			y: 2.0d
 		}
 
-	]	title: "Tranquili-TEA"}
+	]	
+	title: "{homestead.tranquilitea.title}"
+}
