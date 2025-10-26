@@ -1,0 +1,5 @@
+files:
+  - source: /kubejs/assets/ftbquests/lang/*json
+    ignore:
+      - /kubejs/assets/ftbquests/lang/ru_ru.json
+    translation: '%original_path%'
